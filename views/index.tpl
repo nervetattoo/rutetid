@@ -1,3 +1,9 @@
 {include file='header.tpl'}
-        <p>Hello world!</p>
+        <div id="rutetid">
+            <div id="wrap" class="rel hid clear">
+                {include file='contenttop.tpl'}
+                
+                {include file='contentbottom.tpl'}
+            </div>
+        </div>
 {include file='footer.tpl'}
