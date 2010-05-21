@@ -1,32 +1,32 @@
 /*	
- *	RUTETID
- *	SPRING 2010
+ *  RUTETID
+ *  SPRING 2010
  *
  *  COLLABORATORS:
- *  ________________________________________________________________
+ *  ----------------------------------------------------------------
  *
- *	Hein Haraldson Berg
- *	Tor Løvskogen Bollingmo
+ *  Hein Haraldson Berg
+ *  Tor Løvskogen Bollingmo
  *  Adrian Dvergsdal
  *  Raymond Julin
  *
- *	----------------------------------------------------------------
+ *  ----------------------------------------------------------------
  *
- *	KEEP THIS STYLESHEET ORGANIZED AND CLEAN. THANKS M8!
+ *  KEEP THIS STYLESHEET ORGANIZED AND CLEAN. THANKS M8!
  *
- *	================================================================     */
+ *  ================================================================     */
 
 
-/*	GENERIC CSS / FRAMEWORK
-	----------------------------------------------------------------     */
+/*  GENERIC CSS / FRAMEWORK
+    ----------------------------------------------------------------     */
 
 html { height: 100%; }
 
 body {
-	font-size: 12px;
-	line-height: 1;
-	font-family: "Lucida Grande", Tahoma, FreeSans, sans-serif;
-	background: #FFF url(/gfx/rutetid.png) 50% 50% no-repeat;
-	color: #333;
-	height: 100%;
+    font-size: 12px;
+    line-height: 1;
+    font-family: "Lucida Grande", Tahoma, FreeSans, sans-serif;
+    background: #FFF url(/gfx/rutetid.png) 50% 50% no-repeat;
+    color: #333;
+    height: 100%;
 }
