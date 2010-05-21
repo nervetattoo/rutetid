@@ -16,8 +16,11 @@ class Config {
     }
 
     public static function getDb() {
-        $dbName = PREFIX;
-        $mongo = new Mongo;
-        return $mongo->$dbName;
+        if (self::$db == null) {
+            $dbName = PREFIX;
+            $mongo = new Mongo;
+            self::$db = $mongo->$dbName;
+        }
+        return self::$db;
     }
 }
