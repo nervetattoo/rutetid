@@ -19,7 +19,7 @@ Geolocation.prototype = {
     
     showLocation: function()
     {
-        this.locationWatchId = navigator.geolocation.getCurrentPosition(function(position)
+        navigator.geolocation.getCurrentPosition(function(position)
         {
             $('<p>',
             {
@@ -56,5 +56,5 @@ $(function()
     setInterval(function()
     {
         console.log(RUTETID_Geolocation.locationWatchId);
-    },2000);
+    },10000);
 });
