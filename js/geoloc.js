@@ -37,7 +37,7 @@ Geolocation.prototype = {
             },
             function(error)
             {
-                self.errorHandler(error);
+                self.errorHandler(error, get);
             },
             { maximumAge: self.maximumLocationAge }
         );
@@ -57,13 +57,13 @@ Geolocation.prototype = {
             },
             function(error)
             {
-                self.errorHandler(error);
+                self.errorHandler(error, update);
             },
             { maximumAge: self.maximumLocationAge }
         );
     },
     
-    errorHandler: function(error)
+    errorHandler: function(error, type)
     {
         switch(error.code)
         {
