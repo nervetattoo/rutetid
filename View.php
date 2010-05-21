@@ -18,7 +18,7 @@ class View extends Smarty
     public function __construct()
     {
         parent::__construct();
-        $this->template_dir =  'views/';
-        $this->compile_dir =  'views_c/';
+        $this->template_dir =  Config::getPath() . 'views/';
+        $this->compile_dir =  Config::getPath() . 'views_c/';
     }
 }
