@@ -1,3 +1,8 @@
+/*
+ *  @author     Hein Haraldson Berg
+ *  @email      hein@keyteq.no
+ */
+
 var Geolocation = function()
 {
     this.init();
@@ -5,6 +10,7 @@ var Geolocation = function()
 
 Geolocation.prototype = {
     locationWatchId: 0,
+    maximumLocationAge: 30000, // 30 secs // 600000 10 mins
     
     init: function()
     {
@@ -19,26 +25,61 @@ Geolocation.prototype = {
     
     showLocation: function()
     {
-        navigator.geolocation.getCurrentPosition(function(position)
-        {
-            $('<p>',
+        var self = this;
+        navigator.geolocation.getCurrentPosition(
+            function(position)
             {
-                'css': { color: 'green' },
-                'text': 'Latitude ' + position.coords.latitude + '; Longitude ' + position.coords.longitude
-            }).appendTo('body');
-        });
+                $('<p>',
+                {
+                    'css': { color: 'green' },
+                    'text': 'Latitude ' + position.coords.latitude + '; Longitude ' + position.coords.longitude
+                }).appendTo('body');
+            },
+            function(error)
+            {
+                self.errorHandler(error);
+            },
+            { maximumAge: self.maximumLocationAge }
+        );
     },
     
     updateLocation: function()
     {
-        this.locationWatchId = navigator.geolocation.watchPosition(function(position)
-        {
-            $('<p>',
+        var self = this;
+        this.locationWatchId = navigator.geolocation.watchPosition(
+            function(position)
             {
-                'css': { color: 'red' },
-                'text': 'Latitude ' + position.coords.latitude + '; Longitude ' + position.coords.longitude
-            }).appendTo('body');
-        });
+                $('<p>',
+                {
+                    'css': { color: 'red' },
+                    'text': 'Latitude ' + position.coords.latitude + '; Longitude ' + position.coords.longitude
+                }).appendTo('body');
+            },
+            function(error)
+            {
+                self.errorHandler(error);
+            },
+            { maximumAge: self.maximumLocationAge }
+        );
+    },
+    
+    errorHandler: function(error)
+    {
+        switch(error.code)
+        {
+            case 1:
+                alert('Permission denied.');
+                break;
+            case 2:
+                alert('Failed to get your location.');
+                break;
+            case 3:
+                alert('The server took too long to respond.');
+                break;
+            default:
+                alert('Something went wrong...');
+                break;
+        }
     },
     
     clearWatchLocation: function()
@@ -53,8 +94,4 @@ Geolocation.prototype = {
 $(function()
 {
     var RUTETID_Geolocation = new Geolocation();
-    setInterval(function()
-    {
-        console.log(RUTETID_Geolocation.locationWatchId);
-    },10000);
 });
