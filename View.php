@@ -1,5 +1,5 @@
 <?php
-require_once('livs/smarty/libs/Smarty.class.php');
+require_once('libs/smarty/libs/Smarty.class.php');
 
 /**
  * Facade over the main Smarty class so to

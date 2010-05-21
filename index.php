@@ -2,7 +2,7 @@
 require_once("Config.php");
 require_once("View.php");
 
-if (!isset('PREFIX'))
+if (!defined('PREFIX'))
     define('PREFIX', 'main');
 $dbName = PREFIX;
 
@@ -10,4 +10,5 @@ $dbName = PREFIX;
 $mongo = new Mongo;
 $db = $mongo->$dbName;
 
-
+$view = new View;
+$view->display('index.tpl');
