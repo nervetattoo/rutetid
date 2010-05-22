@@ -11,7 +11,7 @@ var Geolocation = function()
 Geolocation.prototype = {
     locationWatchId: 0,
     maximumLocationAge: 30000, // 30 secs // 600000 10 mins
-    zoomLevel: 16,
+    zoomLevel: 15,
     //w: $('body').width(),
     //h: $('body').height(),
     
@@ -32,10 +32,15 @@ Geolocation.prototype = {
         navigator.geolocation.getCurrentPosition(
             function(position)
             {
+                var lat = position.coords.latitude;
+                var long = position.coords.longitude;
+            
                 $('<img>',
                 {
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&maptype=roadmap'
-                    + '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + lat + ',' + long +
+                    self.getNearbyBusStops(lat, long) +
+                    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + lat + ',' + long +
+                    '&sensor=false&maptype=roadmap',
                     'alt': 'Ze map'
                 }).appendTo('body');
             },
@@ -54,9 +59,15 @@ Geolocation.prototype = {
         this.locationWatchId = navigator.geolocation.watchPosition(
             function(position)
             {
+                var lat = position.coords.latitude;
+                var long = position.coords.longitude;
+            
                 $('<img>',
                 {
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&maptype=roadmap&markers=color:0xFF66B2|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + lat + ',' + long +
+                    self.getNearbyBusStops(lat, long) +
+                    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + lat + ',' + long +
+                    '&sensor=false&maptype=roadmap',
                     'alt': 'Ze map'
                 }).appendTo('body');
             },
@@ -67,6 +78,16 @@ Geolocation.prototype = {
             },
             { maximumAge: self.maximumLocationAge }
         );
+    },
+    
+    getNearbyBusStops: function(lat, long)
+    {
+        var busStops = '';
+        busStops += '&markers=icon:http://hein.raymond.raw.no/gfx/icon-bus.png|shadow:false|' + 60.361811 + ',' + 5.347316;
+        busStops += '&markers=icon:http://hein.raymond.raw.no/gfx/icon-bus.png|shadow:false|' + 60.359965 + ',' + 5.344956;
+        busStops += '&markers=icon:http://hein.raymond.raw.no/gfx/icon-bus.png|shadow:false|' + 60.361832 + ',' + 5.343475;
+
+        return busStops;
     },
     
     errorHandler: function(error, type)
