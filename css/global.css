@@ -61,7 +61,6 @@ h1 {
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
-    -o-border-radius: 8px;
     border-top: 1px solid rgba(36, 145, 169, .7);
 }
 
@@ -105,7 +104,6 @@ h1 {
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
-    -o-border-radius: 4px;
     width: 158px;
     height: 23px;
     padding: 0 5px;
@@ -118,7 +116,12 @@ ul.ui-autocomplete {
     width: 160px;
     padding: 5px;
     background: #FFF;
-    
+    border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -webkit-border-bottom-right-radius: 4px;
 }
 
 ul.ui-autocomplete li {
@@ -128,6 +131,11 @@ ul.ui-autocomplete li {
 
 ul.ui-autocomplete li a {
     color: #004E65;
+}
+
+ul.ui-autocomplete li a.ui-state-hover,
+ul.ui-autocomplete li a.ui-state-active {
+    background: red;
 }
 
 /*
