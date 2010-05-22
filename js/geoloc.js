@@ -82,6 +82,7 @@ Geolocation.prototype = {
     
     getNearbyBusStops: function(lat, long)
     {
+        // Dummy data...
         var busStops = '';
         busStops += '&markers=icon:http://hein.raymond.raw.no/gfx/icon-bus.png|shadow:false|' + 60.361811 + ',' + 5.347316;
         busStops += '&markers=icon:http://hein.raymond.raw.no/gfx/icon-bus.png|shadow:false|' + 60.359965 + ',' + 5.344956;
