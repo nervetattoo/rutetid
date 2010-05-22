@@ -11,6 +11,8 @@ var Geolocation = function()
 Geolocation.prototype = {
     locationWatchId: 0,
     maximumLocationAge: 30000, // 30 secs // 600000 10 mins
+    w: $('body').width(),
+    h: $('body').height(),
     
     init: function()
     {
@@ -32,14 +34,14 @@ Geolocation.prototype = {
                 $('<img>',
                 {
                     'css': { border: '10px solid green' },
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=14&size=300x300&maptype=roadmap&markers=color:green|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=14&size=' + self.w + 'x' + self.h + '&maptype=roadmap&markers=color:green|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
                     'alt': 'Ze map'
                 }).appendTo('body');
             },
             function(error)
             {
                 var errorMsg = self.errorHandler(error, 'get');
-                console.log(errorMsg);
+                console.warn(errorMsg);
             },
             { maximumAge: self.maximumLocationAge }
         );
@@ -61,7 +63,7 @@ Geolocation.prototype = {
             function(error)
             {
                 var errorMsg = self.errorHandler(error, 'update');
-                console.log(errorMsg);
+                console.warn(errorMsg);
             },
             { maximumAge: self.maximumLocationAge }
         );
