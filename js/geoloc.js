@@ -29,15 +29,17 @@ Geolocation.prototype = {
         navigator.geolocation.getCurrentPosition(
             function(position)
             {
-                $('<p>',
+                $('<img>',
                 {
-                    'css': { color: 'green' },
-                    'text': 'Latitude ' + position.coords.latitude + '; Longitude ' + position.coords.longitude
+                    'css': { border: '10px solid green' },
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=14&size=300x300&maptype=roadmap&markers=color:green|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'alt': 'Ze map'
                 }).appendTo('body');
             },
             function(error)
             {
-                self.errorHandler(error, get);
+                var errorMsg = self.errorHandler(error, 'get');
+                console.log(errorMsg);
             },
             { maximumAge: self.maximumLocationAge }
         );
@@ -49,15 +51,17 @@ Geolocation.prototype = {
         this.locationWatchId = navigator.geolocation.watchPosition(
             function(position)
             {
-                $('<p>',
+                $('<img>',
                 {
-                    'css': { color: 'red' },
-                    'text': 'Latitude ' + position.coords.latitude + '; Longitude ' + position.coords.longitude
+                    'css': { border: '10px solid red' },
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=14&size=300x300&maptype=roadmap&markers=color:green|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'alt': 'Ze map'
                 }).appendTo('body');
             },
             function(error)
             {
-                self.errorHandler(error, update);
+                var errorMsg = self.errorHandler(error, 'update');
+                console.log(errorMsg);
             },
             { maximumAge: self.maximumLocationAge }
         );
@@ -68,17 +72,13 @@ Geolocation.prototype = {
         switch(error.code)
         {
             case 1:
-                alert('Permission denied.');
-                break;
+                return 'Permission denied.';
             case 2:
-                alert('Failed to get your location.');
-                break;
+                return 'Failed to get your location.';
             case 3:
-                alert('The server took too long to respond.');
-                break;
+                return 'The server took too long to respond.';
             default:
-                alert('Something went wrong...');
-                break;
+                return 'Something went wrong...';
         }
     },
     
