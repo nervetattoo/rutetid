@@ -59,12 +59,20 @@ foreach ($dir as $file)
 
         foreach ($busses as $bussNumber => $bussData)
         {
+            $newLines = array();
             $newLines[] = $bussNumber . ';n/a';
             foreach ($bussData as $stopName => $times)
             {
                 foreach ($times as &$time)
                 {
-                    $time = str_replace('0', '-', $time);
+                    $time = (float) $time;
+                    if ($time == 0.0)
+                    {
+                        $time = '-';
+                        continue;
+                    }
+
+                    $time = str_replace('.', ':', sprintf('%01.2f', $time));
                 }
                 $newLines[] = $stopName . ';' . implode(';', $times);
             }
