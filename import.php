@@ -21,7 +21,7 @@ foreach ($dir as $file) {
     if (is_file($file) && substr($tmpFile,0,1)) {
         $fileLines = file($file);
         $routeNumber = array_shift($fileLines);
-        list($name, $number) = explode(";", $routeNumber);
+        list($number, $name) = explode(";", $routeNumber);
 
         $route = array(
             'id' => $number,
@@ -36,9 +36,9 @@ foreach ($dir as $file) {
             $times = array();
             foreach ($arr as $s) {
                 $s = str_replace("\n", "", $s);
-                if (preg_match("/[0-9]{1,2}\.[0-9]{1,2}/", $s)) {
+                if (preg_match("/[0-9]{1,2}:[0-9]{1,2}/", $s)) {
                     $started = true;
-                    $times[] = $s;
+                    $times[] = str_replace(":", "", $s);
                 }
             }
             $db->stops->insert(array('name'=>$stopName));
