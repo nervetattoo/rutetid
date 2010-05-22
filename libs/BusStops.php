@@ -31,6 +31,7 @@ class BusStops {
 
         $handle = fopen($file, "r");
         $i = 0;
+        $db->stops->ensureIndex(array('location' => '2d'));
         if ($handle) {
             //echo "Top: $utmTop Bottom: $utmBottom Left: $utmLeft Right: $utmRight\n";
             fgets($handle, 4096);
@@ -47,7 +48,13 @@ class BusStops {
                         $gPoint->convertTMtoLL();
                         $lat = $gPoint->Lat();
                         $long = $gPoint->Long();
-                        $db->stops->insert(array('name'=>$name,'lat'=>$lat,'long'=>$long));
+                        $db->stops->insert(array(
+                            'name'=>$name,
+                            'location' => array(
+                                'lat'=>$lat,
+                                'long'=>$long
+                            )
+                        ));
                         //echo "$name lies as $lat,$long\n";
                     }
                 }
