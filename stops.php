@@ -30,10 +30,10 @@ if (isset($_GET['q'])) {
 
 // Find stops near me!!
 $start = getMicroTime();
-$stops = $db->stops->find($filters)->limit(10);
+$stops = $db->stops->find($filters);
 
 $result = array(
-    'filters' => $filters,
+    //'filters' => $filters,
     'stops' => array()
 );
 while ($stop = $stops->getNext()) {
@@ -43,4 +43,5 @@ while ($stop = $stops->getNext()) {
 }
 $time = getMicroTime() - $start;
 $result['time'] = $time;
+$result['length'] = count($result['stops']);
 echo json_encode($result);
