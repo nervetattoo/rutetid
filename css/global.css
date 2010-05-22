@@ -26,7 +26,41 @@ body {
     font-size: 12px;
     line-height: 1;
     font-family: "Lucida Grande", Tahoma, FreeSans, sans-serif;
-    background: #FFF;
+    background: #269EBA;
     color: #333;
     height: 100%;
+}
+
+.clear  { clear: both; }
+.rel    { position: relative; }
+.abs    { position: absolute; }
+.hid    { overflow: hidden; }
+
+#wrap {
+    width: 402px;
+    padding: 40px 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0A819D;
+    font-weight: bold;
+    padding: 0 0 30px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+#section-content {
+    background: #FFF;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -wekbit-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-top: 1px solid rgba(36, 145, 169, .7);
+}
+
+#route-search {
+    padding: 19px;
 }
