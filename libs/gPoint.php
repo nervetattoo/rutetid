@@ -214,8 +214,13 @@ class gPoint
 		{ // Do a standard UTM conversion - so findout what zone the point is in
 			$ZoneNumber = (integer)(($LongTemp + 180)/6) + 1;
 			// Special zone for South Norway
+            /*
 			if( $this->lat >= 56.0 && $this->lat < 64.0 && $LongTemp >= 3.0 && $LongTemp < 12.0 ) // Fixed 1.1
 				$ZoneNumber = 32;
+            */
+            // Hack hack hack, wtf hack. Should be 32, need 33
+			if( $this->lat >= 56.0 && $this->lat < 64.0 && $LongTemp >= 3.0 && $LongTemp < 12.0 ) // Fixed 1.1
+				$ZoneNumber = 33;
 			// Special zones for Svalbard
 			if( $this->lat >= 72.0 && $this->lat < 84.0 )
 			{

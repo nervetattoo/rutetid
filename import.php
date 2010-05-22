@@ -1,6 +1,7 @@
 <?php
 require_once("Config.php");
 require_once("View.php");
+require_once("libs/BusStops.php");
 
 $db = Config::getDb();
 
@@ -12,6 +13,12 @@ $db->routes->ensureIndex(array('name'=>1));
 
 $db->stops->drop();
 $db->stops->ensureIndex(array('name'=>1),array('unique'=>true, 'dropDups'=>true));
+
+// Import bus stops first
+$busStopImporter = new BusStops;
+echo "Start importing bus stops\n";
+$imported = $busStopImporter->import("crap/buss-dump.csv");
+echo "Imported $imported bus stops from crap/buss-dump.csv\n";
 
 $dir = scandir('data/');
 
@@ -64,3 +71,5 @@ foreach ($dir as $file) {
         $db->routes->insert($route);
     }
 }
+
+echo "Imported routes\n";
