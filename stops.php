@@ -44,4 +44,9 @@ while ($stop = $stops->getNext()) {
 $time = getMicroTime() - $start;
 $result['time'] = $time;
 $result['length'] = count($result['stops']);
-echo json_encode($result);
+if (isset($_GET['callback'])) {
+    $jsonp = $_GET['callback'];
+    echo $jsonp . "(" . json_encode($result) . ")";
+}
+else
+    echo json_encode($result);
