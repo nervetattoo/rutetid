@@ -24,7 +24,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
             if ($stop['name'] == $from) {
                 $hasTime = false;
                 foreach ($stop['times'] as $t) {
-                    echo "Test time: $t >= $time\n";
+                    //echo "Test time: $t >= $time\n";
                     if ($t >= $time) {
                         $hasTime = true;
                         break;

@@ -26,7 +26,7 @@ body {
     font-size: 12px;
     line-height: 1;
     font-family: "Lucida Grande", Tahoma, FreeSans, sans-serif;
-    background: #269EBA;
+    background: #269EBA url(/gfx/body-bg-x.png) 0 0 repeat-x;
     color: #333;
     height: 100%;
 }
@@ -36,8 +36,11 @@ body {
 .abs    { position: absolute; }
 .hid    { overflow: hidden; }
 
+#rutetid { background: url(/gfx/rutetid-bg.png) 50% 0 no-repeat; }
+
 #wrap {
     width: 402px;
+    min-height: 644px;
     padding: 40px 10px;
     margin: 0 auto;
 }
@@ -50,6 +53,7 @@ h1 {
     font-weight: bold;
     padding: 0 0 30px;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+    letter-spacing: -.05em;
 }
 
 #section-content {
