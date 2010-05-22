@@ -50,10 +50,7 @@ class BusStops {
                         $long = $gPoint->Long();
                         $db->stops->insert(array(
                             'name'=>$name,
-                            'location' => array(
-                                'lat'=>$lat,
-                                'long'=>$long
-                            )
+                            'location' => array($lat, $long)
                         ));
                         //echo "$name lies as $lat,$long\n";
                     }
