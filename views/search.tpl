@@ -7,17 +7,15 @@
                         <input type="hidden" name="time" value="06:00" />
                         <ul>
                             <li>
-                                <label for="from">Fra:</label>
+                                <label for="from">Fra</label>
                                 <input type="text" name="from" id="from" />
                             </li>
                             <li>
-                                <label for="to">Til:</label>
+                                <label for="to">Til</label>
                                 <input type="text" name="to" id="to" />
                             </li>
-                            <li class="controls">
-                                <button type="submit" class="rel hid">Vis ruter</button>
-                            </li>
                         </ul>
+                        <button type="submit" class="submit rel hid">Vis ruter</button>
                     </fieldset>
                 </form>
                 <div id="routes">

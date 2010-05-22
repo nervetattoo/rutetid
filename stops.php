@@ -22,8 +22,8 @@ if (isset($_GET['lat']) && isset($_GET['long'])) {
     }
 }
 
-if (isset($_GET['q'])) {
-    $query = $_GET['q'];
+if (isset($_GET['term'])) {
+    $query = $_GET['term'];
     $filters['name'] = new MongoRegex("/^$query/i");
 }
 
@@ -44,4 +44,9 @@ while ($stop = $stops->getNext()) {
 $time = getMicroTime() - $start;
 $result['time'] = $time;
 $result['length'] = count($result['stops']);
-echo json_encode($result);
+if (isset($_GET['callback'])) {
+    $jsonp = $_GET['callback'];
+    echo $jsonp . "(" . json_encode($result) . ")";
+}
+else
+    echo json_encode($result);
