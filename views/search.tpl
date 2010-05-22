@@ -15,7 +15,7 @@
                                 <input type="text" name="to" id="to" />
                             </li>
                             <li class="controls">
-                                <button type="submit">Vis ruter</button>
+                                <button type="submit" class="rel hid">Vis ruter</button>
                             </li>
                         </ul>
                     </fieldset>
