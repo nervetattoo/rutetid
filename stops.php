@@ -22,8 +22,8 @@ if (isset($_GET['lat']) && isset($_GET['long'])) {
     }
 }
 
-if (isset($_GET['q'])) {
-    $query = $_GET['q'];
+if (isset($_GET['term'])) {
+    $query = $_GET['term'];
     $filters['name'] = new MongoRegex("/^$query/i");
 }
 
