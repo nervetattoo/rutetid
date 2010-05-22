@@ -11,8 +11,9 @@ var Geolocation = function()
 Geolocation.prototype = {
     locationWatchId: 0,
     maximumLocationAge: 30000, // 30 secs // 600000 10 mins
-    w: $('body').width(),
-    h: $('body').height(),
+    zoomLevel: 16,
+    //w: $('body').width(),
+    //h: $('body').height(),
     
     init: function()
     {
@@ -33,8 +34,8 @@ Geolocation.prototype = {
             {
                 $('<img>',
                 {
-                    'css': { border: '10px solid green' },
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=14&size=' + self.w + 'x' + self.h + '&maptype=roadmap&markers=color:green|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&maptype=roadmap'
+                    + '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
                     'alt': 'Ze map'
                 }).appendTo('body');
             },
@@ -55,8 +56,7 @@ Geolocation.prototype = {
             {
                 $('<img>',
                 {
-                    'css': { border: '10px solid red' },
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=14&size=300x300&maptype=roadmap&markers=color:green|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&maptype=roadmap&markers=color:0xFF66B2|label:S|' + position.coords.latitude + ',' + position.coords.longitude + '&sensor=false',
                     'alt': 'Ze map'
                 }).appendTo('body');
             },
