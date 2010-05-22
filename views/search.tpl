@@ -9,6 +9,9 @@
                             <li>
                                 <label for="from">Fra</label>
                                 <input type="text" name="from" id="from" />
+                                {*<select name="from" id="from">
+                                    Populate with JS, or PHP
+                                </select>*}
                             </li>
                             <li>
                                 <label for="to">Til</label>

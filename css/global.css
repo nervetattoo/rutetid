@@ -75,13 +75,18 @@ h1 {
 }
 
 #route-search ul li {
-    padding: 0 0 15px;
+    float: left;
+    clear: left;
+    padding: 0 0 10px;
 }
+
+#route-search ul li:first-child { padding-top: 3px; }
 
 #route-search ul li label {
     display: block;
     width: 28px;
     height: 25px;
+    line-height: 25px;
     padding: 0 9px 0 0;
     cursor: pointer;
     text-align: right;
@@ -101,7 +106,45 @@ h1 {
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     -o-border-radius: 4px;
+    width: 158px;
+    height: 23px;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #004E65;
+    font-weight: bold;
 }
+
+ul.ui-autocomplete {
+    width: 160px;
+    padding: 5px;
+    background: #FFF;
+    
+}
+
+ul.ui-autocomplete li {
+    font-size: 12px;
+    padding: 3px 0;
+}
+
+ul.ui-autocomplete li a {
+    color: #004E65;
+}
+
+/*
+<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all">
+  <li class="ui-menu-item">
+    <a class="ui-corner-all">item 1</a>
+  </li>
+  <li class="ui-menu-item">
+    <a class="ui-corner-all">item 2</a>
+  </li>
+  <li class="ui-menu-item">
+    <a class="ui-corner-all">item 3</a>
+  </li>
+</ul> 
+*/
+
+
 
 #route-search button.submit {
     width: 144px;
