@@ -2,7 +2,7 @@
         <div id="rutetid">
             <div id="wrap" class="rel hid clear">
 {include file='contenttop.tpl'}
-                <form id="route-search" action="search.php" method="get">
+                <form id="route-search" class="rel hid clear" action="search.php" method="get">
                     <fieldset>
                         <input type="hidden" name="time" value="06:00" />
                         <ul>
@@ -21,27 +21,26 @@
                         <button type="submit" class="submit rel hid">Vis ruter</button>
                     </fieldset>
                 </form>
-                <div id="routes">
-                    <h2>Treff</h2>
+                <div id="routes" class="rel hid clear">
                     <table>
-                        <colgroup>
-                            <col class="no" />
-                            <col class="here" />
-                            <col class="there" />
-                        </colgroup>
                         <thead>
                             <tr>
-                                <th scope="col">Buss nr.</th>
-                                <th scope="col">er ved deg om...</th>
-                                <th scope="col">og er framme om...</th>
+                                <th class="no" scope="col">Buss nr.</th>
+                                <th class="here" scope="col">er ved deg om...</th>
+                                <th class="there" scope="col">og er framme om...</th>
                             </tr>
                         </thead>
                         <tbody>
-                        {foreach from=$routes item=route}
-                            <tr>
-                                <td>Buss <strong>{$route.id}</strong></td>
-                                <td>XX minutter ({$route.time})</td>{*$route.name*}
-                                <td>XX minutter ({$route.time} + XX minutter)</td>
+                            <tr class="shadow">
+                                <td class="no"></td>
+                                <td class="here"></td>
+                                <td class="there"></td>
+                            </tr>
+                        {foreach from=$routes item=route name=routes}
+                            <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
+                                <td class="no">Buss <strong>{$route.id}</strong></td>
+                                <td class="here">XX minutter ({$route.time})</td>{*$route.name*}
+                                <td class="there">XX minutter ({$route.time} + XX minutter)</td>
                             </tr>
                         {/foreach}
                         </tbody>
