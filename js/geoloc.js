@@ -10,10 +10,10 @@ var Geolocation = function()
 
 Geolocation.prototype = {
     locationWatchId: 0,
-    maximumLocationAge: 30000, // 30 secs // 600000 10 mins
+    maximumLocationAge: 30000, // ms
     zoomLevel: 15,
-    //w: $('body').width(),
-    //h: $('body').height(),
+    lat: 0,
+    long: 0,
     
     init: function()
     {
@@ -32,17 +32,21 @@ Geolocation.prototype = {
         navigator.geolocation.getCurrentPosition(
             function(position)
             {
-                var lat = position.coords.latitude;
-                var long = position.coords.longitude;
+                self.lat = position.coords.latitude;
+                self.long = position.coords.longitude;
+                $.data(document.body, 'lat', position.coords.latitude);
+                $.data(document.body, 'long', position.coords.longitude);
             
+                /*
                 $('<img>',
                 {
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + lat + ',' + long +
-                    self.getNearbyBusStops(lat, long) +
-                    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + lat + ',' + long +
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + self.lat + ',' + self.long +
+                    self.getNearbyBusStops(self.lat, self.long) +
+                    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + self.lat + ',' + self.long +
                     '&sensor=false&maptype=roadmap',
                     'alt': 'Ze map'
                 }).appendTo('body');
+                */
             },
             function(error)
             {
@@ -59,17 +63,21 @@ Geolocation.prototype = {
         this.locationWatchId = navigator.geolocation.watchPosition(
             function(position)
             {
-                var lat = position.coords.latitude;
-                var long = position.coords.longitude;
-            
+                self.lat = position.coords.latitude;
+                self.long = position.coords.longitude;
+                $.data(document.body, 'lat', position.coords.latitude);
+                $.data(document.body, 'long', position.coords.longitude);
+                
+                /*
                 $('<img>',
                 {
-                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + lat + ',' + long +
-                    self.getNearbyBusStops(lat, long) +
-                    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + lat + ',' + long +
+                    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + self.lat + ',' + self.long +
+                    self.getNearbyBusStops(self.lat, self.long) +
+                    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + self.lat + ',' + self.long +
                     '&sensor=false&maptype=roadmap',
                     'alt': 'Ze map'
                 }).appendTo('body');
+                */
             },
             function(error)
             {
