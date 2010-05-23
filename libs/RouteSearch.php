@@ -47,7 +47,7 @@ class RouteSearch {
         $db = Config::getDb();
         $buses = $db->buses->find(array(
             'search.stops' => array(
-                '$all' => array($from, $to)
+                '$all' => array(strtolower($from), strtolower($to))
             )
         ));
 

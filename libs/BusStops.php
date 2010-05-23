@@ -90,7 +90,7 @@ class BusStops {
                             $db->stops->insert(array(
                                 'name'=>$name,
                                 'location' => $location,
-                                'aliases' => array($name)
+                                'aliases' => array(strtolower($name))
                             ));
                         }
                         else {
@@ -98,7 +98,7 @@ class BusStops {
                                 $aliases = $stop['aliases'];
                             else
                                 $aliases = array();
-                            $aliases[] = $name;
+                            $aliases[] = strtolower($name);
                             $res = $db->stops->update(
                                 array("_id" => $stop['_id']), // Where clause
                                 array('$set' => array('aliases' => $aliases)) // Update

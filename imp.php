@@ -61,7 +61,7 @@ foreach ($xml->bus as $node) {
     }
     $compactStops = array_unique($compactStops);
     foreach ($compactStops as $cp)
-        $bus['search']['stops'][] = $cp;
+        $bus['search']['stops'][] = strtolower($cp);
     echo "Insert bus: \n";
     $db->buses->insert($bus);
     echo "Start importing departures\n";
