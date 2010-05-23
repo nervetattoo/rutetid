@@ -45,6 +45,7 @@
                         {/foreach}
                         </tbody>
                     </table>
+                    <a id="show-more-routes" class="abs hid clear" href="#">Vis flere ruter</a>
                 </div>
 {include file='contentbottom.tpl'}
                 <div class="clear"></div>

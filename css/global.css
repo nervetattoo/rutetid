@@ -172,7 +172,7 @@ ul.ui-autocomplete li a.ui-state-active {
 
 #routes {
     width: 402px;
-    padding: 10px 10px 0;
+    padding: 10px 10px 51px;
     float: left;
     top: -27px;
     left: -10px;
@@ -223,8 +223,18 @@ ul.ui-autocomplete li a.ui-state-active {
     padding: 0 15px;
 }
 
-#rutetid #routes .there {
+#routes .there {
     width: 119px;
     padding: 0 15px;
     border-right: none;
+}
+
+#routes #show-more-routes {
+    display: block;
+    width: 408px;
+    height: 51px;
+    bottom: 0;
+    left: 7px;
+    text-indent: -9999px;
+    background: url(/gfx/button-show-more-routes.png) 0 0 no-repeat;
 }
