@@ -2,7 +2,7 @@
         <div id="rutetid">
             <div id="wrap" class="rel hid clear">
 {include file='contenttop.tpl'}
-                <form id="route-search" class="rel hid clear" action="search.php" method="get">
+                <form id="route-search" class="rel hid clear" method="get">
                     <fieldset>
                         <input type="hidden" name="time" value="06:00" />
                         <ul>
