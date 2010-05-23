@@ -197,30 +197,34 @@ ul.ui-autocomplete li a.ui-state-active {
     background: #FFD7CE;
     color: #4B0E01;
     border-right: 1px solid #F9A08C;
+    border-left: 1px solid #FBD3CA;
 }
 
 #routes tbody .odd td {
     background: #FFBBAC;
-    border-right: 1px solid #F98F78;
+    border-right-color: #F98F78;
 }
 
 #routes tbody .shadow td {
     background: #ED9480;
     height: 3px;
+    border-right-color: #E97358;
+    border-left-color: #EAA596;
 }
 
 #routes .no {
     width: 70px;
     padding: 0 15px;
-    border-right: 1px solid;
+    border-left: none;
 }
 
 #routes .here {
-    border-right: 1px solid;
-    border-left: 1px solid;
+    width: 119px;
+    padding: 0 15px;
 }
 
 #rutetid #routes .there {
-    border-left: 1px solid;
+    width: 119px;
+    padding: 0 15px;
     border-right: none;
 }
