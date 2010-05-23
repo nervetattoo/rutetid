@@ -11,15 +11,12 @@ class BusStops {
 
     public static function getStop($name) {
         $db = Config::getDb();
-        $stop = $db->stops->findOne(array('name'=>$name));
-        if ($stop === null) {
             // Try aliases
             $stop = $db->stops->find(array(
                 'aliases' => array(
                     '$in' => array($name)
                 )
             ))->getNext();
-        }
         return $stop;
     }
 
@@ -90,7 +87,7 @@ class BusStops {
                             $db->stops->insert(array(
                                 'name'=>$name,
                                 'location' => $location,
-                                'aliases' => array(strtolower($name))
+                                'aliases' => array($name)
                             ));
                         }
                         else {
@@ -98,7 +95,7 @@ class BusStops {
                                 $aliases = $stop['aliases'];
                             else
                                 $aliases = array();
-                            $aliases[] = strtolower($name);
+                            $aliases[] = $name;
                             $res = $db->stops->update(
                                 array("_id" => $stop['_id']), // Where clause
                                 array('$set' => array('aliases' => $aliases)) // Update
