@@ -7,6 +7,7 @@ $db = Config::getDb();
 
 
 // Flush routes
+/*
 $db->routes->drop();
 $db->routes->ensureIndex(array('id'=>1), array('unique'=>true));
 $db->routes->ensureIndex(array('name'=>1));
@@ -63,3 +64,4 @@ foreach ($dir as $file) {
 }
 
 echo "Imported routes\n";
+*/

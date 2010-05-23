@@ -5,12 +5,19 @@ require_once("libs/BusStops.php");
 
 $db = Config::getDb();
 
-$xml = simplexml_load_file("data/routes.xml");
-$busStopImporter = new BusStops;
-
 // Clear db
 $db->buses->drop();
 $db->departures->drop();
+
+// Flush routes
+$db->stops->drop();
+$db->stops->ensureIndex(array('name'=>1),array('unique'=>true, 'dropDups'=>true));
+
+$xml = simplexml_load_file("data/routes.xml");
+$busStopImporter = new BusStops;
+echo "Start importing bus stops\n";
+$imported = $busStopImporter->import("crap/buss-dump.csv");
+echo "Imported $imported bus stops\n";
 
 // Caching
 $busStops = array();
