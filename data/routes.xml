@@ -1,4 +1,49 @@
 <routes>
+    <bus id="5">
+        <route name="tur">
+            <stop name="Mindeveien" time="0" />
+            <stop name="Solheimslien" time="8" />
+            <stop name="Gyldenpris" time="4" />
+            <stop name="Festplassen" time="3" />
+            <stop name="Mulen" time="15" />
+        </route>
+        <route name="retur">
+            <stop name="Mulen" time="0" />
+            <stop name="Torget ved Lido" time="9" />
+            <stop name="Gyldenpris" time="7" />
+            <stop name="Søndre Skogveien" time="13" />
+        </route>
+        <run start="Mindeveien" stop="Mulen" route="tur" days="1,2,3,4,5">
+            <times>
+                05:50;06:20b;06:45;07:15;07:50;08:10;08:20;08:50b;09:20;09:50;10:20;10:50;11:20;11:50;12:20;12:50b;13:20;13:50;14:10;14:30;14:50;15:10;15:30;15:50;16:20b;16:50;17:20b;17:50;18:20;18:50b;19:30;20:10;21:10;22:20;23:30
+            </times>
+        </run>
+        <run start="Mindeveien" stop="Mulen" route="tur" days="6">
+            <times>
+                06:30;07:30;08:30;09:05;09:45;10:15b;10:45;11:15;11:45;12:15b;12:45;13:15;13:45;14:15;14:50;15:15;15:50;16:15;16:50;17:35;18:25;19:15;20:05;21:00;22:15;23:30
+            </times>
+        </run>
+        <run start="Mindeveien" stop="Mulen" route="tur" days="7">
+            <times>
+                09:55;10:50b;12:00;13:10;14:30;15:40b;16:50;18:00;19:10;20:25;22:55
+            </times>
+        </run>
+        <run start="Mulen" stop="Søndre Skogveien" route="retur" days="1,2,3,4,5">
+            <times>
+                05:55c;06:15a;06:45;07:15a;07:45;08:20;08:40c;08:50;09:20a;09:50;10:20;10:50;11:20a;11:50a;12:20;12:50;13:20;13:50;14:20;14:40;15:00;15:20;15:40;16:00;16:20a;16:50;17:20;17:50;18:20;18:50a;19:20;20:00a;20:40a;21:35;22:45;23:55
+            </times>
+        </run>
+        <run start="Mulen" stop="Søndre Skogveien" route="retur" days="6">
+            <times>
+                06:00;06:55;07:55;08:55;09:35;10:15;10:45;11:15;11:45;12:15;12:45;13:15a;13:45;14:15;14:45;15:20;15:45;16:20a;16:45;17:15a;18:00;18:50a;19:40;20:35;21:30;22:45;24:00a
+            </times>
+        </run>
+        <run start="Mulen" stop="Søndre Skogveien" route="retur" days="7">
+            <times>
+                10:20;11:20;12:30;13:40;15:00a;16:10;17:20;18:30;19:40;20:55a;23:25
+            </times>
+        </run>
+    </bus>
     <bus id="23">
         <route name="tur">
             <stop name="Olav Kyrres gate" time="0" />
@@ -50,51 +95,5 @@
         <run start="Birkelandskr. terminal" stop="Olav Kyrres gate" route="retur" days="7">
             <times>07:05;07:56;08:51;09:51;10:51;11:51;12:51;13:51;14:51;15:51;16:51;17:51;18:51;19:51;20:51;21:51;22:51</times>
         </run>
-    </bus>
-    <bus id="5">
-        <route name="tur">
-            <stop name="Mindeveien" time="0" />
-            <stop name="Solheimslien" time="8" />
-            <stop name="Gyldenpris" time="4" />
-            <stop name="Festplassen" time="3" />
-            <stop name="Mulen" time="15" />
-        </route>
-        <route name="retur">
-            <stop name="Mulen" time="0" />
-            <stop name="Torget ved Lido" time="9" />
-            <stop name="Gyldenpris" time="7" />
-            <stop name="Søndre Skogveien" time="13" />
-        </route>
-        <run start="Mindeveien" stop="Mulen" route="tur" days="1,2,3,4,5">
-            <times>
-                05:50;06:20b;06:45;07:15;07:50;08:10;08:20;08:50b;09:20;09:50;10:20;10:50;11:20;11:50;12:20;12:50b;13:20;13:50;14:10;14:30;14:50;15:10;15:30;15:50;16:20b;16:50;17:20b;17:50;18:20;18:50b;19:30;20:10;21:10;22:20;23:30
-            </times>
-        </run>
-        <run start="Mindeveien" stop="Mulen" route="tur" days="6">
-            <times>
-                06:30;07:30;08:30;09:05;09:45;10:15b;10:45;11:15;11:45;12:15b;12:45;13:15;13:45;14:15;14:50;15:15;15:50;16:15;16:50;17:35;18:25;19:15;20:05;21:00;22:15;23:30
-            </times>
-        </run>
-        <run start="Mindeveien" stop="Mulen" route="tur" days="7">
-            <times>
-                09:55;10:50b;12:00;13:10;14:30;15:40b;16:50;18:00;19:10;20:25;22:55
-            </times>
-        </run>
-        <run start="Mulen" stop="Søndre Skogveien" route="retur" days="1,2,3,4,5">
-            <times>
-                05:55c;06:15a;06:45;07:15a;07:45;08:20;08:40c;08:50;09:20a;09:50;10:20;10:50;11:20a;11:50a;12:20;12:50;13:20;13:50;14:20;14:40;15:00;15:20;15:40;16:00;16:20a;16:50;17:20;17:50;18:20;18:50a;19:20;20:00a;20:40a;21:35;22:45;23:55
-            </times>
-        </run>
-        <run start="Mulen" stop="Søndre Skogveien" route="retur" days="6">
-            <times>
-                06:00;06:55;07:55;08:55;09:35;10:15;10:45;11:15;11:45;12:15;12:45;13:15a;13:45;14:15;14:45;15:20;15:45;16:20a;16:45;17:15a;18:00;18:50a;19:40;20:35;21:30;22:45;24:00a
-            </times>
-        </run>
-        <run start="Mulen" stop="Søndre Skogveien" route="retur" days="7">
-            <times>
-                10:20;11:20;12:30;13:40;15:00a;16:10;17:20;18:30;19:40;20:55a;23:25
-            </times>
-        </run>
-
     </bus>
 </routes>

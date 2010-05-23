@@ -23,7 +23,7 @@ $stopsSearch = array();
 
 $deps = 0;
 foreach ($xml->bus as $node) {
-    $attr = $xml->bus->attributes();
+    $attr = $node->attributes();
     $bus = array(
         'id' => (string)$attr['id'],
         'routes' => array(),

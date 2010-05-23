@@ -81,4 +81,14 @@ if (isset($_GET['bus']))
     }
 }
 
+$buses = $db->buses->find();
+$busList = array();
+while ($bus = $buses->getNext())
+{
+    $busId = $bus['id'];
+    foreach ($bus['routes'] as $route)
+        $busList[] = array('id'=>$busId, 'name'=>$route['name']);
+}
+$view->assign('routes', $busList);
+
 $view->display('insert.tpl');
