@@ -16,7 +16,7 @@ $db->stops->ensureIndex(array('name'=>1),array('unique'=>true, 'dropDups'=>true)
 $xml = simplexml_load_file("data/routes.xml");
 $busStopImporter = new BusStops;
 echo "Start importing bus stops\n";
-$imported = $busStopImporter->import("crap/buss-dump.csv");
+$imported = $busStopImporter->import("data/busstops.csv");
 echo "Imported $imported bus stops\n";
 
 // Caching
@@ -63,7 +63,6 @@ foreach ($xml->bus as $node) {
     foreach ($compactStops as $cp)
         $bus['search']['stops'][] = $cp;
     echo "Insert bus: \n";
-    print_r($bus);
     $db->buses->insert($bus);
     echo "Start importing departures\n";
 
