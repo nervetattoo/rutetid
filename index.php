@@ -30,6 +30,9 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
         exit;
     }
 
+    if (count($hits) == 0)
+        $view->assign('error', "noHits")
+
     $view->assign('from', $from);
     $view->assign('to', $to);
 
