@@ -29,7 +29,9 @@
                             {$stop.name}
                         {/foreach}
                         </div>
-                        <div id="route-map" class="rel hid clear"></div>
+                        <div id="route-map" class="rel hid clear">
+                            <img src="{$mapUrl}" />
+                        </div>
                     </div>
 {include file='contentbottom.tpl'}
             </div>
