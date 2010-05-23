@@ -75,9 +75,13 @@ class RouteSearch {
                     while ($dep = $departures->getNext()) {
                         $departMinute = substr((string)$dep['time'], -2);
                         $departHour = substr((string)$dep['time'], 0, -2);
+                        $nowHour = (int)date("H");
                         $startTime = date("H:i", mktime($departHour, $departMinute + $wait));
                         $arrivalTime = date("H:i", mktime($departHour, $departMinute + $wait + $runningTime));
-                        $waitTime = ((int)$dep['time'] - $now) + $wait;
+                        $waitTime = (
+                            (((int)$departHour - (int)$nowHour) * 60) +
+                            ($departMinute + $wait) - date("i")
+                        );
                         $hits[] = array(
                             'id' => $bus['id'],
                             'name' => $route['name'],
