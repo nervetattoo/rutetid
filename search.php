@@ -16,6 +16,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
 
     $view->assign('routes', $hits);
     $view->assign('from', $from);
+    $view->assign('to', $to);
 }
 
 $view->display('search.tpl');
