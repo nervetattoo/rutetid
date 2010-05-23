@@ -10,7 +10,7 @@ $(function()
             'class': 'rel hid clear',
             'html': $('<fieldset>',
             {
-                $('<input>',
+                'html': $('<input>',
                 {
                     'type': 'text',
                     'name': 'stop-name',
