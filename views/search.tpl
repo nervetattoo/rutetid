@@ -16,6 +16,7 @@
                             <li class="dim small">
                                 <label for="time">Tid</label>
                                 <input type="text" name="time" id="time" value="" />
+                                <span class="help">Valgfritt</span>
                             </li>
                         </ul>
                         <button type="submit" class="submit rel hid">Vis ruter</button>

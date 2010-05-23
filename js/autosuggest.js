@@ -62,27 +62,4 @@ $(function()
             
         add(stops);
     }
-    
-    // Auto fill time field
-    if($('#time').length)
-    {
-        function setNowTime()
-        {
-            var d = new Date();
-            var hours = twoDigitize(d.getHours());
-            var minutes = twoDigitize(d.getMinutes());
-            
-            $('#time').val(hours + ':' + minutes);
-        }
-        function twoDigitize(num)
-        {
-            num = num.toString();
-            if(num.length == 1)
-                num = '0' + num;
-            
-            return num;
-        }
-        setNowTime();
-        setTimeout(setNowTime, 15000);
-    }
 });

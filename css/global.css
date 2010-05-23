@@ -114,8 +114,7 @@ h1 {
 }
 
 #route-search ul li input {
-    float: right;
-    clear: right;
+    float: left;
     background: url(/gfx/input-170.png) 0 0 no-repeat;
     border: none;
     width: 154px;
@@ -135,6 +134,16 @@ h1 {
     color: #71A4B2;
     background-image: url(/gfx/input-50-dim.png);
 } 
+
+#route-search ul li .help {
+    display: block;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 8px;
+    color: #0B7D99;
+    font-size: 12px;
+}
 
 
 /*  AUTOCOMPLETE DROPDOWN STYLING
