@@ -20,11 +20,11 @@
                                 </fieldset>
                             </form>
                             <ul id="stops" class="rel hid clear">
-                            {foreach from=$stops item=stop}
-                                <li class="stop">+{$stop.time} &#150; {$stop.name}</li>
+                            {foreach from=$stops key=stopIndex item=stop}
+                                <li class="stop"><input type="hidden" class="stopIndex" value="{$stopIndex}" /> +{$stop.time} &#150; {$stop.name}</li>
                             {/foreach}
                             </ul>
-                        
+
                         {foreach from=$stops item=stop name=stops}
                             {$stop.name}
                         {/foreach}
