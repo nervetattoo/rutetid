@@ -20,9 +20,9 @@
                                 </fieldset>
                             </form>
                             <ul id="stops" class="rel hid clear">
-                                <li class="stop">07:00 &#150; Minde</li>
-                                <li class="stop">07:04 &#150; Krohnstadparken</li>
-                                <li class="stop">07:07 &#150; Bergen busstasjon</li>
+                            {foreach from=$stops item=stop}
+                                <li class="stop">+{$stop.time} &#150; {$stop.name}</li>
+                            {/foreach}
                             </ul>
                         
                         {foreach from=$stops item=stop name=stops}
