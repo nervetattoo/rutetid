@@ -27,7 +27,7 @@ $(function()
             {
                 'href': '#',
                 'class': 'add-form',
-                'text': 'Legg til ny her'
+                'text': 'Legg til nytt stopp her'
             })
         });
         

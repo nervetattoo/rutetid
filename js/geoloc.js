@@ -66,6 +66,8 @@ Geolocation.prototype = {
                         'lat': position.coords.latitude,
                         'long': position.coords.longitude
                     });
+                    
+                    window.setInitialFromValueFromGeolocation();
             },
             function(error)
             {

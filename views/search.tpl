@@ -4,6 +4,7 @@
 {include file='contenttop.tpl'}
                 <form id="route-search" class="rel hid clear" method="get">
                     <fieldset>
+                        <input type="hidden" name="time" value="06:00" />
                         <ul>
                             <li>
                                 <label for="from">Fra</label>
