@@ -31,7 +31,7 @@ $(function()
         {
             source: function(req, add)
             {
-                var from = $('#from').val();
+                var from = ($(this.element).is('#to')) ? $('#from').val() : '';
                 
                 if(req.term.length >= 2)
                 {
