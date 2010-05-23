@@ -10,25 +10,28 @@ AddDepartures.prototype = {
     {
         var self = this;
         
-        var data = '/?';
-        data += $('#route-search').serialize();
-        data += '&format=json';
-        data += '&limit=10';
-        data += '&offset=' + (self.getNumRows() - 1);
-        
         $('#show-more-routes')
             .click(function(e)
             {
                 e.preventDefault();
                 
-                $.post(
-				    data,
-				    function(data)
-				    {
-				        self.addDepartures(self.formatDepartures(data));
-    				},
-    				'json'
-				);
+                $.ajax(
+            	{
+            	    url: '/',
+            	    data: {
+            	        from: $('#from').val(),
+            	        to: $('#to').val(),
+            	        time: $('#route-search').find('input[name="time"]').val(),
+            	        format: 'json',
+            	        limit: 10,
+            	        offset: ($('#routes tbody tr:not(.shadow)').length - 1)
+            	    },
+            	    success: function(data)
+            	    {
+            	        self.addDepartures(self.formatDepartures(data));
+            	    },
+            	    dataType: 'json'
+            	});
             });
     },
         
@@ -36,7 +39,7 @@ AddDepartures.prototype = {
     {
         var self = this;
         
-        if(this.getNumRows() % 2 != 0)
+        if($('#routes tbody tr:not(.shadow)').length % 2 != 0)
             this.oddEven.reverse();
         
         var departuresHtml = '';
@@ -57,14 +60,8 @@ AddDepartures.prototype = {
     {
         $('#routes tbody')
             .append(html);
-    },
-    
-    getNumRows: function()
-    {
-        return $('#routes tbody tr:not(.shadow)').length;
     }
 };
-
 
 
 $(function()
