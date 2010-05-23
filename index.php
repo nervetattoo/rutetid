@@ -24,7 +24,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
         $offset = 0;
         $limit = 5;
     }
-    $hits = $search->search($from, $to, $time, $offset, $limit);
+    $hits = $search->search($from, $to, $time, false, $limit, $offset);
     if (isset($_GET['format']) && $_GET['format'] == "json") {
         echo json_encode($hits);
         exit;

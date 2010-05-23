@@ -94,6 +94,6 @@ class RouteSearch {
             }
         }
         array_multisort($timeSort, SORT_ASC, $hits);
-        return array_slice($hits, 0, $limit);
+        return array_slice($hits, $offset, $limit);
     }
 }
