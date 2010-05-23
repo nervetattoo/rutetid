@@ -47,7 +47,15 @@
                         {/foreach}
                     {else}
                             <tr class="empty">
-                                <td colspan="3">Foreta et søk, da vel.</td>
+                                <td colspan="3">
+                                    <h2>Hallao!</h2>
+                                    <p>Vi driver stadig å legger inn bussruter, trykker inn rutene for hånd.  
+                                    Akkurat nå har vi disse bussene inne i systemet vårt: 
+                                    {foreach from=$activeRoutes item=route name=activeRoutes}{if $smarty.foreach.activeRoutes.first}<strong>{$route}</strong>{elseif $smarty.foreach.activeRoutes.last} og <strong>{$route}</strong>.{else}, <strong>{$route}</strong>{/if}{/foreach}
+                                    <p>
+                                    <p>Akkurat nå er det forresten <strong>{$departures}</strong> avganger i systemet.</p>
+                                    <p>Vil du hjelpe til, få dine faste ruter her? <a href="mailto:raymond.julin@gmail.com">Ta kontakt</a></p>
+                                </td>
                             </tr>
                     {/if}
                         </tbody>

@@ -3,6 +3,7 @@ require_once("../Config.php");
 
 $db = Config::getDb();
 $view = Config::getView();
+$search = new RouteSearch;
 
 if (isset($_GET['from']) && isset($_GET['to'])) {
     $from = $_GET['from'];
@@ -12,7 +13,6 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
     else
         $time = date("H:i");
 
-    $search = new RouteSearch;
 
     if (isset($_GET['format']) && $_GET['format'] == "json") {
         $offset = (int)$_GET['offset'];
@@ -36,6 +36,10 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
 
     $view->assign('routes', $hits);
 }
+
+$view->assign('activeRoutes', $search->getActiveBusNumbers());
+$view->assign('departures', $search->getDepartureCount());
+
 if (isset($_GET['format']) && $_GET['format'] == "json") {
 }
 else
