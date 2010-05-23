@@ -17,7 +17,7 @@ if (isset($_POST['route']) && isset($_POST['stop']) && isset($_POST['time']))
 
 if (isset($_GET['route']))
 {
-    echo json_encode($db->routes->find(array('id' => $_GET['route'])));
+    $view->assign('route', $db->routes->find(array('id' => $_GET['route'])));
 }
 
 $view->display('insert.tpl');
