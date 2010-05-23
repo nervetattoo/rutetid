@@ -14,6 +14,12 @@ $db->departures->drop();
 
 // Caching
 $busStops = array();
+// Searchable list of routes
+/*
+array(
+    "
+*/
+$stopsSearch = array();
 
 $deps = 0;
 foreach ($xml->bus as $node) {
@@ -22,6 +28,7 @@ foreach ($xml->bus as $node) {
         'id' => (string)$attr['id'],
         'routes' => array(),
     );
+    $compactStops = array();
     foreach ($node->route as $route) {
         $attr = $route->attributes();
         $r = array(
@@ -38,9 +45,11 @@ foreach ($xml->bus as $node) {
                 'time' => $time,
                 'stopId' => $stop['_id']
             );
+            $compactStops[] = $stopName;
         }
         $bus['routes'][] = $r;
     }
+    $bus['search']['stops'] = array_unique($compactStops);
     echo "Insert bus: \n";
     print_r($bus);
     $db->buses->insert($bus);
