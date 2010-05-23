@@ -1,3 +1,8 @@
+/*
+ *  @author     Hein Haraldson Berg
+ *  @email      hein@keyteq.no
+ */
+
 var AddDepartures = function()
 {
     this.init();

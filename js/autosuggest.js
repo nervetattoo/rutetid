@@ -32,25 +32,22 @@ $(function()
             source: function(req, add)
             {
                 var from = ($(this.element).is('#to')) ? $('#from').val() : '';
-                
-                if(req.term.length >= 2)
-                {
-    				$.ajax(
-    				{
-    				    url: 'stops.php',
-    				    data: {
-    				        term: req.term,
-    				        from: from,
-    				        lat: $('body').data('lat'),
-    				        long: $('body').data('long')
-    				    },
-    				    success: function(data)
-    				    {
-    				        fetchStops(data, add);
-    				    },
-    				    dataType: 'jsonp'
-    				});
-                }
+
+				$.ajax(
+				{
+				    url: 'stops.php',
+				    data: {
+				        term: req.term,
+				        from: from,
+				        lat: $('body').data('lat'),
+				        long: $('body').data('long')
+				    },
+				    success: function(data)
+				    {
+				        fetchStops(data, add);
+				    },
+				    dataType: 'jsonp'
+				});
 			}
         });
         
