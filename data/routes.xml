@@ -44,6 +44,78 @@
             </times>
         </run>
     </bus>
+    <bus id="21">
+        <route name="Søråshøgda">
+            <stop name="Olav Kyrres gate" time="0" />
+            <stop name="Bergen Busstasjon" time="5" />
+            <stop name="Minde" time="12" />
+            <stop name="Nesttun" time="8" />
+            <stop name="Skjold" time="5" />
+            <stop name="Nordås" time="5" />
+            <stop name="Søråshøgda" time="5" />
+        </route>
+        <route name="Søråshøgda utvidet">
+            <stop name="Lønborglien" time="0" />
+            <stop name="Nordre Lønborg" time="2" />
+            <stop name="Handelshøyskolen" time="5" />
+            <stop name="Olav Kyrres gate" time="10" />
+            <stop name="Bergen Busstasjon" time="5" />
+            <stop name="Minde" time="12" />
+            <stop name="Nesttun" time="8" />
+            <stop name="Skjold" time="5" />
+            <stop name="Nordås" time="5" />
+            <stop name="Søråshøgda" time="5" />
+        </route>
+        <route name="Søråshøgda søndag">
+            <stop name="Åsane terminal" time="0" />
+            <stop name="Eidsvåg" time="8" />
+            <stop name="Nordre Lønborg" time="7" />
+            <stop name="Handelshøyskolen" time="5" />
+            <stop name="Olav Kyrres gate" time="10" />
+            <stop name="Bergen Busstasjon" time="5" />
+            <stop name="Minde" time="10" />
+            <stop name="Nesttun" time="9" />
+            <stop name="Skjold" time="6" />
+            <stop name="Nordås" time="5" />
+            <stop name="Søråshøgda" time="5" />
+        </route>
+        <route name="Festplassen">
+            <stop name="Søråshøgda" time="0" />
+            <stop name="Nordås" time="5" />
+            <stop name="Skjold" time="5" />
+            <stop name="Nesttun" time="5" />
+            <stop name="Minde" time="8" />
+            <stop name="Bergen Busstasjon" time="10" />
+            <stop name="Festplassen" time="3" />
+        </route>
+        <run start="Olav Kyrres gate" stop="Søråshøgda" route="Søråshøgda" days="1,2,3,4,5">
+            <times>06:22;06:55;07:25;07:55;08:25;08:55;09:25;09:55;10:25;10:55;11:25;11:55;12:25;
+                12:55;13:25;13:55;14:25;14:40;14:55;15:10;15:25;15:40;15:55;16:25;16:55;17:25;
+                17:55;18:25;18:55;19:25;19:55;20:25
+            </times>
+        </run>
+        <run start="Olav Kyrres gate" stop="Søråshøgda" route="Søråshøgda" days="6">
+            <times>06:15;07:15;08:15;09:15;10:15;11:15;12:15;13:15;14:15;15:15;16:15;17:15;18:15</times>
+        </run>
+
+        <run start="Lønborglien" stop="Søråshøgda" route="Søråshøgda utvidet" days="1,2,3,4,5">
+            <times>21:03;22:03;00:05</times>
+        </run>
+        <run start="Lønborglien" stop="Søråshøgda" route="Søråshøgda utvidet" days="6">
+            <times>18:58;19:58;20:58;21:58;22:58;00:08</times>
+        </run>
+        <run start="Åsane terminal" stop="Søråshøgda" route="Søråshøgda søndag" days="7">
+            <times>07:01;08:00;09:00;10:04;10:44</times>
+        </run>
+        <run start="Lønborglien" stop="Søråshøgda" route="Søråshøgda utvidet" days="7">
+            <times>12:00;13:00;14:00;15:00;16:00;17:00;18:03;19:00;20:03;21:00;22:00;23:03
+            </times>
+        </run>
+
+        <run start="Søråshøgda" stop="Festplassen" route="Festplassen" days="1,2,3,4,5">
+            <times>05:50;07:44</times>
+        </run>
+    </bus>
     <bus id="22">
         <route name="Sædal/Birkelundstoppen">
             <stop name="Olav Kyrres gate" time="0" />
@@ -143,6 +215,44 @@
         </run>
         <run start="Birkelandskr. terminal" stop="Olav Kyrres gate" route="retur" days="7">
             <times>07:05;07:56;08:51;09:51;10:51;11:51;12:51;13:51;14:51;15:51;16:51;17:51;18:51;19:51;20:51;21:51;22:51</times>
+        </run>
+    </bus>
+    <bus id="100">
+        <route name="Festplassen">
+            <stop name="Søråshøgda" time="0" />
+            <stop name="Nordås" time="5" />
+            <stop name="Skjold" time="5" />
+            <stop name="Nesttun" time="5" />
+            <stop name="Minde" time="8" />
+            <stop name="Bergen Busstasjon" time="10" />
+            <stop name="Festplassen" time="3" />
+        </route>
+        <route name="Festplassen fra Lagunen">
+            <stop name="Lagunen" time="0" />
+            <stop name="Skjold" time="3" />
+            <stop name="Nesttun" time="5" />
+            <stop name="Minde" time="8" />
+            <stop name="Bergen Busstasjon" time="10" />
+            <stop name="Festplassen" time="3" />
+        </route>
+        <run start="Søråshøgda" stop="Festplassen" route="Festplassen" days="1,2,3,4,5">
+            <times>05:30;06:20;06:44;08:14;09:15;09:45;10:15;10:45;11:15;11:45;
+                12:15;12:45;13:15;13:45;14:14;14:44;15:14;15:44;16:14;16:45;17:15;
+                17:45;18:15;18:45;20:10;21:10
+            </times>
+        </run>
+        <run start="Søråshøgda" stop="Festplassen" route="Festplassen" days="6">
+            <times>07:05;08:05;09:05;10:05;11:05;12:05;13:05;14:05;15:03;16:03;17:03</times>
+        </run>
+        <run start="Lagunen" stop="Festplassen" route="Festplassen fra Lagunen" days="6">
+            <times>09:02;10:02;10:32;11:02;11:32;12:02;12:32;13:02;13:32;14:02;14:32;
+                15:02;15:32;16:02;16:32;17:02;17:32;18:11;18:45
+            </times>
+        </run>
+        <run start="Lagunen" stop="Festplassen" route="Festplassen fra Lagunen" days="7">
+            <times>07:11;08:02;08:57;09:57;10:57;11:57;12:57;13:45;
+                13:57;14:57;15:57;16:57;17:57;18:57;19:57;20:57;21:57;22:57
+            </times>
         </run>
     </bus>
 </routes>
