@@ -17,7 +17,7 @@ $(function()
             })
             .blur(function()
             {
-                if($(this).val() == '' || $(this).val().length < 5)
+                if($(this).val() == '' || $(this).val().length < 5) 
                     var setTimeInterval = setInterval(setNowTime, 15000);
             });
         
@@ -59,6 +59,11 @@ $(function()
         				var rest = userInput.length - (numberArray.length * 2);
         				if(rest > 0)
         					numberArray.push(userInput.substring(0, rest));
+        				
+        				numberArray[0] = (numberArray[0] < 0) ? 0 : numberArray[0];
+        				numberArray[0] = (numberArray[0] > 59) ? 59 : numberArray[0];
+        				numberArray[1] = (numberArray[1] < 0) ? 0 : numberArray[1];
+        				numberArray[1] = (numberArray[1] > 23) ? 23 : numberArray[1];
         				
         				numberArray.reverse();
         				userInput = numberArray.join(':');
