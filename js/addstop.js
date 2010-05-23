@@ -40,9 +40,11 @@ $(function()
                 {
                     e.preventDefault();
                     
-                    $(e.target)
-                        .hide()
-                    .closest('li')
+                    $(e.target).closest('li').siblings('.active')
+                        .removeClass('active')
+                    .find('form')
+                        .remove()
+                    .end().end()
                         .addClass('active')
                         .append($(addForm).clone());
                 }

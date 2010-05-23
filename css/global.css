@@ -344,6 +344,8 @@ ul.ui-autocomplete li a.ui-state-active {
     padding: 5px 0 15px;
 }
 
+#stops li.add.active a { display: none; }
+
 #stops li.add form {
     padding: 10px 20px 0;
 }
