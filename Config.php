@@ -1,4 +1,6 @@
 <?php
+require_once("View.php");
+require_once("libs/RouteSearch.php");
 if (file_exists('my.config.php'))
     require_once('my.config.php');
 if (!defined('PREFIX'))
@@ -22,5 +24,9 @@ class Config {
             self::$db = $mongo->$dbName;
         }
         return self::$db;
+    }
+
+    public static function getView() {
+        return new View;
     }
 }

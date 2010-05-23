@@ -12,8 +12,7 @@ function r_implode($glue, $pieces) {
     }
     return implode($glue, $retVal);
 } 
-require_once("Config.php");
-require_once("View.php");
+require_once("../Config.php");
 
 $start = getMicroTime();
 $memcache = new Memcache;

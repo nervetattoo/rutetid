@@ -1,10 +1,8 @@
 <?php
-require_once("Config.php");
-require_once("View.php");
-require_once("libs/RouteSearch.php");
+require_once("../Config.php");
 
 $db = Config::getDb();
-$view = new View;
+$view = Config::getView();
 
 if (isset($_GET['from']) && isset($_GET['to'])) {
     $from = $_GET['from'];
@@ -31,7 +29,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
     }
 
     if (count($hits) == 0)
-        $view->assign('error', "noHits")
+        $view->assign('error', "noHits");
 
     $view->assign('from', $from);
     $view->assign('to', $to);
