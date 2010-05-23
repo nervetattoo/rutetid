@@ -12,13 +12,21 @@ $(function()
         $('#time')
             .focus(function()
             {
-                $(this).val('');
-                clearInterval(setTimeInterval);
+                if(!$(this).data('user'))
+                    $(this).val('');
+                else
+                    clearInterval(setTimeInterval);
             })
             .blur(function()
             {
-                if($(this).val() == '' || $(this).val().length < 5) 
+                if($(this).val() == '' || $(this).val().length < 5)
+                {
+                    setNowTime();
                     var setTimeInterval = setInterval(setNowTime, 15000);
+                    $(this).data('user', false);
+                }
+                else
+                    $(this).data('user', true);
             });
         
         function setNowTime()
