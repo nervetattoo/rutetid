@@ -10,7 +10,9 @@
                                     <select name="route" id="route">
                                         <option value="0" selected="selected" disabled="disabled">Rutebil</option>
                                         {foreach from=$routes item=route name=routes}
-                                            <option value="{$route.id}">{$route.id} til {$route.name}</option>
+                                            <option value="{$route.id}_{$route.i}"{if $route.selected} selected="selected"{/if}>
+                                            {$route.id} til {$route.name}
+                                            </option>
                                         {/foreach}
                                     </select>
                                     <button type="submit">›</button>

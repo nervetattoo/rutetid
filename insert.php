@@ -6,6 +6,43 @@ require_once("View.php");
 $db = Config::getDb();
 $view = new View;
 
+$buses = $db->buses->find();
+$busList = array();
+while ($bus = $buses->getNext())
+{
+    $busId = $bus['id'];
+    if (isset($_GET['route']))
+        $routeId = $_GET['route'];
+    else
+        $routeId = false;
+    foreach ($bus['routes'] as $i => $route) {
+        $busList[] = array(
+            'id'=>$busId, 
+            'name'=>$route['name'], 
+            'i'=>$i,
+            'selected' => ($routeId && $routeId == $busId."_".$i)
+        );
+    }
+}
+$view->assign('routes', $busList);
+
+if (isset($_GET['route']))
+{
+    list($busId, $routeKey) = explode('_', $_GET['route']);
+    $view->assign('stops', $route['stops']);
+
+    $route = null;
+    $bus = null;
+    foreach ($buses as $bus)
+        if ($bus['id'] == $busId) 
+            $route = $bus['routes'][$routeKey];
+    if ($route && $bus) {
+        $stops = $route['stops'];
+        $view->assign('stops', $route['stops']);
+    }
+}
+
+
 if (isset($_POST['bus']) && isset($_POST['stopIndex']) && isset($_POST['stopName']))
 {
     $busInfo   = explode(':', $_POST['bus']);
@@ -54,41 +91,5 @@ if (isset($_POST['bus']) && isset($_POST['stopIndex']) && isset($_POST['stopName
         exit('OBS! Fant ikke ruten');
     }
 }
-
-if (isset($_GET['bus']))
-{
-    $busInfo   = explode(':', $_POST['bus']);
-    $busNumber = $busInfo[0];
-    $busName   = $busInfo[1];
-
-    $route = null;
-    $routes = $db->buses->find(array('id' => $busNumber));
-    foreach ($routes as $_route)
-    {
-        if ($busName == $_route['name'])
-        {
-            $route = $_route;
-            break;
-        }
-    }
-    if ($route)
-    {
-        $view->assign('stops', $route['stops']);
-    }
-    else
-    {
-        exit('OBS! Fant ikke ruten');
-    }
-}
-
-$buses = $db->buses->find();
-$busList = array();
-while ($bus = $buses->getNext())
-{
-    $busId = $bus['id'];
-    foreach ($bus['routes'] as $route)
-        $busList[] = array('id'=>$busId, 'name'=>$route['name']);
-}
-$view->assign('routes', $busList);
 
 $view->display('insert.tpl');
