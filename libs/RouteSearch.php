@@ -13,7 +13,8 @@ class RouteSearch {
      * @param string $to
      * @param mixed $time
      */
-    public function search($from, $to, $time=false) {
+    public function search($from, $to, $time=false, $weekday=false, $limit=5, $offset=0) {
+        $hits = array();
         /**
          * First find all buses having both stops in their path, kinda nice
          */
@@ -23,14 +24,20 @@ class RouteSearch {
                 '$all' => array($from, $to)
             )
         ));
-        $hits = array();
+
+        // Iterate over each bus
+        if (!$time)
+            $time = date("Hi");//"0700";
+        if (!$weekday)
+            $weekday = date("w") + 1;
+        $time = str_replace(":", "", $time);
         while ($bus = $buses->getNext()) {
             // Find what route to use
             foreach ($bus['routes'] as $route) {
                 $name = $route['name'];
                 // Verify that stop is after start in this route
                 $status = 0;
-                $time = 0;
+                $runningTime = 0; // Running time of bus
                 $wait = 0;
                 $stops = 0;
                 foreach ($route['stops'] as $key => $stop) {
@@ -39,12 +46,12 @@ class RouteSearch {
                     }
                     if ($stop['name'] == $from && $status == 0) {
                         // Start accumulating time
-                        $time += $stop['time'];
+                        $runningTime += $stop['time'];
                         $status = 1;
                     }
                     elseif ($stop['name'] == $to && $status == 1) {
                         $stops++;
-                        $time += $stop['time'];
+                        $runningTime += $stop['time'];
                         $status = 2;
                         break;
                     }
@@ -53,20 +60,25 @@ class RouteSearch {
                     /**
                      * Find a departure to match
                      */
-                    $now = "0700";
-                    $startTime = $now + $wait;
+                    $now = date("Hi");//"0700";
+                    $startTime = $time - $wait;
                     $departures = $db->departures->find(array(
                         'route' => $bus['id'],
                         'time' => array(
-                            '$gt' => (int)$startTime
+                            '$gt' => (int)$time - $wait
                         )
-                    ))->sort(array('time' => 1))->limit(5);
+                    ))->sort(array('time' => 1))->limit($limit);
                     while ($dep = $departures->getNext()) {
+                        $departMinute = substr((string)$dep['time'], -2);
+                        $departHour = substr((string)$dep['time'], 0, -2);
+                        $startTime = date("H:i", mktime($departHour, $departMinute + $wait));
+                        $arrivalTime = date("H:i", mktime($departHour, $departMinute + $wait + $runningTime));
                         $hits[] = array(
                             'id' => $bus['id'],
                             'name' => $route['name'],
-                            'time' => $time,
-                            'start' => $dep['time'],
+                            'runningTime' => $runningTime,
+                            'startTime' => $startTime,
+                            'arrivalTime' => $arrivalTime,
                             'wait' => ((int)$dep['time'] - $now) + $wait,
                             'stops' => $stops
                         );

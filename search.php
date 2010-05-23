@@ -9,10 +9,10 @@ $view = new View;
 if (isset($_GET['from']) && isset($_GET['to'])) {
     $from = $_GET['from'];
     $to = $_GET['to'];
-    $time = str_replace(":", "", $_GET['time']);
+    $time = $_GET['time'];
 
     $search = new RouteSearch;
-    $hits = $search->search($from, $to, $time);
+    $hits = $search->search($from, $to, false, false, 15);
 
     $view->assign('routes', $hits);
     $view->assign('from', $from);

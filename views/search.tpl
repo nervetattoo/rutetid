@@ -40,8 +40,8 @@
                         {foreach from=$routes item=route name=routes}
                             <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
                                 <td class="no">Rutebil <strong>{$route.id}</strong></td>
-                                <td class="here">{$route.wait} minutter ({$route.start})</td>{*$route.name*}
-                                <td class="there">{$route.time} minutter ({$route.start} + {$route.time} minutter)</td>
+                                <td class="here">{$route.wait} minutter ({$route.startTime})</td>{*$route.name*}
+                                <td class="there">{$route.runningTime + $route.wait} minutter ({$route.arrivalTime})</td>
                             </tr>
                         {/foreach}
                         </tbody>
