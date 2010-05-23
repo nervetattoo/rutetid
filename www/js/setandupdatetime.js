@@ -81,7 +81,10 @@ $(function()
                 $(this).val(userInput);
             });
         
-        setNowTime();
-        var setTimeInterval = setInterval(setNowTime, 15000);
+        if($('#time').val() == '')
+        {
+            setNowTime();
+            var setTimeInterval = setInterval(setNowTime, 15000);
+        }
     }
 });

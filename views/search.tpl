@@ -15,7 +15,7 @@
                             </li>
                             <li class="dim small">
                                 <label for="time">Tid</label>
-                                <input type="text" name="time" id="time" value="" maxlength="5" tabindex="-1" />
+                                <input type="text" name="time" id="time" value="{$time}" maxlength="5" tabindex="-1" />
                                 <span class="help">Valgfritt</span>
                             </li>
                         </ul>
