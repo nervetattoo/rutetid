@@ -43,27 +43,27 @@ if (isset($_GET['route']))
 }
 
 
-if (isset($_POST['bus']) && isset($_POST['stopIndex']) && isset($_POST['stopName']))
+if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopName']))
 {
-    $busInfo   = explode(':', $_POST['bus']);
-    $busNumber = $busInfo[0];
-    $busName   = $busInfo[1];
-    $stopIndex = $_POST['stopIndex'];
-    $stopName  = $_POST['stopName'];
-    $stopTime  = $_POST['stopTime'];
+    $routeInfo   = explode('_', $_POST['route']);
+    $routeNumber =  $routeInfo[0];
+    $routeName   =  $routeInfo[1];
+    $stopIndex   = $_POST['stopIndex'];
+    $stopName    = $_POST['stopName'];
+    $stopTime    = $_POST['stopTime'];
     
     $stop = $db->stops->findOne(array('name' => $stopName));
     if (!isset($stop['_id']))
     {
         exit('OBS! Fant ikke stoppet');
     }
-    $stopId = $stop['_id'];
+    $stopId = (string) $stop['_id'];
 
     $route = null;
-    $routes = $db->buses->find(array('id' => $busNumber));
+    $routes = $db->buses->find(array('id' => $routeNumber));
     foreach ($routes as $_route)
     {
-        if ($busName == $_route['name'])
+        if ($routeName == $_route['name'])
         {
             $route = $_route;
             break;

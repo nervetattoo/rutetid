@@ -1,84 +1,79 @@
 <?php
-require_once("Config.php");
-require_once("View.php");
 
-/*
-$db = Config::getDb();
+shell_exec('rm data/*.txt');
 
-// Flush routes
-$db->routes->drop();
-$db->routes->ensureIndex(array('id'=>1), array('unique'=>true));
-$db->routes->ensureIndex(array('name'=>1));
-
-$db->stops->drop();
-$db->stops->ensureIndex(array('name'=>1),array('unique'=>true, 'dropDups'=>true));
-*/
-
+$buses = array();
 
 $dir = scandir('data/');
-
 foreach ($dir as $file)
 {
-    $tmpFile = $file;
     $file = 'data/' . $file;
 
-    if (is_file($file) && strrchr($file, ".") == '.csv')
+    if (!is_file($file) || strrchr($file, ".") != '.csv')
     {
-        $lines = file($file);
-        array_shift($lines);
+        continue;
+    }
 
-        $busses = array();
-        $newLines = array();
-        foreach ($lines as $line)
+    $lines = file($file);
+    array_shift($lines);
+
+    $fileNumber = 0;
+    foreach ($lines as $line)
+    {
+        $fileNumber++;
+        $data = str_getcsv($line);
+        if (empty($data[0]))
         {
-            $data = str_getcsv($line);
-            if (empty($data[0]))
+            $busNumbers = $data;
+            array_shift($busNumbers);
+            array_shift($data);
+            continue;
+        }
+
+        if (preg_match('/(\X*)\.*\D+([\d]+\.[\d]+)/u', $data[0], $matches))
+        {
+            $data[0] = $matches[1];
+            $data[1] = $matches[2];
+        }
+
+        $data[0] = trim($data[0], '. ');
+
+        $name = array_shift($data);
+        foreach ($data as $key => $value)
+        {
+            $buses[$busNumbers[$key]][$name][] = $value;
+        }
+
+        //$allData[] = $data;
+    }
+}
+
+foreach ($buses as $busNumber => $busData)
+{
+    $newLines = array();
+    $filename = "data/$busNumber.txt";
+    $lastStopName = end(array_keys($busData));
+    $busName = $busNumber . ';' . $lastStopName;
+
+    $newLines[] = $busName;
+
+    foreach ($busData as $stopName => $times)
+    {
+        foreach ($times as &$time)
+        {
+            $time = (float) $time;
+            if ($time == 0.0)
             {
-                $busNumbers = $data;
-                array_shift($busNumbers);
-                array_shift($data);
+                $time = '-';
                 continue;
             }
 
-            if (preg_match('/(\X*)\.*\D+([\d]+\.[\d]+)/u', $data[0], $matches))
-            {
-                $data[0] = $matches[1];
-                $data[1] = $matches[2];
-            }
-
-            $data[0] = trim($data[0], '. ');
-
-            $name = array_shift($data);
-            foreach ($data as $key => $value)
-            {
-                $busses[$busNumbers[$key]][$name][] = $value;
-            }
-
-            $allData[] = $data;
+            $time = str_replace('.', ':', sprintf('%01.2f', $time));
         }
-
-        foreach ($busses as $bussNumber => $bussData)
-        {
-            $newLines = array();
-            $newLines[] = $bussNumber . ';n/a';
-            foreach ($bussData as $stopName => $times)
-            {
-                foreach ($times as &$time)
-                {
-                    $time = (float) $time;
-                    if ($time == 0.0)
-                    {
-                        $time = '-';
-                        continue;
-                    }
-
-                    $time = str_replace('.', ':', sprintf('%01.2f', $time));
-                }
-                $newLines[] = $stopName . ';' . implode(';', $times);
-            }
-            file_put_contents("data/$bussNumber.txt", implode("\n", $newLines));
-        }
+        $newLines[] = $stopName . ';' . implode(';', $times);
     }
 
+    file_put_contents($filename, implode("\n", $newLines), FILE_APPEND);
 }
+
 echo 'done';
