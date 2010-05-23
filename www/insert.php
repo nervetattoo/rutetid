@@ -1,5 +1,6 @@
 <?php
 require_once("../Config.php");
+require_once("../libs/BusStops.php");
 
 $db = Config::getDb();
 $view = new View;
@@ -53,6 +54,26 @@ if (isset($_GET['route']))
             $route = $bus['routes'][$routeKey];
     if ($route && $bus) {
         $stops = $route['stops'];
+        $markers = array();
+        $markerUrl = "";
+        $mapPath = array(
+            'color:0xff0000ff',
+            'weight:4'
+        ); // Fill the rest with coord path
+        $i = 0;
+        foreach ($stops as $st) {
+            $stop = BusStops::getStop($st['name']);
+            if ($stop !== null) {
+                $m = $stop['location'][0] . "," . $stop['location'][1];
+                $markers[] = $m;
+                $markerUrl .= "&markers=size:mid|color:red|label:$i|$m";
+            }
+        }
+        $mapPath = array_merge($mapPath, $markers);
+        $mapUrl = "http://maps.google.com/maps/api/staticmap?path=" . implode('|', $mapPath);
+        $mapUrl .= "&size=512x512&sensor=false" . $markerUrl;
+
+        $view->assign('mapUrl', $mapUrl);
         $view->assign('stops', $route['stops']);
     }
 }

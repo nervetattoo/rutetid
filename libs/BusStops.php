@@ -11,12 +11,12 @@ class BusStops {
 
     public static function getStop($name) {
         $db = Config::getDb();
-            // Try aliases
-            $stop = $db->stops->find(array(
-                'aliases' => array(
-                    '$in' => array($name)
-                )
-            ))->getNext();
+        // Try aliases
+        $stop = $db->stops->find(array(
+            'aliases' => array(
+                '$in' => array($name)
+            )
+        ))->getNext();
         return $stop;
     }
 
