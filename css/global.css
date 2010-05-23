@@ -47,19 +47,14 @@ em      { font-style: italic; }
 #wrap {
     width: 422px;
     min-height: 644px;
-    padding: 40px 0;
+    padding: 0 0 30px;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 46px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #0A819D;
-    font-weight: bold;
-    padding: 0 0 30px;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
-    letter-spacing: -.05em;
+    height: 93px;
+    background: url(/gfx/heading-finn-bussruter.png) 50% 30px no-repeat;
+    text-indent: -9999px;
 }
 
 #section-content {
