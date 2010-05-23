@@ -185,6 +185,7 @@ ul.ui-autocomplete li a.ui-state-active {
     height: 30px;
     color: #FFF;
     font-size: 14px;
+    text-indent: -9999px;
 }
 
 #routes tbody td {
@@ -208,19 +209,19 @@ ul.ui-autocomplete li a.ui-state-active {
 }
 
 #routes .no {
-    width: 70px;
-    padding: 0 15px;
+    width: 74px;
+    padding: 0 11px 0 15px;
     border-left: none;
 }
 
 #routes .here {
-    width: 119px;
-    padding: 0 15px;
+    width: 127px;
+    padding: 0 11px;
 }
 
 #routes .there {
-    width: 119px;
-    padding: 0 15px;
+    width: 127px;
+    padding: 0 11px;
     border-right: none;
 }
 

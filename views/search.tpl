@@ -25,9 +25,9 @@
                     <table>
                         <thead>
                             <tr>
-                                <th class="no" scope="col">Buss nr.</th>
-                                <th class="here" scope="col">er ved deg om...</th>
-                                <th class="there" scope="col">og er framme om...</th>
+                                <th class="no" scope="col">Rutebil nr.</th>
+                                <th class="here" scope="col">Er ved deg om</th>
+                                <th class="there" scope="col">Er framme om</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -38,7 +38,7 @@
                             </tr>
                         {foreach from=$routes item=route name=routes}
                             <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
-                                <td class="no">Buss <strong>{$route.id}</strong></td>
+                                <td class="no">Rutebil <strong>{$route.id}</strong></td>
                                 <td class="here">XX minutter ({$route.time})</td>{*$route.name*}
                                 <td class="there">XX minutter ({$route.time} + XX minutter)</td>
                             </tr>
