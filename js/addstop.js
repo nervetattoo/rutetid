@@ -2,19 +2,6 @@ $(function()
 {
     if($('#edit-route').length)
     {
-        $('#edit-route #stops')
-            .click(function(e)
-            {
-                if($(e.target).is('a') && $(e.target).closest('li').is('.add'))
-                {
-                    e.preventDefault();
-                    
-                    $(this).closest('li')
-                        .addClass('active')
-                        .append($(addForm).clone());
-                }
-            });
-            
         // Build form DOM
         var addForm = $('<form>',
         {
@@ -23,7 +10,7 @@ $(function()
             'class': 'rel hid clear',
             'html': $('<fieldset>',
             {
-                'html': $('<input>',
+                $('<input>',
                 {
                     'type': 'text',
                     'name': 'stop-name',
@@ -39,13 +26,28 @@ $(function()
             'html': $('<a>',
             {
                 'href': '#',
+                'class': 'add-form',
                 'text': 'Legg til ny her'
             })
         });
         
+        // Add 
         $('#edit-route #stops')
             .prepend($(addLi).clone())
-        .find('li:not(.add)')
+            .click(function(e)
+            {
+                if($(e.target).is('.add-form'))
+                {
+                    e.preventDefault();
+                    
+                    $(e.target)
+                        .hide()
+                    .closest('li')
+                        .addClass('active')
+                        .append($(addForm).clone());
+                }
+            })
+        .find('.stop')
             .each(function()
             {
                 $(this)
