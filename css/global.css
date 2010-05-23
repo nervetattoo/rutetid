@@ -47,19 +47,14 @@ em      { font-style: italic; }
 #wrap {
     width: 422px;
     min-height: 644px;
-    padding: 40px 0;
+    padding: 0 0 30px;
     margin: 0 auto;
 }
 
 h1 {
-    font-size: 46px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #0A819D;
-    font-weight: bold;
-    padding: 0 0 30px;
-    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
-    letter-spacing: -.05em;
+    height: 93px;
+    background: url(/gfx/heading-finn-bussruter.png) 50% 30px no-repeat;
+    text-indent: -9999px;
 }
 
 #section-content {
@@ -190,6 +185,7 @@ ul.ui-autocomplete li a.ui-state-active {
     height: 30px;
     color: #FFF;
     font-size: 14px;
+    text-indent: -9999px;
 }
 
 #routes tbody td {
@@ -213,19 +209,19 @@ ul.ui-autocomplete li a.ui-state-active {
 }
 
 #routes .no {
-    width: 70px;
-    padding: 0 15px;
+    width: 74px;
+    padding: 0 11px 0 15px;
     border-left: none;
 }
 
 #routes .here {
-    width: 119px;
-    padding: 0 15px;
+    width: 127px;
+    padding: 0 11px;
 }
 
 #routes .there {
-    width: 119px;
-    padding: 0 15px;
+    width: 127px;
+    padding: 0 11px;
     border-right: none;
 }
 
