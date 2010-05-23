@@ -1,13 +1,13 @@
 <routes>
     <bus id="5">
-        <route name="tur">
+        <route name="Mulen">
             <stop name="Mindeveien" time="0" />
             <stop name="Solheimslien" time="8" />
             <stop name="Gyldenpris" time="4" />
             <stop name="Festplassen" time="3" />
             <stop name="Mulen" time="15" />
         </route>
-        <route name="retur">
+        <route name="Søndre Skogveien">
             <stop name="Mulen" time="0" />
             <stop name="Torget ved Lido" time="9" />
             <stop name="Gyldenpris" time="7" />
@@ -45,7 +45,7 @@
         </run>
     </bus>
     <bus id="23">
-        <route name="tur">
+        <route name="Birkelandskr. terminal">
             <stop name="Olav Kyrres gate" time="0" />
             <stop name="Bergen Busstasjon" time="3" />
             <stop name="Minde" time="11" />
@@ -54,7 +54,7 @@
             <stop name="Lagunen" time="2" />
             <stop name="Birkelandskr. terminal" time="9" />
         </route>
-        <route name="retur">
+        <route name="Olav Kyrres gate">
             <stop name="Birkelandskr. terminal" time="0" />
             <stop name="Lagunen" time="9" />
             <stop name="Skjold" time="2" />

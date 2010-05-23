@@ -9,7 +9,7 @@ $view = new View;
 if (isset($_GET['from']) && isset($_GET['to'])) {
     $from = $_GET['from'];
     $to = $_GET['to'];
-    $time = $_GET['time'];
+    //$time = $_GET['time'];
 
     $search = new RouteSearch;
 

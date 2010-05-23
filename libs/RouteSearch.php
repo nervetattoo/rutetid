@@ -34,7 +34,6 @@ class RouteSearch {
         while ($bus = $buses->getNext()) {
             // Find what route to use
             foreach ($bus['routes'] as $route) {
-                $name = $route['name'];
                 // Verify that stop is after start in this route
                 $status = 0;
                 $runningTime = 0; // Running time of bus
@@ -68,6 +67,7 @@ class RouteSearch {
                             '$gt' => (int)$time - $wait
                         )
                     ))->sort(array('time' => 1))->skip($offset)->limit($limit);
+
                     while ($dep = $departures->getNext()) {
                         $departMinute = substr((string)$dep['time'], -2);
                         $departHour = substr((string)$dep['time'], 0, -2);
