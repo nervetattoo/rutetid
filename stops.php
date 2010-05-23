@@ -6,7 +6,9 @@ function getMicroTime() {
 require_once("Config.php");
 require_once("View.php");
 
-$db = Config::getDb();
+$start = getMicroTime();
+$memcache = new Memcache;
+$memcache->connect('localhost', 11211);
 
 $filters = array();
 $lat = 60.3601528;
@@ -27,26 +29,35 @@ if (isset($_GET['term'])) {
     $filters['name'] = new MongoRegex("/^$query/i");
 }
 
+$cacheKey = md5(implode("#", $filters));
+$result = $memcache->get($cacheKey);
+if ($result)
+    $result = unserialize($result);
+else {
+    // Find stops near me!!
+    $db = Config::getDb();
+    $stops = $db->stops->find($filters);
 
-// Find stops near me!!
-$start = getMicroTime();
-$stops = $db->stops->find($filters);
-
-$result = array(
-    //'filters' => $filters,
-    'stops' => array()
-);
-while ($stop = $stops->getNext()) {
-    $result['stops'][] = array(
-        'name' => $stop['name']
+    $result = array(
+        //'filters' => $filters,
+        'stops' => array()
     );
+    while ($stop = $stops->getNext()) {
+        $result['stops'][] = array(
+            'name' => $stop['name']
+        );
+    }
+    $result['generated'] = time();
+    $result['length'] = count($result['stops']);
+    $memcache->set($cacheKey, serialize($result), false, 7200);
 }
 $time = getMicroTime() - $start;
 $result['time'] = $time;
-$result['length'] = count($result['stops']);
 if (isset($_GET['callback'])) {
     $jsonp = $_GET['callback'];
-    echo $jsonp . "(" . json_encode($result) . ")";
+    $out =  $jsonp . "(" . json_encode($result) . ")";
 }
 else
-    echo json_encode($result);
+    $out = json_encode($result);
+
+echo $out;

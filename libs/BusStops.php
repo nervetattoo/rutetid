@@ -9,13 +9,33 @@ require_once("gPoint.php");
 
 class BusStops {
 
+    public static function getStop($name) {
+        $db = Config::getDb();
+        $stop = $db->stops->findOne(array('name'=>$name));
+        if ($stop === null) {
+            // Try aliases
+            $stop = $db->stops->find(array(
+                'aliases' => array(
+                    '$in' => array($name)
+                )
+            ))->getNext();
+        }
+        return $stop;
+    }
+    
+    /**
+     * Import bus stops from a csv file fmor eiendomsprofil data
+     *
+     * @return int
+     * @param string $file
+     */
     public function import($file) {
         $db = Config::getDb();
         // Lat/long limits, should be converted
-        $top = 60.47108; //lat
-        $bottom = 60.30108; //lat
-        $left = 5.125268; //long
-        $right = 5.525268; //long
+        $top = 60.60108; //lat
+        $bottom = 59.90108; //lat
+        $left = 5.005268; //long
+        $right = 5.725268; //long
 
         $gPoint = new gPoint();
 
@@ -29,11 +49,16 @@ class BusStops {
         $utmBottom = (int)$gPoint->N();
         $utmRight = (int)$gPoint->E();
 
+        $utmTop = 6800000;
+        $utmBottom = 6600000;
+        $utmRight = -15000;
+        $utmLeft = -46000;
+
         $handle = fopen($file, "r");
         $i = 0;
         $db->stops->ensureIndex(array('location' => '2d'));
         if ($handle) {
-            //echo "Top: $utmTop Bottom: $utmBottom Left: $utmLeft Right: $utmRight\n";
+            echo "Top: $utmTop Bottom: $utmBottom Left: $utmLeft Right: $utmRight<br>\n";
             fgets($handle, 4096);
             while (!feof($handle)) {
                 $line = fgets($handle);
@@ -48,10 +73,29 @@ class BusStops {
                         $gPoint->convertTMtoLL();
                         $lat = $gPoint->Lat();
                         $long = $gPoint->Long();
-                        $db->stops->insert(array(
-                            'name'=>$name,
-                            'location' => array($lat, $long)
+                        $location = array((float)$lat, (float)$long);
+                        $stop = $db->stops->findOne(array(
+                            'location' => $location
                         ));
+                        if ($stop === null) {
+                            $db->stops->insert(array(
+                                'name'=>$name,
+                                'location' => $location,
+                                'aliases' => array($name)
+                            ));
+                        }
+                        else {
+                            if (array_key_exists('aliases', $stop))
+                                $aliases = $stop['aliases'];
+                            else
+                                $aliases = array();
+                            $aliases[] = $name;
+                            $res = $db->stops->update(
+                                array("_id" => $stop['_id']), // Where clause
+                                array('$set' => array('aliases' => $aliases)) // Update
+                            );
+                        }
+                        unset($stop);
                         //echo "$name lies as $lat,$long\n";
                     }
                 }
