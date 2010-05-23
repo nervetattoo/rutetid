@@ -20,8 +20,6 @@ $memcache = new Memcache;
 $memcache->connect('localhost', 11211);
 
 $filters = array();
-$lat = 60.3601528;
-$long = 5.347809;
 if (isset($_GET['lat']) && isset($_GET['long'])) {
     $lat = $_GET['lat'];
     $long = $_GET['long'];
@@ -45,6 +43,7 @@ if ($result)
 else {
     // Find stops near me!!
     $db = Config::getDb();
+    $filters['active'] = true;
     $stops = $db->stops->find($filters);
 
     $result = array(

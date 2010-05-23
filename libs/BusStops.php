@@ -22,6 +22,15 @@ class BusStops {
         }
         return $stop;
     }
+
+    public static function activateStop($stop) {
+        $db = Config::getDb();
+        $res = $db->stops->update(
+            array("_id" => $stop['_id']), // Where clause
+            array('$set' => array('active' => true)) // Update
+        );
+        return $res;
+    }
     
     /**
      * Import bus stops from a csv file fmor eiendomsprofil data

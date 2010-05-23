@@ -29,6 +29,7 @@ array(
 $stopsSearch = array();
 
 $deps = 0;
+$activeStops = 0;
 foreach ($xml->bus as $node) {
     $attr = $node->attributes();
     $bus = array(
@@ -47,6 +48,8 @@ foreach ($xml->bus as $node) {
             $stopName = (string)$stopAttrs['name'];
             $time = (string)$stopAttrs['time'];
             $stop = BusStops::getStop($stopName);
+            if (BusStops::activateStop($stop))
+                $activeStops++;
             $r['stops'][] = array(
                 'name' => $stopName,
                 'time' => $time,
@@ -101,3 +104,4 @@ foreach ($xml->bus as $node) {
     }
 } 
 echo "Inserted $deps departures\n";
+echo "Activated $activeStops stops\n";
