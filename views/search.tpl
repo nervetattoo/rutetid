@@ -8,20 +8,19 @@
                         <ul>
                             <li>
                                 <label for="from">Fra</label>
-                                <input type="text" name="from" id="from" />
+                                <input type="text" name="from" id="from" value="{$from}" />
                                 {*<select name="from" id="from">
                                     Populate with JS, or PHP
                                 </select>*}
                             </li>
                             <li>
                                 <label for="to">Til</label>
-                                <input type="text" name="to" id="to" />
+                                <input type="text" name="to" id="to" value="{$to}" />
                             </li>
                         </ul>
                         <button type="submit" class="submit rel hid">Vis ruter</button>
                     </fieldset>
                 </form>
-            {if $routes}
                 <div id="routes" class="rel hid clear">
                     <table>
                         <thead>
@@ -37,18 +36,25 @@
                                 <td class="here"></td>
                                 <td class="there"></td>
                             </tr>
+                    {if $routes}
                         {foreach from=$routes item=route name=routes}
                             <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
                                 <td class="no">Rutebil <strong>{$route.id}</strong></td>
-                                <td class="here">{$route.wait} minutter ({$route.startTime})</td>{*$route.name*}
+                                <td class="here">{$route.wait} minutter ({$route.startTime})</td>
                                 <td class="there">{$route.runningTime + $route.wait} minutter ({$route.arrivalTime})</td>
                             </tr>
                         {/foreach}
+                    {else}
+                            <tr class="empty">
+                                <td colspan="3">Foreta et søk, dimling.</td>
+                            </tr>
+                    {/if}
                         </tbody>
-                    </table>
+                </table>
+                {if $routes}
                     <a id="show-more-routes" class="abs hid clear" href="#">Vis flere ruter</a>
+                {/if}
                 </div>
-            {/if}
 {include file='contentbottom.tpl'}
                 <div class="clear"></div>
             </div>
