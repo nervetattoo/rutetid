@@ -3,6 +3,15 @@ function getMicroTime() {
     list($usec, $sec) = explode(" ", microtime()); 
     return ((float)$usec + (float)$sec); 
 }
+function r_implode($glue, $pieces) {
+    foreach($pieces as $r_pieces) {
+        if(is_array($r_pieces))
+            $retVal[] = r_implode($glue, $r_pieces);
+        else
+            $retVal[] = $r_pieces;
+    }
+    return implode($glue, $retVal);
+} 
 require_once("Config.php");
 require_once("View.php");
 
@@ -29,7 +38,7 @@ if (isset($_GET['term'])) {
     $filters['name'] = new MongoRegex("/^$query/i");
 }
 
-$cacheKey = md5(implode("#", $filters));
+$cacheKey = md5(r_implode(":", $filters));
 $result = $memcache->get($cacheKey);
 if ($result)
     $result = unserialize($result);
