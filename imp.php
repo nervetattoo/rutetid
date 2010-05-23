@@ -80,7 +80,7 @@ foreach ($xml->bus as $node) {
                 'to' => $stop,
                 'toId' => $busStops[$stop]['_id'],
                 'days' => $days,
-                'time' => $time,
+                'time' => (int)str_replace(":", "", $time),
                 'route' => $bus['id'],
                 'routeId' => $bus['_id']
             );
