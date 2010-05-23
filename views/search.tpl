@@ -32,12 +32,12 @@
                             </tr>
                         </thead>
                         <tbody>
+                    {if $routes}
                             <tr class="shadow">
                                 <td class="no"></td>
                                 <td class="here"></td>
                                 <td class="there"></td>
                             </tr>
-                    {if $routes}
                         {foreach from=$routes item=route name=routes}
                             <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
                                 <td class="no">Rutebil <strong>{$route.id}</strong></td>
@@ -46,8 +46,11 @@
                             </tr>
                         {/foreach}
                     {else}
-                            <tr class="empty">
-                                <td colspan="3">
+                            <tr class="shadow">
+                                <td colspan="3" class="no-borders"></td>
+                            </tr>
+                            <tr class="info odd">
+                                <td colspan="3" class="no-borders">
                                     <h2>Hallao!</h2>
                                     <p>Vi driver stadig å legger inn bussruter, trykker inn rutene for hånd.  
                                     Akkurat nå har vi disse bussene inne i systemet vårt: 
