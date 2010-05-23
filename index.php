@@ -9,7 +9,10 @@ $view = new View;
 if (isset($_GET['from']) && isset($_GET['to'])) {
     $from = $_GET['from'];
     $to = $_GET['to'];
-    //$time = $_GET['time'];
+    if (isset($_GET['time']) && !empty($_GET['time']))
+        $time = $_GET['time'];
+    else
+        $time = date("H:i");
 
     $search = new RouteSearch;
 
@@ -21,7 +24,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
         $offset = 0;
         $limit = 5;
     }
-    $hits = $search->search($from, $to, false, false, 5);
+    $hits = $search->search($from, $to, $time, $offset, $limit);
     if (isset($_GET['format']) && $_GET['format'] == "json") {
         echo json_encode($hits);
         exit;

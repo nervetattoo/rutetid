@@ -31,6 +31,7 @@ class RouteSearch {
         if (!$weekday)
             $weekday = date("w") + 1;
         $time = str_replace(":", "", $time);
+        $timeSort = array();
         while ($bus = $buses->getNext()) {
             // Find what route to use
             foreach ($bus['routes'] as $route) {
