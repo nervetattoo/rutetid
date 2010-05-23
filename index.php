@@ -12,11 +12,27 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
     $time = $_GET['time'];
 
     $search = new RouteSearch;
-    $hits = $search->search($from, $to, false, false, 15);
 
-    $view->assign('routes', $hits);
+    if (isset($_GET['format']) && $_GET['format'] == "json") {
+        $offset = (int)$_GET['offset'];
+        $limit = 10;
+    }
+    else {
+        $offset = 0;
+        $limit = 5;
+    }
+    $hits = $search->search($from, $to, false, false, 5);
+    if (isset($_GET['format']) && $_GET['format'] == "json") {
+        echo json_encode($hits);
+        exit;
+    }
+
     $view->assign('from', $from);
     $view->assign('to', $to);
-}
 
-$view->display('search.tpl');
+    $view->assign('routes', $hits);
+}
+if (isset($_GET['format']) && $_GET['format'] == "json") {
+}
+else
+    $view->display('search.tpl');

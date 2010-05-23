@@ -67,19 +67,21 @@ class RouteSearch {
                         'time' => array(
                             '$gt' => (int)$time - $wait
                         )
-                    ))->sort(array('time' => 1))->limit($limit);
+                    ))->sort(array('time' => 1))->skip($offset)->limit($limit);
                     while ($dep = $departures->getNext()) {
                         $departMinute = substr((string)$dep['time'], -2);
                         $departHour = substr((string)$dep['time'], 0, -2);
                         $startTime = date("H:i", mktime($departHour, $departMinute + $wait));
                         $arrivalTime = date("H:i", mktime($departHour, $departMinute + $wait + $runningTime));
+                        $waitTime = ((int)$dep['time'] - $now) + $wait;
                         $hits[] = array(
                             'id' => $bus['id'],
                             'name' => $route['name'],
                             'runningTime' => $runningTime,
                             'startTime' => $startTime,
                             'arrivalTime' => $arrivalTime,
-                            'wait' => ((int)$dep['time'] - $now) + $wait,
+                            'arrivalSpan' => $runningTime + $waitTime,
+                            'wait' => $waitTime,
                             'stops' => $stops
                         );
                         $timeSort[] = $wait;
