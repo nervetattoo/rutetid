@@ -26,7 +26,7 @@ AddDepartures.prototype = {
             	    data: {
             	        from: $('#from').val(),
             	        to: $('#to').val(),
-            	        time: $('#route-search').find('input[name="time"]').val(),
+            	        time: $('#time').val(),
             	        format: 'json',
             	        limit: 10,
             	        offset: ($('#routes tbody tr:not(.shadow)').length - 1)
@@ -53,8 +53,8 @@ AddDepartures.prototype = {
             {
                 departuresHtml += '<tr class="' + self.oddEven[(i % 2)] + '">';
                 departuresHtml += '<td class="no">Rutebil <strong>' + bus.id + '</strong></td>';
-                departuresHtml += '<td class="here">' + bus.wait + ' minutter (' + bus.startTime + ')</td>';
-                departuresHtml += '<td class="there">' + bus.arrivalSpan + ' minutter (' + bus.arrivalTime + ')</td>';
+                departuresHtml += '<td class="here">' + bus.wait + ' minutter <span class="dim">(' + bus.startTime + ')</span></td>';
+                departuresHtml += '<td class="there">' + bus.arrivalSpan + ' minutter <span class="dim">(' + bus.arrivalTime + ')</span></td>';
                 departuresHtml += '</tr>';
             });
         

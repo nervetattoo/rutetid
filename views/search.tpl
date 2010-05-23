@@ -4,18 +4,18 @@
 {include file='contenttop.tpl'}
                 <form id="route-search" class="rel hid clear" method="get">
                     <fieldset>
-                        <input type="hidden" name="time" value="" />
                         <ul>
                             <li>
                                 <label for="from">Fra</label>
                                 <input type="text" name="from" id="from" value="{$from}" />
-                                {*<select name="from" id="from">
-                                    Populate with JS, or PHP
-                                </select>*}
                             </li>
                             <li>
                                 <label for="to">Til</label>
                                 <input type="text" name="to" id="to" value="{$to}" />
+                            </li>
+                            <li class="dim small">
+                                <label for="time">Tid</label>
+                                <input type="text" name="time" id="time" value="" />
                             </li>
                         </ul>
                         <button type="submit" class="submit rel hid">Vis ruter</button>
@@ -40,13 +40,13 @@
                         {foreach from=$routes item=route name=routes}
                             <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
                                 <td class="no">Rutebil <strong>{$route.id}</strong></td>
-                                <td class="here">{$route.wait} minutter ({$route.startTime})</td>
-                                <td class="there">{$route.arrivalSpan} minutter ({$route.arrivalTime})</td>
+                                <td class="here">{$route.wait} minutter <span class="dim">({$route.startTime})</span></td>
+                                <td class="there">{$route.arrivalSpan} minutter <span class="dim">({$route.arrivalTime})</span></td>
                             </tr>
                         {/foreach}
                     {else}
                             <tr class="empty">
-                                <td colspan="3">Foreta et søk, dimling.</td>
+                                <td colspan="3">Foreta et søk, da vel.</td>
                             </tr>
                     {/if}
                         </tbody>

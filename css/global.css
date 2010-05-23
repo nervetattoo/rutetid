@@ -80,7 +80,8 @@ h1 {
 
 #route-search {
     width: 364px;
-    padding: 19px;
+    height: 114px;
+    padding: 14px 19px 0;
     float: left;
 }
 
@@ -92,8 +93,10 @@ h1 {
 #route-search ul li {
     float: left;
     clear: left;
-    padding: 0 0 20px;
+    padding: 0 0 5px;
 }
+
+#route-search ul li:first-child { margin-top: 5px; }
 
 #route-search ul li label {
     display: block;
@@ -122,6 +125,16 @@ h1 {
     color: #004E65;
     font-weight: bold;
 }
+
+#route-search ul li.dim.small input {
+    width: 50px;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: normal;
+    color: #71A4B2;
+    background-image: url(/gfx/input-50-dim.png);
+} 
 
 
 /*  AUTOCOMPLETE DROPDOWN STYLING
@@ -229,6 +242,8 @@ ul.ui-autocomplete li a.ui-state-active {
     border-right-color: #E97358;
     border-left-color: #EAA596;
 }
+
+#routes tbody td .dim { color: rgba(75, 14, 1, .5); }
 
 #routes .no {
     width: 74px;
