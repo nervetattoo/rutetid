@@ -42,17 +42,6 @@ if (isset($_GET['route']))
     }
 }
 
-?>
-
-<form action="" method="post">
-    <br /><label><input type="text" name="route" value="5_0" /> route</label>
-    <br /><label><input type="text" name="stopIndex" value="2" /> stopIndex</label>
-    <br /><label><input type="text" name="stopName" value="Mulen" /> stopName</label>
-    <br /><label><input type="text" name="stopTime" value="5" /> stopTime</label>
-    <br /><input type="submit" value="send" />
-</form>
-
-<?php
 
 if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopName']))
 {
@@ -72,20 +61,16 @@ if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopNa
 
     $route = null;
     $bus = $db->buses->findOne(array('id' => $routeNumber));
-    foreach ($bus['routes'] as $route)
+    foreach ($bus['routes'] as &$_route)
     {
-        if ($routeName == $route['name'])
+        if ($stopName == $_route['name'])
         {
-            $route = $route;
+            $route = &$_route;
             break;
         }
     }
     if ($route)
     {
-        echo '<pre>';
-        print_r($route);
-        echo '</pre>';
-
         if (isset($route['stops'][$stopIndex]))
         {
             $stopsBefore = array_slice($route['stops'], 0, $stopIndex + 1);
@@ -98,13 +83,7 @@ if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopNa
             ));
 
             $route['stops'] = array_merge($stopsBefore, $newStop, $stopsAfter);
-
-            echo '<pre>';
-            print_r($route);
-            echo '</pre>';
-
-            //$route->save();
-            exit('saved');
+            $db->buses->save($bus);
         }
     }
     else
@@ -113,4 +92,4 @@ if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopNa
     }
 }
 
-//$view->display('insert.tpl');
+$view->display('insert.tpl');
