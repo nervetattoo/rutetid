@@ -29,7 +29,9 @@ class RouteSearch {
         if (!$time)
             $time = date("Hi");//"0700";
         if (!$weekday)
-            $weekday = date("w") + 1;
+            $weekday = (int)date("w");
+        if ($weekday == 0) // sunday, fix it
+            $weekday = 7;
         $time = str_replace(":", "", $time);
         $timeSort = array();
         while ($bus = $buses->getNext()) {
@@ -70,7 +72,7 @@ class RouteSearch {
                         'time' => array(
                             '$gt' => (int)$time - $wait
                         )
-                    ))->sort(array('time' => 1))->skip($offset)->limit(10);
+                    ))->sort(array('time' => 1))->skip(0)->limit(100);
 
                     while ($dep = $departures->getNext()) {
                         $departMinute = substr((string)$dep['time'], -2);
