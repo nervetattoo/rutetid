@@ -24,13 +24,13 @@ $(function()
         function setNowTime()
         {
             var d = new Date();
-            var hours = twoDigitize(d.getHours());
-            var minutes = twoDigitize(d.getMinutes());
+            var h = formatTime(d.getHours());
+            var m = formatTime(d.getMinutes());
             
-            $('#time').val(hours + ':' + minutes);
+            $('#time').val(h + ':' + m);
         }
         
-        function twoDigitize(num)
+        function formatTime(num)
         {
             num = num.toString();
             if(num.length == 1)
@@ -38,6 +38,35 @@ $(function()
             
             return num;
         }
+        
+        $('#time')
+            .bind('change blur keydown keyup', function()
+            {
+                userInput = $(this).val();
+                userInput = userInput.toString();
+                userInput = userInput.replace(/ /gi, '');
+                
+                if(!isNaN(userInput))
+        		{
+        			if(userInput.length > 3)
+        			{
+        				var numberArray = [];
+        				for(var i = userInput.length - 2; i > 0; i = i - 2)
+        				{
+        					numberArray.push(userInput.substring(i, i + 2));
+        				}
+        				
+        				var rest = userInput.length - (numberArray.length * 2);
+        				if(rest > 0)
+        					numberArray.push(userInput.substring(0, rest));
+        				
+        				numberArray.reverse();
+        				userInput = numberArray.join(':');
+        			}
+        		}
+        		
+                $(this).val(userInput);
+            });
         
         setNowTime();
         var setTimeInterval = setInterval(setNowTime, 15000);
