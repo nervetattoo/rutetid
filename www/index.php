@@ -33,6 +33,8 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
 
     $view->assign('from', $from);
     $view->assign('to', $to);
+    if($time != date('H:i'))
+        $view->assign('time', $time);
 
     $view->assign('routes', $hits);
 }
