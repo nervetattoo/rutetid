@@ -24,6 +24,23 @@ while ($bus = $buses->getNext())
 }
 $view->assign('routes', $busList);
 
+if (isset($_GET['route_json']))
+{
+    list($busId, $routeKey) = explode('_', $_GET['route_json']);
+    $stops = $route['stops'];
+
+    $route = null;
+    $bus = null;
+    foreach ($buses as $bus)
+        if ($bus['id'] == $busId)
+            $route = $bus['routes'][$routeKey];
+    if ($route && $bus) {
+        $stops = $route['stops'];
+    }
+
+    exit(json_encode(array('stops' => $stops)));
+}
+
 if (isset($_GET['route']))
 {
     list($busId, $routeKey) = explode('_', $_GET['route']);
