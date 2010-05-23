@@ -21,6 +21,7 @@
                         <button type="submit" class="submit rel hid">Vis ruter</button>
                     </fieldset>
                 </form>
+            {if $routes}
                 <div id="routes" class="rel hid clear">
                     <table>
                         <thead>
@@ -47,6 +48,7 @@
                     </table>
                     <a id="show-more-routes" class="abs hid clear" href="#">Vis flere ruter</a>
                 </div>
+            {/if}
 {include file='contentbottom.tpl'}
                 <div class="clear"></div>
             </div>

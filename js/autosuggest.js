@@ -1,6 +1,23 @@
 $(function()
-{    
-    $('#from')
+{
+    window.setInitialFromValueFromGeolocation = function()
+    {
+        $.ajax(
+    	{
+    	    url: 'stops.php',
+    	    data: {
+    	        lat: $('body').data('lat'),
+    	        long: $('body').data('long')
+    	    },
+    	    success: function(data)
+    	    {
+    	        $('#from').val(data.stops[0].name);
+    	    },
+    	    dataType: 'json'
+    	});
+    }
+
+    $('#from, #to')
         .autocomplete(
         {
             source: function(req, add)
@@ -9,7 +26,9 @@ $(function()
 				{
 				    url: 'stops.php',
 				    data: {
-				        term: req.term
+				        term: req.term,
+				        lat: $('body').data('lat'),
+				        long: $('body').data('long')
 				    },
 				    success: function(data)
 				    {
