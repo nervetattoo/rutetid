@@ -99,11 +99,11 @@ class RouteSearch {
                         'time' => array(
                             '$gt' => (int)$time - $wait
                         )
-                    ))->sort(array('time' => 1))->skip(0)->limit(100);
+                    ))->sort(array('time' => 1))->skip(0);
 
                     while ($dep = $departures->getNext()) {
-                        $departMinute = substr((string)$dep['time'], -2);
-                        $departHour = substr((string)$dep['time'], 0, -2);
+                        $departMinute = (int)substr((string)$dep['time'], -2);
+                        $departHour = (int)substr((string)$dep['time'], 0, -2);
                         $nowHour = (int)date("H");
                         $startTime = date("H:i", mktime($departHour, $departMinute + $wait));
                         $arrivalTime = date("H:i", mktime($departHour, $departMinute + $wait + $runningTime));
