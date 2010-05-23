@@ -4,7 +4,6 @@
 {include file='contenttop.tpl'}
                 <form id="route-search" class="rel hid clear" method="get">
                     <fieldset>
-                        <input type="hidden" name="time" value="06:00" />
                         <ul>
                             <li>
                                 <label for="from">Fra</label>
@@ -41,7 +40,7 @@
                             <tr class="{cycle values='odd,even'}{if $smarty.foreach.routes.first} first{elseif $smarty.foreach.routes.last} last{/if}">
                                 <td class="no">Rutebil <strong>{$route.id}</strong></td>
                                 <td class="here">{$route.wait} minutter ({$route.startTime})</td>
-                                <td class="there">{$route.runningTime + $route.wait} minutter ({$route.arrivalTime})</td>
+                                <td class="there">{$route.arrivalSpan} minutter ({$route.arrivalTime})</td>
                             </tr>
                         {/foreach}
                     {else}
