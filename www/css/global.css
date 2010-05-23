@@ -242,6 +242,8 @@ ul.ui-autocomplete li a.ui-state-active {
     color: #FFF;
     font-size: 14px;
     text-indent: -9999px;
+    border-right: 1px solid #CD3614;
+    border-left: 1px solid #F56E59;
 }
 
 #routes tbody td {
