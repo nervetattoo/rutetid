@@ -35,7 +35,7 @@ $(function()
 
 				$.ajax(
 				{
-				    url: 'stops.php',
+				    url: '/stops.php',
 				    data: {
 				        term: req.term,
 				        from: from,
