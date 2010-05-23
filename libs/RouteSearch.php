@@ -63,10 +63,13 @@ class RouteSearch {
                     $startTime = $time - $wait;
                     $departures = $db->departures->find(array(
                         'route' => $bus['id'],
+                        'days' => array(
+                            '$all' => array((int)$weekday)
+                        ),
                         'time' => array(
                             '$gt' => (int)$time - $wait
                         )
-                    ))->sort(array('time' => 1))->skip($offset)->limit($limit);
+                    ))->sort(array('time' => 1))->skip($offset)->limit(10);
 
                     while ($dep = $departures->getNext()) {
                         $departMinute = substr((string)$dep['time'], -2);
@@ -84,12 +87,12 @@ class RouteSearch {
                             'wait' => $waitTime,
                             'stops' => $stops
                         );
-                        $timeSort[] = $wait;
+                        $timeSort[] = $waitTime;
                     }
                 }
             }
         }
         array_multisort($timeSort, SORT_ASC, $hits);
-        return $hits;
+        return array_slice($hits, 0, $limit);
     }
 }

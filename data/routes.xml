@@ -44,6 +44,55 @@
             </times>
         </run>
     </bus>
+    <bus id="22">
+        <route name="Sædal/Birkelundstoppen">
+            <stop name="Olav Kyrres gate" time="0" />
+            <stop name="Bergen Busstasjon" time="3" />
+            <stop name="Minde" time="11" />
+            <stop name="Nesttun" time="8" />
+            <stop name="Sædal/Birkelundstoppen" time="17" />
+        </route>
+        <route name="Sædal/Birkelundstoppen kveldsrute">
+            <stop name="Åsane terminal" time="0" />
+            <stop name="Eidsvåg" time="8" />
+            <stop name="Nordre Lønborg" time="7" />
+            <stop name="Handelshøyskolen" time="5" />
+            <stop name="Olav Kyrres gate" time="10" />
+            <stop name="Bergen Busstasjon" time="5" />
+            <stop name="Minde" time="12" />
+            <stop name="Nesttun" time="8" />
+            <stop name="Sædal/Birkelundstoppen" time="13" />
+        </route>
+        <route name="Lagunen">
+            <stop name="Fana" time="0" />
+            <stop name="Titlestad" time="2" />
+            <stop name="Lagunen" time="11" />
+        </route>
+        <run start="Olav Kyrres gate" stop="Sædal/Birkelundstoppen" route="Sædal/Birkelundstoppen" days="1,2,3,4,5">
+            <times>06:27;06:50;07:15;07:45;08:15;08:45;09:15;09:45;10:15;10:45;11:15;11:45;12:15;12:45;13:15;13:45;14:15;14:30
+                14:45;15:00;15:15;15:30;15:45;16:00;16:15;16:30;16:45;17:00;17:15;17:45;18:15;18:45;19:15;19:45;20:15;20:45;21:15
+            </times>
+        </run>
+        <run start="Olav Kyrres gate" stop="Sædal/Birkelundstoppen" route="Sædal/Birkelundstoppen kveldsrute" days="1,2,3,4,5">
+            <times>21:20;22:20;23:20;00:20</times>
+        </run>
+
+        <run start="Fana" stop="Lagunen" route="Lagunen" days="1,2,3,4,5">
+            <times>10:02</times>
+        </run>
+
+        <run start="Olav Kyrres gate" stop="Sædal/Birkelundstoppen" route="Sædal/Birkelundstoppen" days="6">
+            <times>07:40;08:45;09:45;10:45;11:45;12:45;13:45;14:45;15:40;16:45;17:40</times>
+        </run>
+        <run start="Olav Kyrres gate" stop="Sædal/Birkelundstoppen" route="Sædal/Birkelundstoppen kveldsrute" days="6">
+            <times>19:14;20:10;21:14;22:14;23:10;23:44</times>
+        </run>
+
+        <run start="Olav Kyrres gate" stop="Sædal/Birkelundstoppen" route="Sædal/Birkelundstoppen kveldsrute" days="7">
+            <times>11:16;12:16;13:16;14:16;15:16;16:16;17:16;18:19;19:19;20:19;21:19;22:19;23:19</times>
+        </run>
+
+    </bus>
     <bus id="23">
         <route name="Birkelandskr. terminal">
             <stop name="Olav Kyrres gate" time="0" />

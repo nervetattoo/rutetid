@@ -49,7 +49,9 @@ foreach ($xml->bus as $node) {
         }
         $bus['routes'][] = $r;
     }
-    $bus['search']['stops'] = array_unique($compactStops);
+    $compactStops = array_unique($compactStops);
+    foreach ($compactStops as $cp)
+        $bus['search']['stops'][] = $cp;
     echo "Insert bus: \n";
     print_r($bus);
     $db->buses->insert($bus);
@@ -62,6 +64,8 @@ foreach ($xml->bus as $node) {
         $stop = (string)$runAttr['stop'];
         $route = (string)$runAttr['route'];
         $days = explode(",", (string)$runAttr['days']);
+        foreach ($days as $dk => $dv)
+            $days[$dk] = (int)$dv;
         $times = explode(";", str_replace("\n", "", (string)$xmlRun->times));
         foreach ($times as $key => $time) {
             $time = str_replace(" ", "", $time);
