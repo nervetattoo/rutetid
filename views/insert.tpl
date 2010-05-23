@@ -1,32 +1,34 @@
 {include file='header.tpl'}
         <div id="rutetid">
-            <div id="wrap" class="rel hid clear">
-{include file='contenttop.tpl'}
-                <div id="route-insert">
-                    <div>
-                        <form action="" method="get">
-                            <label>Velg rutebil</label>
-                            <select name="route">
-                                <option value="">-</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                            </select>
-                            <input type="submit" value="ok" />
-                        </form>
+            <div id="wrap" class="wide rel hid clear">
+                <div id="section-content" class="rel hid clear">
+                    <div id="route-insert">
+                        <div id="edit-route" class="rel hid clear">
+                            <form id="choose-route" action="" method="get" class="rel hid clear">
+                                <fieldset>
+                                    <label for="route">Velg rutebil</label>
+                                    <select name="route" id="route">
+                                        <option value="0" selected="selected" disabled="disabled">Rutebil</option>
+                                        {foreach from=$routes item=route name=routes}
+                                            <option value="{$route.id}">{$route.id} til {$route.name}</option>
+                                        {/foreach}
+                                    </select>
+                                    <button type="submit">›</button>
+                                    <p id="departures">Avganger: <span class="departure">08:00</span>, <span class="departure">09:23</span>, <span class="departure">10:33</span>, <span class="departure">11:42</span>, <span class="departure">12:34</span>, <span class="departure">13:45</span>, <span class="departure">15:15</span> <a id="add-new-departure" href="#">Legg til ny</a></p>
+                                </fieldset>
+                            </form>
+                            <ul id="stops" class="rel hid clear">
+                                <li class="stop">07:00 &#150; Minde</li>
+                                <li class="stop">07:04 &#150; Krohnstadparken</li>
+                                <li class="stop">07:07 &#150; Bergen busstasjon</li>
+                            </ul>
+                        
+                        {foreach from=$stops item=stop name=stops}
+                            {$stop.name}
+                        {/foreach}
+                        </div>
+                        <div id="route-map" class="rel hid clear"></div>
                     </div>
-                    <div>
-                        Kart her
-                    </div>
-                </div>
 {include file='contentbottom.tpl'}
             </div>
         </div>
