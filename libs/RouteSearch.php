@@ -6,6 +6,32 @@
  */
 
 class RouteSearch {
+
+    /**
+     * Return number of active nus routes (numbers)
+     *
+     * @return int
+     */
+    public function getActiveBusNumbers() {
+        $db = Config::getDb();
+        $tmp = $db->buses->find();
+        $buses = array();
+        while ($bus = $tmp->getNext())
+            $buses[] = $bus['id'];
+        return array_filter($buses);
+    }
+
+    
+    /**
+     * Return number of departures in system
+     *
+     * @return int
+     */
+    public function getDepartureCount() {
+        $db = Config::getDb();
+        return $db->departures->find()->count();
+    }
+
     /**
      * Search for routes going from from to to
      * @return array
@@ -32,6 +58,7 @@ class RouteSearch {
             $weekday = (int)date("w");
         if ($weekday == 0) // sunday, fix it
             $weekday = 7;
+        //list($timeHour, $timeMinte) = explode(":", $time);
         $time = str_replace(":", "", $time);
         $timeSort = array();
         while ($bus = $buses->getNext()) {
