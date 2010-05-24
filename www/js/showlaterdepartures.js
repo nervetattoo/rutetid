@@ -9,7 +9,7 @@ var AddDepartures = function()
 }
 
 AddDepartures.prototype = {
-    oddEven: ['odd', 'even'],
+    oddEven: ['even', 'odd'],
     
     init: function()
     {
@@ -44,14 +44,15 @@ AddDepartures.prototype = {
     {
         var self = this;
         
-        if($('#routes tbody tr:not(.shadow)').length % 2 != 0)
-            this.oddEven.reverse();
+        this.alternate = this.oddEven;
+        if(($('#routes tbody tr:not(.shadow)').length % 2) == 0)
+            this.alternate = this.alternate.reverse();            
         
         var departuresHtml = '';
         $(data)
             .each(function(i, bus)
             {
-                departuresHtml += '<tr class="' + self.oddEven[(i % 2)] + '">';
+                departuresHtml += '<tr class="' + self.alternate[(i % 2)] + '">';
                 departuresHtml += '<td class="no">Rutebil <strong>' + bus.id + '</strong></td>';
                 departuresHtml += '<td class="here">' + bus.wait + ' minutter <span class="dim">(' + bus.startTime + ')</span></td>';
                 departuresHtml += '<td class="there">' + bus.arrivalSpan + ' minutter <span class="dim">(' + bus.arrivalTime + ')</span></td>';
