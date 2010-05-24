@@ -20,8 +20,8 @@
                                 </fieldset>
                             </form>
                             <ul id="stops" class="rel hid clear">
-                            {foreach from=$stops item=stop}
-                                <li class="stop">+{$stop.time} &#150; {$stop.name}</li>
+                            {foreach from=$stops item=stop key=i}
+                                <li class="stop">{$i + 1} +{$stop.time} &#150; {$stop.name}</li>
                             {/foreach}
                             </ul>
 
