@@ -63,6 +63,7 @@ if (isset($_GET['route']))
         $i = 0;
         foreach ($stops as $st) {
             $stop = BusStops::getStop($st['name']);
+            $i++;
             if ($stop !== null) {
                 $m = $stop['location'][0] . "," . $stop['location'][1];
                 $markers[] = $m;

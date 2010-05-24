@@ -19,6 +19,26 @@ class BusStops {
         ))->getNext();
         return $stop;
     }
+    public static function byId($id) {
+        $db = Config::getDb();
+        $stop = $db->stops->findOne(array('_id' => new MongoId($id)));
+        return $stop;
+    }
+
+    public static function getStopList($active=true,$hasPos=true) {
+        $db = Config::getDb();
+        $filters = array();
+        // Try aliases
+        if ($hasPos) {
+            $filters['location'] = array(
+                '$size' => 2
+            );
+        }
+        if ($active)
+            $filters['active'] = true;
+        $stops = $db->stops->find($filters);
+        return $stops;
+    }
 
     public static function activateStop($stop) {
         $db = Config::getDb();
