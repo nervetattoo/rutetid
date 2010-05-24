@@ -5,7 +5,7 @@
     <form method="get">
         <select name="stop">
         {foreach from=$stops item=s key=k}
-            <option value="{$k}">{$s.name}</option>
+            <option value="{$k}"{if $stop._id == $k} selected="selected"{/if}>{$s.name}</option>
         {/foreach}
         </select>
         <input type="submit" value="-&gt;" />
