@@ -48,6 +48,15 @@ class BusStops {
         );
         return $res;
     }
+
+    public static function updatePos($stop, $lat, $lng) {
+        $db = Config::getDb();
+        $res = $db->stops->update(
+            array("_id" => $stop['_id']), // Where clause
+            array('$set' => array('location' => array($lat,$lng))) // Update
+        );
+        return $res;
+    }
     
     /**
      * Import bus stops from a csv file fmor eiendomsprofil data

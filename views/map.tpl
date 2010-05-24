@@ -9,17 +9,20 @@
         {/foreach}
         </select>
         <input type="submit" value="-&gt;" />
+        <input type="submit" value="Lagre ny posisjon" id="save" name="save" />
     </form>
     <div id="map_canvas" style="width:100%; height:512px"></div>
     <script type="text/javascript" src="/js/map.js"></script>
     <script type="text/javascript">
-        var loc = {
+        var config = {
             lat : {$lat},
             lon : {$long},
             zoom: 14
         }
         {if $stop}
-        initMap(loc, $("#map_canvas")[0]);
+        config.title = "{$stop.name}";
+        stopId = "{$stop._id}";
+        initMap(config, $("#map_canvas")[0]);
         {/if}
     </script>
 {include file='contentbottom.tpl'}
