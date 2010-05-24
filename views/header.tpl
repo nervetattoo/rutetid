@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <!--[if IE]>
-            <link rel="shortcut icon" href="//gfx/favicon.ico" />
+            <link rel="shortcut icon" href="/gfx/favicon.ico" />
         <![endif]-->
         <link rel="icon" type="image/png" href="/gfx/favicon.png" />
         <link rel="stylesheet" type="text/css" href="/css/reset.css" />
