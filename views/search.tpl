@@ -49,6 +49,17 @@
                                 <td class="there">{$route.arrivalSpan} minutter <span class="dim">({$route.arrivalTime})</span></td>
                             </tr>
                         {/foreach}
+                    {elseif $error == "noHits"}
+                            <tr class="info odd">
+                                <td colspan="3" class="no-borders">
+                                    <h2>Du må gå!</h2>
+                                    <p>Neida, det kan hende det var vår feil?
+                                    I så fall <a href="mailto:raymond.julin@gmail.com">ta kontakt</a>
+                                    om du mener det er noe feil i systemet. Denne versjonen av søket støtter
+                                    ikke overganger mellom ruter så du må søke stopp på samme rute.
+                                    </p>
+                                </td>
+                            </tr>
                     {elseif $easteregg}
                             <tr class="odd first">
                                 <td class="no">Til <strong>fots</strong></td>
