@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="900" destination="Olav Kyrres gate" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/787461/263607/795036/135032/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:55" routeNo="900">Arna terminal</stop>
+    <stop arrival="6:57" departure="6:57">Bommane (Arnatveitvegen)</stop>
+    <stop arrival="6:58" departure="6:58">Indre Arna skule</stop>
+    <stop arrival="6:58" departure="6:58">Rokneholo</stop>
+    <stop arrival="6:59" departure="6:59">Roknetoppen</stop>
+    <stop arrival="7:00" departure="7:00">Stølsvegen øst</stop>
+    <stop arrival="7:00" departure="7:00">Stølsvegen</stop>
+    <stop arrival="7:03" departure="7:03">Stølsvegen vest</stop>
+    <stop arrival="7:03" departure="7:03">Arnatveit</stop>
+    <stop arrival="7:04" departure="7:04">Arna busser</stop>
+    <stop arrival="7:04" departure="7:04">Sæthre steinindustri</stop>
+    <stop arrival="7:06" departure="7:06">Espelandsmyrane fylkesvn.</stop>
+    <stop arrival="7:07" departure="7:07">Espeland Janus (Arna)</stop>
+    <stop arrival="7:08" departure="7:08">Espelandshallen (Arna)</stop>
+    <stop arrival="7:09" departure="7:09">Lone øst</stop>
+    <stop arrival="7:10" departure="7:10">Lone vest</stop>
+    <stop arrival="7:11" departure="7:11">Haukeland øst (Arna)</stop>
+    <stop arrival="7:11" departure="7:11">Haukeland (Arna)</stop>
+    <stop arrival="7:12" departure="7:12">Haukeland vest (Arna)</stop>
+    <stop arrival="7:13" departure="7:13">Søylen (Espeland)</stop>
+    <stop arrival="7:13" departure="7:13">Bratland</stop>
+    <stop arrival="7:14" departure="7:14">Grimen øst</stop>
+    <stop arrival="7:15" departure="7:15">Grimen</stop>
+    <stop arrival="7:16" departure="7:16">Helldal skole</stop>
+    <stop arrival="7:17" departure="7:17">Helldal, Frank Mohn</stop>
+    <stop arrival="7:17" departure="7:17">Helldal (Fana)</stop>
+    <stop arrival="7:19" departure="7:19">BKK Trafo (Helldal)</stop>
+    <stop arrival="7:21" departure="7:21">Midttunflaten</stop>
+    <stop arrival="7:22" departure="7:22">Midtun bro</stop>
+    <stop arrival="7:24" departure="7:24">Herredshuset, Nesttun</stop>
+    <stop arrival="7:25" departure="7:25">Nesttun</stop>
+    <stop arrival="7:26" departure="7:26">Nesttun terminal</stop>
+    <stop arrival="7:29" departure="7:29">Hopsbro</stop>
+    <stop arrival="7:31" departure="7:31">Tveiteråsskiftet</stop>
+    <stop arrival="7:32" departure="7:32">Paradis</stop>
+    <stop arrival="7:34" departure="7:34">Nydalen</stop>
+    <stop arrival="7:35" departure="7:35">Fantoft</stop>
+    <stop arrival="7:37" departure="7:37">Storetveit</stop>
+    <stop arrival="7:39" departure="7:39">Elvebakken</stop>
+    <stop arrival="7:40" departure="7:40">Minde</stop>
+    <stop arrival="7:42" departure="7:42">Mindemyren</stop>
+    <stop arrival="7:43" departure="7:43">Postterminalen</stop>
+    <stop arrival="7:44" departure="7:44">Kanalveien v/LBK</stop>
+    <stop arrival="7:47" departure="7:47">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:51" departure="7:51">Bergen Busstasjon</stop>
+    <stop arrival="7:55" departure="7:55">Christies gate (Festplassen)</stop>
+    <stop arrival="7:56">Olav Kyrres gate</stop>
+  </route>
+  <route no="900" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/273267/92222/191526/4674/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:45" routeNo="900">Bergen Busstasjon</stop>
+    <stop arrival="6:48" departure="6:48">Danmarksplass</stop>
+    <stop arrival="6:49" departure="6:49">Solheimsgaten</stop>
+    <stop arrival="6:51" departure="6:51">Reperbanen</stop>
+    <stop arrival="6:53" departure="6:53">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="6:54" departure="6:54">Minde</stop>
+    <stop arrival="6:56" departure="6:56">Elvebakken</stop>
+    <stop arrival="6:57" departure="6:57">Storetveit</stop>
+    <stop arrival="6:58" departure="6:58">Fantoft</stop>
+    <stop arrival="7:00" departure="7:00">Nydalen</stop>
+    <stop arrival="7:02" departure="7:02">Paradis</stop>
+    <stop arrival="7:03" departure="7:03">Tveiteråsskiftet</stop>
+    <stop arrival="7:04" departure="7:04">Hopsbro</stop>
+    <stop arrival="7:06" departure="7:06">Hopstangen</stop>
+    <stop arrival="7:07" departure="7:07">Nesttun terminal</stop>
+    <stop arrival="7:08" departure="7:08">Nesttun</stop>
+    <stop arrival="7:08" departure="7:08">Herredshuset, Nesttun</stop>
+    <stop arrival="7:09" departure="7:09">Midtun bro</stop>
+    <stop arrival="7:10" departure="7:10">Midttunflaten</stop>
+    <stop arrival="7:12" departure="7:12">BKK Trafo (Helldal)</stop>
+    <stop arrival="7:13" departure="7:13">Helldal (Fana)</stop>
+    <stop arrival="7:14" departure="7:14">Helldal, Frank Mohn</stop>
+    <stop arrival="7:15" departure="7:15">Helldal skole</stop>
+    <stop arrival="7:16" departure="7:16">Grimen</stop>
+    <stop arrival="7:17" departure="7:17">Grimen øst</stop>
+    <stop arrival="7:18" departure="7:18">Bratland</stop>
+    <stop arrival="7:19" departure="7:19">Søylen (Espeland)</stop>
+    <stop arrival="7:20" departure="7:20">Haukeland vest (Arna)</stop>
+    <stop arrival="7:20" departure="7:20">Haukeland (Arna)</stop>
+    <stop arrival="7:21" departure="7:21">Haukeland øst (Arna)</stop>
+    <stop arrival="7:21" departure="7:21">Lone vest</stop>
+    <stop arrival="7:22" departure="7:22">Lone øst</stop>
+    <stop arrival="7:22" departure="7:22">Espelandshallen (Arna)</stop>
+    <stop arrival="7:23" departure="7:23">Espeland Janus (Arna)</stop>
+    <stop arrival="7:25" departure="7:25">Espelandsmyrane fylkesvn.</stop>
+    <stop arrival="7:26" departure="7:26">Sæthre steinindustri</stop>
+    <stop arrival="7:27" departure="7:27">Arna busser</stop>
+    <stop arrival="7:27" departure="7:27">Arnatveit</stop>
+    <stop arrival="7:28" departure="7:28">Hølbekken</stop>
+    <stop arrival="7:28" departure="7:28">Stølsvegen vest</stop>
+    <stop arrival="7:29" departure="7:29">Stølsvegen</stop>
+    <stop arrival="7:30" departure="7:30">Stølsvegen øst</stop>
+    <stop arrival="7:33" departure="7:33">Roknetoppen</stop>
+    <stop arrival="7:35" departure="7:35">Rokneholo</stop>
+    <stop arrival="7:37" departure="7:37">Indre Arna skule</stop>
+    <stop arrival="7:40" departure="7:40">Bommane (Åsane)</stop>
+    <stop arrival="7:45">Arna terminal</stop>
+  </route>
+  <route no="900" destination="Olav Kyrres gate" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/912228/305297/670524/31186/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:15" routeNo="900">Arna terminal</stop>
+    <stop arrival="7:16" departure="7:16">Arna E 16</stop>
+    <stop arrival="7:16" departure="7:16">Toro</stop>
+    <stop arrival="7:18" departure="7:18">Espelandsmyrane riksvn.</stop>
+    <stop arrival="7:19" departure="7:19">Espelandsmyrane fylkesvn.</stop>
+    <stop arrival="7:20" departure="7:20">Espeland Janus (Arna)</stop>
+    <stop arrival="7:21" departure="7:21">Espelandshallen (Arna)</stop>
+    <stop arrival="7:22" departure="7:22">Lone øst</stop>
+    <stop arrival="7:23" departure="7:23">Lone vest</stop>
+    <stop arrival="7:24" departure="7:24">Haukeland øst (Arna)</stop>
+    <stop arrival="7:24" departure="7:24">Haukeland (Arna)</stop>
+    <stop arrival="7:25" departure="7:25">Haukeland vest (Arna)</stop>
+    <stop arrival="7:26" departure="7:26">Søylen (Espeland)</stop>
+    <stop arrival="7:26" departure="7:26">Bratland</stop>
+    <stop arrival="7:27" departure="7:27">Grimen øst</stop>
+    <stop arrival="7:28" departure="7:28">Grimen</stop>
+    <stop arrival="7:29" departure="7:29">Helldal skole</stop>
+    <stop arrival="7:30" departure="7:30">Helldal, Frank Mohn</stop>
+    <stop arrival="7:30" departure="7:30">Helldal (Fana)</stop>
+    <stop arrival="7:32" departure="7:32">BKK Trafo (Helldal)</stop>
+    <stop arrival="7:34" departure="7:34">Midttunflaten</stop>
+    <stop arrival="7:35" departure="7:35">Midtun bro</stop>
+    <stop arrival="7:37" departure="7:37">Herredshuset, Nesttun</stop>
+    <stop arrival="7:38" departure="7:38">Nesttun</stop>
+    <stop arrival="7:39" departure="7:39">Nesttun terminal</stop>
+    <stop arrival="7:42" departure="7:42">Hopsbro</stop>
+    <stop arrival="7:44" departure="7:44">Tveiteråsskiftet</stop>
+    <stop arrival="7:45" departure="7:45">Paradis</stop>
+    <stop arrival="7:47" departure="7:47">Nydalen</stop>
+    <stop arrival="7:48" departure="7:48">Fantoft</stop>
+    <stop arrival="7:50" departure="7:50">Storetveit</stop>
+    <stop arrival="7:52" departure="7:52">Elvebakken</stop>
+    <stop arrival="7:53" departure="7:53">Minde</stop>
+    <stop arrival="7:55" departure="7:55">Mindemyren</stop>
+    <stop arrival="7:56" departure="7:56">Postterminalen</stop>
+    <stop arrival="7:57" departure="7:57">Kanalveien v/LBK</stop>
+    <stop arrival="8:00" departure="8:00">Danmarksplass v/Forum kino</stop>
+    <stop arrival="8:04" departure="8:04">Bergen Busstasjon</stop>
+    <stop arrival="8:09">Olav Kyrres gate</stop>
+  </route>
+  <route no="900" destination="Olav Kyrres gate" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/485853/163096/476980/76539/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:18" routeNo="900">Arna terminal</stop>
+    <stop arrival="7:20" departure="7:20">Bommane (Arnatveitvegen)</stop>
+    <stop arrival="7:21" departure="7:21">Indre Arna skule</stop>
+    <stop arrival="7:21" departure="7:21">Rokneholo</stop>
+    <stop arrival="7:22" departure="7:22">Roknetoppen</stop>
+    <stop arrival="7:23" departure="7:23">Stølsvegen øst</stop>
+    <stop arrival="7:23" departure="7:23">Stølsvegen</stop>
+    <stop arrival="7:26" departure="7:26">Stølsvegen vest</stop>
+    <stop arrival="7:26" departure="7:26">Arnatveit</stop>
+    <stop arrival="7:27" departure="7:27">Arna busser</stop>
+    <stop arrival="7:27" departure="7:27">Sæthre steinindustri</stop>
+    <stop arrival="7:29" departure="7:29">Espelandsmyrane fylkesvn.</stop>
+    <stop arrival="7:30" departure="7:30">Espeland Janus (Arna)</stop>
+    <stop arrival="7:31" departure="7:31">Espelandshallen (Arna)</stop>
+    <stop arrival="7:32" departure="7:32">Lone øst</stop>
+    <stop arrival="7:33" departure="7:33">Lone vest</stop>
+    <stop arrival="7:34" departure="7:34">Haukeland øst (Arna)</stop>
+    <stop arrival="7:34" departure="7:34">Haukeland (Arna)</stop>
+    <stop arrival="7:35" departure="7:35">Haukeland vest (Arna)</stop>
+    <stop arrival="7:36" departure="7:36">Søylen (Espeland)</stop>
+    <stop arrival="7:36" departure="7:36">Bratland</stop>
+    <stop arrival="7:37" departure="7:37">Grimen øst</stop>
+    <stop arrival="7:38" departure="7:38">Grimen</stop>
+    <stop arrival="7:39" departure="7:39">Helldal skole</stop>
+    <stop arrival="7:40" departure="7:40">Helldal, Frank Mohn</stop>
+    <stop arrival="7:40" departure="7:40">Helldal (Fana)</stop>
+    <stop arrival="7:42" departure="7:42">BKK Trafo (Helldal)</stop>
+    <stop arrival="7:44" departure="7:44">Midttunflaten</stop>
+    <stop arrival="7:45" departure="7:45">Midtun bro</stop>
+    <stop arrival="7:47" departure="7:47">Herredshuset, Nesttun</stop>
+    <stop arrival="7:48" departure="7:48">Nesttun</stop>
+    <stop arrival="7:49" departure="7:49">Nesttun terminal</stop>
+    <stop arrival="7:52" departure="7:52">Hopsbro</stop>
+    <stop arrival="7:54" departure="7:54">Tveiteråsskiftet</stop>
+    <stop arrival="7:55" departure="7:55">Paradis</stop>
+    <stop arrival="7:57" departure="7:57">Nydalen</stop>
+    <stop arrival="7:58" departure="7:58">Fantoft</stop>
+    <stop arrival="8:00" departure="8:00">Storetveit</stop>
+    <stop arrival="8:02" departure="8:02">Elvebakken</stop>
+    <stop arrival="8:03" departure="8:03">Minde</stop>
+    <stop arrival="8:05" departure="8:05">Mindemyren</stop>
+    <stop arrival="8:06" departure="8:06">Postterminalen</stop>
+    <stop arrival="8:07" departure="8:07">Kanalveien v/LBK</stop>
+    <stop arrival="8:10" departure="8:10">Danmarksplass v/Forum kino</stop>
+    <stop arrival="8:14" departure="8:14">Bergen Busstasjon</stop>
+    <stop arrival="8:18" departure="8:18">Christies gate (Festplassen)</stop>
+    <stop arrival="8:19">Olav Kyrres gate</stop>
+  </route>
+  <route no="900" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/7023/3478/360888/178103/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:15" routeNo="900">Bergen Busstasjon</stop>
+    <stop arrival="7:18" departure="7:18">Danmarksplass</stop>
+    <stop arrival="7:19" departure="7:19">Solheimsgaten</stop>
+    <stop arrival="7:21" departure="7:21">Reperbanen</stop>
+    <stop arrival="7:23" departure="7:23">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="7:24" departure="7:24">Minde</stop>
+    <stop arrival="7:26" departure="7:26">Elvebakken</stop>
+    <stop arrival="7:27" departure="7:27">Storetveit</stop>
+    <stop arrival="7:28" departure="7:28">Fantoft</stop>
+    <stop arrival="7:30" departure="7:30">Nydalen</stop>
+    <stop arrival="7:32" departure="7:32">Paradis</stop>
+    <stop arrival="7:33" departure="7:33">Tveiteråsskiftet</stop>
+    <stop arrival="7:34" departure="7:34">Hopsbro</stop>
+    <stop arrival="7:36" departure="7:36">Hopstangen</stop>
+    <stop arrival="7:37" departure="7:37">Nesttun terminal</stop>
+    <stop arrival="7:38" departure="7:38">Nesttun</stop>
+    <stop arrival="7:38" departure="7:38">Herredshuset, Nesttun</stop>
+    <stop arrival="7:39" departure="7:39">Midtun bro</stop>
+    <stop arrival="7:40" departure="7:40">Midttunflaten</stop>
+    <stop arrival="7:42" departure="7:42">BKK Trafo (Helldal)</stop>
+    <stop arrival="7:43" departure="7:43">Helldal (Fana)</stop>
+    <stop arrival="7:44" departure="7:44">Helldal, Frank Mohn</stop>
+    <stop arrival="7:45" departure="7:45">Helldal skole</stop>
+    <stop arrival="7:47" departure="7:47">Grimen</stop>
+    <stop arrival="7:48" departure="7:48">Grimen øst</stop>
+    <stop arrival="7:49" departure="7:49">Bratland</stop>
+    <stop arrival="7:51" departure="7:51">Søylen (Espeland)</stop>
+    <stop arrival="7:52" departure="7:52">Haukeland vest (Arna)</stop>
+    <stop arrival="7:52" departure="7:52">Haukeland (Arna)</stop>
+    <stop arrival="7:53" departure="7:53">Haukeland øst (Arna)</stop>
+    <stop arrival="7:53" departure="7:53">Lone vest</stop>
+    <stop arrival="7:54" departure="7:54">Lone øst</stop>
+    <stop arrival="7:54" departure="7:54">Espelandshallen (Arna)</stop>
+    <stop arrival="7:55" departure="7:55">Espeland Janus (Arna)</stop>
+    <stop arrival="7:57" departure="7:57">Espelandsmyrane fylkesvn.</stop>
+    <stop arrival="7:58" departure="7:58">Sæthre steinindustri</stop>
+    <stop arrival="7:59" departure="7:59">Arna busser</stop>
+    <stop arrival="7:59" departure="7:59">Arnatveit</stop>
+    <stop arrival="8:00" departure="8:00">Hølbekken</stop>
+    <stop arrival="8:01" departure="8:01">Stølsvegen vest</stop>
+    <stop arrival="8:02" departure="8:02">Stølsvegen</stop>
+    <stop arrival="8:03" departure="8:03">Stølsvegen øst</stop>
+    <stop arrival="8:05" departure="8:05">Roknetoppen</stop>
+    <stop arrival="8:07" departure="8:07">Rokneholo</stop>
+    <stop arrival="8:08" departure="8:08">Indre Arna skule</stop>
+    <stop arrival="8:11" departure="8:11">Bommane (Åsane)</stop>
+    <stop arrival="8:15">Arna terminal</stop>
+  </route>
+</routes>

@@ -1,0 +1,2873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/703335/239364/423114/22893/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:40" routeNo="90">Støbotn snuplass</stop>
+    <stop arrival="10:41" departure="10:41">Toppe</stop>
+    <stop arrival="10:42" departure="10:42">Marikollen</stop>
+    <stop arrival="10:42" departure="10:42">Slettestølen</stop>
+    <stop arrival="10:43" departure="10:43">Lokketodalen</stop>
+    <stop arrival="10:44" departure="10:44">Saudalskleivane</stop>
+    <stop arrival="10:46" departure="10:46">Kollbudalen</stop>
+    <stop arrival="10:47" departure="10:47">Bakketoppen, Morvik</stop>
+    <stop arrival="10:48" departure="10:48">Viddalen</stop>
+    <stop arrival="10:50" departure="10:50">Morvikbotn</stop>
+    <stop arrival="10:51" departure="10:51">Torvbakken</stop>
+    <stop arrival="10:52" departure="10:52">Spondalen</stop>
+    <stop arrival="10:53" departure="10:53">Flatevad</stop>
+    <stop arrival="10:54" departure="10:54">Åsane Brannstasjon</stop>
+    <stop arrival="10:55" departure="10:55">Åsane terminal</stop>
+    <stop arrival="11:00" departure="11:00">Eidsvåg</stop>
+    <stop arrival="11:02" departure="11:02">Handelshøyskolen</stop>
+    <stop arrival="11:04" departure="11:04">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:06" departure="11:06">Munkebotten</stop>
+    <stop arrival="11:07" departure="11:07">Ludebryggen</stop>
+    <stop arrival="11:08" departure="11:08">Sandvikstorget</stop>
+    <stop arrival="11:10" departure="11:10">Skutevikstorget</stop>
+    <stop arrival="11:11" departure="11:11">Bontelabo</stop>
+    <stop arrival="11:12" departure="11:12">Slottsgaten</stop>
+    <stop arrival="11:14" departure="11:14">Bryggen</stop>
+    <stop arrival="11:15" departure="11:15">Olav Kyrres gate</stop>
+    <stop arrival="11:20" departure="11:20">Bergen Busstasjon</stop>
+    <stop arrival="11:26" departure="11:26">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="11:29" departure="11:29">Bjørnsons gate</stop>
+    <stop arrival="11:32" departure="11:32">Haukelandsveien</stop>
+    <stop arrival="11:33" departure="11:33">Fridalen</stop>
+    <stop arrival="11:34" departure="11:34">Langhaugen</stop>
+    <stop arrival="11:35" departure="11:35">Landåssvingen</stop>
+    <stop arrival="11:36" departure="11:36">Hagerups vei</stop>
+    <stop arrival="11:37" departure="11:37">Fageråsen</stop>
+    <stop arrival="11:38" departure="11:38">Sletten Shoppingsenter</stop>
+    <stop arrival="11:39" departure="11:39">Bergenshallen</stop>
+    <stop arrival="11:40" departure="11:40">Johan Hjorts vei</stop>
+    <stop arrival="11:42">Sletten (Bergen)</stop>
+  </route>
+  <route no="71" destination="Viddalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/35610/16597/79026/27647/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:30" routeNo="71">Nipedalen</stop>
+    <stop arrival="10:31" departure="10:31">Lyngbøkollen</stop>
+    <stop arrival="10:32" departure="10:32">Øvre Lyngbø</stop>
+    <stop arrival="10:33" departure="10:33">Nipedalen v/nr.23</stop>
+    <stop arrival="10:33" departure="10:33">Nipedalen v/Lyngbøveien</stop>
+    <stop arrival="10:34" departure="10:34">Lyngbøveien</stop>
+    <stop arrival="10:35" departure="10:35">Nygårdslien</stop>
+    <stop arrival="10:35" departure="10:35">Haustbeitet</stop>
+    <stop arrival="10:36" departure="10:36">Nygård, Laksevåg</stop>
+    <stop arrival="10:38" departure="10:38">Kringsjå</stop>
+    <stop arrival="10:39" departure="10:39">Oldernes</stop>
+    <stop arrival="10:40" departure="10:40">Vågedalen</stop>
+    <stop arrival="10:41" departure="10:41">Fergeveien</stop>
+    <stop arrival="10:43" departure="10:43">Jansongården</stop>
+    <stop arrival="10:44" departure="10:44">Solveien</stop>
+    <stop arrival="10:45" departure="10:45">Gyldenpris</stop>
+    <stop arrival="10:48" departure="10:48">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="10:50" departure="10:50">Christies gate (Festplassen)</stop>
+    <stop arrival="10:53" departure="10:53">Torget (Bergen)</stop>
+    <stop arrival="10:54" departure="10:54">Bryggen</stop>
+    <stop arrival="10:54" departure="10:54">Slottsgaten</stop>
+    <stop arrival="10:55" departure="10:55">Bontelabo</stop>
+    <stop arrival="10:56" departure="10:56">Skutevikstorget</stop>
+    <stop arrival="10:56" departure="10:56">Sjøgaten</stop>
+    <stop arrival="10:57" departure="10:57">Sandvikstorget</stop>
+    <stop arrival="10:58" departure="10:58">Ludebryggen</stop>
+    <stop arrival="10:58" departure="10:58">Munkebotten</stop>
+    <stop arrival="11:00" departure="11:00">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:01" departure="11:01">Handelshøyskolen</stop>
+    <stop arrival="11:03" departure="11:03">Eidsvåg</stop>
+    <stop arrival="11:06" departure="11:06">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:08" departure="11:08">Stamskaret</stop>
+    <stop arrival="11:09" departure="11:09">Hesthaugen</stop>
+    <stop arrival="11:10" departure="11:10">Åsane terminal</stop>
+    <stop arrival="11:12" departure="11:12">Ulsetåsen</stop>
+    <stop arrival="11:13" departure="11:13">Haukeberget</stop>
+    <stop arrival="11:15" departure="11:15">Botnane</stop>
+    <stop arrival="11:16" departure="11:16">Haukedalsvegen</stop>
+    <stop arrival="11:17" departure="11:17">Sjøveien</stop>
+    <stop arrival="11:18" departure="11:18">Tertitten</stop>
+    <stop arrival="11:18" departure="11:18">Kipo</stop>
+    <stop arrival="11:19" departure="11:19">Storevarden</stop>
+    <stop arrival="11:19" departure="11:19">Nesmyr</stop>
+    <stop arrival="11:20" departure="11:20">Bekkjarvik (Åsane)</stop>
+    <stop arrival="11:21" departure="11:21">Bekkjarvikkryss (Åsane)</stop>
+    <stop arrival="11:22" departure="11:22">Kvernevikstemma</stop>
+    <stop arrival="11:22" departure="11:22">Åsane sand + singel</stop>
+    <stop arrival="11:23" departure="11:23">Bryggedalen</stop>
+    <stop arrival="11:25">Viddalen</stop>
+  </route>
+  <route no="50" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/182571/61673/179026/28656/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:08" routeNo="50">Dolvik terminal</stop>
+    <stop arrival="10:08" departure="10:08">Skranevegen</stop>
+    <stop arrival="10:09" departure="10:09">Regnbueåsen</stop>
+    <stop arrival="10:10" departure="10:10">Fanatorget</stop>
+    <stop arrival="10:11" departure="10:11">Petedalsheia</stop>
+    <stop arrival="10:12" departure="10:12">Hydro Sandsli</stop>
+    <stop arrival="10:15" departure="10:15">Håvardstun</stop>
+    <stop arrival="10:18" departure="10:18">Meyer</stop>
+    <stop arrival="10:19" departure="10:19">Rådal</stop>
+    <stop arrival="10:20" departure="10:20">Rådal ved Lagunen</stop>
+    <stop arrival="10:23" departure="10:23">Skjold skole</stop>
+    <stop arrival="10:25" departure="10:25">Mårdalen</stop>
+    <stop arrival="10:26" departure="10:26">Nesttunbrekka</stop>
+    <stop arrival="10:26" departure="10:26">Skjoldskiftet</stop>
+    <stop arrival="10:27" departure="10:27">Nesttun</stop>
+    <stop arrival="10:28" departure="10:28">Nesttun terminal</stop>
+    <stop arrival="10:30" departure="10:30">Hopsbro</stop>
+    <stop arrival="10:31" departure="10:31">Tveiteråsskiftet</stop>
+    <stop arrival="10:32" departure="10:32">Paradis/50</stop>
+    <stop arrival="10:34" departure="10:34">Stavkirken</stop>
+    <stop arrival="10:35" departure="10:35">Natlandslien</stop>
+    <stop arrival="10:36" departure="10:36">Birkelundsbakken</stop>
+    <stop arrival="10:37" departure="10:37">Birkelundstoppen</stop>
+    <stop arrival="10:38" departure="10:38">Knausen</stop>
+    <stop arrival="10:38" departure="10:38">Kolstibotn</stop>
+    <stop arrival="10:39" departure="10:39">H. Jægers vei</stop>
+    <stop arrival="10:39" departure="10:39">Bolstad</stop>
+    <stop arrival="10:40" departure="10:40">Mannsverk</stop>
+    <stop arrival="10:40" departure="10:40">Wiers -Jenssens vei</stop>
+    <stop arrival="10:41" departure="10:41">Erleveien</stop>
+    <stop arrival="10:41" departure="10:41">Landåstorget</stop>
+    <stop arrival="10:42" departure="10:42">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="10:42" departure="10:42">Langhaugen</stop>
+    <stop arrival="10:43" departure="10:43">Fridalen</stop>
+    <stop arrival="10:44" departure="10:44">Haukeland sykehus sør</stop>
+    <stop arrival="10:45" departure="10:45">Haukeland sykehus nord</stop>
+    <stop arrival="10:46" departure="10:46">Haraldsplass sykehus</stop>
+    <stop arrival="10:47" departure="10:47">Haukeland skole</stop>
+    <stop arrival="10:48" departure="10:48">Svartediksveien</stop>
+    <stop arrival="10:49" departure="10:49">Kalvedalsveien</stop>
+    <stop arrival="10:50" departure="10:50">Kalfarlien</stop>
+    <stop arrival="10:52" departure="10:52">Stadsporten (jernbanen)</stop>
+    <stop arrival="10:53" departure="10:53">Kong Oscars gate</stop>
+    <stop arrival="10:54" departure="10:54">Allehelgensgate</stop>
+    <stop arrival="10:54" departure="10:54">Torget (Bergen)</stop>
+    <stop arrival="10:55" departure="10:55">Bryggen</stop>
+    <stop arrival="10:56" departure="10:56">Slottsgaten</stop>
+    <stop arrival="10:57" departure="10:57">Bontelabo</stop>
+    <stop arrival="10:57" departure="10:57">Skutevikstorget</stop>
+    <stop arrival="10:58" departure="10:58">Sjøgaten</stop>
+    <stop arrival="10:58" departure="10:58">Sandvikstorget</stop>
+    <stop arrival="10:59" departure="10:59">Ludebryggen</stop>
+    <stop arrival="11:00" departure="11:00">Munkebotten</stop>
+    <stop arrival="11:01" departure="11:01">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:02" departure="11:02">Handelshøyskolen</stop>
+    <stop arrival="11:04" departure="11:04">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:05" departure="11:05">Selvikvegen</stop>
+    <stop arrival="11:06" departure="11:06">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:06" departure="11:06">Ervik øvre</stop>
+    <stop arrival="11:07" departure="11:07">Åstveitvegen</stop>
+    <stop arrival="11:08" departure="11:08">Griggastemma</stop>
+    <stop arrival="11:09" departure="11:09">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:11" departure="11:11">Stamskaret</stop>
+    <stop arrival="11:12" departure="11:12">Hesthaugen</stop>
+    <stop arrival="11:14">Åsane terminal</stop>
+  </route>
+  <route no="24" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/488148/166925/937384/305976/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:15" routeNo="24">Nesttun terminal</stop>
+    <stop arrival="10:17" departure="10:17">Hopsbro</stop>
+    <stop arrival="10:19" departure="10:19">Tveiteråsskiftet</stop>
+    <stop arrival="10:20" departure="10:20">Paradis</stop>
+    <stop arrival="10:22" departure="10:22">Nydalen</stop>
+    <stop arrival="10:24" departure="10:24">Fantoft</stop>
+    <stop arrival="10:25" departure="10:25">Storetveit</stop>
+    <stop arrival="10:25" departure="10:25">Elvebakken</stop>
+    <stop arrival="10:26" departure="10:26">Minde</stop>
+    <stop arrival="10:29" departure="10:29">Mindemyren</stop>
+    <stop arrival="10:30" departure="10:30">Postterminalen</stop>
+    <stop arrival="10:31" departure="10:31">Kanalveien v/LBK</stop>
+    <stop arrival="10:33" departure="10:33">Danmarksplass v/Forum kino</stop>
+    <stop arrival="10:38" departure="10:38">Bergen Busstasjon</stop>
+    <stop arrival="10:40" departure="10:40">Christies gate (Festplassen)</stop>
+    <stop arrival="10:43" departure="10:43">Torget v/DnB</stop>
+    <stop arrival="10:44" departure="10:44">Bryggen</stop>
+    <stop arrival="10:44" departure="10:44">Slottsgaten</stop>
+    <stop arrival="10:45" departure="10:45">Bontelabo</stop>
+    <stop arrival="10:46" departure="10:46">Skutevikstorget</stop>
+    <stop arrival="10:46" departure="10:46">Sjøgaten</stop>
+    <stop arrival="10:47" departure="10:47">Sandvikstorget</stop>
+    <stop arrival="10:48" departure="10:48">Ludebryggen</stop>
+    <stop arrival="10:48" departure="10:48">Munkebotten</stop>
+    <stop arrival="10:50" departure="10:50">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="10:51" departure="10:51">Handelshøyskolen</stop>
+    <stop arrival="10:52" departure="10:52">Solbakken</stop>
+    <stop arrival="10:53" departure="10:53">Eikeviken</stop>
+    <stop arrival="10:55" departure="10:55">Hellebakken</stop>
+    <stop arrival="10:55" departure="10:55">Brunestykket</stop>
+    <stop arrival="10:56" departure="10:56">Lønborg</stop>
+    <stop arrival="10:57" departure="10:57">Nordre Lønborg</stop>
+    <stop arrival="10:57" departure="10:57">Fagerbakken</stop>
+    <stop arrival="10:58" departure="10:58">Eidsvågneset</stop>
+    <stop arrival="10:58" departure="10:58">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="10:59" departure="10:59">Trollbekken</stop>
+    <stop arrival="10:59" departure="10:59">Tømmervågen</stop>
+    <stop arrival="11:00" departure="11:00">Lillevågen</stop>
+    <stop arrival="11:01" departure="11:01">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:03" departure="11:03">Fabrikkvegen</stop>
+    <stop arrival="11:04" departure="11:04">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:05" departure="11:05">Selvikvegen</stop>
+    <stop arrival="11:06" departure="11:06">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:06" departure="11:06">Ervik øvre</stop>
+    <stop arrival="11:07" departure="11:07">Åstveitvegen</stop>
+    <stop arrival="11:08" departure="11:08">Griggastemma</stop>
+    <stop arrival="11:09" departure="11:09">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:11" departure="11:11">Stamskaret</stop>
+    <stop arrival="11:12" departure="11:12">Hesthaugen</stop>
+    <stop arrival="11:13">Åsane terminal</stop>
+  </route>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/976371/330305/656352/2719/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:45" routeNo="90">Støbotn snuplass</stop>
+    <stop arrival="10:46" departure="10:46">Toppe</stop>
+    <stop arrival="10:47" departure="10:47">Marikollen</stop>
+    <stop arrival="10:47" departure="10:47">Slettestølen</stop>
+    <stop arrival="10:48" departure="10:48">Lokketodalen</stop>
+    <stop arrival="10:49" departure="10:49">Saudalskleivane</stop>
+    <stop arrival="10:51" departure="10:51">Kollbudalen</stop>
+    <stop arrival="10:52" departure="10:52">Bakketoppen, Morvik</stop>
+    <stop arrival="10:53" departure="10:53">Viddalen</stop>
+    <stop arrival="10:55" departure="10:55">Morvikbotn</stop>
+    <stop arrival="10:56" departure="10:56">Torvbakken</stop>
+    <stop arrival="10:57" departure="10:57">Spondalen</stop>
+    <stop arrival="10:58" departure="10:58">Flatevad</stop>
+    <stop arrival="10:59" departure="10:59">Åsane Brannstasjon</stop>
+    <stop arrival="11:00" departure="11:00">Åsane terminal</stop>
+    <stop arrival="11:01" departure="11:01">Hesthaugen</stop>
+    <stop arrival="11:02" departure="11:02">Stamskaret</stop>
+    <stop arrival="11:03" departure="11:03">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:05" departure="11:05">Eidsvåg</stop>
+    <stop arrival="11:07" departure="11:07">Handelshøyskolen</stop>
+    <stop arrival="11:08" departure="11:08">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:10" departure="11:10">Munkebotten</stop>
+    <stop arrival="11:11" departure="11:11">Ludebryggen</stop>
+    <stop arrival="11:12" departure="11:12">Sandvikstorget</stop>
+    <stop arrival="11:13" departure="11:13">Skutevikstorget</stop>
+    <stop arrival="11:14" departure="11:14">Bontelabo</stop>
+    <stop arrival="11:15" departure="11:15">Slottsgaten</stop>
+    <stop arrival="11:16" departure="11:16">Bryggen</stop>
+    <stop arrival="11:17" departure="11:17">Olav Kyrres gate</stop>
+    <stop arrival="11:22" departure="11:22">Bergen Busstasjon</stop>
+    <stop arrival="11:27" departure="11:27">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="11:30" departure="11:30">Bjørnsons gate</stop>
+    <stop arrival="11:32" departure="11:32">Haukelandsveien</stop>
+    <stop arrival="11:33" departure="11:33">Fridalen</stop>
+    <stop arrival="11:34" departure="11:34">Langhaugen</stop>
+    <stop arrival="11:35" departure="11:35">Landåssvingen</stop>
+    <stop arrival="11:36" departure="11:36">Hagerups vei</stop>
+    <stop arrival="11:37" departure="11:37">Fageråsen</stop>
+    <stop arrival="11:38" departure="11:38">Sletten Shoppingsenter</stop>
+    <stop arrival="11:39" departure="11:39">Bergenshallen</stop>
+    <stop arrival="11:40" departure="11:40">Johan Hjorts vei</stop>
+    <stop arrival="11:42">Sletten (Bergen)</stop>
+  </route>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/191418/68682/765734/319062/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:45" routeNo="90">Støbotn snuplass</stop>
+    <stop arrival="10:46" departure="10:46">Toppe</stop>
+    <stop arrival="10:47" departure="10:47">Marikollen</stop>
+    <stop arrival="10:47" departure="10:47">Slettestølen</stop>
+    <stop arrival="10:48" departure="10:48">Lokketodalen</stop>
+    <stop arrival="10:49" departure="10:49">Saudalskleivane</stop>
+    <stop arrival="10:51" departure="10:51">Kollbudalen</stop>
+    <stop arrival="10:52" departure="10:52">Bakketoppen, Morvik</stop>
+    <stop arrival="10:53" departure="10:53">Viddalen</stop>
+    <stop arrival="10:55" departure="10:55">Morvikbotn</stop>
+    <stop arrival="10:56" departure="10:56">Torvbakken</stop>
+    <stop arrival="10:57" departure="10:57">Spondalen</stop>
+    <stop arrival="10:58" departure="10:58">Flatevad</stop>
+    <stop arrival="10:59" departure="10:59">Åsane Brannstasjon</stop>
+    <stop arrival="11:00" departure="11:00">Åsane terminal</stop>
+    <stop arrival="11:05" departure="11:05">Eidsvåg</stop>
+    <stop arrival="11:07" departure="11:07">Handelshøyskolen</stop>
+    <stop arrival="11:09" departure="11:09">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:11" departure="11:11">Munkebotten</stop>
+    <stop arrival="11:12" departure="11:12">Ludebryggen</stop>
+    <stop arrival="11:13" departure="11:13">Sandvikstorget</stop>
+    <stop arrival="11:15" departure="11:15">Skutevikstorget</stop>
+    <stop arrival="11:16" departure="11:16">Bontelabo</stop>
+    <stop arrival="11:17" departure="11:17">Slottsgaten</stop>
+    <stop arrival="11:19" departure="11:19">Bryggen</stop>
+    <stop arrival="11:20" departure="11:20">Olav Kyrres gate</stop>
+    <stop arrival="11:25" departure="11:25">Bergen Busstasjon</stop>
+    <stop arrival="11:30" departure="11:30">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="11:33" departure="11:33">Bjørnsons gate</stop>
+    <stop arrival="11:35" departure="11:35">Haukelandsveien</stop>
+    <stop arrival="11:36" departure="11:36">Fridalen</stop>
+    <stop arrival="11:37" departure="11:37">Langhaugen</stop>
+    <stop arrival="11:38" departure="11:38">Landåssvingen</stop>
+    <stop arrival="11:39" departure="11:39">Hagerups vei</stop>
+    <stop arrival="11:40" departure="11:40">Fageråsen</stop>
+    <stop arrival="11:41" departure="11:41">Sletten Shoppingsenter</stop>
+    <stop arrival="11:42" departure="11:42">Bergenshallen</stop>
+    <stop arrival="11:43" departure="11:43">Johan Hjorts vei</stop>
+    <stop arrival="11:45">Sletten (Bergen)</stop>
+  </route>
+  <route no="50" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/961140/321223/429896/105433/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:08" routeNo="50">Dolvik terminal</stop>
+    <stop arrival="10:08" departure="10:08">Skranevegen</stop>
+    <stop arrival="10:09" departure="10:09">Regnbueåsen</stop>
+    <stop arrival="10:10" departure="10:10">Fanatorget</stop>
+    <stop arrival="10:11" departure="10:11">Petedalsheia</stop>
+    <stop arrival="10:12" departure="10:12">Hydro Sandsli</stop>
+    <stop arrival="10:15" departure="10:15">Håvardstun</stop>
+    <stop arrival="10:18" departure="10:18">Meyer</stop>
+    <stop arrival="10:19" departure="10:19">Rådal</stop>
+    <stop arrival="10:20" departure="10:20">Rådal ved Lagunen</stop>
+    <stop arrival="10:25" departure="10:25">Skjold skole</stop>
+    <stop arrival="10:27" departure="10:27">Mårdalen</stop>
+    <stop arrival="10:28" departure="10:28">Nesttunbrekka</stop>
+    <stop arrival="10:28" departure="10:28">Skjoldskiftet</stop>
+    <stop arrival="10:29" departure="10:29">Nesttun</stop>
+    <stop arrival="10:30" departure="10:30">Nesttun terminal</stop>
+    <stop arrival="10:32" departure="10:32">Hopsbro</stop>
+    <stop arrival="10:34" departure="10:34">Tveiteråsskiftet</stop>
+    <stop arrival="10:35" departure="10:35">Paradis/50</stop>
+    <stop arrival="10:36" departure="10:36">Stavkirken</stop>
+    <stop arrival="10:36" departure="10:36">Natlandslien</stop>
+    <stop arrival="10:37" departure="10:37">Birkelundsbakken</stop>
+    <stop arrival="10:37" departure="10:37">Birkelundstoppen</stop>
+    <stop arrival="10:38" departure="10:38">Knausen</stop>
+    <stop arrival="10:38" departure="10:38">Kolstibotn</stop>
+    <stop arrival="10:39" departure="10:39">H. Jægers vei</stop>
+    <stop arrival="10:39" departure="10:39">Bolstad</stop>
+    <stop arrival="10:40" departure="10:40">Mannsverk</stop>
+    <stop arrival="10:41" departure="10:41">Wiers -Jenssens vei</stop>
+    <stop arrival="10:42" departure="10:42">Erleveien</stop>
+    <stop arrival="10:42" departure="10:42">Landåstorget</stop>
+    <stop arrival="10:44" departure="10:44">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="10:44" departure="10:44">Langhaugen</stop>
+    <stop arrival="10:45" departure="10:45">Fridalen</stop>
+    <stop arrival="10:47" departure="10:47">Haukeland sykehus sør</stop>
+    <stop arrival="10:48" departure="10:48">Haukeland sykehus nord</stop>
+    <stop arrival="10:49" departure="10:49">Haraldsplass sykehus</stop>
+    <stop arrival="10:50" departure="10:50">Haukeland skole</stop>
+    <stop arrival="10:51" departure="10:51">Svartediksveien</stop>
+    <stop arrival="10:52" departure="10:52">Kalvedalsveien</stop>
+    <stop arrival="10:53" departure="10:53">Kalfarlien</stop>
+    <stop arrival="10:55" departure="10:55">Stadsporten (jernbanen)</stop>
+    <stop arrival="10:56" departure="10:56">Kong Oscars gate</stop>
+    <stop arrival="10:57" departure="10:57">Allehelgensgate</stop>
+    <stop arrival="10:57" departure="10:57">Torget (Bergen)</stop>
+    <stop arrival="10:58" departure="10:58">Bryggen</stop>
+    <stop arrival="10:59" departure="10:59">Slottsgaten</stop>
+    <stop arrival="11:00" departure="11:00">Bontelabo</stop>
+    <stop arrival="11:00" departure="11:00">Skutevikstorget</stop>
+    <stop arrival="11:01" departure="11:01">Sjøgaten</stop>
+    <stop arrival="11:01" departure="11:01">Sandvikstorget</stop>
+    <stop arrival="11:02" departure="11:02">Ludebryggen</stop>
+    <stop arrival="11:03" departure="11:03">Munkebotten</stop>
+    <stop arrival="11:04" departure="11:04">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:05" departure="11:05">Handelshøyskolen</stop>
+    <stop arrival="11:07" departure="11:07">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:08" departure="11:08">Selvikvegen</stop>
+    <stop arrival="11:09" departure="11:09">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:09" departure="11:09">Ervik øvre</stop>
+    <stop arrival="11:10" departure="11:10">Åstveitvegen</stop>
+    <stop arrival="11:11" departure="11:11">Griggastemma</stop>
+    <stop arrival="11:12" departure="11:12">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:16" departure="11:16">Stamskaret</stop>
+    <stop arrival="11:17" departure="11:17">Hesthaugen</stop>
+    <stop arrival="11:20">Åsane terminal</stop>
+  </route>
+  <route no="90" destination="Støbotn snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/212883/75877/998456/428269/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:30" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="10:32" departure="10:32">Johan Hjorts vei</stop>
+    <stop arrival="10:33" departure="10:33">Bergenshallen</stop>
+    <stop arrival="10:34" departure="10:34">Sletten Shoppingsenter</stop>
+    <stop arrival="10:35" departure="10:35">Fageråsen</stop>
+    <stop arrival="10:36" departure="10:36">Hagerups vei</stop>
+    <stop arrival="10:37" departure="10:37">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="10:38" departure="10:38">Langhaugen</stop>
+    <stop arrival="10:39" departure="10:39">Fridalen</stop>
+    <stop arrival="10:40" departure="10:40">Haukelandsveien</stop>
+    <stop arrival="10:42" departure="10:42">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="10:44" departure="10:44">Bjørnsons gate</stop>
+    <stop arrival="10:48" departure="10:48">Årstad VGS</stop>
+    <stop arrival="10:49" departure="10:49">Danmarksplass v/Forum kino</stop>
+    <stop arrival="10:53" departure="10:53">Bergen Busstasjon</stop>
+    <stop arrival="10:55" departure="10:55">Christies gate (Festplassen)</stop>
+    <stop arrival="10:58" departure="10:58">Torget (Bergen)</stop>
+    <stop arrival="10:59" departure="10:59">Bryggen</stop>
+    <stop arrival="10:59" departure="10:59">Slottsgaten</stop>
+    <stop arrival="11:00" departure="11:00">Bontelabo</stop>
+    <stop arrival="11:01" departure="11:01">Skutevikstorget</stop>
+    <stop arrival="11:01" departure="11:01">Sjøgaten</stop>
+    <stop arrival="11:02" departure="11:02">Sandvikstorget</stop>
+    <stop arrival="11:03" departure="11:03">Ludebryggen</stop>
+    <stop arrival="11:03" departure="11:03">Munkebotten</stop>
+    <stop arrival="11:05" departure="11:05">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:06" departure="11:06">Handelshøyskolen</stop>
+    <stop arrival="11:08" departure="11:08">Eidsvåg</stop>
+    <stop arrival="11:13" departure="11:13">Åsane terminal</stop>
+    <stop arrival="11:14" departure="11:14">Åsane Brannstasjon</stop>
+    <stop arrival="11:15" departure="11:15">Flatevad</stop>
+    <stop arrival="11:16" departure="11:16">Spondalen</stop>
+    <stop arrival="11:16" departure="11:16">Torvbakken</stop>
+    <stop arrival="11:17" departure="11:17">Morvikbotn</stop>
+    <stop arrival="11:18" departure="11:18">Viddalen</stop>
+    <stop arrival="11:19" departure="11:19">Bakketoppen, Morvik</stop>
+    <stop arrival="11:21" departure="11:21">Kollbudalen</stop>
+    <stop arrival="11:22" departure="11:22">Saudalen</stop>
+    <stop arrival="11:23" departure="11:23">Saudalskleivane</stop>
+    <stop arrival="11:24" departure="11:24">Lokketodalen</stop>
+    <stop arrival="11:25" departure="11:25">Slettestølen</stop>
+    <stop arrival="11:26" departure="11:26">Marikollen</stop>
+    <stop arrival="11:27" departure="11:27">Toppe</stop>
+    <stop arrival="11:28">Støbotn snuplass</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/150966/55134/801840/350608/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:50" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="10:51" departure="10:51">Breimyra</stop>
+    <stop arrival="10:52" departure="10:52">Ulvhøyen</stop>
+    <stop arrival="10:53" departure="10:53">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="10:54" departure="10:54">Flaktveitsvingane</stop>
+    <stop arrival="10:55" departure="10:55">Flaktveitrinden</stop>
+    <stop arrival="10:57" departure="10:57">Lid (Åsane)</stop>
+    <stop arrival="10:58" departure="10:58">Liakroken</stop>
+    <stop arrival="10:59" departure="10:59">Industrihuset</stop>
+    <stop arrival="11:00" departure="11:00">Gullgruven</stop>
+    <stop arrival="11:02" departure="11:02">Nyborg</stop>
+    <stop arrival="11:03" departure="11:03">Salhuskrysset</stop>
+    <stop arrival="11:04" departure="11:04">Litleåskryss</stop>
+    <stop arrival="11:04" departure="11:04">Rollandskrysset</stop>
+    <stop arrival="11:05" departure="11:05">Åsane terminal</stop>
+    <stop arrival="11:10" departure="11:10">Eidsvåg</stop>
+    <stop arrival="11:12" departure="11:12">Handelshøyskolen</stop>
+    <stop arrival="11:13" departure="11:13">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:15" departure="11:15">Munkebotten</stop>
+    <stop arrival="11:16" departure="11:16">Ludebryggen</stop>
+    <stop arrival="11:19" departure="11:19">Sandvikstorget</stop>
+    <stop arrival="11:21" departure="11:21">Skutevikstorget</stop>
+    <stop arrival="11:22" departure="11:22">Bontelabo</stop>
+    <stop arrival="11:23" departure="11:23">Slottsgaten</stop>
+    <stop arrival="11:24" departure="11:24">Bryggen</stop>
+    <stop arrival="11:25" departure="11:25">Olav Kyrres gate</stop>
+    <stop arrival="11:30" departure="11:30">Bergen Busstasjon</stop>
+    <stop arrival="11:33" departure="11:33">Gyldenpris</stop>
+    <stop arrival="11:37" departure="11:37">Løvstakktunnelen</stop>
+    <stop arrival="11:38" departure="11:38">Sikthaugen</stop>
+    <stop arrival="11:40" departure="11:40">Lynghaug skole</stop>
+    <stop arrival="11:41" departure="11:41">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:41" departure="11:41">Træet (Benshaugen)</stop>
+    <stop arrival="11:42" departure="11:42">Hjalmar Brantings vei</stop>
+    <stop arrival="11:43" departure="11:43">Sælemyr</stop>
+    <stop arrival="11:44" departure="11:44">Lyshovden skole</stop>
+    <stop arrival="11:44" departure="11:44">Ortustranden</stop>
+    <stop arrival="11:45" departure="11:45">Smiberget</stop>
+    <stop arrival="11:46" departure="11:46">Torgny Segersteds vei</stop>
+    <stop arrival="11:47" departure="11:47">Sælen skole</stop>
+    <stop arrival="11:49" departure="11:49">Skarphaugen</stop>
+    <stop arrival="11:50">Oasen Terminal</stop>
+  </route>
+  <route no="90" destination="Støbotn snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/484725/166452/456084/66467/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:35" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="10:37" departure="10:37">Johan Hjorts vei</stop>
+    <stop arrival="10:38" departure="10:38">Bergenshallen</stop>
+    <stop arrival="10:39" departure="10:39">Sletten Shoppingsenter</stop>
+    <stop arrival="10:40" departure="10:40">Fageråsen</stop>
+    <stop arrival="10:41" departure="10:41">Hagerups vei</stop>
+    <stop arrival="10:42" departure="10:42">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="10:43" departure="10:43">Langhaugen</stop>
+    <stop arrival="10:44" departure="10:44">Fridalen</stop>
+    <stop arrival="10:45" departure="10:45">Haukelandsveien</stop>
+    <stop arrival="10:46" departure="10:46">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="10:48" departure="10:48">Bjørnsons gate</stop>
+    <stop arrival="10:50" departure="10:50">Årstad VGS</stop>
+    <stop arrival="10:51" departure="10:51">Danmarksplass v/Forum kino</stop>
+    <stop arrival="10:55" departure="10:55">Bergen Busstasjon</stop>
+    <stop arrival="10:58" departure="10:58">Christies gate (Festplassen)</stop>
+    <stop arrival="11:01" departure="11:01">Torget (Bergen)</stop>
+    <stop arrival="11:02" departure="11:02">Bryggen</stop>
+    <stop arrival="11:02" departure="11:02">Slottsgaten</stop>
+    <stop arrival="11:03" departure="11:03">Bontelabo</stop>
+    <stop arrival="11:04" departure="11:04">Skutevikstorget</stop>
+    <stop arrival="11:04" departure="11:04">Sjøgaten</stop>
+    <stop arrival="11:05" departure="11:05">Sandvikstorget</stop>
+    <stop arrival="11:06" departure="11:06">Ludebryggen</stop>
+    <stop arrival="11:06" departure="11:06">Munkebotten</stop>
+    <stop arrival="11:08" departure="11:08">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:09" departure="11:09">Handelshøyskolen</stop>
+    <stop arrival="11:11" departure="11:11">Eidsvåg</stop>
+    <stop arrival="11:16" departure="11:16">Åsane terminal</stop>
+    <stop arrival="11:17" departure="11:17">Åsane Brannstasjon</stop>
+    <stop arrival="11:18" departure="11:18">Flatevad</stop>
+    <stop arrival="11:19" departure="11:19">Spondalen</stop>
+    <stop arrival="11:19" departure="11:19">Torvbakken</stop>
+    <stop arrival="11:20" departure="11:20">Morvikbotn</stop>
+    <stop arrival="11:21" departure="11:21">Viddalen</stop>
+    <stop arrival="11:22" departure="11:22">Bakketoppen, Morvik</stop>
+    <stop arrival="11:24" departure="11:24">Kollbudalen</stop>
+    <stop arrival="11:25" departure="11:25">Saudalen</stop>
+    <stop arrival="11:26" departure="11:26">Saudalskleivane</stop>
+    <stop arrival="11:27" departure="11:27">Lokketodalen</stop>
+    <stop arrival="11:28" departure="11:28">Slettestølen</stop>
+    <stop arrival="11:29" departure="11:29">Marikollen</stop>
+    <stop arrival="11:30" departure="11:30">Toppe</stop>
+    <stop arrival="11:31">Støbotn snuplass</stop>
+  </route>
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/587793/200102/590236/99188/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:04" routeNo="24">Åsane terminal</stop>
+    <stop arrival="11:05" departure="11:05">Hesthaugen</stop>
+    <stop arrival="11:06" departure="11:06">Stamskaret</stop>
+    <stop arrival="11:07" departure="11:07">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:08" departure="11:08">Griggastemma</stop>
+    <stop arrival="11:08" departure="11:08">Åstveitvegen</stop>
+    <stop arrival="11:09" departure="11:09">Ervik øvre</stop>
+    <stop arrival="11:10" departure="11:10">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:11" departure="11:11">Selvikvegen</stop>
+    <stop arrival="11:12" departure="11:12">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:13" departure="11:13">Fabrikkvegen</stop>
+    <stop arrival="11:15" departure="11:15">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:17" departure="11:17">Lillevågen</stop>
+    <stop arrival="11:18" departure="11:18">Tømmervågen</stop>
+    <stop arrival="11:18" departure="11:18">Trollbekken</stop>
+    <stop arrival="11:19" departure="11:19">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:21" departure="11:21">Fagerbakken</stop>
+    <stop arrival="11:22" departure="11:22">Nordre Lønborg</stop>
+    <stop arrival="11:23" departure="11:23">Lønborg</stop>
+    <stop arrival="11:23" departure="11:23">Brunestykket</stop>
+    <stop arrival="11:24" departure="11:24">Hellebakken</stop>
+    <stop arrival="11:25" departure="11:25">Eikeviken</stop>
+    <stop arrival="11:26" departure="11:26">Solbakken</stop>
+    <stop arrival="11:27" departure="11:27">Handelshøyskolen</stop>
+    <stop arrival="11:29" departure="11:29">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:31" departure="11:31">Munkebotten</stop>
+    <stop arrival="11:32" departure="11:32">Ludebryggen</stop>
+    <stop arrival="11:33" departure="11:33">Sandvikstorget</stop>
+    <stop arrival="11:35" departure="11:35">Skutevikstorget</stop>
+    <stop arrival="11:36" departure="11:36">Bontelabo</stop>
+    <stop arrival="11:38" departure="11:38">Slottsgaten</stop>
+    <stop arrival="11:39" departure="11:39">Bryggen</stop>
+    <stop arrival="11:40" departure="11:40">Olav Kyrres gate</stop>
+    <stop arrival="11:45" departure="11:45">Bergen Busstasjon</stop>
+    <stop arrival="11:49" departure="11:49">Danmarksplass</stop>
+    <stop arrival="11:50" departure="11:50">Solheimsgaten</stop>
+    <stop arrival="11:51" departure="11:51">Reperbanen</stop>
+    <stop arrival="11:53" departure="11:53">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="11:56" departure="11:56">Minde</stop>
+    <stop arrival="11:57" departure="11:57">Elvebakken</stop>
+    <stop arrival="11:58" departure="11:58">Storetveit</stop>
+    <stop arrival="11:58" departure="11:58">Fantoft</stop>
+    <stop arrival="11:59" departure="11:59">Nydalen</stop>
+    <stop arrival="12:00" departure="12:00">Paradis</stop>
+    <stop arrival="12:01" departure="12:01">Tveiteråsskiftet</stop>
+    <stop arrival="12:02" departure="12:02">Hopsbro</stop>
+    <stop arrival="12:04" departure="12:04">Hopstangen</stop>
+    <stop arrival="12:05">Nesttun terminal</stop>
+  </route>
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/355521/122717/438496/100742/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:04" routeNo="24">Åsane terminal</stop>
+    <stop arrival="11:05" departure="11:05">Hesthaugen</stop>
+    <stop arrival="11:06" departure="11:06">Stamskaret</stop>
+    <stop arrival="11:07" departure="11:07">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:08" departure="11:08">Griggastemma</stop>
+    <stop arrival="11:08" departure="11:08">Åstveitvegen</stop>
+    <stop arrival="11:09" departure="11:09">Ervik øvre</stop>
+    <stop arrival="11:10" departure="11:10">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:11" departure="11:11">Selvikvegen</stop>
+    <stop arrival="11:12" departure="11:12">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:12" departure="11:12">Fabrikkvegen</stop>
+    <stop arrival="11:14" departure="11:14">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:15" departure="11:15">Lillevågen</stop>
+    <stop arrival="11:16" departure="11:16">Tømmervågen</stop>
+    <stop arrival="11:17" departure="11:17">Trollbekken</stop>
+    <stop arrival="11:18" departure="11:18">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:20" departure="11:20">Fagerbakken</stop>
+    <stop arrival="11:22" departure="11:22">Nordre Lønborg</stop>
+    <stop arrival="11:23" departure="11:23">Lønborg</stop>
+    <stop arrival="11:23" departure="11:23">Brunestykket</stop>
+    <stop arrival="11:24" departure="11:24">Hellebakken</stop>
+    <stop arrival="11:25" departure="11:25">Eikeviken</stop>
+    <stop arrival="11:26" departure="11:26">Solbakken</stop>
+    <stop arrival="11:27" departure="11:27">Handelshøyskolen</stop>
+    <stop arrival="11:29" departure="11:29">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:31" departure="11:31">Munkebotten</stop>
+    <stop arrival="11:32" departure="11:32">Ludebryggen</stop>
+    <stop arrival="11:33" departure="11:33">Sandvikstorget</stop>
+    <stop arrival="11:35" departure="11:35">Skutevikstorget</stop>
+    <stop arrival="11:36" departure="11:36">Bontelabo</stop>
+    <stop arrival="11:38" departure="11:38">Slottsgaten</stop>
+    <stop arrival="11:39" departure="11:39">Bryggen</stop>
+    <stop arrival="11:40" departure="11:40">Olav Kyrres gate</stop>
+    <stop arrival="11:45" departure="11:45">Bergen Busstasjon</stop>
+    <stop arrival="11:49" departure="11:49">Danmarksplass</stop>
+    <stop arrival="11:50" departure="11:50">Solheimsgaten</stop>
+    <stop arrival="11:51" departure="11:51">Reperbanen</stop>
+    <stop arrival="11:53" departure="11:53">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="11:57" departure="11:57">Minde</stop>
+    <stop arrival="11:58" departure="11:58">Elvebakken</stop>
+    <stop arrival="11:58" departure="11:58">Storetveit</stop>
+    <stop arrival="11:58" departure="11:58">Fantoft</stop>
+    <stop arrival="11:59" departure="11:59">Nydalen</stop>
+    <stop arrival="12:00" departure="12:00">Paradis</stop>
+    <stop arrival="12:01" departure="12:01">Tveiteråsskiftet</stop>
+    <stop arrival="12:02" departure="12:02">Hopsbro</stop>
+    <stop arrival="12:04" departure="12:04">Hopstangen</stop>
+    <stop arrival="12:05">Nesttun terminal</stop>
+  </route>
+  <route no="90" destination="Støbotn snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/749472/254671/613318/56835/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:35" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="10:37" departure="10:37">Johan Hjorts vei</stop>
+    <stop arrival="10:38" departure="10:38">Bergenshallen</stop>
+    <stop arrival="10:39" departure="10:39">Sletten Shoppingsenter</stop>
+    <stop arrival="10:40" departure="10:40">Fageråsen</stop>
+    <stop arrival="10:41" departure="10:41">Hagerups vei</stop>
+    <stop arrival="10:42" departure="10:42">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="10:43" departure="10:43">Langhaugen</stop>
+    <stop arrival="10:44" departure="10:44">Fridalen</stop>
+    <stop arrival="10:45" departure="10:45">Haukelandsveien</stop>
+    <stop arrival="10:46" departure="10:46">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="10:48" departure="10:48">Bjørnsons gate</stop>
+    <stop arrival="10:50" departure="10:50">Årstad VGS</stop>
+    <stop arrival="10:52" departure="10:52">Danmarksplass v/Forum kino</stop>
+    <stop arrival="10:58" departure="10:58">Bergen Busstasjon</stop>
+    <stop arrival="11:00" departure="11:00">Christies gate (Festplassen)</stop>
+    <stop arrival="11:03" departure="11:03">Torget (Bergen)</stop>
+    <stop arrival="11:04" departure="11:04">Bryggen</stop>
+    <stop arrival="11:04" departure="11:04">Slottsgaten</stop>
+    <stop arrival="11:05" departure="11:05">Bontelabo</stop>
+    <stop arrival="11:06" departure="11:06">Skutevikstorget</stop>
+    <stop arrival="11:06" departure="11:06">Sjøgaten</stop>
+    <stop arrival="11:07" departure="11:07">Sandvikstorget</stop>
+    <stop arrival="11:08" departure="11:08">Ludebryggen</stop>
+    <stop arrival="11:08" departure="11:08">Munkebotten</stop>
+    <stop arrival="11:10" departure="11:10">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:11" departure="11:11">Handelshøyskolen</stop>
+    <stop arrival="11:13" departure="11:13">Eidsvåg</stop>
+    <stop arrival="11:16" departure="11:16">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:18" departure="11:18">Stamskaret</stop>
+    <stop arrival="11:19" departure="11:19">Hesthaugen</stop>
+    <stop arrival="11:20" departure="11:20">Åsane terminal</stop>
+    <stop arrival="11:21" departure="11:21">Åsane Brannstasjon</stop>
+    <stop arrival="11:22" departure="11:22">Flatevad</stop>
+    <stop arrival="11:23" departure="11:23">Spondalen</stop>
+    <stop arrival="11:23" departure="11:23">Torvbakken</stop>
+    <stop arrival="11:24" departure="11:24">Morvikbotn</stop>
+    <stop arrival="11:25" departure="11:25">Viddalen</stop>
+    <stop arrival="11:26" departure="11:26">Bakketoppen, Morvik</stop>
+    <stop arrival="11:28" departure="11:28">Kollbudalen</stop>
+    <stop arrival="11:29" departure="11:29">Saudalen</stop>
+    <stop arrival="11:30" departure="11:30">Saudalskleivane</stop>
+    <stop arrival="11:31" departure="11:31">Lokketodalen</stop>
+    <stop arrival="11:32" departure="11:32">Slettestølen</stop>
+    <stop arrival="11:33" departure="11:33">Marikollen</stop>
+    <stop arrival="11:34" departure="11:34">Toppe</stop>
+    <stop arrival="11:35">Støbotn snuplass</stop>
+  </route>
+  <route no="80" destination="Flaktveit snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/306264/106903/58472/72859/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:43" routeNo="80">Oasen Terminal</stop>
+    <stop arrival="10:45" departure="10:45">Skarphaugen</stop>
+    <stop arrival="10:46" departure="10:46">Sælen skole</stop>
+    <stop arrival="10:47" departure="10:47">Torgny Segersteds vei</stop>
+    <stop arrival="10:48" departure="10:48">Smiberget</stop>
+    <stop arrival="10:49" departure="10:49">Ortustranden</stop>
+    <stop arrival="10:49" departure="10:49">Lyshovden skole</stop>
+    <stop arrival="10:49" departure="10:49">Sælemyr</stop>
+    <stop arrival="10:50" departure="10:50">Hjalmar Brantings vei</stop>
+    <stop arrival="10:51" departure="10:51">Træet (Benshaugen)</stop>
+    <stop arrival="10:52" departure="10:52">Dag Hammarskjølds vei</stop>
+    <stop arrival="10:52" departure="10:52">Lynghaug skole</stop>
+    <stop arrival="10:53" departure="10:53">Hamregården</stop>
+    <stop arrival="10:54" departure="10:54">Sikthaugen</stop>
+    <stop arrival="10:58" departure="10:58">Gyldenpris</stop>
+    <stop arrival="11:03" departure="11:03">Bergen Busstasjon</stop>
+    <stop arrival="11:05" departure="11:05">Christies gate (Festplassen)</stop>
+    <stop arrival="11:08" departure="11:08">Torget (Bergen)</stop>
+    <stop arrival="11:09" departure="11:09">Bryggen</stop>
+    <stop arrival="11:09" departure="11:09">Slottsgaten</stop>
+    <stop arrival="11:10" departure="11:10">Bontelabo</stop>
+    <stop arrival="11:11" departure="11:11">Skutevikstorget</stop>
+    <stop arrival="11:12" departure="11:12">Sjøgaten</stop>
+    <stop arrival="11:12" departure="11:12">Sandvikstorget</stop>
+    <stop arrival="11:13" departure="11:13">Ludebryggen</stop>
+    <stop arrival="11:13" departure="11:13">Munkebotten</stop>
+    <stop arrival="11:15" departure="11:15">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:16" departure="11:16">Handelshøyskolen</stop>
+    <stop arrival="11:18" departure="11:18">Eidsvåg</stop>
+    <stop arrival="11:23" departure="11:23">Åsane terminal</stop>
+    <stop arrival="11:24" departure="11:24">Rollandskrysset</stop>
+    <stop arrival="11:24" departure="11:24">Litleåskryss</stop>
+    <stop arrival="11:25" departure="11:25">Salhuskrysset</stop>
+    <stop arrival="11:26" departure="11:26">Nyborg</stop>
+    <stop arrival="11:28" departure="11:28">Gullgruven</stop>
+    <stop arrival="11:29" departure="11:29">Industrihuset</stop>
+    <stop arrival="11:30" departure="11:30">Liakroken</stop>
+    <stop arrival="11:31" departure="11:31">Lid (Åsane)</stop>
+    <stop arrival="11:33" departure="11:33">Flaktveitrinden</stop>
+    <stop arrival="11:34" departure="11:34">Flaktveitsvingane</stop>
+    <stop arrival="11:35" departure="11:35">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:36" departure="11:36">Ulvhøyen</stop>
+    <stop arrival="11:37" departure="11:37">Breimyra</stop>
+    <stop arrival="11:38">Flaktveit snuplass</stop>
+  </route>
+  <route no="50" destination="Dolvik terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/453834/152128/487250/92348/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:10" routeNo="50">Åsane terminal</stop>
+    <stop arrival="11:11" departure="11:11">Hesthaugen</stop>
+    <stop arrival="11:12" departure="11:12">Stamskaret</stop>
+    <stop arrival="11:13" departure="11:13">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:14" departure="11:14">Griggastemma</stop>
+    <stop arrival="11:15" departure="11:15">Åstveitvegen</stop>
+    <stop arrival="11:15" departure="11:15">Ervik øvre</stop>
+    <stop arrival="11:16" departure="11:16">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:17" departure="11:17">Selvikvegen</stop>
+    <stop arrival="11:18" departure="11:18">Eidsvåg</stop>
+    <stop arrival="11:20" departure="11:20">Handelshøyskolen</stop>
+    <stop arrival="11:22" departure="11:22">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:24" departure="11:24">Munkebotten</stop>
+    <stop arrival="11:25" departure="11:25">Ludebryggen</stop>
+    <stop arrival="11:26" departure="11:26">Sandvikstorget</stop>
+    <stop arrival="11:28" departure="11:28">Skutevikstorget</stop>
+    <stop arrival="11:29" departure="11:29">Bontelabo</stop>
+    <stop arrival="11:31" departure="11:31">Slottsgaten</stop>
+    <stop arrival="11:32" departure="11:32">Bryggen</stop>
+    <stop arrival="11:33" departure="11:33">Småstrandgaten</stop>
+    <stop arrival="11:34" departure="11:34">Nygaten</stop>
+    <stop arrival="11:35" departure="11:35">Statsporten (jernbanen)</stop>
+    <stop arrival="11:38" departure="11:38">Kalfarlien</stop>
+    <stop arrival="11:39" departure="11:39">Kalvedalsveien</stop>
+    <stop arrival="11:40" departure="11:40">Svartediksveien</stop>
+    <stop arrival="11:41" departure="11:41">Statsarkivet</stop>
+    <stop arrival="11:42" departure="11:42">Haraldsplass sykehus</stop>
+    <stop arrival="11:43" departure="11:43">Haukeland sykehus nord</stop>
+    <stop arrival="11:44" departure="11:44">Haukeland sykehus sør</stop>
+    <stop arrival="11:45" departure="11:45">Fridalen</stop>
+    <stop arrival="11:45" departure="11:45">Langhaugen</stop>
+    <stop arrival="11:46" departure="11:46">Landåssvingen</stop>
+    <stop arrival="11:46" departure="11:46">Landåstorget</stop>
+    <stop arrival="11:47" departure="11:47">Erleveien</stop>
+    <stop arrival="11:47" departure="11:47">Wier-Jenssens vei</stop>
+    <stop arrival="11:48" departure="11:48">Mannsverk</stop>
+    <stop arrival="11:48" departure="11:48">Bolstad</stop>
+    <stop arrival="11:49" departure="11:49">Hans Jægers vei</stop>
+    <stop arrival="11:49" departure="11:49">Kolstibotn</stop>
+    <stop arrival="11:49" departure="11:49">Knausen</stop>
+    <stop arrival="11:50" departure="11:50">Birkelundstoppen</stop>
+    <stop arrival="11:51" departure="11:51">Birkelundsbakken</stop>
+    <stop arrival="11:51" departure="11:51">Natlandslien</stop>
+    <stop arrival="11:52" departure="11:52">Stavkirken</stop>
+    <stop arrival="11:53" departure="11:53">Paradis</stop>
+    <stop arrival="11:54" departure="11:54">Tveiteråsskiftet</stop>
+    <stop arrival="11:55" departure="11:55">Hopsbro</stop>
+    <stop arrival="11:57" departure="11:57">Hopstangen</stop>
+    <stop arrival="11:58" departure="11:58">Nesttun terminal</stop>
+    <stop arrival="12:00" departure="12:00">Nesttun</stop>
+    <stop arrival="12:03" departure="12:03">Skjoldskiftet</stop>
+    <stop arrival="12:03" departure="12:03">Nesttunbrekka</stop>
+    <stop arrival="12:04" departure="12:04">Mårdalen</stop>
+    <stop arrival="12:04" departure="12:04">Skjoldhøgda</stop>
+    <stop arrival="12:04" departure="12:04">Skjold skole</stop>
+    <stop arrival="12:05" departure="12:05">Lagunen</stop>
+    <stop arrival="12:06" departure="12:06">Rådal</stop>
+    <stop arrival="12:07" departure="12:07">Meyerskiftet</stop>
+    <stop arrival="12:11" departure="12:11">Håvardstun</stop>
+    <stop arrival="12:12" departure="12:12">Statoil stasjon Sandsli</stop>
+    <stop arrival="12:13" departure="12:13">Hydro Sandsli</stop>
+    <stop arrival="12:14" departure="12:14">Petedalsheia</stop>
+    <stop arrival="12:15" departure="12:15">Fanatorget</stop>
+    <stop arrival="12:17">Dolvik terminal</stop>
+  </route>
+  <route no="50" destination="Dolvik terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/406482/136313/468676/98845/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:10" routeNo="50">Åsane terminal</stop>
+    <stop arrival="11:11" departure="11:11">Hesthaugen</stop>
+    <stop arrival="11:13" departure="11:13">Stamskaret</stop>
+    <stop arrival="11:15" departure="11:15">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:16" departure="11:16">Griggastemma</stop>
+    <stop arrival="11:17" departure="11:17">Åstveitvegen</stop>
+    <stop arrival="11:17" departure="11:17">Ervik øvre</stop>
+    <stop arrival="11:18" departure="11:18">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:19" departure="11:19">Selvikvegen</stop>
+    <stop arrival="11:20" departure="11:20">Eidsvåg</stop>
+    <stop arrival="11:22" departure="11:22">Handelshøyskolen</stop>
+    <stop arrival="11:24" departure="11:24">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:26" departure="11:26">Munkebotten</stop>
+    <stop arrival="11:27" departure="11:27">Ludebryggen</stop>
+    <stop arrival="11:28" departure="11:28">Sandvikstorget</stop>
+    <stop arrival="11:30" departure="11:30">Skutevikstorget</stop>
+    <stop arrival="11:31" departure="11:31">Bontelabo</stop>
+    <stop arrival="11:33" departure="11:33">Slottsgaten</stop>
+    <stop arrival="11:34" departure="11:34">Bryggen</stop>
+    <stop arrival="11:35" departure="11:35">Småstrandgaten</stop>
+    <stop arrival="11:36" departure="11:36">Nygaten</stop>
+    <stop arrival="11:37" departure="11:37">Statsporten (jernbanen)</stop>
+    <stop arrival="11:40" departure="11:40">Kalfarlien</stop>
+    <stop arrival="11:41" departure="11:41">Kalvedalsveien</stop>
+    <stop arrival="11:42" departure="11:42">Svartediksveien</stop>
+    <stop arrival="11:43" departure="11:43">Statsarkivet</stop>
+    <stop arrival="11:44" departure="11:44">Haraldsplass sykehus</stop>
+    <stop arrival="11:45" departure="11:45">Haukeland sykehus nord</stop>
+    <stop arrival="11:45" departure="11:45">Haukeland sykehus sør</stop>
+    <stop arrival="11:46" departure="11:46">Fridalen</stop>
+    <stop arrival="11:46" departure="11:46">Langhaugen</stop>
+    <stop arrival="11:47" departure="11:47">Landåssvingen</stop>
+    <stop arrival="11:47" departure="11:47">Landåstorget</stop>
+    <stop arrival="11:47" departure="11:47">Erleveien</stop>
+    <stop arrival="11:48" departure="11:48">Wier-Jenssens vei</stop>
+    <stop arrival="11:48" departure="11:48">Mannsverk</stop>
+    <stop arrival="11:49" departure="11:49">Bolstad</stop>
+    <stop arrival="11:50" departure="11:50">Hans Jægers vei</stop>
+    <stop arrival="11:51" departure="11:51">Kolstibotn</stop>
+    <stop arrival="11:52" departure="11:52">Knausen</stop>
+    <stop arrival="11:53" departure="11:53">Birkelundstoppen</stop>
+    <stop arrival="11:54" departure="11:54">Birkelundsbakken</stop>
+    <stop arrival="11:54" departure="11:54">Natlandslien</stop>
+    <stop arrival="11:54" departure="11:54">Stavkirken</stop>
+    <stop arrival="11:55" departure="11:55">Paradis</stop>
+    <stop arrival="11:56" departure="11:56">Tveiteråsskiftet</stop>
+    <stop arrival="11:57" departure="11:57">Hopsbro</stop>
+    <stop arrival="11:59" departure="11:59">Hopstangen</stop>
+    <stop arrival="12:00" departure="12:00">Nesttun terminal</stop>
+    <stop arrival="12:02" departure="12:02">Nesttun</stop>
+    <stop arrival="12:05" departure="12:05">Skjoldskiftet</stop>
+    <stop arrival="12:06" departure="12:06">Nesttunbrekka</stop>
+    <stop arrival="12:06" departure="12:06">Mårdalen</stop>
+    <stop arrival="12:07" departure="12:07">Skjoldhøgda</stop>
+    <stop arrival="12:09" departure="12:09">Skjold skole</stop>
+    <stop arrival="12:10" departure="12:10">Lagunen</stop>
+    <stop arrival="12:11" departure="12:11">Rådal</stop>
+    <stop arrival="12:12" departure="12:12">Meyerskiftet</stop>
+    <stop arrival="12:15" departure="12:15">Håvardstun</stop>
+    <stop arrival="12:16" departure="12:16">Statoil stasjon Sandsli</stop>
+    <stop arrival="12:17" departure="12:17">Hydro Sandsli</stop>
+    <stop arrival="12:18" departure="12:18">Petedalsheia</stop>
+    <stop arrival="12:19" departure="12:19">Fanatorget</stop>
+    <stop arrival="12:19" departure="12:19">Regnbueåsen</stop>
+    <stop arrival="12:20">Dolvik terminal</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/360864/125054/659028/209227/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="11:00" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="11:01" departure="11:01">Breimyra</stop>
+    <stop arrival="11:02" departure="11:02">Ulvhøyen</stop>
+    <stop arrival="11:03" departure="11:03">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:04" departure="11:04">Flaktveitsvingane</stop>
+    <stop arrival="11:05" departure="11:05">Flaktveitrinden</stop>
+    <stop arrival="11:07" departure="11:07">Lid (Åsane)</stop>
+    <stop arrival="11:08" departure="11:08">Liakroken</stop>
+    <stop arrival="11:09" departure="11:09">Industrihuset</stop>
+    <stop arrival="11:10" departure="11:10">Gullgruven</stop>
+    <stop arrival="11:12" departure="11:12">Nyborg</stop>
+    <stop arrival="11:13" departure="11:13">Salhuskrysset</stop>
+    <stop arrival="11:14" departure="11:14">Litleåskryss</stop>
+    <stop arrival="11:14" departure="11:14">Rollandskrysset</stop>
+    <stop arrival="11:15" departure="11:15">Åsane terminal</stop>
+    <stop arrival="11:20" departure="11:20">Eidsvåg</stop>
+    <stop arrival="11:22" departure="11:22">Handelshøyskolen</stop>
+    <stop arrival="11:23" departure="11:23">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:24" departure="11:24">Munkebotten</stop>
+    <stop arrival="11:25" departure="11:25">Ludebryggen</stop>
+    <stop arrival="11:27" departure="11:27">Sandvikstorget</stop>
+    <stop arrival="11:29" departure="11:29">Skutevikstorget</stop>
+    <stop arrival="11:29" departure="11:29">Bontelabo</stop>
+    <stop arrival="11:30" departure="11:30">Slottsgaten</stop>
+    <stop arrival="11:31" departure="11:31">Bryggen</stop>
+    <stop arrival="11:32" departure="11:32">Olav Kyrres gate</stop>
+    <stop arrival="11:37" departure="11:37">Bergen Busstasjon</stop>
+    <stop arrival="11:42" departure="11:42">Gyldenpris</stop>
+    <stop arrival="11:46" departure="11:46">Løvstakktunnelen</stop>
+    <stop arrival="11:46" departure="11:46">Sikthaugen</stop>
+    <stop arrival="11:48" departure="11:48">Lynghaug skole</stop>
+    <stop arrival="11:48" departure="11:48">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:49" departure="11:49">Træet (Benshaugen)</stop>
+    <stop arrival="11:50" departure="11:50">Hjalmar Brantings vei</stop>
+    <stop arrival="11:50" departure="11:50">Sælemyr</stop>
+    <stop arrival="11:51" departure="11:51">Lyshovden skole</stop>
+    <stop arrival="11:51" departure="11:51">Ortustranden</stop>
+    <stop arrival="11:52" departure="11:52">Smiberget</stop>
+    <stop arrival="11:53" departure="11:53">Torgny Segersteds vei</stop>
+    <stop arrival="11:54" departure="11:54">Sælen skole</stop>
+    <stop arrival="11:56" departure="11:56">Skarphaugen</stop>
+    <stop arrival="11:57">Oasen Terminal</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/854805/289717/391084/89394/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:00" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="11:01" departure="11:01">Breimyra</stop>
+    <stop arrival="11:02" departure="11:02">Ulvhøyen</stop>
+    <stop arrival="11:03" departure="11:03">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:04" departure="11:04">Flaktveitsvingane</stop>
+    <stop arrival="11:05" departure="11:05">Flaktveitrinden</stop>
+    <stop arrival="11:07" departure="11:07">Lid (Åsane)</stop>
+    <stop arrival="11:08" departure="11:08">Liakroken</stop>
+    <stop arrival="11:09" departure="11:09">Industrihuset</stop>
+    <stop arrival="11:10" departure="11:10">Gullgruven</stop>
+    <stop arrival="11:12" departure="11:12">Nyborg</stop>
+    <stop arrival="11:13" departure="11:13">Salhuskrysset</stop>
+    <stop arrival="11:14" departure="11:14">Litleåskryss</stop>
+    <stop arrival="11:14" departure="11:14">Rollandskrysset</stop>
+    <stop arrival="11:15" departure="11:15">Åsane terminal</stop>
+    <stop arrival="11:20" departure="11:20">Eidsvåg</stop>
+    <stop arrival="11:22" departure="11:22">Handelshøyskolen</stop>
+    <stop arrival="11:23" departure="11:23">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:25" departure="11:25">Munkebotten</stop>
+    <stop arrival="11:26" departure="11:26">Ludebryggen</stop>
+    <stop arrival="11:29" departure="11:29">Sandvikstorget</stop>
+    <stop arrival="11:31" departure="11:31">Skutevikstorget</stop>
+    <stop arrival="11:32" departure="11:32">Bontelabo</stop>
+    <stop arrival="11:33" departure="11:33">Slottsgaten</stop>
+    <stop arrival="11:34" departure="11:34">Bryggen</stop>
+    <stop arrival="11:35" departure="11:35">Olav Kyrres gate</stop>
+    <stop arrival="11:40" departure="11:40">Bergen Busstasjon</stop>
+    <stop arrival="11:45" departure="11:45">Gyldenpris</stop>
+    <stop arrival="11:49" departure="11:49">Løvstakktunnelen</stop>
+    <stop arrival="11:49" departure="11:49">Sikthaugen</stop>
+    <stop arrival="11:51" departure="11:51">Lynghaug skole</stop>
+    <stop arrival="11:51" departure="11:51">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:52" departure="11:52">Træet (Benshaugen)</stop>
+    <stop arrival="11:53" departure="11:53">Hjalmar Brantings vei</stop>
+    <stop arrival="11:53" departure="11:53">Sælemyr</stop>
+    <stop arrival="11:54" departure="11:54">Lyshovden skole</stop>
+    <stop arrival="11:54" departure="11:54">Ortustranden</stop>
+    <stop arrival="11:55" departure="11:55">Smiberget</stop>
+    <stop arrival="11:56" departure="11:56">Torgny Segersteds vei</stop>
+    <stop arrival="11:57" departure="11:57">Sælen skole</stop>
+    <stop arrival="11:59" departure="11:59">Skarphaugen</stop>
+    <stop arrival="12:00">Oasen Terminal</stop>
+  </route>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/252759/89172/257238/44372/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:00" routeNo="90">Støbotn snuplass</stop>
+    <stop arrival="11:01" departure="11:01">Toppe</stop>
+    <stop arrival="11:02" departure="11:02">Marikollen</stop>
+    <stop arrival="11:02" departure="11:02">Slettestølen</stop>
+    <stop arrival="11:03" departure="11:03">Lokketodalen</stop>
+    <stop arrival="11:04" departure="11:04">Saudalskleivane</stop>
+    <stop arrival="11:06" departure="11:06">Kollbudalen</stop>
+    <stop arrival="11:07" departure="11:07">Bakketoppen, Morvik</stop>
+    <stop arrival="11:08" departure="11:08">Viddalen</stop>
+    <stop arrival="11:10" departure="11:10">Morvikbotn</stop>
+    <stop arrival="11:11" departure="11:11">Torvbakken</stop>
+    <stop arrival="11:12" departure="11:12">Spondalen</stop>
+    <stop arrival="11:13" departure="11:13">Flatevad</stop>
+    <stop arrival="11:14" departure="11:14">Åsane Brannstasjon</stop>
+    <stop arrival="11:15" departure="11:15">Åsane terminal</stop>
+    <stop arrival="11:20" departure="11:20">Eidsvåg</stop>
+    <stop arrival="11:22" departure="11:22">Handelshøyskolen</stop>
+    <stop arrival="11:24" departure="11:24">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:26" departure="11:26">Munkebotten</stop>
+    <stop arrival="11:27" departure="11:27">Ludebryggen</stop>
+    <stop arrival="11:28" departure="11:28">Sandvikstorget</stop>
+    <stop arrival="11:30" departure="11:30">Skutevikstorget</stop>
+    <stop arrival="11:31" departure="11:31">Bontelabo</stop>
+    <stop arrival="11:32" departure="11:32">Slottsgaten</stop>
+    <stop arrival="11:34" departure="11:34">Bryggen</stop>
+    <stop arrival="11:35" departure="11:35">Olav Kyrres gate</stop>
+    <stop arrival="11:40" departure="11:40">Bergen Busstasjon</stop>
+    <stop arrival="11:46" departure="11:46">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="11:49" departure="11:49">Bjørnsons gate</stop>
+    <stop arrival="11:52" departure="11:52">Haukelandsveien</stop>
+    <stop arrival="11:53" departure="11:53">Fridalen</stop>
+    <stop arrival="11:54" departure="11:54">Langhaugen</stop>
+    <stop arrival="11:55" departure="11:55">Landåssvingen</stop>
+    <stop arrival="11:56" departure="11:56">Hagerups vei</stop>
+    <stop arrival="11:57" departure="11:57">Fageråsen</stop>
+    <stop arrival="11:58" departure="11:58">Sletten Shoppingsenter</stop>
+    <stop arrival="11:59" departure="11:59">Bergenshallen</stop>
+    <stop arrival="12:00" departure="12:00">Johan Hjorts vei</stop>
+    <stop arrival="12:02">Sletten (Bergen)</stop>
+  </route>
+  <route no="21" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/491283/167704/848562/260520/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:20" routeNo="21">Søråshøgda snuplass</stop>
+    <stop arrival="10:21" departure="10:21">Søråsgrenda</stop>
+    <stop arrival="10:23" departure="10:23">Nordåsgrenda</stop>
+    <stop arrival="10:24" departure="10:24">Nordåstræet</stop>
+    <stop arrival="10:25" departure="10:25">Nordås</stop>
+    <stop arrival="10:27" departure="10:27">Nordåstræet</stop>
+    <stop arrival="10:28" departure="10:28">Nordåsgrenda</stop>
+    <stop arrival="10:28" departure="10:28">Kilden senter</stop>
+    <stop arrival="10:29" departure="10:29">Søråsveien</stop>
+    <stop arrival="10:30" departure="10:30">Skjold skole</stop>
+    <stop arrival="10:32" departure="10:32">Mårdalen</stop>
+    <stop arrival="10:33" departure="10:33">Nesttunbrekka</stop>
+    <stop arrival="10:33" departure="10:33">Skjoldskiftet</stop>
+    <stop arrival="10:34" departure="10:34">Nesttun</stop>
+    <stop arrival="10:35" departure="10:35">Nesttun terminal</stop>
+    <stop arrival="10:37" departure="10:37">Hopsbro</stop>
+    <stop arrival="10:39" departure="10:39">Tveiteråsskiftet</stop>
+    <stop arrival="10:40" departure="10:40">Paradis</stop>
+    <stop arrival="10:42" departure="10:42">Nydalen</stop>
+    <stop arrival="10:44" departure="10:44">Fantoft</stop>
+    <stop arrival="10:45" departure="10:45">Storetveit</stop>
+    <stop arrival="10:45" departure="10:45">Elvebakken</stop>
+    <stop arrival="10:46" departure="10:46">Minde</stop>
+    <stop arrival="10:49" departure="10:49">Mindemyren</stop>
+    <stop arrival="10:50" departure="10:50">Postterminalen</stop>
+    <stop arrival="10:50" departure="10:50">Kanalveien v/LBK</stop>
+    <stop arrival="10:52" departure="10:52">Danmarksplass v/Forum kino</stop>
+    <stop arrival="10:57" departure="10:57">Bergen Busstasjon</stop>
+    <stop arrival="11:00" departure="11:00">Christies gate (Festplassen)</stop>
+    <stop arrival="11:03" departure="11:03">Torget v/DnB</stop>
+    <stop arrival="11:04" departure="11:04">Bryggen</stop>
+    <stop arrival="11:04" departure="11:04">Slottsgaten</stop>
+    <stop arrival="11:05" departure="11:05">Bontelabo</stop>
+    <stop arrival="11:06" departure="11:06">Skutevikstorget</stop>
+    <stop arrival="11:06" departure="11:06">Sjøgaten</stop>
+    <stop arrival="11:07" departure="11:07">Sandvikstorget</stop>
+    <stop arrival="11:08" departure="11:08">Ludebryggen</stop>
+    <stop arrival="11:08" departure="11:08">Munkebotten</stop>
+    <stop arrival="11:10" departure="11:10">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:11" departure="11:11">Handelshøyskolen</stop>
+    <stop arrival="11:12" departure="11:12">Solbakken</stop>
+    <stop arrival="11:13" departure="11:13">Eikeviken</stop>
+    <stop arrival="11:15" departure="11:15">Hellebakken</stop>
+    <stop arrival="11:15" departure="11:15">Brunestykket</stop>
+    <stop arrival="11:16" departure="11:16">Lønborg</stop>
+    <stop arrival="11:17" departure="11:17">Nordre Lønborg</stop>
+    <stop arrival="11:17" departure="11:17">Fagerbakken</stop>
+    <stop arrival="11:18" departure="11:18">Eidsvågneset</stop>
+    <stop arrival="11:18" departure="11:18">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:18" departure="11:18">Trollbekken</stop>
+    <stop arrival="11:19" departure="11:19">Tømmervågen</stop>
+    <stop arrival="11:19" departure="11:19">Lillevågen</stop>
+    <stop arrival="11:20" departure="11:20">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:21" departure="11:21">Fabrikkvegen</stop>
+    <stop arrival="11:22" departure="11:22">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:23" departure="11:23">Selvikvegen</stop>
+    <stop arrival="11:24" departure="11:24">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:25" departure="11:25">Ervik øvre</stop>
+    <stop arrival="11:25" departure="11:25">Åstveitvegen</stop>
+    <stop arrival="11:27" departure="11:27">Griggastemma</stop>
+    <stop arrival="11:27" departure="11:27">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:29" departure="11:29">Stamskaret</stop>
+    <stop arrival="11:30" departure="11:30">Hesthaugen</stop>
+    <stop arrival="11:31">Åsane terminal</stop>
+  </route>
+  <route no="22" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/365874/125964/817354/286719/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="11:16" routeNo="22">Åsane terminal</stop>
+    <stop arrival="11:17" departure="11:17">Hesthaugen</stop>
+    <stop arrival="11:18" departure="11:18">Stamskaret</stop>
+    <stop arrival="11:19" departure="11:19">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:19" departure="11:19">Griggastemma</stop>
+    <stop arrival="11:20" departure="11:20">Åstveitvegen</stop>
+    <stop arrival="11:20" departure="11:20">Ervik øvre</stop>
+    <stop arrival="11:21" departure="11:21">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:21" departure="11:21">Selvikvegen</stop>
+    <stop arrival="11:22" departure="11:22">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:23" departure="11:23">Fabrikkvegen</stop>
+    <stop arrival="11:25" departure="11:25">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:27" departure="11:27">Lillevågen</stop>
+    <stop arrival="11:28" departure="11:28">Tømmervågen</stop>
+    <stop arrival="11:28" departure="11:28">Trollbekken</stop>
+    <stop arrival="11:29" departure="11:29">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:31" departure="11:31">Fagerbakken</stop>
+    <stop arrival="11:32" departure="11:32">Nordre Lønborg</stop>
+    <stop arrival="11:33" departure="11:33">Lønborg</stop>
+    <stop arrival="11:33" departure="11:33">Brunestykket</stop>
+    <stop arrival="11:34" departure="11:34">Hellebakken</stop>
+    <stop arrival="11:35" departure="11:35">Eikeviken</stop>
+    <stop arrival="11:36" departure="11:36">Solbakken</stop>
+    <stop arrival="11:37" departure="11:37">Handelshøyskolen</stop>
+    <stop arrival="11:39" departure="11:39">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:41" departure="11:41">Munkebotten</stop>
+    <stop arrival="11:42" departure="11:42">Ludebryggen</stop>
+    <stop arrival="11:43" departure="11:43">Sandvikstorget</stop>
+    <stop arrival="11:45" departure="11:45">Skutevikstorget</stop>
+    <stop arrival="11:46" departure="11:46">Bontelabo</stop>
+    <stop arrival="11:48" departure="11:48">Slottsgaten</stop>
+    <stop arrival="11:49" departure="11:49">Bryggen</stop>
+    <stop arrival="11:50" departure="11:50">Olav Kyrres gate</stop>
+    <stop arrival="11:57" departure="11:57">Bergen Busstasjon</stop>
+    <stop arrival="12:01" departure="12:01">Danmarksplass</stop>
+    <stop arrival="12:02" departure="12:02">Solheimsgaten</stop>
+    <stop arrival="12:03" departure="12:03">Reperbanen</stop>
+    <stop arrival="12:04" departure="12:04">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="12:07" departure="12:07">Minde</stop>
+    <stop arrival="12:08" departure="12:08">Elvebakken</stop>
+    <stop arrival="12:09" departure="12:09">Storetveit</stop>
+    <stop arrival="12:09" departure="12:09">Fantoft</stop>
+    <stop arrival="12:10" departure="12:10">Nydalen</stop>
+    <stop arrival="12:11" departure="12:11">Paradis</stop>
+    <stop arrival="12:12" departure="12:12">Tveiteråsskiftet</stop>
+    <stop arrival="12:13" departure="12:13">Hopsbro</stop>
+    <stop arrival="12:15" departure="12:15">Hopstangen</stop>
+    <stop arrival="12:16" departure="12:16">Nesttun terminal</stop>
+    <stop arrival="12:17" departure="12:17">Nesttun</stop>
+    <stop arrival="12:17" departure="12:17">Herredshuset, Nesttun</stop>
+    <stop arrival="12:18" departure="12:18">Midtun bro</stop>
+    <stop arrival="12:20" departure="12:20">Midttunflaten</stop>
+    <stop arrival="12:21" departure="12:21">Sandbrekkeveien</stop>
+    <stop arrival="12:21" departure="12:21">Sandalskollen</stop>
+    <stop arrival="12:23" departure="12:23">Kringlebotn</stop>
+    <stop arrival="12:24" departure="12:24">Kjenndalslia</stop>
+    <stop arrival="12:25" departure="12:25">Kjenndalsåsen</stop>
+    <stop arrival="12:26" departure="12:26">Sandalsringen snuplass</stop>
+    <stop arrival="12:27" departure="12:27">Helldalslia</stop>
+    <stop arrival="12:28" departure="12:28">Helldalslia</stop>
+    <stop arrival="12:28" departure="12:28">Indre Sædal</stop>
+    <stop arrival="12:30" departure="12:30">Rinddalen</stop>
+    <stop arrival="12:32" departure="12:32">Merkurvegen (nyeveien)</stop>
+    <stop arrival="12:33" departure="12:33">Nattland gård (nyeveien)</stop>
+    <stop arrival="12:35">Birkelundstoppen</stop>
+  </route>
+  <route no="280" destination="Klauvarinden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/915144/310192/582064/14016/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="11:10" routeNo="280">Bergen Busstasjon</stop>
+    <stop arrival="11:11" departure="11:11">Christies gate (Festplassen)</stop>
+    <stop arrival="11:13" departure="11:13">Torget (Bergen)</stop>
+    <stop arrival="11:14" departure="11:14">Bryggen</stop>
+    <stop arrival="11:14" departure="11:14">Slottsgaten</stop>
+    <stop arrival="11:16" departure="11:16">Bontelabo</stop>
+    <stop arrival="11:16" departure="11:16">Skutevikstorget</stop>
+    <stop arrival="11:17" departure="11:17">Sjøgaten</stop>
+    <stop arrival="11:18" departure="11:18">Sandvikstorget</stop>
+    <stop arrival="11:19" departure="11:19">Ludebryggen</stop>
+    <stop arrival="11:20" departure="11:20">Munkebotten</stop>
+    <stop arrival="11:21" departure="11:21">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:23" departure="11:23">Handelshøyskolen</stop>
+    <stop arrival="11:25" departure="11:25">Eidsvåg</stop>
+    <stop arrival="11:30" departure="11:30">Åsane terminal</stop>
+    <stop arrival="11:31" departure="11:31">Rollandskrysset</stop>
+    <stop arrival="11:31" departure="11:31">Litleåskryss</stop>
+    <stop arrival="11:32" departure="11:32">Salhuskrysset</stop>
+    <stop arrival="11:33" departure="11:33">Nyborg</stop>
+    <stop arrival="11:34" departure="11:34">Domus Nyborg</stop>
+    <stop arrival="11:34" departure="11:34">Liavegen (Åsane)</stop>
+    <stop arrival="11:35" departure="11:35">Vågsbotn</stop>
+    <stop arrival="11:35" departure="11:35">Eikås</stop>
+    <stop arrival="11:36" departure="11:36">Vikaleitet</stop>
+    <stop arrival="11:39" departure="11:39">Haukåsvegen</stop>
+    <stop arrival="11:40" departure="11:40">Haukås barnehage</stop>
+    <stop arrival="11:40" departure="11:40">Myrsæter</stop>
+    <stop arrival="11:41" departure="11:41">Haukåsskogen</stop>
+    <stop arrival="11:42" departure="11:42">Almåsvegen</stop>
+    <stop arrival="11:43" departure="11:43">Hylkje</stop>
+    <stop arrival="11:44" departure="11:44">Tuft (Åsane)</stop>
+    <stop arrival="11:45" departure="11:45">Langamyrene</stop>
+    <stop arrival="11:45" departure="11:45">Nesjavegen</stop>
+    <stop arrival="11:46" departure="11:46">Grøvle (Åsane)</stop>
+    <stop arrival="11:46" departure="11:46">Hordvikhamnen</stop>
+    <stop arrival="11:47" departure="11:47">Ulstein kryss</stop>
+    <stop arrival="11:47" departure="11:47">Ulstein</stop>
+    <stop arrival="11:48" departure="11:48">Ulstein snuplass</stop>
+    <stop arrival="11:50" departure="11:50">Grøvle (Åsane)</stop>
+    <stop arrival="11:50" departure="11:50">Grøvlesvingen</stop>
+    <stop arrival="11:51" departure="11:51">Hordvik gård</stop>
+    <stop arrival="11:52" departure="11:52">Hordvik skole</stop>
+    <stop arrival="11:53" departure="11:53">Falkangervegen</stop>
+    <stop arrival="11:54" departure="11:54">Tellevik</stop>
+    <stop arrival="11:55">Klauvarinden</stop>
+  </route>
+  <route no="280" destination="Salhus kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/870105/295194/117608/231232/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:10" routeNo="280">Bergen Busstasjon</stop>
+    <stop arrival="11:11" departure="11:11">Christies gate (Festplassen)</stop>
+    <stop arrival="11:13" departure="11:13">Torget (Bergen)</stop>
+    <stop arrival="11:14" departure="11:14">Bryggen</stop>
+    <stop arrival="11:14" departure="11:14">Slottsgaten</stop>
+    <stop arrival="11:16" departure="11:16">Bontelabo</stop>
+    <stop arrival="11:16" departure="11:16">Skutevikstorget</stop>
+    <stop arrival="11:17" departure="11:17">Sjøgaten</stop>
+    <stop arrival="11:18" departure="11:18">Sandvikstorget</stop>
+    <stop arrival="11:19" departure="11:19">Ludebryggen</stop>
+    <stop arrival="11:20" departure="11:20">Munkebotten</stop>
+    <stop arrival="11:21" departure="11:21">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:23" departure="11:23">Handelshøyskolen</stop>
+    <stop arrival="11:25" departure="11:25">Eidsvåg</stop>
+    <stop arrival="11:30" departure="11:30">Åsane terminal</stop>
+    <stop arrival="11:31" departure="11:31">Rollandskrysset</stop>
+    <stop arrival="11:31" departure="11:31">Litleåskryss</stop>
+    <stop arrival="11:32" departure="11:32">Salhuskrysset</stop>
+    <stop arrival="11:33" departure="11:33">Nyborg</stop>
+    <stop arrival="11:35" departure="11:35">Domus Nyborg</stop>
+    <stop arrival="11:36" departure="11:36">Liavegen (Åsane)</stop>
+    <stop arrival="11:37" departure="11:37">Vågsbotn</stop>
+    <stop arrival="11:37" departure="11:37">Eikås</stop>
+    <stop arrival="11:38" departure="11:38">Vikaleitet</stop>
+    <stop arrival="11:39" departure="11:39">Haukåsvegen</stop>
+    <stop arrival="11:40" departure="11:40">Haukås barnehage</stop>
+    <stop arrival="11:40" departure="11:40">Myrsæter</stop>
+    <stop arrival="11:41" departure="11:41">Haukåsskogen</stop>
+    <stop arrival="11:42" departure="11:42">Almåsvegen</stop>
+    <stop arrival="11:43" departure="11:43">Hylkje</stop>
+    <stop arrival="11:44" departure="11:44">Tuft (Åsane)</stop>
+    <stop arrival="11:45" departure="11:45">Langamyrene</stop>
+    <stop arrival="11:45" departure="11:45">Nesjavegen</stop>
+    <stop arrival="11:46" departure="11:46">Grøvle (Åsane)</stop>
+    <stop arrival="11:46" departure="11:46">Hordvikhamnen</stop>
+    <stop arrival="11:47" departure="11:47">Ulstein kryss</stop>
+    <stop arrival="11:47" departure="11:47">Ulstein</stop>
+    <stop arrival="11:48" departure="11:48">Ulstein snuplass</stop>
+    <stop arrival="11:52" departure="11:52">Grøvle (Åsane)</stop>
+    <stop arrival="11:52" departure="11:52">Grøvlesvingen</stop>
+    <stop arrival="11:54" departure="11:54">Hordvik gård</stop>
+    <stop arrival="11:55" departure="11:55">Hordvik skole</stop>
+    <stop arrival="11:55" departure="11:55">Falkangervegen</stop>
+    <stop arrival="11:57" departure="11:57">Tellevik</stop>
+    <stop arrival="11:58" departure="11:58">Klauvarinden</stop>
+    <stop arrival="11:59" departure="11:59">Sveisbakken</stop>
+    <stop arrival="12:02" departure="12:02">Slettebakken</stop>
+    <stop arrival="12:04" departure="12:04">Samhold</stop>
+    <stop arrival="12:05">Salhus kai</stop>
+  </route>
+  <route no="280" destination="Salhus kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/364995/126854/682468/219569/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:10" routeNo="280">Bergen Busstasjon</stop>
+    <stop arrival="11:11" departure="11:11">Christies gate (Festplassen)</stop>
+    <stop arrival="11:13" departure="11:13">Torget (Bergen)</stop>
+    <stop arrival="11:14" departure="11:14">Bryggen</stop>
+    <stop arrival="11:14" departure="11:14">Slottsgaten</stop>
+    <stop arrival="11:16" departure="11:16">Bontelabo</stop>
+    <stop arrival="11:16" departure="11:16">Skutevikstorget</stop>
+    <stop arrival="11:17" departure="11:17">Sjøgaten</stop>
+    <stop arrival="11:18" departure="11:18">Sandvikstorget</stop>
+    <stop arrival="11:19" departure="11:19">Ludebryggen</stop>
+    <stop arrival="11:20" departure="11:20">Munkebotten</stop>
+    <stop arrival="11:21" departure="11:21">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:23" departure="11:23">Handelshøyskolen</stop>
+    <stop arrival="11:25" departure="11:25">Eidsvåg</stop>
+    <stop arrival="11:30" departure="11:30">Åsane terminal</stop>
+    <stop arrival="11:31" departure="11:31">Rollandskrysset</stop>
+    <stop arrival="11:31" departure="11:31">Litleåskryss</stop>
+    <stop arrival="11:32" departure="11:32">Salhuskrysset</stop>
+    <stop arrival="11:33" departure="11:33">Nyborg</stop>
+    <stop arrival="11:35" departure="11:35">Domus Nyborg</stop>
+    <stop arrival="11:36" departure="11:36">Liavegen (Åsane)</stop>
+    <stop arrival="11:37" departure="11:37">Vågsbotn</stop>
+    <stop arrival="11:37" departure="11:37">Eikås</stop>
+    <stop arrival="11:38" departure="11:38">Vikaleitet</stop>
+    <stop arrival="11:39" departure="11:39">Haukåsvegen</stop>
+    <stop arrival="11:40" departure="11:40">Haukås barnehage</stop>
+    <stop arrival="11:40" departure="11:40">Myrsæter</stop>
+    <stop arrival="11:41" departure="11:41">Haukåsskogen</stop>
+    <stop arrival="11:42" departure="11:42">Almåsvegen</stop>
+    <stop arrival="11:43" departure="11:43">Hylkje</stop>
+    <stop arrival="11:44" departure="11:44">Tuft (Åsane)</stop>
+    <stop arrival="11:45" departure="11:45">Langamyrene</stop>
+    <stop arrival="11:45" departure="11:45">Nesjavegen</stop>
+    <stop arrival="11:46" departure="11:46">Grøvle (Åsane)</stop>
+    <stop arrival="11:46" departure="11:46">Hordvikhamnen</stop>
+    <stop arrival="11:47" departure="11:47">Ulstein kryss</stop>
+    <stop arrival="11:47" departure="11:47">Ulstein</stop>
+    <stop arrival="11:48" departure="11:48">Ulstein snuplass</stop>
+    <stop arrival="11:50" departure="11:50">Grøvle (Åsane)</stop>
+    <stop arrival="11:50" departure="11:50">Grøvlesvingen</stop>
+    <stop arrival="11:51" departure="11:51">Hordvik gård</stop>
+    <stop arrival="11:52" departure="11:52">Hordvik skole</stop>
+    <stop arrival="11:53" departure="11:53">Falkangervegen</stop>
+    <stop arrival="11:54" departure="11:54">Tellevik</stop>
+    <stop arrival="11:55" departure="11:55">Klauvarinden</stop>
+    <stop arrival="11:57" departure="11:57">Sveisbakken</stop>
+    <stop arrival="12:01" departure="12:01">Slettebakken</stop>
+    <stop arrival="12:04" departure="12:04">Samhold</stop>
+    <stop arrival="12:05">Salhus kai</stop>
+  </route>
+  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/910056/308052/265074/170815/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:05" routeNo="71">Viddalen</stop>
+    <stop arrival="11:07" departure="11:07">Bryggedalen</stop>
+    <stop arrival="11:08" departure="11:08">Åsane sand + singel</stop>
+    <stop arrival="11:08" departure="11:08">Kvernevikstemma</stop>
+    <stop arrival="11:09" departure="11:09">Tertitten</stop>
+    <stop arrival="11:10" departure="11:10">Bekkjarvik (Åsane)</stop>
+    <stop arrival="11:11" departure="11:11">Nesmyr</stop>
+    <stop arrival="11:11" departure="11:11">Storevarden</stop>
+    <stop arrival="11:12" departure="11:12">Kipo</stop>
+    <stop arrival="11:12" departure="11:12">Bekkjarvikkryss (Åsane)</stop>
+    <stop arrival="11:13" departure="11:13">Sjøveien</stop>
+    <stop arrival="11:14" departure="11:14">Haukedalsvegen</stop>
+    <stop arrival="11:15" departure="11:15">Botnane</stop>
+    <stop arrival="11:16" departure="11:16">Haukeberget</stop>
+    <stop arrival="11:17" departure="11:17">Ulsetåsen</stop>
+    <stop arrival="11:18" departure="11:18">Åsane Brannstasjon</stop>
+    <stop arrival="11:20" departure="11:20">Åsane terminal</stop>
+    <stop arrival="11:21" departure="11:21">Hesthaugen</stop>
+    <stop arrival="11:22" departure="11:22">Stamskaret</stop>
+    <stop arrival="11:23" departure="11:23">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:26" departure="11:26">Eidsvåg</stop>
+    <stop arrival="11:28" departure="11:28">Handelshøyskolen</stop>
+    <stop arrival="11:30" departure="11:30">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:32" departure="11:32">Munkebotten</stop>
+    <stop arrival="11:33" departure="11:33">Ludebryggen</stop>
+    <stop arrival="11:34" departure="11:34">Sandvikstorget</stop>
+    <stop arrival="11:36" departure="11:36">Skutevikstorget</stop>
+    <stop arrival="11:37" departure="11:37">Bontelabo</stop>
+    <stop arrival="11:38" departure="11:38">Slottsgaten</stop>
+    <stop arrival="11:40" departure="11:40">Bryggen</stop>
+    <stop arrival="11:41" departure="11:41">Olav Kyrres gate</stop>
+    <stop arrival="11:44" departure="11:44">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="11:46" departure="11:46">Gyldenpris</stop>
+    <stop arrival="11:47" departure="11:47">Solveien</stop>
+    <stop arrival="11:48" departure="11:48">Jansongården</stop>
+    <stop arrival="11:50" departure="11:50">Fergeveien</stop>
+    <stop arrival="11:50" departure="11:50">Vågedalen</stop>
+    <stop arrival="11:52" departure="11:52">Oldernes</stop>
+    <stop arrival="11:52" departure="11:52">Kringsjå</stop>
+    <stop arrival="11:54" departure="11:54">Nygård, Laksevåg</stop>
+    <stop arrival="11:54" departure="11:54">Haustbeitet</stop>
+    <stop arrival="11:55" departure="11:55">Nygårdslien</stop>
+    <stop arrival="11:56" departure="11:56">Lyngbøveien</stop>
+    <stop arrival="11:57" departure="11:57">Nipedalen v/Lyngbøveien</stop>
+    <stop arrival="11:58" departure="11:58">Nipedalen v/nr. 23</stop>
+    <stop arrival="12:00" departure="12:00">Lyngbøkollen</stop>
+    <stop arrival="12:01">Nipedalen</stop>
+  </route>
+  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/705138/239774/2366/233868/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:05" routeNo="71">Viddalen</stop>
+    <stop arrival="11:07" departure="11:07">Bryggedalen</stop>
+    <stop arrival="11:08" departure="11:08">Åsane sand + singel</stop>
+    <stop arrival="11:08" departure="11:08">Kvernevikstemma</stop>
+    <stop arrival="11:09" departure="11:09">Tertitten</stop>
+    <stop arrival="11:10" departure="11:10">Bekkjarvik (Åsane)</stop>
+    <stop arrival="11:11" departure="11:11">Nesmyr</stop>
+    <stop arrival="11:11" departure="11:11">Storevarden</stop>
+    <stop arrival="11:12" departure="11:12">Kipo</stop>
+    <stop arrival="11:12" departure="11:12">Bekkjarvikkryss (Åsane)</stop>
+    <stop arrival="11:13" departure="11:13">Sjøveien</stop>
+    <stop arrival="11:14" departure="11:14">Haukedalsvegen</stop>
+    <stop arrival="11:15" departure="11:15">Botnane</stop>
+    <stop arrival="11:16" departure="11:16">Haukeberget</stop>
+    <stop arrival="11:17" departure="11:17">Ulsetåsen</stop>
+    <stop arrival="11:18" departure="11:18">Åsane Brannstasjon</stop>
+    <stop arrival="11:20" departure="11:20">Åsane terminal</stop>
+    <stop arrival="11:21" departure="11:21">Hesthaugen</stop>
+    <stop arrival="11:22" departure="11:22">Stamskaret</stop>
+    <stop arrival="11:23" departure="11:23">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:26" departure="11:26">Eidsvåg</stop>
+    <stop arrival="11:28" departure="11:28">Handelshøyskolen</stop>
+    <stop arrival="11:30" departure="11:30">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:32" departure="11:32">Munkebotten</stop>
+    <stop arrival="11:33" departure="11:33">Ludebryggen</stop>
+    <stop arrival="11:34" departure="11:34">Sandvikstorget</stop>
+    <stop arrival="11:36" departure="11:36">Skutevikstorget</stop>
+    <stop arrival="11:37" departure="11:37">Bontelabo</stop>
+    <stop arrival="11:38" departure="11:38">Slottsgaten</stop>
+    <stop arrival="11:40" departure="11:40">Bryggen</stop>
+    <stop arrival="11:41" departure="11:41">Olav Kyrres gate</stop>
+    <stop arrival="11:44" departure="11:44">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="11:46" departure="11:46">Gyldenpris</stop>
+    <stop arrival="11:47" departure="11:47">Solveien</stop>
+    <stop arrival="11:48" departure="11:48">Jansongården</stop>
+    <stop arrival="11:50" departure="11:50">Fergeveien</stop>
+    <stop arrival="11:51" departure="11:51">Vågedalen</stop>
+    <stop arrival="11:53" departure="11:53">Oldernes</stop>
+    <stop arrival="11:54" departure="11:54">Kringsjå</stop>
+    <stop arrival="11:55" departure="11:55">Nygård, Laksevåg</stop>
+    <stop arrival="11:56" departure="11:56">Haustbeitet</stop>
+    <stop arrival="11:57" departure="11:57">Nygårdslien</stop>
+    <stop arrival="11:58" departure="11:58">Lyngbøveien</stop>
+    <stop arrival="12:00" departure="12:00">Nipedalen v/Lyngbøveien</stop>
+    <stop arrival="12:01" departure="12:01">Nipedalen v/nr. 23</stop>
+    <stop arrival="12:03" departure="12:03">Lyngbøkollen</stop>
+    <stop arrival="12:05">Nipedalen</stop>
+  </route>
+  <route no="80" destination="Flaktveit snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/277074/97122/403470/109379/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:55" routeNo="80">Oasen Terminal</stop>
+    <stop arrival="10:57" departure="10:57">Skarphaugen</stop>
+    <stop arrival="10:58" departure="10:58">Sælen skole</stop>
+    <stop arrival="10:59" departure="10:59">Torgny Segersteds vei</stop>
+    <stop arrival="11:00" departure="11:00">Smiberget</stop>
+    <stop arrival="11:00" departure="11:00">Ortustranden</stop>
+    <stop arrival="11:01" departure="11:01">Lyshovden skole</stop>
+    <stop arrival="11:01" departure="11:01">Sælemyr</stop>
+    <stop arrival="11:02" departure="11:02">Hjalmar Brantings vei</stop>
+    <stop arrival="11:03" departure="11:03">Træet (Benshaugen)</stop>
+    <stop arrival="11:03" departure="11:03">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:03" departure="11:03">Lynghaug skole</stop>
+    <stop arrival="11:04" departure="11:04">Hamregården</stop>
+    <stop arrival="11:04" departure="11:04">Sikthaugen</stop>
+    <stop arrival="11:08" departure="11:08">Gyldenpris</stop>
+    <stop arrival="11:12" departure="11:12">Bergen Busstasjon</stop>
+    <stop arrival="11:15" departure="11:15">Christies gate (Festplassen)</stop>
+    <stop arrival="11:18" departure="11:18">Torget (Bergen)</stop>
+    <stop arrival="11:19" departure="11:19">Bryggen</stop>
+    <stop arrival="11:19" departure="11:19">Slottsgaten</stop>
+    <stop arrival="11:20" departure="11:20">Bontelabo</stop>
+    <stop arrival="11:21" departure="11:21">Skutevikstorget</stop>
+    <stop arrival="11:22" departure="11:22">Sjøgaten</stop>
+    <stop arrival="11:22" departure="11:22">Sandvikstorget</stop>
+    <stop arrival="11:23" departure="11:23">Ludebryggen</stop>
+    <stop arrival="11:23" departure="11:23">Munkebotten</stop>
+    <stop arrival="11:25" departure="11:25">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:26" departure="11:26">Handelshøyskolen</stop>
+    <stop arrival="11:28" departure="11:28">Eidsvåg</stop>
+    <stop arrival="11:33" departure="11:33">Åsane terminal</stop>
+    <stop arrival="11:34" departure="11:34">Rollandskrysset</stop>
+    <stop arrival="11:34" departure="11:34">Litleåskryss</stop>
+    <stop arrival="11:35" departure="11:35">Salhuskrysset</stop>
+    <stop arrival="11:36" departure="11:36">Nyborg</stop>
+    <stop arrival="11:38" departure="11:38">Gullgruven</stop>
+    <stop arrival="11:39" departure="11:39">Industrihuset</stop>
+    <stop arrival="11:40" departure="11:40">Liakroken</stop>
+    <stop arrival="11:41" departure="11:41">Lid (Åsane)</stop>
+    <stop arrival="11:43" departure="11:43">Flaktveitrinden</stop>
+    <stop arrival="11:44" departure="11:44">Flaktveitsvingane</stop>
+    <stop arrival="11:45" departure="11:45">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:46" departure="11:46">Ulvhøyen</stop>
+    <stop arrival="11:47" departure="11:47">Breimyra</stop>
+    <stop arrival="11:48">Flaktveit snuplass</stop>
+  </route>
+  <route no="90" destination="Støbotn snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/192723/69159/715660/293591/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:50" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="10:52" departure="10:52">Johan Hjorts vei</stop>
+    <stop arrival="10:53" departure="10:53">Bergenshallen</stop>
+    <stop arrival="10:54" departure="10:54">Sletten Shoppingsenter</stop>
+    <stop arrival="10:55" departure="10:55">Fageråsen</stop>
+    <stop arrival="10:56" departure="10:56">Hagerups vei</stop>
+    <stop arrival="10:57" departure="10:57">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="10:58" departure="10:58">Langhaugen</stop>
+    <stop arrival="10:59" departure="10:59">Fridalen</stop>
+    <stop arrival="11:00" departure="11:00">Haukelandsveien</stop>
+    <stop arrival="11:02" departure="11:02">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="11:04" departure="11:04">Bjørnsons gate</stop>
+    <stop arrival="11:08" departure="11:08">Årstad VGS</stop>
+    <stop arrival="11:09" departure="11:09">Danmarksplass v/Forum kino</stop>
+    <stop arrival="11:13" departure="11:13">Bergen Busstasjon</stop>
+    <stop arrival="11:15" departure="11:15">Christies gate (Festplassen)</stop>
+    <stop arrival="11:18" departure="11:18">Torget (Bergen)</stop>
+    <stop arrival="11:19" departure="11:19">Bryggen</stop>
+    <stop arrival="11:19" departure="11:19">Slottsgaten</stop>
+    <stop arrival="11:20" departure="11:20">Bontelabo</stop>
+    <stop arrival="11:21" departure="11:21">Skutevikstorget</stop>
+    <stop arrival="11:21" departure="11:21">Sjøgaten</stop>
+    <stop arrival="11:22" departure="11:22">Sandvikstorget</stop>
+    <stop arrival="11:23" departure="11:23">Ludebryggen</stop>
+    <stop arrival="11:23" departure="11:23">Munkebotten</stop>
+    <stop arrival="11:25" departure="11:25">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:26" departure="11:26">Handelshøyskolen</stop>
+    <stop arrival="11:28" departure="11:28">Eidsvåg</stop>
+    <stop arrival="11:33" departure="11:33">Åsane terminal</stop>
+    <stop arrival="11:34" departure="11:34">Åsane Brannstasjon</stop>
+    <stop arrival="11:35" departure="11:35">Flatevad</stop>
+    <stop arrival="11:36" departure="11:36">Spondalen</stop>
+    <stop arrival="11:36" departure="11:36">Torvbakken</stop>
+    <stop arrival="11:37" departure="11:37">Morvikbotn</stop>
+    <stop arrival="11:38" departure="11:38">Viddalen</stop>
+    <stop arrival="11:39" departure="11:39">Bakketoppen, Morvik</stop>
+    <stop arrival="11:41" departure="11:41">Kollbudalen</stop>
+    <stop arrival="11:42" departure="11:42">Saudalen</stop>
+    <stop arrival="11:43" departure="11:43">Saudalskleivane</stop>
+    <stop arrival="11:44" departure="11:44">Lokketodalen</stop>
+    <stop arrival="11:45" departure="11:45">Slettestølen</stop>
+    <stop arrival="11:46" departure="11:46">Marikollen</stop>
+    <stop arrival="11:47" departure="11:47">Toppe</stop>
+    <stop arrival="11:48">Støbotn snuplass</stop>
+  </route>
+  <route no="80" destination="Flaktveit snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/560493/191612/30518/171573/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:54" routeNo="80">Oasen Terminal</stop>
+    <stop arrival="10:56" departure="10:56">Skarphaugen</stop>
+    <stop arrival="10:57" departure="10:57">Sælen skole</stop>
+    <stop arrival="10:58" departure="10:58">Torgny Segersteds vei</stop>
+    <stop arrival="10:59" departure="10:59">Smiberget</stop>
+    <stop arrival="10:59" departure="10:59">Ortustranden</stop>
+    <stop arrival="11:00" departure="11:00">Lyshovden skole</stop>
+    <stop arrival="11:00" departure="11:00">Sælemyr</stop>
+    <stop arrival="11:01" departure="11:01">Hjalmar Brantings vei</stop>
+    <stop arrival="11:02" departure="11:02">Træet (Benshaugen)</stop>
+    <stop arrival="11:02" departure="11:02">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:03" departure="11:03">Lynghaug skole</stop>
+    <stop arrival="11:03" departure="11:03">Hamregården</stop>
+    <stop arrival="11:04" departure="11:04">Sikthaugen</stop>
+    <stop arrival="11:08" departure="11:08">Gyldenpris</stop>
+    <stop arrival="11:13" departure="11:13">Bergen Busstasjon</stop>
+    <stop arrival="11:16" departure="11:16">Christies gate (Festplassen)</stop>
+    <stop arrival="11:19" departure="11:19">Torget (Bergen)</stop>
+    <stop arrival="11:20" departure="11:20">Bryggen</stop>
+    <stop arrival="11:20" departure="11:20">Slottsgaten</stop>
+    <stop arrival="11:21" departure="11:21">Bontelabo</stop>
+    <stop arrival="11:22" departure="11:22">Skutevikstorget</stop>
+    <stop arrival="11:23" departure="11:23">Sjøgaten</stop>
+    <stop arrival="11:23" departure="11:23">Sandvikstorget</stop>
+    <stop arrival="11:24" departure="11:24">Ludebryggen</stop>
+    <stop arrival="11:24" departure="11:24">Munkebotten</stop>
+    <stop arrival="11:26" departure="11:26">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:27" departure="11:27">Handelshøyskolen</stop>
+    <stop arrival="11:29" departure="11:29">Eidsvåg</stop>
+    <stop arrival="11:34" departure="11:34">Åsane terminal</stop>
+    <stop arrival="11:35" departure="11:35">Rollandskrysset</stop>
+    <stop arrival="11:35" departure="11:35">Litleåskryss</stop>
+    <stop arrival="11:36" departure="11:36">Salhuskrysset</stop>
+    <stop arrival="11:37" departure="11:37">Nyborg</stop>
+    <stop arrival="11:39" departure="11:39">Gullgruven</stop>
+    <stop arrival="11:40" departure="11:40">Industrihuset</stop>
+    <stop arrival="11:41" departure="11:41">Liakroken</stop>
+    <stop arrival="11:42" departure="11:42">Lid (Åsane)</stop>
+    <stop arrival="11:44" departure="11:44">Flaktveitrinden</stop>
+    <stop arrival="11:45" departure="11:45">Flaktveitsvingane</stop>
+    <stop arrival="11:46" departure="11:46">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:47" departure="11:47">Ulvhøyen</stop>
+    <stop arrival="11:48" departure="11:48">Breimyra</stop>
+    <stop arrival="11:49">Flaktveit snuplass</stop>
+  </route>
+  <route no="211" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/694599/236488/345956/58555/1/" trafficDays="kjører Ti, To, ikke 13. Mai">
+    <stop departure="11:25" routeNo="211">Jordal snuplass</stop>
+    <stop arrival="11:26" departure="11:26">Jordal (Eidsvåg)</stop>
+    <stop arrival="11:29" departure="11:29">Fatland</stop>
+    <stop arrival="11:29" departure="11:29">Munkebottsveien</stop>
+    <stop arrival="11:30" departure="11:30">Eidsvåg snuplass</stop>
+    <stop arrival="11:30" departure="11:30">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:31" departure="11:31">Selvikvegen</stop>
+    <stop arrival="11:31" departure="11:31">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:32" departure="11:32">Ervik øvre</stop>
+    <stop arrival="11:32" departure="11:32">Åstveitvegen</stop>
+    <stop arrival="11:33" departure="11:33">Nedre Åstveit snuplass</stop>
+    <stop arrival="11:35" departure="11:35">Griggastemma</stop>
+    <stop arrival="11:35" departure="11:35">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:37" departure="11:37">Stamskaret</stop>
+    <stop arrival="11:38" departure="11:38">Hesthaugen</stop>
+    <stop arrival="11:39">Åsane terminal</stop>
+  </route>
+  <route no="211" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/311622/108829/429992/111122/1/" trafficDays="kjører Ti, To, ikke 13. Mai">
+    <stop departure="11:25" routeNo="211">Jordal snuplass</stop>
+    <stop arrival="11:26" departure="11:26">Jordal (Eidsvåg)</stop>
+    <stop arrival="11:29" departure="11:29">Fatland</stop>
+    <stop arrival="11:29" departure="11:29">Munkebottsveien</stop>
+    <stop arrival="11:30" departure="11:30">Eidsvåg snuplass</stop>
+    <stop arrival="11:30" departure="11:30">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:31" departure="11:31">Selvikvegen</stop>
+    <stop arrival="11:31" departure="11:31">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:32" departure="11:32">Ervik øvre</stop>
+    <stop arrival="11:32" departure="11:32">Åstveitvegen</stop>
+    <stop arrival="11:33" departure="11:33">Nedre Åstveit snuplass</stop>
+    <stop arrival="11:35" departure="11:35">Griggastemma</stop>
+    <stop arrival="11:35" departure="11:35">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:37" departure="11:37">Stamskaret</stop>
+    <stop arrival="11:38" departure="11:38">Hesthaugen</stop>
+    <stop arrival="11:39">Åsane terminal</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/256725/90387/452250/140561/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:10" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="11:11" departure="11:11">Breimyra</stop>
+    <stop arrival="11:12" departure="11:12">Ulvhøyen</stop>
+    <stop arrival="11:13" departure="11:13">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:14" departure="11:14">Flaktveitsvingane</stop>
+    <stop arrival="11:15" departure="11:15">Flaktveitrinden</stop>
+    <stop arrival="11:17" departure="11:17">Lid (Åsane)</stop>
+    <stop arrival="11:18" departure="11:18">Liakroken</stop>
+    <stop arrival="11:19" departure="11:19">Industrihuset</stop>
+    <stop arrival="11:20" departure="11:20">Gullgruven</stop>
+    <stop arrival="11:22" departure="11:22">Nyborg</stop>
+    <stop arrival="11:23" departure="11:23">Salhuskrysset</stop>
+    <stop arrival="11:24" departure="11:24">Litleåskryss</stop>
+    <stop arrival="11:24" departure="11:24">Rollandskrysset</stop>
+    <stop arrival="11:25" departure="11:25">Åsane terminal</stop>
+    <stop arrival="11:30" departure="11:30">Eidsvåg</stop>
+    <stop arrival="11:32" departure="11:32">Handelshøyskolen</stop>
+    <stop arrival="11:33" departure="11:33">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:35" departure="11:35">Munkebotten</stop>
+    <stop arrival="11:36" departure="11:36">Ludebryggen</stop>
+    <stop arrival="11:39" departure="11:39">Sandvikstorget</stop>
+    <stop arrival="11:41" departure="11:41">Skutevikstorget</stop>
+    <stop arrival="11:42" departure="11:42">Bontelabo</stop>
+    <stop arrival="11:43" departure="11:43">Slottsgaten</stop>
+    <stop arrival="11:44" departure="11:44">Bryggen</stop>
+    <stop arrival="11:45" departure="11:45">Olav Kyrres gate</stop>
+    <stop arrival="11:50" departure="11:50">Bergen Busstasjon</stop>
+    <stop arrival="11:53" departure="11:53">Gyldenpris</stop>
+    <stop arrival="11:57" departure="11:57">Løvstakktunnelen</stop>
+    <stop arrival="11:58" departure="11:58">Sikthaugen</stop>
+    <stop arrival="12:00" departure="12:00">Lynghaug skole</stop>
+    <stop arrival="12:01" departure="12:01">Dag Hammarskjølds vei</stop>
+    <stop arrival="12:01" departure="12:01">Træet (Benshaugen)</stop>
+    <stop arrival="12:02" departure="12:02">Hjalmar Brantings vei</stop>
+    <stop arrival="12:03" departure="12:03">Sælemyr</stop>
+    <stop arrival="12:04" departure="12:04">Lyshovden skole</stop>
+    <stop arrival="12:04" departure="12:04">Ortustranden</stop>
+    <stop arrival="12:05" departure="12:05">Smiberget</stop>
+    <stop arrival="12:06" departure="12:06">Torgny Segersteds vei</stop>
+    <stop arrival="12:07" departure="12:07">Sælen skole</stop>
+    <stop arrival="12:09" departure="12:09">Skarphaugen</stop>
+    <stop arrival="12:10">Oasen Terminal</stop>
+  </route>
+  <route no="280" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/628404/214653/410564/4189/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:53" routeNo="280">Salhus kai</stop>
+    <stop arrival="10:53" departure="10:53">Samhold</stop>
+    <stop arrival="10:55" departure="10:55">Slettebakken</stop>
+    <stop arrival="10:57" departure="10:57">Sveisbakken</stop>
+    <stop arrival="10:58" departure="10:58">Klauvarinden</stop>
+    <stop arrival="10:59" departure="10:59">Tellevik</stop>
+    <stop arrival="11:00" departure="11:00">Falkangervegen</stop>
+    <stop arrival="11:01" departure="11:01">Hordvik post</stop>
+    <stop arrival="11:02" departure="11:02">Grøvlesvingen</stop>
+    <stop arrival="11:03" departure="11:03">Grøvlesvingen</stop>
+    <stop arrival="11:03" departure="11:03">Grøvle (Åsane)</stop>
+    <stop arrival="11:03" departure="11:03">Hordvikhamnen</stop>
+    <stop arrival="11:04" departure="11:04">Ulstein kryss</stop>
+    <stop arrival="11:04" departure="11:04">Ulstein</stop>
+    <stop arrival="11:05" departure="11:05">Ulstein snuplass</stop>
+    <stop arrival="11:06" departure="11:06">Hordvik skole nedre</stop>
+    <stop arrival="11:07" departure="11:07">Hordvikhamnen</stop>
+    <stop arrival="11:08" departure="11:08">Nesjavegen</stop>
+    <stop arrival="11:09" departure="11:09">Langamyrene</stop>
+    <stop arrival="11:10" departure="11:10">Tuft (Åsane)</stop>
+    <stop arrival="11:11" departure="11:11">Hylkje</stop>
+    <stop arrival="11:13" departure="11:13">Almåsvegen</stop>
+    <stop arrival="11:14" departure="11:14">Haukåsskogen</stop>
+    <stop arrival="11:15" departure="11:15">Myrsæter</stop>
+    <stop arrival="11:15" departure="11:15">Haukås barnehage</stop>
+    <stop arrival="11:16" departure="11:16">Haukåsvegen</stop>
+    <stop arrival="11:17" departure="11:17">Vikaleitet</stop>
+    <stop arrival="11:18" departure="11:18">Eikås</stop>
+    <stop arrival="11:18" departure="11:18">Vågsbotn</stop>
+    <stop arrival="11:19" departure="11:19">Liavegen (Åsane)</stop>
+    <stop arrival="11:20" departure="11:20">Domus Nyborg</stop>
+    <stop arrival="11:22" departure="11:22">Nyborg</stop>
+    <stop arrival="11:23" departure="11:23">Salhuskrysset</stop>
+    <stop arrival="11:24" departure="11:24">Litleåskryss</stop>
+    <stop arrival="11:24" departure="11:24">Rollandskrysset</stop>
+    <stop arrival="11:25" departure="11:25">Åsane terminal</stop>
+    <stop arrival="11:30" departure="11:30">Eidsvåg</stop>
+    <stop arrival="11:32" departure="11:32">Handelshøyskolen</stop>
+    <stop arrival="11:37" departure="11:37">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:38" departure="11:38">Munkebotten</stop>
+    <stop arrival="11:39" departure="11:39">Ludebryggen</stop>
+    <stop arrival="11:40" departure="11:40">Sandvikstorget</stop>
+    <stop arrival="11:42" departure="11:42">Skutevikstorget</stop>
+    <stop arrival="11:43" departure="11:43">Bontelabo</stop>
+    <stop arrival="11:45" departure="11:45">Slottsgaten</stop>
+    <stop arrival="11:45" departure="11:45">Bryggen</stop>
+    <stop arrival="11:47" departure="11:47">Olav Kyrres gate</stop>
+    <stop arrival="11:50">Bergen Busstasjon</stop>
+  </route>
+  <route no="24" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/301155/104558/951192/375211/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:45" routeNo="24">Nesttun terminal</stop>
+    <stop arrival="10:47" departure="10:47">Hopsbro</stop>
+    <stop arrival="10:49" departure="10:49">Tveiteråsskiftet</stop>
+    <stop arrival="10:50" departure="10:50">Paradis</stop>
+    <stop arrival="10:52" departure="10:52">Nydalen</stop>
+    <stop arrival="10:54" departure="10:54">Fantoft</stop>
+    <stop arrival="10:55" departure="10:55">Storetveit</stop>
+    <stop arrival="10:55" departure="10:55">Elvebakken</stop>
+    <stop arrival="10:56" departure="10:56">Minde</stop>
+    <stop arrival="11:00" departure="11:00">Mindemyren</stop>
+    <stop arrival="11:01" departure="11:01">Postterminalen</stop>
+    <stop arrival="11:01" departure="11:01">Kanalveien v/LBK</stop>
+    <stop arrival="11:03" departure="11:03">Danmarksplass v/Forum kino</stop>
+    <stop arrival="11:08" departure="11:08">Bergen Busstasjon</stop>
+    <stop arrival="11:11" departure="11:11">Christies gate (Festplassen)</stop>
+    <stop arrival="11:14" departure="11:14">Torget v/DnB</stop>
+    <stop arrival="11:15" departure="11:15">Bryggen</stop>
+    <stop arrival="11:15" departure="11:15">Slottsgaten</stop>
+    <stop arrival="11:16" departure="11:16">Bontelabo</stop>
+    <stop arrival="11:17" departure="11:17">Skutevikstorget</stop>
+    <stop arrival="11:17" departure="11:17">Sjøgaten</stop>
+    <stop arrival="11:18" departure="11:18">Sandvikstorget</stop>
+    <stop arrival="11:19" departure="11:19">Ludebryggen</stop>
+    <stop arrival="11:19" departure="11:19">Munkebotten</stop>
+    <stop arrival="11:21" departure="11:21">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:22" departure="11:22">Handelshøyskolen</stop>
+    <stop arrival="11:23" departure="11:23">Solbakken</stop>
+    <stop arrival="11:24" departure="11:24">Eikeviken</stop>
+    <stop arrival="11:26" departure="11:26">Hellebakken</stop>
+    <stop arrival="11:26" departure="11:26">Brunestykket</stop>
+    <stop arrival="11:27" departure="11:27">Lønborg</stop>
+    <stop arrival="11:28" departure="11:28">Nordre Lønborg</stop>
+    <stop arrival="11:28" departure="11:28">Fagerbakken</stop>
+    <stop arrival="11:29" departure="11:29">Eidsvågneset</stop>
+    <stop arrival="11:29" departure="11:29">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:29" departure="11:29">Trollbekken</stop>
+    <stop arrival="11:30" departure="11:30">Tømmervågen</stop>
+    <stop arrival="11:30" departure="11:30">Lillevågen</stop>
+    <stop arrival="11:31" departure="11:31">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:32" departure="11:32">Fabrikkvegen</stop>
+    <stop arrival="11:33" departure="11:33">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:34" departure="11:34">Selvikvegen</stop>
+    <stop arrival="11:35" departure="11:35">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:35" departure="11:35">Ervik øvre</stop>
+    <stop arrival="11:36" departure="11:36">Åstveitvegen</stop>
+    <stop arrival="11:37" departure="11:37">Griggastemma</stop>
+    <stop arrival="11:38" departure="11:38">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:40" departure="11:40">Stamskaret</stop>
+    <stop arrival="11:41" departure="11:41">Hesthaugen</stop>
+    <stop arrival="11:42">Åsane terminal</stop>
+  </route>
+  <route no="71" destination="Viddalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/997098/337065/195920/234406/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:00" routeNo="71">Nipedalen</stop>
+    <stop arrival="11:01" departure="11:01">Lyngbøkollen</stop>
+    <stop arrival="11:02" departure="11:02">Øvre Lyngbø</stop>
+    <stop arrival="11:03" departure="11:03">Nipedalen v/nr.23</stop>
+    <stop arrival="11:03" departure="11:03">Nipedalen v/Lyngbøveien</stop>
+    <stop arrival="11:04" departure="11:04">Lyngbøveien</stop>
+    <stop arrival="11:05" departure="11:05">Nygårdslien</stop>
+    <stop arrival="11:05" departure="11:05">Haustbeitet</stop>
+    <stop arrival="11:06" departure="11:06">Nygård, Laksevåg</stop>
+    <stop arrival="11:08" departure="11:08">Kringsjå</stop>
+    <stop arrival="11:09" departure="11:09">Oldernes</stop>
+    <stop arrival="11:10" departure="11:10">Vågedalen</stop>
+    <stop arrival="11:11" departure="11:11">Fergeveien</stop>
+    <stop arrival="11:13" departure="11:13">Jansongården</stop>
+    <stop arrival="11:14" departure="11:14">Solveien</stop>
+    <stop arrival="11:15" departure="11:15">Gyldenpris</stop>
+    <stop arrival="11:18" departure="11:18">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="11:20" departure="11:20">Christies gate (Festplassen)</stop>
+    <stop arrival="11:23" departure="11:23">Torget (Bergen)</stop>
+    <stop arrival="11:24" departure="11:24">Bryggen</stop>
+    <stop arrival="11:24" departure="11:24">Slottsgaten</stop>
+    <stop arrival="11:25" departure="11:25">Bontelabo</stop>
+    <stop arrival="11:26" departure="11:26">Skutevikstorget</stop>
+    <stop arrival="11:26" departure="11:26">Sjøgaten</stop>
+    <stop arrival="11:27" departure="11:27">Sandvikstorget</stop>
+    <stop arrival="11:28" departure="11:28">Ludebryggen</stop>
+    <stop arrival="11:28" departure="11:28">Munkebotten</stop>
+    <stop arrival="11:30" departure="11:30">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:31" departure="11:31">Handelshøyskolen</stop>
+    <stop arrival="11:33" departure="11:33">Eidsvåg</stop>
+    <stop arrival="11:36" departure="11:36">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:38" departure="11:38">Stamskaret</stop>
+    <stop arrival="11:39" departure="11:39">Hesthaugen</stop>
+    <stop arrival="11:40" departure="11:40">Åsane terminal</stop>
+    <stop arrival="11:42" departure="11:42">Ulsetåsen</stop>
+    <stop arrival="11:43" departure="11:43">Haukeberget</stop>
+    <stop arrival="11:45" departure="11:45">Botnane</stop>
+    <stop arrival="11:46" departure="11:46">Haukedalsvegen</stop>
+    <stop arrival="11:47" departure="11:47">Sjøveien</stop>
+    <stop arrival="11:48" departure="11:48">Tertitten</stop>
+    <stop arrival="11:48" departure="11:48">Kipo</stop>
+    <stop arrival="11:49" departure="11:49">Storevarden</stop>
+    <stop arrival="11:49" departure="11:49">Nesmyr</stop>
+    <stop arrival="11:50" departure="11:50">Bekkjarvik (Åsane)</stop>
+    <stop arrival="11:51" departure="11:51">Bekkjarvikkryss (Åsane)</stop>
+    <stop arrival="11:52" departure="11:52">Kvernevikstemma</stop>
+    <stop arrival="11:52" departure="11:52">Åsane sand + singel</stop>
+    <stop arrival="11:53" departure="11:53">Bryggedalen</stop>
+    <stop arrival="11:55">Viddalen</stop>
+  </route>
+  <route no="71" destination="Viddalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/195528/69908/605510/237579/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:00" routeNo="71">Nipedalen</stop>
+    <stop arrival="11:01" departure="11:01">Lyngbøkollen</stop>
+    <stop arrival="11:02" departure="11:02">Øvre Lyngbø</stop>
+    <stop arrival="11:03" departure="11:03">Nipedalen v/nr.23</stop>
+    <stop arrival="11:03" departure="11:03">Nipedalen v/Lyngbøveien</stop>
+    <stop arrival="11:04" departure="11:04">Lyngbøveien</stop>
+    <stop arrival="11:05" departure="11:05">Nygårdslien</stop>
+    <stop arrival="11:05" departure="11:05">Haustbeitet</stop>
+    <stop arrival="11:06" departure="11:06">Nygård, Laksevåg</stop>
+    <stop arrival="11:08" departure="11:08">Kringsjå</stop>
+    <stop arrival="11:09" departure="11:09">Oldernes</stop>
+    <stop arrival="11:10" departure="11:10">Vågedalen</stop>
+    <stop arrival="11:11" departure="11:11">Fergeveien</stop>
+    <stop arrival="11:13" departure="11:13">Jansongården</stop>
+    <stop arrival="11:14" departure="11:14">Solveien</stop>
+    <stop arrival="11:15" departure="11:15">Gyldenpris</stop>
+    <stop arrival="11:18" departure="11:18">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="11:20" departure="11:20">Christies gate (Festplassen)</stop>
+    <stop arrival="11:23" departure="11:23">Torget (Bergen)</stop>
+    <stop arrival="11:24" departure="11:24">Bryggen</stop>
+    <stop arrival="11:24" departure="11:24">Slottsgaten</stop>
+    <stop arrival="11:25" departure="11:25">Bontelabo</stop>
+    <stop arrival="11:26" departure="11:26">Skutevikstorget</stop>
+    <stop arrival="11:26" departure="11:26">Sjøgaten</stop>
+    <stop arrival="11:27" departure="11:27">Sandvikstorget</stop>
+    <stop arrival="11:28" departure="11:28">Ludebryggen</stop>
+    <stop arrival="11:28" departure="11:28">Munkebotten</stop>
+    <stop arrival="11:30" departure="11:30">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:31" departure="11:31">Handelshøyskolen</stop>
+    <stop arrival="11:33" departure="11:33">Eidsvåg</stop>
+    <stop arrival="11:36" departure="11:36">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:38" departure="11:38">Stamskaret</stop>
+    <stop arrival="11:39" departure="11:39">Hesthaugen</stop>
+    <stop arrival="11:40" departure="11:40">Åsane terminal</stop>
+    <stop arrival="11:42" departure="11:42">Ulsetåsen</stop>
+    <stop arrival="11:43" departure="11:43">Haukeberget</stop>
+    <stop arrival="11:45" departure="11:45">Botnane</stop>
+    <stop arrival="11:46" departure="11:46">Haukedalsvegen</stop>
+    <stop arrival="11:47" departure="11:47">Sjøveien</stop>
+    <stop arrival="11:48" departure="11:48">Tertitten</stop>
+    <stop arrival="11:48" departure="11:48">Kipo</stop>
+    <stop arrival="11:49" departure="11:49">Storevarden</stop>
+    <stop arrival="11:49" departure="11:49">Nesmyr</stop>
+    <stop arrival="11:50" departure="11:50">Bekkjarvik (Åsane)</stop>
+    <stop arrival="11:51" departure="11:51">Bekkjarvikkryss (Åsane)</stop>
+    <stop arrival="11:52" departure="11:52">Kvernevikstemma</stop>
+    <stop arrival="11:52" departure="11:52">Åsane sand + singel</stop>
+    <stop arrival="11:53" departure="11:53">Bryggedalen</stop>
+    <stop arrival="12:00">Viddalen</stop>
+  </route>
+  <route no="280" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/17754/11076/438170/213169/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:53" routeNo="280">Salhus kai</stop>
+    <stop arrival="10:53" departure="10:53">Samhold</stop>
+    <stop arrival="10:55" departure="10:55">Slettebakken</stop>
+    <stop arrival="10:57" departure="10:57">Sveisbakken</stop>
+    <stop arrival="10:58" departure="10:58">Klauvarinden</stop>
+    <stop arrival="10:59" departure="10:59">Tellevik</stop>
+    <stop arrival="11:00" departure="11:00">Falkangervegen</stop>
+    <stop arrival="11:01" departure="11:01">Hordvik post</stop>
+    <stop arrival="11:02" departure="11:02">Grøvlesvingen</stop>
+    <stop arrival="11:03" departure="11:03">Grøvlesvingen</stop>
+    <stop arrival="11:03" departure="11:03">Grøvle (Åsane)</stop>
+    <stop arrival="11:03" departure="11:03">Hordvikhamnen</stop>
+    <stop arrival="11:04" departure="11:04">Ulstein kryss</stop>
+    <stop arrival="11:04" departure="11:04">Ulstein</stop>
+    <stop arrival="11:05" departure="11:05">Ulstein snuplass</stop>
+    <stop arrival="11:07" departure="11:07">Hordvik skole nedre</stop>
+    <stop arrival="11:09" departure="11:09">Hordvikhamnen</stop>
+    <stop arrival="11:10" departure="11:10">Nesjavegen</stop>
+    <stop arrival="11:11" departure="11:11">Langamyrene</stop>
+    <stop arrival="11:12" departure="11:12">Tuft (Åsane)</stop>
+    <stop arrival="11:13" departure="11:13">Hylkje</stop>
+    <stop arrival="11:15" departure="11:15">Almåsvegen</stop>
+    <stop arrival="11:16" departure="11:16">Haukåsskogen</stop>
+    <stop arrival="11:17" departure="11:17">Myrsæter</stop>
+    <stop arrival="11:18" departure="11:18">Haukås barnehage</stop>
+    <stop arrival="11:18" departure="11:18">Haukåsvegen</stop>
+    <stop arrival="11:21" departure="11:21">Vikaleitet</stop>
+    <stop arrival="11:22" departure="11:22">Eikås</stop>
+    <stop arrival="11:23" departure="11:23">Vågsbotn</stop>
+    <stop arrival="11:24" departure="11:24">Liavegen (Åsane)</stop>
+    <stop arrival="11:24" departure="11:24">Domus Nyborg</stop>
+    <stop arrival="11:25" departure="11:25">Nyborg</stop>
+    <stop arrival="11:26" departure="11:26">Salhuskrysset</stop>
+    <stop arrival="11:27" departure="11:27">Litleåskryss</stop>
+    <stop arrival="11:27" departure="11:27">Rollandskrysset</stop>
+    <stop arrival="11:28" departure="11:28">Åsane terminal</stop>
+    <stop arrival="11:33" departure="11:33">Eidsvåg</stop>
+    <stop arrival="11:35" departure="11:35">Handelshøyskolen</stop>
+    <stop arrival="11:40" departure="11:40">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:41" departure="11:41">Munkebotten</stop>
+    <stop arrival="11:42" departure="11:42">Ludebryggen</stop>
+    <stop arrival="11:43" departure="11:43">Sandvikstorget</stop>
+    <stop arrival="11:45" departure="11:45">Skutevikstorget</stop>
+    <stop arrival="11:46" departure="11:46">Bontelabo</stop>
+    <stop arrival="11:48" departure="11:48">Slottsgaten</stop>
+    <stop arrival="11:48" departure="11:48">Bryggen</stop>
+    <stop arrival="11:50" departure="11:50">Olav Kyrres gate</stop>
+    <stop arrival="11:53">Bergen Busstasjon</stop>
+  </route>
+  <route no="50" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/775215/259223/260528/128141/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:38" routeNo="50">Dolvik terminal</stop>
+    <stop arrival="10:38" departure="10:38">Skranevegen</stop>
+    <stop arrival="10:39" departure="10:39">Regnbueåsen</stop>
+    <stop arrival="10:40" departure="10:40">Fanatorget</stop>
+    <stop arrival="10:41" departure="10:41">Petedalsheia</stop>
+    <stop arrival="10:42" departure="10:42">Hydro Sandsli</stop>
+    <stop arrival="10:45" departure="10:45">Håvardstun</stop>
+    <stop arrival="10:48" departure="10:48">Meyer</stop>
+    <stop arrival="10:49" departure="10:49">Rådal</stop>
+    <stop arrival="10:50" departure="10:50">Rådal ved Lagunen</stop>
+    <stop arrival="10:53" departure="10:53">Skjold skole</stop>
+    <stop arrival="10:55" departure="10:55">Mårdalen</stop>
+    <stop arrival="10:56" departure="10:56">Nesttunbrekka</stop>
+    <stop arrival="10:56" departure="10:56">Skjoldskiftet</stop>
+    <stop arrival="10:57" departure="10:57">Nesttun</stop>
+    <stop arrival="10:58" departure="10:58">Nesttun terminal</stop>
+    <stop arrival="11:00" departure="11:00">Hopsbro</stop>
+    <stop arrival="11:02" departure="11:02">Tveiteråsskiftet</stop>
+    <stop arrival="11:03" departure="11:03">Paradis/50</stop>
+    <stop arrival="11:05" departure="11:05">Stavkirken</stop>
+    <stop arrival="11:06" departure="11:06">Natlandslien</stop>
+    <stop arrival="11:07" departure="11:07">Birkelundsbakken</stop>
+    <stop arrival="11:08" departure="11:08">Birkelundstoppen</stop>
+    <stop arrival="11:09" departure="11:09">Knausen</stop>
+    <stop arrival="11:09" departure="11:09">Kolstibotn</stop>
+    <stop arrival="11:10" departure="11:10">H. Jægers vei</stop>
+    <stop arrival="11:10" departure="11:10">Bolstad</stop>
+    <stop arrival="11:11" departure="11:11">Mannsverk</stop>
+    <stop arrival="11:11" departure="11:11">Wiers -Jenssens vei</stop>
+    <stop arrival="11:12" departure="11:12">Erleveien</stop>
+    <stop arrival="11:12" departure="11:12">Landåstorget</stop>
+    <stop arrival="11:13" departure="11:13">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="11:13" departure="11:13">Langhaugen</stop>
+    <stop arrival="11:14" departure="11:14">Fridalen</stop>
+    <stop arrival="11:15" departure="11:15">Haukeland sykehus sør</stop>
+    <stop arrival="11:16" departure="11:16">Haukeland sykehus nord</stop>
+    <stop arrival="11:17" departure="11:17">Haraldsplass sykehus</stop>
+    <stop arrival="11:18" departure="11:18">Haukeland skole</stop>
+    <stop arrival="11:19" departure="11:19">Svartediksveien</stop>
+    <stop arrival="11:20" departure="11:20">Kalvedalsveien</stop>
+    <stop arrival="11:21" departure="11:21">Kalfarlien</stop>
+    <stop arrival="11:23" departure="11:23">Stadsporten (jernbanen)</stop>
+    <stop arrival="11:24" departure="11:24">Kong Oscars gate</stop>
+    <stop arrival="11:25" departure="11:25">Allehelgensgate</stop>
+    <stop arrival="11:25" departure="11:25">Torget (Bergen)</stop>
+    <stop arrival="11:26" departure="11:26">Bryggen</stop>
+    <stop arrival="11:27" departure="11:27">Slottsgaten</stop>
+    <stop arrival="11:28" departure="11:28">Bontelabo</stop>
+    <stop arrival="11:28" departure="11:28">Skutevikstorget</stop>
+    <stop arrival="11:29" departure="11:29">Sjøgaten</stop>
+    <stop arrival="11:29" departure="11:29">Sandvikstorget</stop>
+    <stop arrival="11:30" departure="11:30">Ludebryggen</stop>
+    <stop arrival="11:31" departure="11:31">Munkebotten</stop>
+    <stop arrival="11:32" departure="11:32">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:33" departure="11:33">Handelshøyskolen</stop>
+    <stop arrival="11:35" departure="11:35">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:36" departure="11:36">Selvikvegen</stop>
+    <stop arrival="11:37" departure="11:37">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:37" departure="11:37">Ervik øvre</stop>
+    <stop arrival="11:38" departure="11:38">Åstveitvegen</stop>
+    <stop arrival="11:39" departure="11:39">Griggastemma</stop>
+    <stop arrival="11:40" departure="11:40">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:42" departure="11:42">Stamskaret</stop>
+    <stop arrival="11:43" departure="11:43">Hesthaugen</stop>
+    <stop arrival="11:45">Åsane terminal</stop>
+  </route>
+  <route no="24" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/866541/293058/792214/107260/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:45" routeNo="24">Nesttun terminal</stop>
+    <stop arrival="10:47" departure="10:47">Hopsbro</stop>
+    <stop arrival="10:49" departure="10:49">Tveiteråsskiftet</stop>
+    <stop arrival="10:50" departure="10:50">Paradis</stop>
+    <stop arrival="10:52" departure="10:52">Nydalen</stop>
+    <stop arrival="10:54" departure="10:54">Fantoft</stop>
+    <stop arrival="10:55" departure="10:55">Storetveit</stop>
+    <stop arrival="10:55" departure="10:55">Elvebakken</stop>
+    <stop arrival="10:56" departure="10:56">Minde</stop>
+    <stop arrival="10:59" departure="10:59">Mindemyren</stop>
+    <stop arrival="11:00" departure="11:00">Postterminalen</stop>
+    <stop arrival="11:01" departure="11:01">Kanalveien v/LBK</stop>
+    <stop arrival="11:03" departure="11:03">Danmarksplass v/Forum kino</stop>
+    <stop arrival="11:08" departure="11:08">Bergen Busstasjon</stop>
+    <stop arrival="11:10" departure="11:10">Christies gate (Festplassen)</stop>
+    <stop arrival="11:13" departure="11:13">Torget v/DnB</stop>
+    <stop arrival="11:14" departure="11:14">Bryggen</stop>
+    <stop arrival="11:14" departure="11:14">Slottsgaten</stop>
+    <stop arrival="11:15" departure="11:15">Bontelabo</stop>
+    <stop arrival="11:16" departure="11:16">Skutevikstorget</stop>
+    <stop arrival="11:16" departure="11:16">Sjøgaten</stop>
+    <stop arrival="11:17" departure="11:17">Sandvikstorget</stop>
+    <stop arrival="11:18" departure="11:18">Ludebryggen</stop>
+    <stop arrival="11:18" departure="11:18">Munkebotten</stop>
+    <stop arrival="11:20" departure="11:20">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:21" departure="11:21">Handelshøyskolen</stop>
+    <stop arrival="11:22" departure="11:22">Solbakken</stop>
+    <stop arrival="11:23" departure="11:23">Eikeviken</stop>
+    <stop arrival="11:25" departure="11:25">Hellebakken</stop>
+    <stop arrival="11:25" departure="11:25">Brunestykket</stop>
+    <stop arrival="11:26" departure="11:26">Lønborg</stop>
+    <stop arrival="11:27" departure="11:27">Nordre Lønborg</stop>
+    <stop arrival="11:27" departure="11:27">Fagerbakken</stop>
+    <stop arrival="11:28" departure="11:28">Eidsvågneset</stop>
+    <stop arrival="11:29" departure="11:29">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:30" departure="11:30">Trollbekken</stop>
+    <stop arrival="11:30" departure="11:30">Tømmervågen</stop>
+    <stop arrival="11:31" departure="11:31">Lillevågen</stop>
+    <stop arrival="11:32" departure="11:32">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:34" departure="11:34">Fabrikkvegen</stop>
+    <stop arrival="11:35" departure="11:35">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:36" departure="11:36">Selvikvegen</stop>
+    <stop arrival="11:37" departure="11:37">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:37" departure="11:37">Ervik øvre</stop>
+    <stop arrival="11:38" departure="11:38">Åstveitvegen</stop>
+    <stop arrival="11:39" departure="11:39">Griggastemma</stop>
+    <stop arrival="11:40" departure="11:40">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:42" departure="11:42">Stamskaret</stop>
+    <stop arrival="11:43" departure="11:43">Hesthaugen</stop>
+    <stop arrival="11:44">Åsane terminal</stop>
+  </route>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/908931/307823/547570/29193/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="11:10" routeNo="90">Salhus kai</stop>
+    <stop arrival="11:10" departure="11:10">Langeland (Åsane)</stop>
+    <stop arrival="11:11" departure="11:11">Nygård, Salhus</stop>
+    <stop arrival="11:12" departure="11:12">Ranten</stop>
+    <stop arrival="11:13" departure="11:13">Kistebakkane</stop>
+    <stop arrival="11:14" departure="11:14">Matre</stop>
+    <stop arrival="11:15" departure="11:15">Støbotn snuplass</stop>
+    <stop arrival="11:16" departure="11:16">Toppe</stop>
+    <stop arrival="11:17" departure="11:17">Marikollen</stop>
+    <stop arrival="11:17" departure="11:17">Slettestølen</stop>
+    <stop arrival="11:18" departure="11:18">Lokketodalen</stop>
+    <stop arrival="11:19" departure="11:19">Saudalskleivane</stop>
+    <stop arrival="11:21" departure="11:21">Kollbudalen</stop>
+    <stop arrival="11:22" departure="11:22">Bakketoppen, Morvik</stop>
+    <stop arrival="11:23" departure="11:23">Viddalen</stop>
+    <stop arrival="11:25" departure="11:25">Morvikbotn</stop>
+    <stop arrival="11:26" departure="11:26">Torvbakken</stop>
+    <stop arrival="11:27" departure="11:27">Spondalen</stop>
+    <stop arrival="11:28" departure="11:28">Flatevad</stop>
+    <stop arrival="11:29" departure="11:29">Åsane Brannstasjon</stop>
+    <stop arrival="11:30" departure="11:30">Åsane terminal</stop>
+    <stop arrival="11:35" departure="11:35">Eidsvåg</stop>
+    <stop arrival="11:37" departure="11:37">Handelshøyskolen</stop>
+    <stop arrival="11:38" departure="11:38">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:40" departure="11:40">Munkebotten</stop>
+    <stop arrival="11:41" departure="11:41">Ludebryggen</stop>
+    <stop arrival="11:42" departure="11:42">Sandvikstorget</stop>
+    <stop arrival="11:43" departure="11:43">Skutevikstorget</stop>
+    <stop arrival="11:44" departure="11:44">Bontelabo</stop>
+    <stop arrival="11:45" departure="11:45">Slottsgaten</stop>
+    <stop arrival="11:46" departure="11:46">Bryggen</stop>
+    <stop arrival="11:47" departure="11:47">Olav Kyrres gate</stop>
+    <stop arrival="11:52" departure="11:52">Bergen Busstasjon</stop>
+    <stop arrival="11:57" departure="11:57">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="12:00" departure="12:00">Bjørnsons gate</stop>
+    <stop arrival="12:02" departure="12:02">Haukelandsveien</stop>
+    <stop arrival="12:03" departure="12:03">Fridalen</stop>
+    <stop arrival="12:04" departure="12:04">Langhaugen</stop>
+    <stop arrival="12:05" departure="12:05">Landåssvingen</stop>
+    <stop arrival="12:06" departure="12:06">Hagerups vei</stop>
+    <stop arrival="12:07" departure="12:07">Fageråsen</stop>
+    <stop arrival="12:08" departure="12:08">Sletten Shoppingsenter</stop>
+    <stop arrival="12:09" departure="12:09">Bergenshallen</stop>
+    <stop arrival="12:10" departure="12:10">Johan Hjorts vei</stop>
+    <stop arrival="12:12">Sletten (Bergen)</stop>
+  </route>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/617778/210802/105668/153094/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:15" routeNo="90">Støbotn snuplass</stop>
+    <stop arrival="11:16" departure="11:16">Toppe</stop>
+    <stop arrival="11:17" departure="11:17">Marikollen</stop>
+    <stop arrival="11:17" departure="11:17">Slettestølen</stop>
+    <stop arrival="11:18" departure="11:18">Lokketodalen</stop>
+    <stop arrival="11:19" departure="11:19">Saudalskleivane</stop>
+    <stop arrival="11:21" departure="11:21">Kollbudalen</stop>
+    <stop arrival="11:22" departure="11:22">Bakketoppen, Morvik</stop>
+    <stop arrival="11:23" departure="11:23">Viddalen</stop>
+    <stop arrival="11:25" departure="11:25">Morvikbotn</stop>
+    <stop arrival="11:26" departure="11:26">Torvbakken</stop>
+    <stop arrival="11:27" departure="11:27">Spondalen</stop>
+    <stop arrival="11:28" departure="11:28">Flatevad</stop>
+    <stop arrival="11:29" departure="11:29">Åsane Brannstasjon</stop>
+    <stop arrival="11:30" departure="11:30">Åsane terminal</stop>
+    <stop arrival="11:35" departure="11:35">Eidsvåg</stop>
+    <stop arrival="11:37" departure="11:37">Handelshøyskolen</stop>
+    <stop arrival="11:39" departure="11:39">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:41" departure="11:41">Munkebotten</stop>
+    <stop arrival="11:42" departure="11:42">Ludebryggen</stop>
+    <stop arrival="11:43" departure="11:43">Sandvikstorget</stop>
+    <stop arrival="11:45" departure="11:45">Skutevikstorget</stop>
+    <stop arrival="11:46" departure="11:46">Bontelabo</stop>
+    <stop arrival="11:47" departure="11:47">Slottsgaten</stop>
+    <stop arrival="11:49" departure="11:49">Bryggen</stop>
+    <stop arrival="11:50" departure="11:50">Olav Kyrres gate</stop>
+    <stop arrival="11:55" departure="11:55">Bergen Busstasjon</stop>
+    <stop arrival="12:00" departure="12:00">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="12:03" departure="12:03">Bjørnsons gate</stop>
+    <stop arrival="12:05" departure="12:05">Haukelandsveien</stop>
+    <stop arrival="12:06" departure="12:06">Fridalen</stop>
+    <stop arrival="12:07" departure="12:07">Langhaugen</stop>
+    <stop arrival="12:08" departure="12:08">Landåssvingen</stop>
+    <stop arrival="12:09" departure="12:09">Hagerups vei</stop>
+    <stop arrival="12:10" departure="12:10">Fageråsen</stop>
+    <stop arrival="12:11" departure="12:11">Sletten Shoppingsenter</stop>
+    <stop arrival="12:12" departure="12:12">Bergenshallen</stop>
+    <stop arrival="12:13" departure="12:13">Johan Hjorts vei</stop>
+    <stop arrival="12:15">Sletten (Bergen)</stop>
+  </route>
+  <route no="50" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/359676/120743/960828/360523/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:38" routeNo="50">Dolvik terminal</stop>
+    <stop arrival="10:38" departure="10:38">Skranevegen</stop>
+    <stop arrival="10:39" departure="10:39">Regnbueåsen</stop>
+    <stop arrival="10:40" departure="10:40">Fanatorget</stop>
+    <stop arrival="10:41" departure="10:41">Petedalsheia</stop>
+    <stop arrival="10:42" departure="10:42">Hydro Sandsli</stop>
+    <stop arrival="10:45" departure="10:45">Håvardstun</stop>
+    <stop arrival="10:48" departure="10:48">Meyer</stop>
+    <stop arrival="10:49" departure="10:49">Rådal</stop>
+    <stop arrival="10:50" departure="10:50">Rådal ved Lagunen</stop>
+    <stop arrival="10:55" departure="10:55">Skjold skole</stop>
+    <stop arrival="10:57" departure="10:57">Mårdalen</stop>
+    <stop arrival="10:58" departure="10:58">Nesttunbrekka</stop>
+    <stop arrival="10:58" departure="10:58">Skjoldskiftet</stop>
+    <stop arrival="10:59" departure="10:59">Nesttun</stop>
+    <stop arrival="11:00" departure="11:00">Nesttun terminal</stop>
+    <stop arrival="11:02" departure="11:02">Hopsbro</stop>
+    <stop arrival="11:04" departure="11:04">Tveiteråsskiftet</stop>
+    <stop arrival="11:05" departure="11:05">Paradis/50</stop>
+    <stop arrival="11:06" departure="11:06">Stavkirken</stop>
+    <stop arrival="11:06" departure="11:06">Natlandslien</stop>
+    <stop arrival="11:07" departure="11:07">Birkelundsbakken</stop>
+    <stop arrival="11:07" departure="11:07">Birkelundstoppen</stop>
+    <stop arrival="11:08" departure="11:08">Knausen</stop>
+    <stop arrival="11:08" departure="11:08">Kolstibotn</stop>
+    <stop arrival="11:09" departure="11:09">H. Jægers vei</stop>
+    <stop arrival="11:09" departure="11:09">Bolstad</stop>
+    <stop arrival="11:10" departure="11:10">Mannsverk</stop>
+    <stop arrival="11:11" departure="11:11">Wiers -Jenssens vei</stop>
+    <stop arrival="11:12" departure="11:12">Erleveien</stop>
+    <stop arrival="11:12" departure="11:12">Landåstorget</stop>
+    <stop arrival="11:14" departure="11:14">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="11:14" departure="11:14">Langhaugen</stop>
+    <stop arrival="11:15" departure="11:15">Fridalen</stop>
+    <stop arrival="11:17" departure="11:17">Haukeland sykehus sør</stop>
+    <stop arrival="11:18" departure="11:18">Haukeland sykehus nord</stop>
+    <stop arrival="11:19" departure="11:19">Haraldsplass sykehus</stop>
+    <stop arrival="11:20" departure="11:20">Haukeland skole</stop>
+    <stop arrival="11:21" departure="11:21">Svartediksveien</stop>
+    <stop arrival="11:22" departure="11:22">Kalvedalsveien</stop>
+    <stop arrival="11:23" departure="11:23">Kalfarlien</stop>
+    <stop arrival="11:25" departure="11:25">Stadsporten (jernbanen)</stop>
+    <stop arrival="11:26" departure="11:26">Kong Oscars gate</stop>
+    <stop arrival="11:27" departure="11:27">Allehelgensgate</stop>
+    <stop arrival="11:27" departure="11:27">Torget (Bergen)</stop>
+    <stop arrival="11:28" departure="11:28">Bryggen</stop>
+    <stop arrival="11:29" departure="11:29">Slottsgaten</stop>
+    <stop arrival="11:30" departure="11:30">Bontelabo</stop>
+    <stop arrival="11:30" departure="11:30">Skutevikstorget</stop>
+    <stop arrival="11:31" departure="11:31">Sjøgaten</stop>
+    <stop arrival="11:31" departure="11:31">Sandvikstorget</stop>
+    <stop arrival="11:32" departure="11:32">Ludebryggen</stop>
+    <stop arrival="11:33" departure="11:33">Munkebotten</stop>
+    <stop arrival="11:34" departure="11:34">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:35" departure="11:35">Handelshøyskolen</stop>
+    <stop arrival="11:37" departure="11:37">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:38" departure="11:38">Selvikvegen</stop>
+    <stop arrival="11:39" departure="11:39">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:39" departure="11:39">Ervik øvre</stop>
+    <stop arrival="11:40" departure="11:40">Åstveitvegen</stop>
+    <stop arrival="11:41" departure="11:41">Griggastemma</stop>
+    <stop arrival="11:42" departure="11:42">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:44" departure="11:44">Stamskaret</stop>
+    <stop arrival="11:45" departure="11:45">Hesthaugen</stop>
+    <stop arrival="11:46">Åsane terminal</stop>
+  </route>
+  <route no="80" destination="Flaktveit snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/759960/258135/39028/233814/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:03" routeNo="80">Oasen Terminal</stop>
+    <stop arrival="11:05" departure="11:05">Skarphaugen</stop>
+    <stop arrival="11:06" departure="11:06">Sælen skole</stop>
+    <stop arrival="11:07" departure="11:07">Torgny Segersteds vei</stop>
+    <stop arrival="11:08" departure="11:08">Smiberget</stop>
+    <stop arrival="11:09" departure="11:09">Ortustranden</stop>
+    <stop arrival="11:09" departure="11:09">Lyshovden skole</stop>
+    <stop arrival="11:09" departure="11:09">Sælemyr</stop>
+    <stop arrival="11:10" departure="11:10">Hjalmar Brantings vei</stop>
+    <stop arrival="11:11" departure="11:11">Træet (Benshaugen)</stop>
+    <stop arrival="11:12" departure="11:12">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:12" departure="11:12">Lynghaug skole</stop>
+    <stop arrival="11:13" departure="11:13">Hamregården</stop>
+    <stop arrival="11:14" departure="11:14">Sikthaugen</stop>
+    <stop arrival="11:18" departure="11:18">Gyldenpris</stop>
+    <stop arrival="11:23" departure="11:23">Bergen Busstasjon</stop>
+    <stop arrival="11:25" departure="11:25">Christies gate (Festplassen)</stop>
+    <stop arrival="11:28" departure="11:28">Torget (Bergen)</stop>
+    <stop arrival="11:29" departure="11:29">Bryggen</stop>
+    <stop arrival="11:29" departure="11:29">Slottsgaten</stop>
+    <stop arrival="11:30" departure="11:30">Bontelabo</stop>
+    <stop arrival="11:31" departure="11:31">Skutevikstorget</stop>
+    <stop arrival="11:32" departure="11:32">Sjøgaten</stop>
+    <stop arrival="11:32" departure="11:32">Sandvikstorget</stop>
+    <stop arrival="11:33" departure="11:33">Ludebryggen</stop>
+    <stop arrival="11:33" departure="11:33">Munkebotten</stop>
+    <stop arrival="11:35" departure="11:35">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:36" departure="11:36">Handelshøyskolen</stop>
+    <stop arrival="11:38" departure="11:38">Eidsvåg</stop>
+    <stop arrival="11:43" departure="11:43">Åsane terminal</stop>
+    <stop arrival="11:44" departure="11:44">Rollandskrysset</stop>
+    <stop arrival="11:44" departure="11:44">Litleåskryss</stop>
+    <stop arrival="11:45" departure="11:45">Salhuskrysset</stop>
+    <stop arrival="11:46" departure="11:46">Nyborg</stop>
+    <stop arrival="11:48" departure="11:48">Gullgruven</stop>
+    <stop arrival="11:49" departure="11:49">Industrihuset</stop>
+    <stop arrival="11:50" departure="11:50">Liakroken</stop>
+    <stop arrival="11:51" departure="11:51">Lid (Åsane)</stop>
+    <stop arrival="11:53" departure="11:53">Flaktveitrinden</stop>
+    <stop arrival="11:54" departure="11:54">Flaktveitsvingane</stop>
+    <stop arrival="11:55" departure="11:55">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:56" departure="11:56">Ulvhøyen</stop>
+    <stop arrival="11:57" departure="11:57">Breimyra</stop>
+    <stop arrival="11:58">Flaktveit snuplass</stop>
+  </route>
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/549240/187999/550044/91949/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:20" routeNo="90">Støbotn snuplass</stop>
+    <stop arrival="11:21" departure="11:21">Toppe</stop>
+    <stop arrival="11:22" departure="11:22">Marikollen</stop>
+    <stop arrival="11:22" departure="11:22">Slettestølen</stop>
+    <stop arrival="11:23" departure="11:23">Lokketodalen</stop>
+    <stop arrival="11:24" departure="11:24">Saudalskleivane</stop>
+    <stop arrival="11:26" departure="11:26">Kollbudalen</stop>
+    <stop arrival="11:27" departure="11:27">Bakketoppen, Morvik</stop>
+    <stop arrival="11:28" departure="11:28">Viddalen</stop>
+    <stop arrival="11:30" departure="11:30">Morvikbotn</stop>
+    <stop arrival="11:31" departure="11:31">Torvbakken</stop>
+    <stop arrival="11:32" departure="11:32">Spondalen</stop>
+    <stop arrival="11:33" departure="11:33">Flatevad</stop>
+    <stop arrival="11:34" departure="11:34">Åsane Brannstasjon</stop>
+    <stop arrival="11:35" departure="11:35">Åsane terminal</stop>
+    <stop arrival="11:40" departure="11:40">Eidsvåg</stop>
+    <stop arrival="11:42" departure="11:42">Handelshøyskolen</stop>
+    <stop arrival="11:44" departure="11:44">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:46" departure="11:46">Munkebotten</stop>
+    <stop arrival="11:47" departure="11:47">Ludebryggen</stop>
+    <stop arrival="11:48" departure="11:48">Sandvikstorget</stop>
+    <stop arrival="11:50" departure="11:50">Skutevikstorget</stop>
+    <stop arrival="11:51" departure="11:51">Bontelabo</stop>
+    <stop arrival="11:52" departure="11:52">Slottsgaten</stop>
+    <stop arrival="11:54" departure="11:54">Bryggen</stop>
+    <stop arrival="11:55" departure="11:55">Olav Kyrres gate</stop>
+    <stop arrival="12:00" departure="12:00">Bergen Busstasjon</stop>
+    <stop arrival="12:06" departure="12:06">Danmarksplass/ Ibsens gt.</stop>
+    <stop arrival="12:09" departure="12:09">Bjørnsons gate</stop>
+    <stop arrival="12:12" departure="12:12">Haukelandsveien</stop>
+    <stop arrival="12:13" departure="12:13">Fridalen</stop>
+    <stop arrival="12:14" departure="12:14">Langhaugen</stop>
+    <stop arrival="12:15" departure="12:15">Landåssvingen</stop>
+    <stop arrival="12:16" departure="12:16">Hagerups vei</stop>
+    <stop arrival="12:17" departure="12:17">Fageråsen</stop>
+    <stop arrival="12:18" departure="12:18">Sletten Shoppingsenter</stop>
+    <stop arrival="12:19" departure="12:19">Bergenshallen</stop>
+    <stop arrival="12:20" departure="12:20">Johan Hjorts vei</stop>
+    <stop arrival="12:22">Sletten (Bergen)</stop>
+  </route>
+  <route no="90" destination="Støbotn snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/136617/50416/498852/203888/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:05" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="11:07" departure="11:07">Johan Hjorts vei</stop>
+    <stop arrival="11:08" departure="11:08">Bergenshallen</stop>
+    <stop arrival="11:09" departure="11:09">Sletten Shoppingsenter</stop>
+    <stop arrival="11:10" departure="11:10">Fageråsen</stop>
+    <stop arrival="11:11" departure="11:11">Hagerups vei</stop>
+    <stop arrival="11:12" departure="11:12">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="11:13" departure="11:13">Langhaugen</stop>
+    <stop arrival="11:14" departure="11:14">Fridalen</stop>
+    <stop arrival="11:15" departure="11:15">Haukelandsveien</stop>
+    <stop arrival="11:16" departure="11:16">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="11:18" departure="11:18">Bjørnsons gate</stop>
+    <stop arrival="11:20" departure="11:20">Årstad VGS</stop>
+    <stop arrival="11:21" departure="11:21">Danmarksplass v/Forum kino</stop>
+    <stop arrival="11:25" departure="11:25">Bergen Busstasjon</stop>
+    <stop arrival="11:28" departure="11:28">Christies gate (Festplassen)</stop>
+    <stop arrival="11:31" departure="11:31">Torget (Bergen)</stop>
+    <stop arrival="11:32" departure="11:32">Bryggen</stop>
+    <stop arrival="11:32" departure="11:32">Slottsgaten</stop>
+    <stop arrival="11:33" departure="11:33">Bontelabo</stop>
+    <stop arrival="11:34" departure="11:34">Skutevikstorget</stop>
+    <stop arrival="11:34" departure="11:34">Sjøgaten</stop>
+    <stop arrival="11:35" departure="11:35">Sandvikstorget</stop>
+    <stop arrival="11:36" departure="11:36">Ludebryggen</stop>
+    <stop arrival="11:36" departure="11:36">Munkebotten</stop>
+    <stop arrival="11:38" departure="11:38">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:39" departure="11:39">Handelshøyskolen</stop>
+    <stop arrival="11:41" departure="11:41">Eidsvåg</stop>
+    <stop arrival="11:46" departure="11:46">Åsane terminal</stop>
+    <stop arrival="11:47" departure="11:47">Åsane Brannstasjon</stop>
+    <stop arrival="11:48" departure="11:48">Flatevad</stop>
+    <stop arrival="11:49" departure="11:49">Spondalen</stop>
+    <stop arrival="11:49" departure="11:49">Torvbakken</stop>
+    <stop arrival="11:50" departure="11:50">Morvikbotn</stop>
+    <stop arrival="11:51" departure="11:51">Viddalen</stop>
+    <stop arrival="11:52" departure="11:52">Bakketoppen, Morvik</stop>
+    <stop arrival="11:54" departure="11:54">Kollbudalen</stop>
+    <stop arrival="11:55" departure="11:55">Saudalen</stop>
+    <stop arrival="11:56" departure="11:56">Saudalskleivane</stop>
+    <stop arrival="11:57" departure="11:57">Lokketodalen</stop>
+    <stop arrival="11:58" departure="11:58">Slettestølen</stop>
+    <stop arrival="11:59" departure="11:59">Marikollen</stop>
+    <stop arrival="12:00" departure="12:00">Toppe</stop>
+    <stop arrival="12:01">Støbotn snuplass</stop>
+  </route>
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/877395/296640/635544/25307/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:31" routeNo="24">Åsane terminal</stop>
+    <stop arrival="11:32" departure="11:32">Hesthaugen</stop>
+    <stop arrival="11:33" departure="11:33">Stamskaret</stop>
+    <stop arrival="11:34" departure="11:34">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:35" departure="11:35">Griggastemma</stop>
+    <stop arrival="11:37" departure="11:37">Nedre Åstveit snuplass</stop>
+    <stop arrival="11:39" departure="11:39">Åstveitvegen</stop>
+    <stop arrival="11:40" departure="11:40">Ervik øvre</stop>
+    <stop arrival="11:41" departure="11:41">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:42" departure="11:42">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:43" departure="11:43">Fabrikkvegen</stop>
+    <stop arrival="11:45" departure="11:45">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:47" departure="11:47">Lillevågen</stop>
+    <stop arrival="11:48" departure="11:48">Tømmervågen</stop>
+    <stop arrival="11:48" departure="11:48">Trollbekken</stop>
+    <stop arrival="11:49" departure="11:49">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:51" departure="11:51">Fagerbakken</stop>
+    <stop arrival="11:52" departure="11:52">Nordre Lønborg</stop>
+    <stop arrival="11:53" departure="11:53">Lønborg</stop>
+    <stop arrival="11:53" departure="11:53">Brunestykket</stop>
+    <stop arrival="11:54" departure="11:54">Hellebakken</stop>
+    <stop arrival="11:55" departure="11:55">Eikeviken</stop>
+    <stop arrival="11:56" departure="11:56">Solbakken</stop>
+    <stop arrival="11:57" departure="11:57">Handelshøyskolen</stop>
+    <stop arrival="11:58" departure="11:58">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="12:00" departure="12:00">Munkebotten</stop>
+    <stop arrival="12:01" departure="12:01">Ludebryggen</stop>
+    <stop arrival="12:04" departure="12:04">Sandvikstorget</stop>
+    <stop arrival="12:06" departure="12:06">Skutevikstorget</stop>
+    <stop arrival="12:07" departure="12:07">Bontelabo</stop>
+    <stop arrival="12:08" departure="12:08">Slottsgaten</stop>
+    <stop arrival="12:09" departure="12:09">Bryggen</stop>
+    <stop arrival="12:10" departure="12:10">Olav Kyrres gate</stop>
+    <stop arrival="12:15" departure="12:15">Bergen Busstasjon</stop>
+    <stop arrival="12:19" departure="12:19">Danmarksplass</stop>
+    <stop arrival="12:20" departure="12:20">Solheimsgaten</stop>
+    <stop arrival="12:21" departure="12:21">Reperbanen</stop>
+    <stop arrival="12:23" departure="12:23">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="12:26" departure="12:26">Minde</stop>
+    <stop arrival="12:27" departure="12:27">Elvebakken</stop>
+    <stop arrival="12:28" departure="12:28">Storetveit</stop>
+    <stop arrival="12:28" departure="12:28">Fantoft</stop>
+    <stop arrival="12:29" departure="12:29">Nydalen</stop>
+    <stop arrival="12:30" departure="12:30">Paradis</stop>
+    <stop arrival="12:31" departure="12:31">Tveiteråsskiftet</stop>
+    <stop arrival="12:32" departure="12:32">Hopsbro</stop>
+    <stop arrival="12:34" departure="12:34">Hopstangen</stop>
+    <stop arrival="12:35">Nesttun terminal</stop>
+  </route>
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/887538/300056/758862/83587/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:34" routeNo="24">Åsane terminal</stop>
+    <stop arrival="11:35" departure="11:35">Hesthaugen</stop>
+    <stop arrival="11:36" departure="11:36">Stamskaret</stop>
+    <stop arrival="11:37" departure="11:37">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:38" departure="11:38">Griggastemma</stop>
+    <stop arrival="11:38" departure="11:38">Åstveitvegen</stop>
+    <stop arrival="11:39" departure="11:39">Ervik øvre</stop>
+    <stop arrival="11:40" departure="11:40">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:41" departure="11:41">Selvikvegen</stop>
+    <stop arrival="11:42" departure="11:42">Eidsvåg gamlevegen</stop>
+    <stop arrival="11:42" departure="11:42">Fabrikkvegen</stop>
+    <stop arrival="11:44" departure="11:44">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="11:45" departure="11:45">Lillevågen</stop>
+    <stop arrival="11:46" departure="11:46">Tømmervågen</stop>
+    <stop arrival="11:47" departure="11:47">Trollbekken</stop>
+    <stop arrival="11:48" departure="11:48">Trolldalen (Eidsvågneset)</stop>
+    <stop arrival="11:50" departure="11:50">Fagerbakken</stop>
+    <stop arrival="11:52" departure="11:52">Nordre Lønborg</stop>
+    <stop arrival="11:53" departure="11:53">Lønborg</stop>
+    <stop arrival="11:53" departure="11:53">Brunestykket</stop>
+    <stop arrival="11:54" departure="11:54">Hellebakken</stop>
+    <stop arrival="11:55" departure="11:55">Eikeviken</stop>
+    <stop arrival="11:56" departure="11:56">Solbakken</stop>
+    <stop arrival="11:57" departure="11:57">Handelshøyskolen</stop>
+    <stop arrival="11:59" departure="11:59">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="12:01" departure="12:01">Munkebotten</stop>
+    <stop arrival="12:02" departure="12:02">Ludebryggen</stop>
+    <stop arrival="12:03" departure="12:03">Sandvikstorget</stop>
+    <stop arrival="12:05" departure="12:05">Skutevikstorget</stop>
+    <stop arrival="12:06" departure="12:06">Bontelabo</stop>
+    <stop arrival="12:08" departure="12:08">Slottsgaten</stop>
+    <stop arrival="12:09" departure="12:09">Bryggen</stop>
+    <stop arrival="12:10" departure="12:10">Olav Kyrres gate</stop>
+    <stop arrival="12:15" departure="12:15">Bergen Busstasjon</stop>
+    <stop arrival="12:19" departure="12:19">Danmarksplass</stop>
+    <stop arrival="12:20" departure="12:20">Solheimsgaten</stop>
+    <stop arrival="12:21" departure="12:21">Reperbanen</stop>
+    <stop arrival="12:23" departure="12:23">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="12:27" departure="12:27">Minde</stop>
+    <stop arrival="12:28" departure="12:28">Elvebakken</stop>
+    <stop arrival="12:28" departure="12:28">Storetveit</stop>
+    <stop arrival="12:28" departure="12:28">Fantoft</stop>
+    <stop arrival="12:29" departure="12:29">Nydalen</stop>
+    <stop arrival="12:30" departure="12:30">Paradis</stop>
+    <stop arrival="12:31" departure="12:31">Tveiteråsskiftet</stop>
+    <stop arrival="12:32" departure="12:32">Hopsbro</stop>
+    <stop arrival="12:34" departure="12:34">Hopstangen</stop>
+    <stop arrival="12:35">Nesttun terminal</stop>
+  </route>
+  <route no="90" destination="Salhus kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/663345/225964/41984/200123/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="11:05" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="11:07" departure="11:07">Johan Hjorts vei</stop>
+    <stop arrival="11:08" departure="11:08">Bergenshallen</stop>
+    <stop arrival="11:09" departure="11:09">Sletten Shoppingsenter</stop>
+    <stop arrival="11:10" departure="11:10">Fageråsen</stop>
+    <stop arrival="11:11" departure="11:11">Hagerups vei</stop>
+    <stop arrival="11:12" departure="11:12">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="11:13" departure="11:13">Langhaugen</stop>
+    <stop arrival="11:14" departure="11:14">Fridalen</stop>
+    <stop arrival="11:15" departure="11:15">Haukelandsveien</stop>
+    <stop arrival="11:16" departure="11:16">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="11:18" departure="11:18">Bjørnsons gate</stop>
+    <stop arrival="11:20" departure="11:20">Årstad VGS</stop>
+    <stop arrival="11:22" departure="11:22">Danmarksplass v/Forum kino</stop>
+    <stop arrival="11:28" departure="11:28">Bergen Busstasjon</stop>
+    <stop arrival="11:30" departure="11:30">Christies gate (Festplassen)</stop>
+    <stop arrival="11:33" departure="11:33">Torget (Bergen)</stop>
+    <stop arrival="11:34" departure="11:34">Bryggen</stop>
+    <stop arrival="11:34" departure="11:34">Slottsgaten</stop>
+    <stop arrival="11:35" departure="11:35">Bontelabo</stop>
+    <stop arrival="11:36" departure="11:36">Skutevikstorget</stop>
+    <stop arrival="11:36" departure="11:36">Sjøgaten</stop>
+    <stop arrival="11:37" departure="11:37">Sandvikstorget</stop>
+    <stop arrival="11:38" departure="11:38">Ludebryggen</stop>
+    <stop arrival="11:38" departure="11:38">Munkebotten</stop>
+    <stop arrival="11:40" departure="11:40">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:41" departure="11:41">Handelshøyskolen</stop>
+    <stop arrival="11:43" departure="11:43">Eidsvåg</stop>
+    <stop arrival="11:48" departure="11:48">Åsane terminal</stop>
+    <stop arrival="11:49" departure="11:49">Åsane Brannstasjon</stop>
+    <stop arrival="11:50" departure="11:50">Flatevad</stop>
+    <stop arrival="11:51" departure="11:51">Spondalen</stop>
+    <stop arrival="11:51" departure="11:51">Torvbakken</stop>
+    <stop arrival="11:52" departure="11:52">Morvikbotn</stop>
+    <stop arrival="11:53" departure="11:53">Viddalen</stop>
+    <stop arrival="11:54" departure="11:54">Bakketoppen, Morvik</stop>
+    <stop arrival="11:56" departure="11:56">Kollbudalen</stop>
+    <stop arrival="11:57" departure="11:57">Saudalen</stop>
+    <stop arrival="11:58" departure="11:58">Saudalskleivane</stop>
+    <stop arrival="11:59" departure="11:59">Lokketodalen</stop>
+    <stop arrival="12:00" departure="12:00">Slettestølen</stop>
+    <stop arrival="12:01" departure="12:01">Marikollen</stop>
+    <stop arrival="12:02" departure="12:02">Toppe</stop>
+    <stop arrival="12:03" departure="12:03">Støbotn snuplass</stop>
+    <stop arrival="12:04" departure="12:04">Matre</stop>
+    <stop arrival="12:05" departure="12:05">Kistebakkane</stop>
+    <stop arrival="12:07" departure="12:07">Nygård, Salhus</stop>
+    <stop arrival="12:07" departure="12:07">Langeland (Åsane)</stop>
+    <stop arrival="12:08">Salhus kai</stop>
+  </route>
+  <route no="380" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/788265/263674/979358/226924/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:50" routeNo="380">Lonevåg terminal</stop>
+    <stop arrival="10:51" departure="10:51">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="10:52" departure="10:52">Lone N , Osterøy</stop>
+    <stop arrival="10:53" departure="10:53">Lone, Osterøy</stop>
+    <stop arrival="10:53" departure="10:53">Lone Bru, Osterøy</stop>
+    <stop arrival="10:54" departure="10:54">Revheim</stop>
+    <stop arrival="10:55" departure="10:55">Revheim</stop>
+    <stop arrival="10:57" departure="10:57">Øyjordsbru</stop>
+    <stop arrival="10:57" departure="10:57">Haugsviksvingen</stop>
+    <stop arrival="10:58" departure="10:58">Hauge skule (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Hauge (Osterøy)</stop>
+    <stop arrival="11:00" departure="11:00">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="11:02" departure="11:02">Halland S, Osterøy</stop>
+    <stop arrival="11:03" departure="11:03">Halland, Osterøy</stop>
+    <stop arrival="11:05" departure="11:05">Småland</stop>
+    <stop arrival="11:07" departure="11:07">Loftås (Osterøy)</stop>
+    <stop arrival="11:09" departure="11:09">Elvikneset</stop>
+    <stop arrival="11:11" departure="11:11">Bullabrekka (Osterøy)</stop>
+    <stop arrival="11:14" departure="11:14">Valestrand</stop>
+    <stop arrival="11:15" departure="11:15">Valestrand</stop>
+    <stop arrival="11:25" departure="11:25">Breistein kai</stop>
+    <stop arrival="11:26" departure="11:26">Kaiveg</stop>
+    <stop arrival="11:27" departure="11:27">Vollane</stop>
+    <stop arrival="11:29" departure="11:29">Vestlandsheimen</stop>
+    <stop arrival="11:30" departure="11:30">Myrsæter</stop>
+    <stop arrival="11:30" departure="11:30">Haukås barnehage</stop>
+    <stop arrival="11:31" departure="11:31">Haukåsvegen</stop>
+    <stop arrival="11:33" departure="11:33">Vikaleitet</stop>
+    <stop arrival="11:34" departure="11:34">Eikås</stop>
+    <stop arrival="11:34" departure="11:34">Vågsbotn</stop>
+    <stop arrival="11:35" departure="11:35">Liavegen (Åsane)</stop>
+    <stop arrival="11:36" departure="11:36">Domus Nyborg</stop>
+    <stop arrival="11:36" departure="11:36">Nyborg</stop>
+    <stop arrival="11:37" departure="11:37">Salhuskrysset</stop>
+    <stop arrival="11:38" departure="11:38">Litleåskryss</stop>
+    <stop arrival="11:38" departure="11:38">Rollandskrysset</stop>
+    <stop arrival="11:39" departure="11:39">Åsane terminal</stop>
+    <stop arrival="11:44" departure="11:44">Eidsvåg</stop>
+    <stop arrival="11:49" departure="11:49">Handelshøyskolen</stop>
+    <stop arrival="11:51" departure="11:51">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:53" departure="11:53">Munkebotten</stop>
+    <stop arrival="11:54" departure="11:54">Ludebryggen</stop>
+    <stop arrival="11:56" departure="11:56">Sandvikstorget</stop>
+    <stop arrival="11:57" departure="11:57">Skutevikstorget</stop>
+    <stop arrival="11:59" departure="11:59">Bontelabo</stop>
+    <stop arrival="12:00" departure="12:00">Slottsgaten</stop>
+    <stop arrival="12:01" departure="12:01">Bryggen</stop>
+    <stop arrival="12:02" departure="12:02">Olav Kyrres gate</stop>
+    <stop arrival="12:04" departure="12:04">Kaigaten/v. Jernbanen</stop>
+    <stop arrival="12:05">Bergen Busstasjon</stop>
+  </route>
+  <route no="90" destination="Støbotn snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/24954/13233/885460/434415/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:10" routeNo="90">Sletten (Bergen)</stop>
+    <stop arrival="11:12" departure="11:12">Johan Hjorts vei</stop>
+    <stop arrival="11:13" departure="11:13">Bergenshallen</stop>
+    <stop arrival="11:14" departure="11:14">Sletten Shoppingsenter</stop>
+    <stop arrival="11:15" departure="11:15">Fageråsen</stop>
+    <stop arrival="11:16" departure="11:16">Hagerups vei</stop>
+    <stop arrival="11:17" departure="11:17">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="11:18" departure="11:18">Langhaugen</stop>
+    <stop arrival="11:19" departure="11:19">Fridalen</stop>
+    <stop arrival="11:20" departure="11:20">Haukelandsveien</stop>
+    <stop arrival="11:22" departure="11:22">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="11:24" departure="11:24">Bjørnsons gate</stop>
+    <stop arrival="11:28" departure="11:28">Årstad VGS</stop>
+    <stop arrival="11:29" departure="11:29">Danmarksplass v/Forum kino</stop>
+    <stop arrival="11:33" departure="11:33">Bergen Busstasjon</stop>
+    <stop arrival="11:35" departure="11:35">Christies gate (Festplassen)</stop>
+    <stop arrival="11:38" departure="11:38">Torget (Bergen)</stop>
+    <stop arrival="11:39" departure="11:39">Bryggen</stop>
+    <stop arrival="11:39" departure="11:39">Slottsgaten</stop>
+    <stop arrival="11:40" departure="11:40">Bontelabo</stop>
+    <stop arrival="11:41" departure="11:41">Skutevikstorget</stop>
+    <stop arrival="11:41" departure="11:41">Sjøgaten</stop>
+    <stop arrival="11:42" departure="11:42">Sandvikstorget</stop>
+    <stop arrival="11:43" departure="11:43">Ludebryggen</stop>
+    <stop arrival="11:43" departure="11:43">Munkebotten</stop>
+    <stop arrival="11:45" departure="11:45">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:46" departure="11:46">Handelshøyskolen</stop>
+    <stop arrival="11:48" departure="11:48">Eidsvåg</stop>
+    <stop arrival="11:53" departure="11:53">Åsane terminal</stop>
+    <stop arrival="11:54" departure="11:54">Åsane Brannstasjon</stop>
+    <stop arrival="11:55" departure="11:55">Flatevad</stop>
+    <stop arrival="11:56" departure="11:56">Spondalen</stop>
+    <stop arrival="11:56" departure="11:56">Torvbakken</stop>
+    <stop arrival="11:57" departure="11:57">Morvikbotn</stop>
+    <stop arrival="11:58" departure="11:58">Viddalen</stop>
+    <stop arrival="11:59" departure="11:59">Bakketoppen, Morvik</stop>
+    <stop arrival="12:01" departure="12:01">Kollbudalen</stop>
+    <stop arrival="12:02" departure="12:02">Saudalen</stop>
+    <stop arrival="12:03" departure="12:03">Saudalskleivane</stop>
+    <stop arrival="12:04" departure="12:04">Lokketodalen</stop>
+    <stop arrival="12:05" departure="12:05">Slettestølen</stop>
+    <stop arrival="12:06" departure="12:06">Marikollen</stop>
+    <stop arrival="12:07" departure="12:07">Toppe</stop>
+    <stop arrival="12:08">Støbotn snuplass</stop>
+  </route>
+  <route no="50" destination="Dolvik terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/756939/253166/817048/156211/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:40" routeNo="50">Åsane terminal</stop>
+    <stop arrival="11:41" departure="11:41">Hesthaugen</stop>
+    <stop arrival="11:42" departure="11:42">Stamskaret</stop>
+    <stop arrival="11:43" departure="11:43">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:44" departure="11:44">Griggastemma</stop>
+    <stop arrival="11:45" departure="11:45">Åstveitvegen</stop>
+    <stop arrival="11:45" departure="11:45">Ervik øvre</stop>
+    <stop arrival="11:46" departure="11:46">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:47" departure="11:47">Selvikvegen</stop>
+    <stop arrival="11:48" departure="11:48">Eidsvåg</stop>
+    <stop arrival="11:50" departure="11:50">Handelshøyskolen</stop>
+    <stop arrival="11:52" departure="11:52">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:54" departure="11:54">Munkebotten</stop>
+    <stop arrival="11:55" departure="11:55">Ludebryggen</stop>
+    <stop arrival="11:56" departure="11:56">Sandvikstorget</stop>
+    <stop arrival="11:58" departure="11:58">Skutevikstorget</stop>
+    <stop arrival="11:59" departure="11:59">Bontelabo</stop>
+    <stop arrival="12:01" departure="12:01">Slottsgaten</stop>
+    <stop arrival="12:02" departure="12:02">Bryggen</stop>
+    <stop arrival="12:03" departure="12:03">Småstrandgaten</stop>
+    <stop arrival="12:04" departure="12:04">Nygaten</stop>
+    <stop arrival="12:05" departure="12:05">Statsporten (jernbanen)</stop>
+    <stop arrival="12:08" departure="12:08">Kalfarlien</stop>
+    <stop arrival="12:09" departure="12:09">Kalvedalsveien</stop>
+    <stop arrival="12:10" departure="12:10">Svartediksveien</stop>
+    <stop arrival="12:11" departure="12:11">Statsarkivet</stop>
+    <stop arrival="12:12" departure="12:12">Haraldsplass sykehus</stop>
+    <stop arrival="12:13" departure="12:13">Haukeland sykehus nord</stop>
+    <stop arrival="12:14" departure="12:14">Haukeland sykehus sør</stop>
+    <stop arrival="12:15" departure="12:15">Fridalen</stop>
+    <stop arrival="12:15" departure="12:15">Langhaugen</stop>
+    <stop arrival="12:16" departure="12:16">Landåssvingen</stop>
+    <stop arrival="12:16" departure="12:16">Landåstorget</stop>
+    <stop arrival="12:17" departure="12:17">Erleveien</stop>
+    <stop arrival="12:17" departure="12:17">Wier-Jenssens vei</stop>
+    <stop arrival="12:18" departure="12:18">Mannsverk</stop>
+    <stop arrival="12:18" departure="12:18">Bolstad</stop>
+    <stop arrival="12:19" departure="12:19">Hans Jægers vei</stop>
+    <stop arrival="12:19" departure="12:19">Kolstibotn</stop>
+    <stop arrival="12:19" departure="12:19">Knausen</stop>
+    <stop arrival="12:20" departure="12:20">Birkelundstoppen</stop>
+    <stop arrival="12:21" departure="12:21">Birkelundsbakken</stop>
+    <stop arrival="12:21" departure="12:21">Natlandslien</stop>
+    <stop arrival="12:22" departure="12:22">Stavkirken</stop>
+    <stop arrival="12:23" departure="12:23">Paradis</stop>
+    <stop arrival="12:24" departure="12:24">Tveiteråsskiftet</stop>
+    <stop arrival="12:25" departure="12:25">Hopsbro</stop>
+    <stop arrival="12:27" departure="12:27">Hopstangen</stop>
+    <stop arrival="12:28" departure="12:28">Nesttun terminal</stop>
+    <stop arrival="12:30" departure="12:30">Nesttun</stop>
+    <stop arrival="12:33" departure="12:33">Skjoldskiftet</stop>
+    <stop arrival="12:33" departure="12:33">Nesttunbrekka</stop>
+    <stop arrival="12:34" departure="12:34">Mårdalen</stop>
+    <stop arrival="12:34" departure="12:34">Skjoldhøgda</stop>
+    <stop arrival="12:34" departure="12:34">Skjold skole</stop>
+    <stop arrival="12:35" departure="12:35">Lagunen</stop>
+    <stop arrival="12:36" departure="12:36">Rådal</stop>
+    <stop arrival="12:37" departure="12:37">Meyerskiftet</stop>
+    <stop arrival="12:41" departure="12:41">Håvardstun</stop>
+    <stop arrival="12:42" departure="12:42">Statoil stasjon Sandsli</stop>
+    <stop arrival="12:43" departure="12:43">Hydro Sandsli</stop>
+    <stop arrival="12:44" departure="12:44">Petedalsheia</stop>
+    <stop arrival="12:45" departure="12:45">Fanatorget</stop>
+    <stop arrival="12:47">Dolvik terminal</stop>
+  </route>
+  <route no="50" destination="Dolvik terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/233568/78675/212670/28481/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:40" routeNo="50">Åsane terminal</stop>
+    <stop arrival="11:41" departure="11:41">Hesthaugen</stop>
+    <stop arrival="11:43" departure="11:43">Stamskaret</stop>
+    <stop arrival="11:45" departure="11:45">Tertneskrysset gamleveien</stop>
+    <stop arrival="11:46" departure="11:46">Griggastemma</stop>
+    <stop arrival="11:47" departure="11:47">Åstveitvegen</stop>
+    <stop arrival="11:47" departure="11:47">Ervik øvre</stop>
+    <stop arrival="11:48" departure="11:48">Ervik nedre (Sellesvingen)</stop>
+    <stop arrival="11:49" departure="11:49">Selvikvegen</stop>
+    <stop arrival="11:50" departure="11:50">Eidsvåg</stop>
+    <stop arrival="11:52" departure="11:52">Handelshøyskolen</stop>
+    <stop arrival="11:54" departure="11:54">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:56" departure="11:56">Munkebotten</stop>
+    <stop arrival="11:57" departure="11:57">Ludebryggen</stop>
+    <stop arrival="11:58" departure="11:58">Sandvikstorget</stop>
+    <stop arrival="12:00" departure="12:00">Skutevikstorget</stop>
+    <stop arrival="12:01" departure="12:01">Bontelabo</stop>
+    <stop arrival="12:03" departure="12:03">Slottsgaten</stop>
+    <stop arrival="12:04" departure="12:04">Bryggen</stop>
+    <stop arrival="12:05" departure="12:05">Småstrandgaten</stop>
+    <stop arrival="12:06" departure="12:06">Nygaten</stop>
+    <stop arrival="12:07" departure="12:07">Statsporten (jernbanen)</stop>
+    <stop arrival="12:10" departure="12:10">Kalfarlien</stop>
+    <stop arrival="12:11" departure="12:11">Kalvedalsveien</stop>
+    <stop arrival="12:12" departure="12:12">Svartediksveien</stop>
+    <stop arrival="12:13" departure="12:13">Statsarkivet</stop>
+    <stop arrival="12:14" departure="12:14">Haraldsplass sykehus</stop>
+    <stop arrival="12:15" departure="12:15">Haukeland sykehus nord</stop>
+    <stop arrival="12:15" departure="12:15">Haukeland sykehus sør</stop>
+    <stop arrival="12:16" departure="12:16">Fridalen</stop>
+    <stop arrival="12:16" departure="12:16">Langhaugen</stop>
+    <stop arrival="12:17" departure="12:17">Landåssvingen</stop>
+    <stop arrival="12:17" departure="12:17">Landåstorget</stop>
+    <stop arrival="12:17" departure="12:17">Erleveien</stop>
+    <stop arrival="12:18" departure="12:18">Wier-Jenssens vei</stop>
+    <stop arrival="12:18" departure="12:18">Mannsverk</stop>
+    <stop arrival="12:19" departure="12:19">Bolstad</stop>
+    <stop arrival="12:20" departure="12:20">Hans Jægers vei</stop>
+    <stop arrival="12:21" departure="12:21">Kolstibotn</stop>
+    <stop arrival="12:22" departure="12:22">Knausen</stop>
+    <stop arrival="12:23" departure="12:23">Birkelundstoppen</stop>
+    <stop arrival="12:24" departure="12:24">Birkelundsbakken</stop>
+    <stop arrival="12:24" departure="12:24">Natlandslien</stop>
+    <stop arrival="12:24" departure="12:24">Stavkirken</stop>
+    <stop arrival="12:25" departure="12:25">Paradis</stop>
+    <stop arrival="12:26" departure="12:26">Tveiteråsskiftet</stop>
+    <stop arrival="12:27" departure="12:27">Hopsbro</stop>
+    <stop arrival="12:29" departure="12:29">Hopstangen</stop>
+    <stop arrival="12:30" departure="12:30">Nesttun terminal</stop>
+    <stop arrival="12:32" departure="12:32">Nesttun</stop>
+    <stop arrival="12:35" departure="12:35">Skjoldskiftet</stop>
+    <stop arrival="12:36" departure="12:36">Nesttunbrekka</stop>
+    <stop arrival="12:36" departure="12:36">Mårdalen</stop>
+    <stop arrival="12:37" departure="12:37">Skjoldhøgda</stop>
+    <stop arrival="12:39" departure="12:39">Skjold skole</stop>
+    <stop arrival="12:40" departure="12:40">Lagunen</stop>
+    <stop arrival="12:41" departure="12:41">Rådal</stop>
+    <stop arrival="12:42" departure="12:42">Meyerskiftet</stop>
+    <stop arrival="12:45" departure="12:45">Håvardstun</stop>
+    <stop arrival="12:46" departure="12:46">Statoil stasjon Sandsli</stop>
+    <stop arrival="12:47" departure="12:47">Hydro Sandsli</stop>
+    <stop arrival="12:48" departure="12:48">Petedalsheia</stop>
+    <stop arrival="12:49" departure="12:49">Fanatorget</stop>
+    <stop arrival="12:49" departure="12:49">Regnbueåsen</stop>
+    <stop arrival="12:50">Dolvik terminal</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/416382/143560/702664/212540/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="11:30" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="11:31" departure="11:31">Breimyra</stop>
+    <stop arrival="11:32" departure="11:32">Ulvhøyen</stop>
+    <stop arrival="11:33" departure="11:33">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:34" departure="11:34">Flaktveitsvingane</stop>
+    <stop arrival="11:35" departure="11:35">Flaktveitrinden</stop>
+    <stop arrival="11:37" departure="11:37">Lid (Åsane)</stop>
+    <stop arrival="11:38" departure="11:38">Liakroken</stop>
+    <stop arrival="11:39" departure="11:39">Industrihuset</stop>
+    <stop arrival="11:40" departure="11:40">Gullgruven</stop>
+    <stop arrival="11:42" departure="11:42">Nyborg</stop>
+    <stop arrival="11:43" departure="11:43">Salhuskrysset</stop>
+    <stop arrival="11:44" departure="11:44">Litleåskryss</stop>
+    <stop arrival="11:44" departure="11:44">Rollandskrysset</stop>
+    <stop arrival="11:45" departure="11:45">Åsane terminal</stop>
+    <stop arrival="11:50" departure="11:50">Eidsvåg</stop>
+    <stop arrival="11:52" departure="11:52">Handelshøyskolen</stop>
+    <stop arrival="11:53" departure="11:53">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:54" departure="11:54">Munkebotten</stop>
+    <stop arrival="11:55" departure="11:55">Ludebryggen</stop>
+    <stop arrival="11:57" departure="11:57">Sandvikstorget</stop>
+    <stop arrival="11:59" departure="11:59">Skutevikstorget</stop>
+    <stop arrival="11:59" departure="11:59">Bontelabo</stop>
+    <stop arrival="12:00" departure="12:00">Slottsgaten</stop>
+    <stop arrival="12:01" departure="12:01">Bryggen</stop>
+    <stop arrival="12:02" departure="12:02">Olav Kyrres gate</stop>
+    <stop arrival="12:07" departure="12:07">Bergen Busstasjon</stop>
+    <stop arrival="12:12" departure="12:12">Gyldenpris</stop>
+    <stop arrival="12:16" departure="12:16">Løvstakktunnelen</stop>
+    <stop arrival="12:16" departure="12:16">Sikthaugen</stop>
+    <stop arrival="12:18" departure="12:18">Lynghaug skole</stop>
+    <stop arrival="12:18" departure="12:18">Dag Hammarskjølds vei</stop>
+    <stop arrival="12:19" departure="12:19">Træet (Benshaugen)</stop>
+    <stop arrival="12:20" departure="12:20">Hjalmar Brantings vei</stop>
+    <stop arrival="12:20" departure="12:20">Sælemyr</stop>
+    <stop arrival="12:21" departure="12:21">Lyshovden skole</stop>
+    <stop arrival="12:21" departure="12:21">Ortustranden</stop>
+    <stop arrival="12:22" departure="12:22">Smiberget</stop>
+    <stop arrival="12:23" departure="12:23">Torgny Segersteds vei</stop>
+    <stop arrival="12:24" departure="12:24">Sælen skole</stop>
+    <stop arrival="12:26" departure="12:26">Skarphaugen</stop>
+    <stop arrival="12:27">Oasen Terminal</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/205167/73171/859226/361226/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:30" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="11:31" departure="11:31">Breimyra</stop>
+    <stop arrival="11:32" departure="11:32">Ulvhøyen</stop>
+    <stop arrival="11:33" departure="11:33">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:34" departure="11:34">Flaktveitsvingane</stop>
+    <stop arrival="11:35" departure="11:35">Flaktveitrinden</stop>
+    <stop arrival="11:37" departure="11:37">Lid (Åsane)</stop>
+    <stop arrival="11:38" departure="11:38">Liakroken</stop>
+    <stop arrival="11:39" departure="11:39">Industrihuset</stop>
+    <stop arrival="11:40" departure="11:40">Gullgruven</stop>
+    <stop arrival="11:42" departure="11:42">Nyborg</stop>
+    <stop arrival="11:43" departure="11:43">Salhuskrysset</stop>
+    <stop arrival="11:44" departure="11:44">Litleåskryss</stop>
+    <stop arrival="11:44" departure="11:44">Rollandskrysset</stop>
+    <stop arrival="11:45" departure="11:45">Åsane terminal</stop>
+    <stop arrival="11:50" departure="11:50">Eidsvåg</stop>
+    <stop arrival="11:52" departure="11:52">Handelshøyskolen</stop>
+    <stop arrival="11:53" departure="11:53">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:55" departure="11:55">Munkebotten</stop>
+    <stop arrival="11:56" departure="11:56">Ludebryggen</stop>
+    <stop arrival="11:59" departure="11:59">Sandvikstorget</stop>
+    <stop arrival="12:01" departure="12:01">Skutevikstorget</stop>
+    <stop arrival="12:02" departure="12:02">Bontelabo</stop>
+    <stop arrival="12:03" departure="12:03">Slottsgaten</stop>
+    <stop arrival="12:04" departure="12:04">Bryggen</stop>
+    <stop arrival="12:05" departure="12:05">Olav Kyrres gate</stop>
+    <stop arrival="12:10" departure="12:10">Bergen Busstasjon</stop>
+    <stop arrival="12:15" departure="12:15">Gyldenpris</stop>
+    <stop arrival="12:19" departure="12:19">Løvstakktunnelen</stop>
+    <stop arrival="12:19" departure="12:19">Sikthaugen</stop>
+    <stop arrival="12:21" departure="12:21">Lynghaug skole</stop>
+    <stop arrival="12:21" departure="12:21">Dag Hammarskjølds vei</stop>
+    <stop arrival="12:22" departure="12:22">Træet (Benshaugen)</stop>
+    <stop arrival="12:23" departure="12:23">Hjalmar Brantings vei</stop>
+    <stop arrival="12:23" departure="12:23">Sælemyr</stop>
+    <stop arrival="12:24" departure="12:24">Lyshovden skole</stop>
+    <stop arrival="12:24" departure="12:24">Ortustranden</stop>
+    <stop arrival="12:25" departure="12:25">Smiberget</stop>
+    <stop arrival="12:26" departure="12:26">Torgny Segersteds vei</stop>
+    <stop arrival="12:27" departure="12:27">Sælen skole</stop>
+    <stop arrival="12:29" departure="12:29">Skarphaugen</stop>
+    <stop arrival="12:30">Oasen Terminal</stop>
+  </route>
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/776841/263759/440310/38804/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:30" routeNo="80">Flaktveit snuplass</stop>
+    <stop arrival="11:31" departure="11:31">Breimyra</stop>
+    <stop arrival="11:32" departure="11:32">Ulvhøyen</stop>
+    <stop arrival="11:33" departure="11:33">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="11:34" departure="11:34">Flaktveitsvingane</stop>
+    <stop arrival="11:35" departure="11:35">Flaktveitrinden</stop>
+    <stop arrival="11:37" departure="11:37">Lid (Åsane)</stop>
+    <stop arrival="11:38" departure="11:38">Liakroken</stop>
+    <stop arrival="11:39" departure="11:39">Industrihuset</stop>
+    <stop arrival="11:40" departure="11:40">Gullgruven</stop>
+    <stop arrival="11:42" departure="11:42">Nyborg</stop>
+    <stop arrival="11:43" departure="11:43">Salhuskrysset</stop>
+    <stop arrival="11:44" departure="11:44">Litleåskryss</stop>
+    <stop arrival="11:44" departure="11:44">Rollandskrysset</stop>
+    <stop arrival="11:45" departure="11:45">Åsane terminal</stop>
+    <stop arrival="11:50" departure="11:50">Eidsvåg</stop>
+    <stop arrival="11:52" departure="11:52">Handelshøyskolen</stop>
+    <stop arrival="11:53" departure="11:53">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:55" departure="11:55">Munkebotten</stop>
+    <stop arrival="11:56" departure="11:56">Ludebryggen</stop>
+    <stop arrival="11:59" departure="11:59">Sandvikstorget</stop>
+    <stop arrival="12:01" departure="12:01">Skutevikstorget</stop>
+    <stop arrival="12:02" departure="12:02">Bontelabo</stop>
+    <stop arrival="12:03" departure="12:03">Slottsgaten</stop>
+    <stop arrival="12:04" departure="12:04">Bryggen</stop>
+    <stop arrival="12:05" departure="12:05">Olav Kyrres gate</stop>
+    <stop arrival="12:10" departure="12:10">Bergen Busstasjon</stop>
+    <stop arrival="12:13" departure="12:13">Gyldenpris</stop>
+    <stop arrival="12:17" departure="12:17">Løvstakktunnelen</stop>
+    <stop arrival="12:18" departure="12:18">Sikthaugen</stop>
+    <stop arrival="12:20" departure="12:20">Lynghaug skole</stop>
+    <stop arrival="12:21" departure="12:21">Dag Hammarskjølds vei</stop>
+    <stop arrival="12:21" departure="12:21">Træet (Benshaugen)</stop>
+    <stop arrival="12:22" departure="12:22">Hjalmar Brantings vei</stop>
+    <stop arrival="12:23" departure="12:23">Sælemyr</stop>
+    <stop arrival="12:24" departure="12:24">Lyshovden skole</stop>
+    <stop arrival="12:24" departure="12:24">Ortustranden</stop>
+    <stop arrival="12:25" departure="12:25">Smiberget</stop>
+    <stop arrival="12:26" departure="12:26">Torgny Segersteds vei</stop>
+    <stop arrival="12:27" departure="12:27">Sælen skole</stop>
+    <stop arrival="12:29" departure="12:29">Skarphaugen</stop>
+    <stop arrival="12:30">Oasen Terminal</stop>
+  </route>
+  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/144750/52978/600398/251955/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:35" routeNo="71">Viddalen</stop>
+    <stop arrival="11:37" departure="11:37">Bryggedalen</stop>
+    <stop arrival="11:38" departure="11:38">Åsane sand + singel</stop>
+    <stop arrival="11:38" departure="11:38">Kvernevikstemma</stop>
+    <stop arrival="11:39" departure="11:39">Tertitten</stop>
+    <stop arrival="11:40" departure="11:40">Bekkjarvik (Åsane)</stop>
+    <stop arrival="11:41" departure="11:41">Nesmyr</stop>
+    <stop arrival="11:41" departure="11:41">Storevarden</stop>
+    <stop arrival="11:42" departure="11:42">Kipo</stop>
+    <stop arrival="11:42" departure="11:42">Bekkjarvikkryss (Åsane)</stop>
+    <stop arrival="11:43" departure="11:43">Sjøveien</stop>
+    <stop arrival="11:44" departure="11:44">Haukedalsvegen</stop>
+    <stop arrival="11:45" departure="11:45">Botnane</stop>
+    <stop arrival="11:46" departure="11:46">Haukeberget</stop>
+    <stop arrival="11:47" departure="11:47">Ulsetåsen</stop>
+    <stop arrival="11:48" departure="11:48">Åsane Brannstasjon</stop>
+    <stop arrival="11:50" departure="11:50">Åsane terminal</stop>
+    <stop arrival="11:51" departure="11:51">Hesthaugen</stop>
+    <stop arrival="11:52" departure="11:52">Stamskaret</stop>
+    <stop arrival="11:53" departure="11:53">Tertneskrysset nyevegen</stop>
+    <stop arrival="11:56" departure="11:56">Eidsvåg</stop>
+    <stop arrival="11:58" departure="11:58">Handelshøyskolen</stop>
+    <stop arrival="12:00" departure="12:00">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="12:02" departure="12:02">Munkebotten</stop>
+    <stop arrival="12:03" departure="12:03">Ludebryggen</stop>
+    <stop arrival="12:04" departure="12:04">Sandvikstorget</stop>
+    <stop arrival="12:06" departure="12:06">Skutevikstorget</stop>
+    <stop arrival="12:07" departure="12:07">Bontelabo</stop>
+    <stop arrival="12:08" departure="12:08">Slottsgaten</stop>
+    <stop arrival="12:10" departure="12:10">Bryggen</stop>
+    <stop arrival="12:11" departure="12:11">Olav Kyrres gate</stop>
+    <stop arrival="12:14" departure="12:14">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="12:16" departure="12:16">Gyldenpris</stop>
+    <stop arrival="12:17" departure="12:17">Solveien</stop>
+    <stop arrival="12:18" departure="12:18">Jansongården</stop>
+    <stop arrival="12:20" departure="12:20">Fergeveien</stop>
+    <stop arrival="12:21" departure="12:21">Vågedalen</stop>
+    <stop arrival="12:23" departure="12:23">Oldernes</stop>
+    <stop arrival="12:24" departure="12:24">Kringsjå</stop>
+    <stop arrival="12:25" departure="12:25">Nygård, Laksevåg</stop>
+    <stop arrival="12:26" departure="12:26">Haustbeitet</stop>
+    <stop arrival="12:27" departure="12:27">Nygårdslien</stop>
+    <stop arrival="12:28" departure="12:28">Lyngbøveien</stop>
+    <stop arrival="12:30" departure="12:30">Nipedalen v/Lyngbøveien</stop>
+    <stop arrival="12:31" departure="12:31">Nipedalen v/nr. 23</stop>
+    <stop arrival="12:33" departure="12:33">Lyngbøkollen</stop>
+    <stop arrival="12:35">Nipedalen</stop>
+  </route>
+  <route no="80" destination="Flaktveit snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/813399/275948/4964/268660/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:23" routeNo="80">Oasen Terminal</stop>
+    <stop arrival="11:25" departure="11:25">Skarphaugen</stop>
+    <stop arrival="11:26" departure="11:26">Sælen skole</stop>
+    <stop arrival="11:27" departure="11:27">Torgny Segersteds vei</stop>
+    <stop arrival="11:28" departure="11:28">Smiberget</stop>
+    <stop arrival="11:29" departure="11:29">Ortustranden</stop>
+    <stop arrival="11:29" departure="11:29">Lyshovden skole</stop>
+    <stop arrival="11:29" departure="11:29">Sælemyr</stop>
+    <stop arrival="11:30" departure="11:30">Hjalmar Brantings vei</stop>
+    <stop arrival="11:31" departure="11:31">Træet (Benshaugen)</stop>
+    <stop arrival="11:32" departure="11:32">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:32" departure="11:32">Lynghaug skole</stop>
+    <stop arrival="11:33" departure="11:33">Hamregården</stop>
+    <stop arrival="11:34" departure="11:34">Sikthaugen</stop>
+    <stop arrival="11:38" departure="11:38">Gyldenpris</stop>
+    <stop arrival="11:43" departure="11:43">Bergen Busstasjon</stop>
+    <stop arrival="11:45" departure="11:45">Christies gate (Festplassen)</stop>
+    <stop arrival="11:48" departure="11:48">Torget (Bergen)</stop>
+    <stop arrival="11:49" departure="11:49">Bryggen</stop>
+    <stop arrival="11:49" departure="11:49">Slottsgaten</stop>
+    <stop arrival="11:50" departure="11:50">Bontelabo</stop>
+    <stop arrival="11:51" departure="11:51">Skutevikstorget</stop>
+    <stop arrival="11:52" departure="11:52">Sjøgaten</stop>
+    <stop arrival="11:52" departure="11:52">Sandvikstorget</stop>
+    <stop arrival="11:53" departure="11:53">Ludebryggen</stop>
+    <stop arrival="11:53" departure="11:53">Munkebotten</stop>
+    <stop arrival="11:55" departure="11:55">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:56" departure="11:56">Handelshøyskolen</stop>
+    <stop arrival="11:58" departure="11:58">Eidsvåg</stop>
+    <stop arrival="12:03" departure="12:03">Åsane terminal</stop>
+    <stop arrival="12:04" departure="12:04">Rollandskrysset</stop>
+    <stop arrival="12:04" departure="12:04">Litleåskryss</stop>
+    <stop arrival="12:05" departure="12:05">Salhuskrysset</stop>
+    <stop arrival="12:06" departure="12:06">Nyborg</stop>
+    <stop arrival="12:08" departure="12:08">Gullgruven</stop>
+    <stop arrival="12:09" departure="12:09">Industrihuset</stop>
+    <stop arrival="12:10" departure="12:10">Liakroken</stop>
+    <stop arrival="12:11" departure="12:11">Lid (Åsane)</stop>
+    <stop arrival="12:13" departure="12:13">Flaktveitrinden</stop>
+    <stop arrival="12:14" departure="12:14">Flaktveitsvingane</stop>
+    <stop arrival="12:15" departure="12:15">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="12:16" departure="12:16">Ulvhøyen</stop>
+    <stop arrival="12:17" departure="12:17">Breimyra</stop>
+    <stop arrival="12:18">Flaktveit snuplass</stop>
+  </route>
+  <route no="80" destination="Flaktveit snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/374700/129681/79234/85285/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:24" routeNo="80">Oasen Terminal</stop>
+    <stop arrival="11:26" departure="11:26">Skarphaugen</stop>
+    <stop arrival="11:27" departure="11:27">Sælen skole</stop>
+    <stop arrival="11:28" departure="11:28">Torgny Segersteds vei</stop>
+    <stop arrival="11:29" departure="11:29">Smiberget</stop>
+    <stop arrival="11:29" departure="11:29">Ortustranden</stop>
+    <stop arrival="11:30" departure="11:30">Lyshovden skole</stop>
+    <stop arrival="11:30" departure="11:30">Sælemyr</stop>
+    <stop arrival="11:31" departure="11:31">Hjalmar Brantings vei</stop>
+    <stop arrival="11:32" departure="11:32">Træet (Benshaugen)</stop>
+    <stop arrival="11:32" departure="11:32">Dag Hammarskjølds vei</stop>
+    <stop arrival="11:33" departure="11:33">Lynghaug skole</stop>
+    <stop arrival="11:33" departure="11:33">Hamregården</stop>
+    <stop arrival="11:34" departure="11:34">Sikthaugen</stop>
+    <stop arrival="11:38" departure="11:38">Gyldenpris</stop>
+    <stop arrival="11:43" departure="11:43">Bergen Busstasjon</stop>
+    <stop arrival="11:46" departure="11:46">Christies gate (Festplassen)</stop>
+    <stop arrival="11:49" departure="11:49">Torget (Bergen)</stop>
+    <stop arrival="11:50" departure="11:50">Bryggen</stop>
+    <stop arrival="11:50" departure="11:50">Slottsgaten</stop>
+    <stop arrival="11:51" departure="11:51">Bontelabo</stop>
+    <stop arrival="11:52" departure="11:52">Skutevikstorget</stop>
+    <stop arrival="11:53" departure="11:53">Sjøgaten</stop>
+    <stop arrival="11:53" departure="11:53">Sandvikstorget</stop>
+    <stop arrival="11:54" departure="11:54">Ludebryggen</stop>
+    <stop arrival="11:54" departure="11:54">Munkebotten</stop>
+    <stop arrival="11:56" departure="11:56">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="11:57" departure="11:57">Handelshøyskolen</stop>
+    <stop arrival="11:59" departure="11:59">Eidsvåg</stop>
+    <stop arrival="12:04" departure="12:04">Åsane terminal</stop>
+    <stop arrival="12:05" departure="12:05">Rollandskrysset</stop>
+    <stop arrival="12:05" departure="12:05">Litleåskryss</stop>
+    <stop arrival="12:06" departure="12:06">Salhuskrysset</stop>
+    <stop arrival="12:07" departure="12:07">Nyborg</stop>
+    <stop arrival="12:09" departure="12:09">Gullgruven</stop>
+    <stop arrival="12:10" departure="12:10">Industrihuset</stop>
+    <stop arrival="12:11" departure="12:11">Liakroken</stop>
+    <stop arrival="12:12" departure="12:12">Lid (Åsane)</stop>
+    <stop arrival="12:14" departure="12:14">Flaktveitrinden</stop>
+    <stop arrival="12:15" departure="12:15">Flaktveitsvingane</stop>
+    <stop arrival="12:16" departure="12:16">Træsgrenda (Ulsberglia)</stop>
+    <stop arrival="12:17" departure="12:17">Ulvhøyen</stop>
+    <stop arrival="12:18" departure="12:18">Breimyra</stop>
+    <stop arrival="12:19">Flaktveit snuplass</stop>
+  </route>
+</routes>

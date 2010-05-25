@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/214899/76253/706902/281822/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="15:00" routeNo="60">Bønes senter</stop>
+    <stop arrival="15:01" departure="15:01">Våkleiva</stop>
+    <stop arrival="15:01" departure="15:01">Bønes hagesenter</stop>
+    <stop arrival="15:03" departure="15:03">Bønes skole</stop>
+    <stop arrival="15:04" departure="15:04">Kråkenestoppen</stop>
+    <stop arrival="15:05" departure="15:05">Bergvegen</stop>
+    <stop arrival="15:06" departure="15:06">Langebekken</stop>
+    <stop arrival="15:07" departure="15:07">Langegården</stop>
+    <stop arrival="15:07" departure="15:07">Krambua</stop>
+    <stop arrival="15:08" departure="15:08">Fjøsanger</stop>
+    <stop arrival="15:15" departure="15:15">Kanalveien v/NRK</stop>
+    <stop arrival="15:16" departure="15:16">Mindemyren</stop>
+    <stop arrival="15:17" departure="15:17">Postterminalen</stop>
+    <stop arrival="15:18" departure="15:18">Kanalveien v/LBK</stop>
+    <stop arrival="15:21" departure="15:21">Danmarksplass v/Forum kino</stop>
+    <stop arrival="15:25" departure="15:25">Bergen Busstasjon</stop>
+    <stop arrival="15:25" departure="15:25">Christies gate (Festplassen)</stop>
+    <stop arrival="15:30">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/41388/18454/915522/443967/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:05" routeNo="60">Bønes senter</stop>
+    <stop arrival="15:06" departure="15:06">Våkleiva</stop>
+    <stop arrival="15:06" departure="15:06">Bønes hagesenter</stop>
+    <stop arrival="15:08" departure="15:08">Bønes skole</stop>
+    <stop arrival="15:09" departure="15:09">Kråkenestoppen</stop>
+    <stop arrival="15:10" departure="15:10">Bergvegen</stop>
+    <stop arrival="15:11" departure="15:11">Langebekken</stop>
+    <stop arrival="15:12" departure="15:12">Langegården</stop>
+    <stop arrival="15:12" departure="15:12">Krambua</stop>
+    <stop arrival="15:13" departure="15:13">Fjøsanger</stop>
+    <stop arrival="15:20" departure="15:20">Kanalveien v/NRK</stop>
+    <stop arrival="15:21" departure="15:21">Mindemyren</stop>
+    <stop arrival="15:22" departure="15:22">Postterminalen</stop>
+    <stop arrival="15:23" departure="15:23">Kanalveien v/LBK</stop>
+    <stop arrival="15:25" departure="15:25">Danmarksplass v/Forum kino</stop>
+    <stop arrival="15:28" departure="15:28">Bergen Busstasjon</stop>
+    <stop arrival="15:30" departure="15:30">Christies gate (Festplassen)</stop>
+    <stop arrival="15:35">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/884220/299307/664960/37743/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:13" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:15" departure="15:15">Kråkenestoppen</stop>
+    <stop arrival="15:16" departure="15:16">Bønes skole</stop>
+    <stop arrival="15:18" departure="15:18">Bønes hagesenter</stop>
+    <stop arrival="15:19" departure="15:19">Våkleiva</stop>
+    <stop arrival="15:20" departure="15:20">Bønes senter</stop>
+    <stop arrival="15:22" departure="15:22">Bønesskogen</stop>
+    <stop arrival="15:23" departure="15:23">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:24" departure="15:24">Bønestoppen</stop>
+    <stop arrival="15:25" departure="15:25">Hatten</stop>
+    <stop arrival="15:25" departure="15:25">Bråtet</stop>
+    <stop arrival="15:26" departure="15:26">Lyshovden sør</stop>
+    <stop arrival="15:27" departure="15:27">Lyshovden nord</stop>
+    <stop arrival="15:28" departure="15:28">Benshaugen</stop>
+    <stop arrival="15:28" departure="15:28">Helgeplasset</stop>
+    <stop arrival="15:29" departure="15:29">Sikthaugen</stop>
+    <stop arrival="15:30" departure="15:30">Vestre Sikthaugen</stop>
+    <stop arrival="15:45">Bergen Busstasjon</stop>
+  </route>
+  <route no="62" destination="Bønestoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/33372/15731/245364/111558/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:55" routeNo="62">Oasen Terminal</stop>
+    <stop arrival="14:56" departure="14:56">Løvås</stop>
+    <stop arrival="14:57" departure="14:57">Nebbeveien</stop>
+    <stop arrival="14:58" departure="14:58">Hamregården</stop>
+    <stop arrival="14:59" departure="14:59">Sikthaugen</stop>
+    <stop arrival="15:00" departure="15:00">Skaret</stop>
+    <stop arrival="15:01" departure="15:01">Vestre Sikthaugen</stop>
+    <stop arrival="15:02" departure="15:02">Sikthaugen</stop>
+    <stop arrival="15:03" departure="15:03">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:03" departure="15:03">Benshaugen</stop>
+    <stop arrival="15:04" departure="15:04">Lyshovden nord</stop>
+    <stop arrival="15:05" departure="15:05">Lyshovden sør</stop>
+    <stop arrival="15:06" departure="15:06">Bråtet</stop>
+    <stop arrival="15:07" departure="15:07">Hatten</stop>
+    <stop arrival="15:07" departure="15:07">Bønestoppen</stop>
+    <stop arrival="15:08" departure="15:08">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:09" departure="15:09">Fjellsdalen</stop>
+    <stop arrival="15:10" departure="15:10">Bønes senter</stop>
+    <stop arrival="15:11" departure="15:11">Våkleiva</stop>
+    <stop arrival="15:13" departure="15:13">Bønes hagesenter</stop>
+    <stop arrival="15:14" departure="15:14">Bønesstølen</stop>
+    <stop arrival="15:14" departure="15:14">Bønesskiftet</stop>
+    <stop arrival="15:16" departure="15:16">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="15:17" departure="15:17">Kråkenes 1</stop>
+    <stop arrival="15:18" departure="15:18">Bergvegen</stop>
+    <stop arrival="15:19" departure="15:19">Kråkenestoppen</stop>
+    <stop arrival="15:20" departure="15:20">Bønes skole</stop>
+    <stop arrival="15:22" departure="15:22">Bønes hagesenter</stop>
+    <stop arrival="15:22" departure="15:22">Våkleiva</stop>
+    <stop arrival="15:23" departure="15:23">Bønes senter</stop>
+    <stop arrival="15:24" departure="15:24">Bønesskogen</stop>
+    <stop arrival="15:24" departure="15:24">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:25">Bønestoppen</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/670407/227988/605690/79381/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="15:25" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:26" departure="15:26">Kråkenestoppen</stop>
+    <stop arrival="15:27" departure="15:27">Bønes skole</stop>
+    <stop arrival="15:29" departure="15:29">Bønes hagesenter</stop>
+    <stop arrival="15:29" departure="15:29">Våkleiva</stop>
+    <stop arrival="15:30" departure="15:30">Bønes senter</stop>
+    <stop arrival="15:31" departure="15:31">Bønesskogen</stop>
+    <stop arrival="15:32" departure="15:32">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:33" departure="15:33">Bønestoppen</stop>
+    <stop arrival="15:34" departure="15:34">Hatten</stop>
+    <stop arrival="15:34" departure="15:34">Bråtet</stop>
+    <stop arrival="15:35" departure="15:35">Lyshovden sør</stop>
+    <stop arrival="15:36" departure="15:36">Lyshovden nord</stop>
+    <stop arrival="15:37" departure="15:37">Benshaugen</stop>
+    <stop arrival="15:37" departure="15:37">Helgeplasset</stop>
+    <stop arrival="15:38" departure="15:38">Krohnegården</stop>
+    <stop arrival="15:38" departure="15:38">Fosse-skiftet</stop>
+    <stop arrival="15:39" departure="15:39">Svartatjønn</stop>
+    <stop arrival="15:40" departure="15:40">Skytebanen, Løvstakken</stop>
+    <stop arrival="15:41" departure="15:41">Løvstakkskiftet</stop>
+    <stop arrival="15:42" departure="15:42">Klauvsteinen</stop>
+    <stop arrival="15:42" departure="15:42">Tjønna</stop>
+    <stop arrival="15:43" departure="15:43">Melkeplassen</stop>
+    <stop arrival="15:44" departure="15:44">Kaptein Amlands vei</stop>
+    <stop arrival="15:45" departure="15:45">Gabriel Tischendorfs vei</stop>
+    <stop arrival="15:46" departure="15:46">Solveien</stop>
+    <stop arrival="15:47" departure="15:47">Gyldenpris</stop>
+    <stop arrival="15:50" departure="15:50">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:52" departure="15:52">Nordahl Bruns gate</stop>
+    <stop arrival="15:53" departure="15:53">Christies gate (Festplassen)</stop>
+    <stop arrival="15:53" departure="15:53">Gyldenpris</stop>
+    <stop arrival="15:53" departure="15:53">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:53" departure="15:53">Nordahl Bruns gate</stop>
+    <stop arrival="15:58">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/871518/295138/705312/62150/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="15:20" routeNo="60">Bønes senter</stop>
+    <stop arrival="15:21" departure="15:21">Våkleiva</stop>
+    <stop arrival="15:21" departure="15:21">Bønes hagesenter</stop>
+    <stop arrival="15:23" departure="15:23">Bønes skole</stop>
+    <stop arrival="15:24" departure="15:24">Kråkenestoppen</stop>
+    <stop arrival="15:25" departure="15:25">Bergvegen</stop>
+    <stop arrival="15:26" departure="15:26">Langebekken</stop>
+    <stop arrival="15:27" departure="15:27">Langegården</stop>
+    <stop arrival="15:27" departure="15:27">Krambua</stop>
+    <stop arrival="15:28" departure="15:28">Fjøsanger</stop>
+    <stop arrival="15:35" departure="15:35">Kanalveien v/NRK</stop>
+    <stop arrival="15:36" departure="15:36">Mindemyren</stop>
+    <stop arrival="15:37" departure="15:37">Postterminalen</stop>
+    <stop arrival="15:38" departure="15:38">Kanalveien v/LBK</stop>
+    <stop arrival="15:40" departure="15:40">Danmarksplass v/Forum kino</stop>
+    <stop arrival="15:43" departure="15:43">Bergen Busstasjon</stop>
+    <stop arrival="15:45" departure="15:45">Christies gate (Festplassen)</stop>
+    <stop arrival="15:50">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/645294/219756/838260/204035/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:25" routeNo="60">Bønes senter</stop>
+    <stop arrival="15:26" departure="15:26">Våkleiva</stop>
+    <stop arrival="15:26" departure="15:26">Bønes hagesenter</stop>
+    <stop arrival="15:28" departure="15:28">Bønes skole</stop>
+    <stop arrival="15:29" departure="15:29">Kråkenestoppen</stop>
+    <stop arrival="15:30" departure="15:30">Bergvegen</stop>
+    <stop arrival="15:31" departure="15:31">Langebekken</stop>
+    <stop arrival="15:32" departure="15:32">Langegården</stop>
+    <stop arrival="15:32" departure="15:32">Krambua</stop>
+    <stop arrival="15:33" departure="15:33">Fjøsanger</stop>
+    <stop arrival="15:40" departure="15:40">Kanalveien v/NRK</stop>
+    <stop arrival="15:41" departure="15:41">Mindemyren</stop>
+    <stop arrival="15:42" departure="15:42">Postterminalen</stop>
+    <stop arrival="15:43" departure="15:43">Kanalveien v/LBK</stop>
+    <stop arrival="15:45" departure="15:45">Danmarksplass v/Forum kino</stop>
+    <stop arrival="15:48" departure="15:48">Bergen Busstasjon</stop>
+    <stop arrival="15:50" departure="15:50">Christies gate (Festplassen)</stop>
+    <stop arrival="15:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/397536/137079/77810/93611/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:33" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:35" departure="15:35">Kråkenestoppen</stop>
+    <stop arrival="15:36" departure="15:36">Bønes skole</stop>
+    <stop arrival="15:38" departure="15:38">Bønes hagesenter</stop>
+    <stop arrival="15:39" departure="15:39">Våkleiva</stop>
+    <stop arrival="15:40" departure="15:40">Bønes senter</stop>
+    <stop arrival="15:42" departure="15:42">Bønesskogen</stop>
+    <stop arrival="15:43" departure="15:43">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:44" departure="15:44">Bønestoppen</stop>
+    <stop arrival="15:45" departure="15:45">Hatten</stop>
+    <stop arrival="15:45" departure="15:45">Bråtet</stop>
+    <stop arrival="15:46" departure="15:46">Lyshovden sør</stop>
+    <stop arrival="15:47" departure="15:47">Lyshovden nord</stop>
+    <stop arrival="15:48" departure="15:48">Benshaugen</stop>
+    <stop arrival="15:48" departure="15:48">Helgeplasset</stop>
+    <stop arrival="15:49" departure="15:49">Sikthaugen</stop>
+    <stop arrival="15:50" departure="15:50">Vestre Sikthaugen</stop>
+    <stop arrival="16:05">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/504408/172768/87626/124324/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="15:40" routeNo="60">Bønes senter</stop>
+    <stop arrival="15:41" departure="15:41">Våkleiva</stop>
+    <stop arrival="15:41" departure="15:41">Bønes hagesenter</stop>
+    <stop arrival="15:43" departure="15:43">Bønes skole</stop>
+    <stop arrival="15:44" departure="15:44">Kråkenestoppen</stop>
+    <stop arrival="15:45" departure="15:45">Bergvegen</stop>
+    <stop arrival="15:46" departure="15:46">Langebekken</stop>
+    <stop arrival="15:47" departure="15:47">Langegården</stop>
+    <stop arrival="15:47" departure="15:47">Krambua</stop>
+    <stop arrival="15:48" departure="15:48">Fjøsanger</stop>
+    <stop arrival="15:55" departure="15:55">Kanalveien v/NRK</stop>
+    <stop arrival="15:56" departure="15:56">Mindemyren</stop>
+    <stop arrival="15:57" departure="15:57">Postterminalen</stop>
+    <stop arrival="15:58" departure="15:58">Kanalveien v/LBK</stop>
+    <stop arrival="16:00" departure="16:00">Danmarksplass v/Forum kino</stop>
+    <stop arrival="16:03" departure="16:03">Bergen Busstasjon</stop>
+    <stop arrival="16:05" departure="16:05">Christies gate (Festplassen)</stop>
+    <stop arrival="16:10">Bergen Busstasjon</stop>
+  </route>
+  <route no="62" destination="Bønestoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/285135/99654/915610/362760/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:39" routeNo="62">Bønestoppen</stop>
+    <stop arrival="15:40" departure="15:40">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:40" departure="15:40">Fjellsdalen</stop>
+    <stop arrival="15:41" departure="15:41">Bønes senter</stop>
+    <stop arrival="15:42" departure="15:42">Våkleiva</stop>
+    <stop arrival="15:44" departure="15:44">Bønes hagesenter</stop>
+    <stop arrival="15:45" departure="15:45">Bønesstølen</stop>
+    <stop arrival="15:45" departure="15:45">Bønesskiftet</stop>
+    <stop arrival="15:47" departure="15:47">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="15:48" departure="15:48">Kråkenes 1</stop>
+    <stop arrival="15:49" departure="15:49">Bergvegen</stop>
+    <stop arrival="15:50" departure="15:50">Kråkenestoppen</stop>
+    <stop arrival="15:50" departure="15:50">Bønes skole</stop>
+    <stop arrival="15:50" departure="15:50">Bønes hagesenter</stop>
+    <stop arrival="15:51" departure="15:51">Våkleiva</stop>
+    <stop arrival="15:51" departure="15:51">Bønes senter</stop>
+    <stop arrival="15:53" departure="15:53">Bønesskogen</stop>
+    <stop arrival="15:54" departure="15:54">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:55">Bønestoppen</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/925467/313148/175724/220627/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:45" routeNo="60">Bønes senter</stop>
+    <stop arrival="15:46" departure="15:46">Våkleiva</stop>
+    <stop arrival="15:46" departure="15:46">Bønes hagesenter</stop>
+    <stop arrival="15:48" departure="15:48">Bønes skole</stop>
+    <stop arrival="15:49" departure="15:49">Kråkenestoppen</stop>
+    <stop arrival="15:50" departure="15:50">Bergvegen</stop>
+    <stop arrival="15:51" departure="15:51">Langebekken</stop>
+    <stop arrival="15:52" departure="15:52">Langegården</stop>
+    <stop arrival="15:52" departure="15:52">Krambua</stop>
+    <stop arrival="15:53" departure="15:53">Fjøsanger</stop>
+    <stop arrival="16:00" departure="16:00">Kanalveien v/NRK</stop>
+    <stop arrival="16:01" departure="16:01">Mindemyren</stop>
+    <stop arrival="16:02" departure="16:02">Postterminalen</stop>
+    <stop arrival="16:03" departure="16:03">Kanalveien v/LBK</stop>
+    <stop arrival="16:05" departure="16:05">Danmarksplass v/Forum kino</stop>
+    <stop arrival="16:08" departure="16:08">Bergen Busstasjon</stop>
+    <stop arrival="16:10" departure="16:10">Christies gate (Festplassen)</stop>
+    <stop arrival="16:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/491982/168561/317008/5495/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:53" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:55" departure="15:55">Kråkenestoppen</stop>
+    <stop arrival="15:56" departure="15:56">Bønes skole</stop>
+    <stop arrival="15:58" departure="15:58">Bønes hagesenter</stop>
+    <stop arrival="15:59" departure="15:59">Våkleiva</stop>
+    <stop arrival="16:00" departure="16:00">Bønes senter</stop>
+    <stop arrival="16:02" departure="16:02">Bønesskogen</stop>
+    <stop arrival="16:03" departure="16:03">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="16:04" departure="16:04">Bønestoppen</stop>
+    <stop arrival="16:05" departure="16:05">Hatten</stop>
+    <stop arrival="16:05" departure="16:05">Bråtet</stop>
+    <stop arrival="16:06" departure="16:06">Lyshovden sør</stop>
+    <stop arrival="16:07" departure="16:07">Lyshovden nord</stop>
+    <stop arrival="16:08" departure="16:08">Benshaugen</stop>
+    <stop arrival="16:08" departure="16:08">Helgeplasset</stop>
+    <stop arrival="16:09" departure="16:09">Sikthaugen</stop>
+    <stop arrival="16:10" departure="16:10">Vestre Sikthaugen</stop>
+    <stop arrival="16:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/515838/176482/184844/79525/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="15:55" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:56" departure="15:56">Kråkenestoppen</stop>
+    <stop arrival="15:57" departure="15:57">Bønes skole</stop>
+    <stop arrival="15:59" departure="15:59">Bønes hagesenter</stop>
+    <stop arrival="15:59" departure="15:59">Våkleiva</stop>
+    <stop arrival="16:00" departure="16:00">Bønes senter</stop>
+    <stop arrival="16:02" departure="16:02">Bønesskogen</stop>
+    <stop arrival="16:04" departure="16:04">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="16:05" departure="16:05">Bønestoppen</stop>
+    <stop arrival="16:06" departure="16:06">Hatten</stop>
+    <stop arrival="16:06" departure="16:06">Bråtet</stop>
+    <stop arrival="16:08" departure="16:08">Lyshovden sør</stop>
+    <stop arrival="16:09" departure="16:09">Lyshovden nord</stop>
+    <stop arrival="16:09" departure="16:09">Benshaugen</stop>
+    <stop arrival="16:10" departure="16:10">Helgeplasset</stop>
+    <stop arrival="16:11" departure="16:11">Sikthaugen</stop>
+    <stop arrival="16:12" departure="16:12">Vestre Sikthaugen</stop>
+    <stop arrival="16:20" departure="16:20">Gyldenpris</stop>
+    <stop arrival="16:22" departure="16:22">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="16:22" departure="16:22">Christies gate (Festplassen)</stop>
+    <stop arrival="16:27">Bergen Busstasjon</stop>
+  </route>
+</routes>

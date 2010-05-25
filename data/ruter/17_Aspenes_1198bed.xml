@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="625" destination="Solbjørg snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/14826/10781/154578/72348/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:45" routeNo="625">Os - Osøyro</stop>
+    <stop arrival="16:47" departure="16:47">Solstrandveg</stop>
+    <stop arrival="16:48" departure="16:48">Hauge (Os)</stop>
+    <stop arrival="16:48" departure="16:48">Lyssand</stop>
+    <stop arrival="16:49" departure="16:49">Valla Bro (Os)</stop>
+    <stop arrival="16:50" departure="16:50">Valla (Os)</stop>
+    <stop arrival="16:51" departure="16:51">Lien (Hauge, Os)</stop>
+    <stop arrival="16:52" departure="16:52">Reset (Haugland, Os)</stop>
+    <stop arrival="16:53" departure="16:53">Heggland (Os)</stop>
+    <stop arrival="16:54" departure="16:54">Heggland (Os)</stop>
+    <stop arrival="16:54" departure="16:54">Heggland (Os)</stop>
+    <stop arrival="16:55" departure="16:55">Eidskiftet</stop>
+    <stop arrival="16:56" departure="16:56">Hegglandsdalen Ungdomshuset</stop>
+    <stop arrival="16:56" departure="16:56">Handelslaget (Hegglandsdalen)</stop>
+    <stop arrival="16:57" departure="16:57">Hegglandsdalen skule</stop>
+    <stop arrival="16:58" departure="16:58">Tveit (Hegglandsdalen)</stop>
+    <stop arrival="16:58" departure="16:58">Spannstegen</stop>
+    <stop arrival="16:59" departure="16:59">Gjemdal</stop>
+    <stop arrival="17:00" departure="17:00">Rød (Lønningdal, Os)</stop>
+    <stop arrival="17:03" departure="17:03">Lønningdal sjø (Os)</stop>
+    <stop arrival="17:04" departure="17:04">Sandbrekka</stop>
+    <stop arrival="17:05" departure="17:05">Bogevik</stop>
+    <stop arrival="17:06" departure="17:06">Bogevik</stop>
+    <stop arrival="17:07" departure="17:07">Bogstrand</stop>
+    <stop arrival="17:07" departure="17:07">Sørbakken</stop>
+    <stop arrival="17:08" departure="17:08">Ospeneset</stop>
+    <stop arrival="17:09" departure="17:09">Aspenes</stop>
+    <stop arrival="17:10" departure="17:10">Aspevik</stop>
+    <stop arrival="17:10">Solbjørg snuplass</stop>
+  </route>
+  <route no="625" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/911796/309770/312862/147503/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:10" routeNo="625">Solbjørg snuplass</stop>
+    <stop arrival="17:11" departure="17:11">Aspevik</stop>
+    <stop arrival="17:12" departure="17:12">Aspenes</stop>
+    <stop arrival="17:13" departure="17:13">Sørbakken</stop>
+    <stop arrival="17:14" departure="17:14">Bogstrand</stop>
+    <stop arrival="17:14" departure="17:14">Bogevik</stop>
+    <stop arrival="17:15" departure="17:15">Bogevik</stop>
+    <stop arrival="17:16" departure="17:16">Sandbrekka</stop>
+    <stop arrival="17:19" departure="17:19">Lønningdal sjø (Os)</stop>
+    <stop arrival="17:20" departure="17:20">Rød (Lønningdal, Os)</stop>
+    <stop arrival="17:21" departure="17:21">Gjemdal</stop>
+    <stop arrival="17:21" departure="17:21">Spannstegen</stop>
+    <stop arrival="17:22" departure="17:22">Tveit (Hegglandsdalen)</stop>
+    <stop arrival="17:23" departure="17:23">Hegglandsdalen skule</stop>
+    <stop arrival="17:24" departure="17:24">Handelslaget (Hegglandsdalen)</stop>
+    <stop arrival="17:24" departure="17:24">Hegglandsdalen Ungdomshuset</stop>
+    <stop arrival="17:25" departure="17:25">Eidskiftet</stop>
+    <stop arrival="17:26" departure="17:26">Heggland (Os)</stop>
+    <stop arrival="17:26" departure="17:26">Heggland (Os)</stop>
+    <stop arrival="17:27" departure="17:27">Heggland (Os)</stop>
+    <stop arrival="17:28" departure="17:28">Reset (Haugland, Os)</stop>
+    <stop arrival="17:29" departure="17:29">Lien (Hauge, Os)</stop>
+    <stop arrival="17:29" departure="17:29">Valla (Os)</stop>
+    <stop arrival="17:30" departure="17:30">Valla Bro (Os)</stop>
+    <stop arrival="17:31" departure="17:31">Lyssand</stop>
+    <stop arrival="17:32" departure="17:32">Hauge  (Os)</stop>
+    <stop arrival="17:33" departure="17:33">Solstrandveg</stop>
+    <stop arrival="17:35">Os - Osøyro</stop>
+  </route>
+</routes>

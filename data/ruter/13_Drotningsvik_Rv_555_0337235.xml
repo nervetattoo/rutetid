@@ -1,0 +1,862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/625929/210525/991552/287134/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="12:55" routeNo="441">Storavatnet term.</stop>
+    <stop arrival="12:56" departure="12:56">Ørjebekk</stop>
+    <stop arrival="12:57" departure="12:57">Øvre Godvik</stop>
+    <stop arrival="12:58" departure="12:58">Nedre Godvik</stop>
+    <stop arrival="12:58" departure="12:58">Kiplehaugen</stop>
+    <stop arrival="12:58" departure="12:58">Breivikskiftet</stop>
+    <stop arrival="12:59" departure="12:59">Breivikdalen</stop>
+    <stop arrival="13:00" departure="13:00">Stiaberget</stop>
+    <stop arrival="13:00" departure="13:00">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:01" departure="13:01">Drotningsvik Rv 555</stop>
+    <stop arrival="13:03" departure="13:03">Knarrevik</stop>
+    <stop arrival="13:04" departure="13:04">Knarrevik under brua</stop>
+    <stop arrival="13:05" departure="13:05">Hjelteryggen Svensveien</stop>
+    <stop arrival="13:07" departure="13:07">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="13:07">Hjelteryggen Nordre knappen</stop>
+  </route>
+  <route no="444" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/750180/252036/574422/37152/1/" trafficDays="kjører 17. Mai">
+    <stop departure="12:50" routeNo="444">Bergen Busstasjon</stop>
+    <stop arrival="12:53" departure="12:53">Olav Kyrres gate</stop>
+    <stop arrival="12:54" departure="12:54">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="12:57" departure="12:57">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:01" departure="13:01">Frida Fasmer R555</stop>
+    <stop arrival="13:02" departure="13:02">Breivikskiftet</stop>
+    <stop arrival="13:03" departure="13:03">Drotningsvik Rv 555</stop>
+    <stop arrival="13:05" departure="13:05">Knarrevik</stop>
+    <stop arrival="13:10">Straume term.</stop>
+  </route>
+  <route no="444" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/47637/17841/495560/231902/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:00" routeNo="444">Straume term.</stop>
+    <stop arrival="13:03" departure="13:03">Knarrevik</stop>
+    <stop arrival="13:05" departure="13:05">Drotningsvik Rv 555</stop>
+    <stop arrival="13:06" departure="13:06">Breivikskiftet</stop>
+    <stop arrival="13:08" departure="13:08">Frida Fasmer</stop>
+    <stop arrival="13:12" departure="13:12">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:15" departure="13:15">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:17" departure="13:17">Nygårdsgaten</stop>
+    <stop arrival="13:20">Bergen Busstasjon</stop>
+  </route>
+  <route no="459" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/302298/103011/192756/4388/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="12:05" routeNo="459">Tælavåg snuplass</stop>
+    <stop arrival="12:05" departure="12:05">Tælavåg Øvretveit</stop>
+    <stop arrival="12:06" departure="12:06">Tælavåg Øvretveit (brekko)</stop>
+    <stop arrival="12:06" departure="12:06">Tælavåg Midttveit</stop>
+    <stop arrival="12:07" departure="12:07">Tælavåg skule</stop>
+    <stop arrival="12:07" departure="12:07">Tælavåg Telle</stop>
+    <stop arrival="12:07" departure="12:07">Tælavåg bedehus</stop>
+    <stop arrival="12:08" departure="12:08">Tælavåg Nipa</stop>
+    <stop arrival="12:08" departure="12:08">Tælavåg Nipa byggefelt</stop>
+    <stop arrival="12:09" departure="12:09">Tælavåg Museum (Idrettsplass)</stop>
+    <stop arrival="12:09" departure="12:09">Tælavåg Sælstø</stop>
+    <stop arrival="12:11" departure="12:11">Tælavåg gravplass</stop>
+    <stop arrival="12:12" departure="12:12">Asphaug</stop>
+    <stop arrival="12:14" departure="12:14">Spildepollen</stop>
+    <stop arrival="12:15" departure="12:15">Kausland Sund Auto</stop>
+    <stop arrival="12:15" departure="12:15">Kausland industri</stop>
+    <stop arrival="12:16" departure="12:16">Kausland (brekko)</stop>
+    <stop arrival="12:16" departure="12:16">Kausland gard</stop>
+    <stop arrival="12:17" departure="12:17">Kausland kyrkje</stop>
+    <stop arrival="12:17" departure="12:17">Kausland (Lunde)</stop>
+    <stop arrival="12:18" departure="12:18">Glesnes Skule</stop>
+    <stop arrival="12:19" departure="12:19">Glesvær (Elva)</stop>
+    <stop arrival="12:19" departure="12:19">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="12:20" departure="12:20">Glesvær (Vollakrysset)</stop>
+    <stop arrival="12:20" departure="12:20">Glesvær snuplass</stop>
+    <stop arrival="12:20" departure="12:20">Glesvær (Vollakrysset)</stop>
+    <stop arrival="12:21" departure="12:21">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="12:21" departure="12:21">Glesvær (Elva)</stop>
+    <stop arrival="12:22" departure="12:22">Glesnes Skule</stop>
+    <stop arrival="12:24" departure="12:24">Kausland (Lunde)</stop>
+    <stop arrival="12:24" departure="12:24">Kausland kyrkje</stop>
+    <stop arrival="12:24" departure="12:24">Kausland gard</stop>
+    <stop arrival="12:25" departure="12:25">Kausland (brekko)</stop>
+    <stop arrival="12:25" departure="12:25">Kausland industri</stop>
+    <stop arrival="12:26" departure="12:26">Kausland Sund Auto</stop>
+    <stop arrival="12:27" departure="12:27">Spildepollen</stop>
+    <stop arrival="12:28" departure="12:28">Kårevik</stop>
+    <stop arrival="12:28" departure="12:28">Kårevik</stop>
+    <stop arrival="12:29" departure="12:29">Pollen skule</stop>
+    <stop arrival="12:30" departure="12:30">Eidesjøen</stop>
+    <stop arrival="12:32" departure="12:32">Eidesjøen Tveitaneset</stop>
+    <stop arrival="12:34" departure="12:34">Hammersland (Sund)</stop>
+    <stop arrival="12:35" departure="12:35">Hammersland (Sund)</stop>
+    <stop arrival="12:40" departure="12:40">Skogsskiftet term.</stop>
+    <stop arrival="12:41" departure="12:41">Trengereid (Fjell)</stop>
+    <stop arrival="12:41" departure="12:41">Trengereid Slettebakken (Fjell</stop>
+    <stop arrival="12:43" departure="12:43">Dalseide (Fjell)</stop>
+    <stop arrival="12:44" departure="12:44">Dala (Fjell)</stop>
+    <stop arrival="12:44" departure="12:44">Dala (Fjell)</stop>
+    <stop arrival="12:45" departure="12:45">Tellnes skule</stop>
+    <stop arrival="12:45" departure="12:45">Tellnesskiftet</stop>
+    <stop arrival="12:46" departure="12:46">Tellnes Bruabrekko</stop>
+    <stop arrival="12:47" departure="12:47">Tellnesskogen</stop>
+    <stop arrival="12:48" departure="12:48">Fjell søre Krossleite</stop>
+    <stop arrival="12:48" departure="12:48">Fjell Krossleite</stop>
+    <stop arrival="12:49" departure="12:49">Fjell Podlagrinda</stop>
+    <stop arrival="12:49" departure="12:49">Fjell Søre</stop>
+    <stop arrival="12:50" departure="12:50">Fjell Leite</stop>
+    <stop arrival="12:50" departure="12:50">Fjell kyrkje</stop>
+    <stop arrival="12:50" departure="12:50">Fjell</stop>
+    <stop arrival="12:51" departure="12:51">Fjell Heljedalen</stop>
+    <stop arrival="12:52" departure="12:52">Fjell Blommen</stop>
+    <stop arrival="12:58" departure="12:58">Bildøy</stop>
+    <stop arrival="13:00" departure="13:00">Straume term.</stop>
+    <stop arrival="13:03" departure="13:03">Knarrevik</stop>
+    <stop arrival="13:06" departure="13:06">Drotningsvik Rv 555</stop>
+    <stop arrival="13:07" departure="13:07">Breivikskiftet</stop>
+    <stop arrival="13:10" departure="13:10">Storavatnet term.</stop>
+    <stop arrival="13:11" departure="13:11">Frida Fasmer</stop>
+    <stop arrival="13:17" departure="13:17">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:22" departure="13:22">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:24" departure="13:24">Nygårdsgaten</stop>
+    <stop arrival="13:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="459" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/24582/10440/936248/459930/1/" trafficDays="kjører">
+    <stop departure="12:05" routeNo="459">Tælavåg snuplass</stop>
+    <stop arrival="12:05" departure="12:05">Tælavåg Øvretveit</stop>
+    <stop arrival="12:06" departure="12:06">Tælavåg Øvretveit (brekko)</stop>
+    <stop arrival="12:06" departure="12:06">Tælavåg Midttveit</stop>
+    <stop arrival="12:07" departure="12:07">Tælavåg skule</stop>
+    <stop arrival="12:07" departure="12:07">Tælavåg Telle</stop>
+    <stop arrival="12:07" departure="12:07">Tælavåg bedehus</stop>
+    <stop arrival="12:08" departure="12:08">Tælavåg Nipa</stop>
+    <stop arrival="12:08" departure="12:08">Tælavåg Nipa byggefelt</stop>
+    <stop arrival="12:09" departure="12:09">Tælavåg Museum (Idrettsplass)</stop>
+    <stop arrival="12:09" departure="12:09">Tælavåg Sælstø</stop>
+    <stop arrival="12:11" departure="12:11">Tælavåg gravplass</stop>
+    <stop arrival="12:12" departure="12:12">Asphaug</stop>
+    <stop arrival="12:14" departure="12:14">Spildepollen</stop>
+    <stop arrival="12:15" departure="12:15">Kausland Sund Auto</stop>
+    <stop arrival="12:15" departure="12:15">Kausland industri</stop>
+    <stop arrival="12:16" departure="12:16">Kausland (brekko)</stop>
+    <stop arrival="12:16" departure="12:16">Kausland gard</stop>
+    <stop arrival="12:17" departure="12:17">Kausland kyrkje</stop>
+    <stop arrival="12:17" departure="12:17">Kausland (Lunde)</stop>
+    <stop arrival="12:18" departure="12:18">Glesnes Skule</stop>
+    <stop arrival="12:19" departure="12:19">Glesvær (Elva)</stop>
+    <stop arrival="12:19" departure="12:19">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="12:20" departure="12:20">Glesvær (Vollakrysset)</stop>
+    <stop arrival="12:20" departure="12:20">Glesvær snuplass</stop>
+    <stop arrival="12:20" departure="12:20">Glesvær (Vollakrysset)</stop>
+    <stop arrival="12:21" departure="12:21">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="12:21" departure="12:21">Glesvær (Elva)</stop>
+    <stop arrival="12:22" departure="12:22">Glesnes Skule</stop>
+    <stop arrival="12:24" departure="12:24">Kausland (Lunde)</stop>
+    <stop arrival="12:24" departure="12:24">Kausland kyrkje</stop>
+    <stop arrival="12:24" departure="12:24">Kausland gard</stop>
+    <stop arrival="12:25" departure="12:25">Kausland (brekko)</stop>
+    <stop arrival="12:25" departure="12:25">Kausland industri</stop>
+    <stop arrival="12:26" departure="12:26">Kausland Sund Auto</stop>
+    <stop arrival="12:27" departure="12:27">Spildepollen</stop>
+    <stop arrival="12:28" departure="12:28">Kårevik</stop>
+    <stop arrival="12:28" departure="12:28">Kårevik</stop>
+    <stop arrival="12:29" departure="12:29">Pollen skule</stop>
+    <stop arrival="12:30" departure="12:30">Eidesjøen</stop>
+    <stop arrival="12:32" departure="12:32">Eidesjøen Tveitaneset</stop>
+    <stop arrival="12:34" departure="12:34">Hammersland (Sund)</stop>
+    <stop arrival="12:35" departure="12:35">Hammersland (Sund)</stop>
+    <stop arrival="12:40" departure="12:40">Skogsskiftet term.</stop>
+    <stop arrival="12:41" departure="12:41">Trengereid (Fjell)</stop>
+    <stop arrival="12:41" departure="12:41">Trengereid Slettebakken (Fjell</stop>
+    <stop arrival="12:43" departure="12:43">Dalseide (Fjell)</stop>
+    <stop arrival="12:44" departure="12:44">Dala (Fjell)</stop>
+    <stop arrival="12:44" departure="12:44">Dala (Fjell)</stop>
+    <stop arrival="12:45" departure="12:45">Tellnes skule</stop>
+    <stop arrival="12:45" departure="12:45">Tellnesskiftet</stop>
+    <stop arrival="12:46" departure="12:46">Tellnes Bruabrekko</stop>
+    <stop arrival="12:47" departure="12:47">Tellnesskogen</stop>
+    <stop arrival="12:48" departure="12:48">Fjell søre Krossleite</stop>
+    <stop arrival="12:48" departure="12:48">Fjell Krossleite</stop>
+    <stop arrival="12:49" departure="12:49">Fjell Podlagrinda</stop>
+    <stop arrival="12:49" departure="12:49">Fjell Søre</stop>
+    <stop arrival="12:50" departure="12:50">Fjell Leite</stop>
+    <stop arrival="12:50" departure="12:50">Fjell kyrkje</stop>
+    <stop arrival="12:50" departure="12:50">Fjell</stop>
+    <stop arrival="12:51" departure="12:51">Fjell Heljedalen</stop>
+    <stop arrival="12:52" departure="12:52">Fjell Blommen</stop>
+    <stop arrival="12:58" departure="12:58">Bildøy</stop>
+    <stop arrival="13:00" departure="13:00">Straume term.</stop>
+    <stop arrival="13:03" departure="13:03">Knarrevik</stop>
+    <stop arrival="13:06" departure="13:06">Drotningsvik Rv 555</stop>
+    <stop arrival="13:07" departure="13:07">Breivikskiftet</stop>
+    <stop arrival="13:10" departure="13:10">Storavatnet term.</stop>
+    <stop arrival="13:11" departure="13:11">Frida Fasmer</stop>
+    <stop arrival="13:17" departure="13:17">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:22" departure="13:22">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:24" departure="13:24">Christies gate (Festplassen)</stop>
+    <stop arrival="13:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="32" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/501507/168444/712868/189269/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:03" routeNo="32">Straume term.</stop>
+    <stop arrival="13:06" departure="13:06">Knarrevik</stop>
+    <stop arrival="13:09" departure="13:09">Drotningsvik Rv 555</stop>
+    <stop arrival="13:10" departure="13:10">Breivikskiftet</stop>
+    <stop arrival="13:13" departure="13:13">Storavatnet term.</stop>
+    <stop arrival="13:14" departure="13:14">Frida Fasmer</stop>
+    <stop arrival="13:15" departure="13:15">Loddefjorddalen</stop>
+    <stop arrival="13:18" departure="13:18">Loddefjord term.</stop>
+    <stop arrival="13:19" departure="13:19">Bjørndalstre krysset</stop>
+    <stop arrival="13:19" departure="13:19">Bjørndalstræ R557</stop>
+    <stop arrival="13:20" departure="13:20">Ravnestølen</stop>
+    <stop arrival="13:21" departure="13:21">Sætermyr</stop>
+    <stop arrival="13:22" departure="13:22">Bjørndalsskogen</stop>
+    <stop arrival="13:23" departure="13:23">Kjerreidviken</stop>
+    <stop arrival="13:24" departure="13:24">Bjørge</stop>
+    <stop arrival="13:24" departure="13:24">Sandeidbråtet</stop>
+    <stop arrival="13:24" departure="13:24">Sandeidet barnehage</stop>
+    <stop arrival="13:25" departure="13:25">Sandeide terminal</stop>
+    <stop arrival="13:27" departure="13:27">Fyllingsdalsveien v/Shell</stop>
+    <stop arrival="13:29" departure="13:29">Skarphaugen</stop>
+    <stop arrival="13:30" departure="13:30">Oasen Terminal</stop>
+    <stop arrival="13:31" departure="13:31">Løvås</stop>
+    <stop arrival="13:32" departure="13:32">Nebbeveien</stop>
+    <stop arrival="13:32" departure="13:32">Hamregården</stop>
+    <stop arrival="13:33" departure="13:33">Sikthaugen</stop>
+    <stop arrival="13:38" departure="13:38">Gyldenpris</stop>
+    <stop arrival="13:39" departure="13:39">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:42" departure="13:42">Nygårdsgaten</stop>
+    <stop arrival="13:45">Bergen Busstasjon</stop>
+  </route>
+  <route no="444" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/580383/195437/997240/305161/1/" trafficDays="kjører 17. Mai">
+    <stop departure="13:10" routeNo="444">Bergen Busstasjon</stop>
+    <stop arrival="13:13" departure="13:13">Olav Kyrres gate</stop>
+    <stop arrival="13:14" departure="13:14">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:17" departure="13:17">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:21" departure="13:21">Frida Fasmer R555</stop>
+    <stop arrival="13:22" departure="13:22">Breivikskiftet</stop>
+    <stop arrival="13:23" departure="13:23">Drotningsvik Rv 555</stop>
+    <stop arrival="13:25" departure="13:25">Knarrevik</stop>
+    <stop arrival="13:30">Straume term.</stop>
+  </route>
+  <route no="441" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/851325/285661/824786/128619/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="13:20" routeNo="441">Hjelteryggen Nordre Knappen</stop>
+    <stop arrival="13:21" departure="13:21">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="13:23" departure="13:23">Hjelteryggen Svensveien</stop>
+    <stop arrival="13:24" departure="13:24">Knarrevik under brua</stop>
+    <stop arrival="13:25" departure="13:25">Knarrevik</stop>
+    <stop arrival="13:26" departure="13:26">Drotningsvik Rv 555</stop>
+    <stop arrival="13:26" departure="13:26">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:27" departure="13:27">Breivika</stop>
+    <stop arrival="13:28" departure="13:28">Breivikdalen</stop>
+    <stop arrival="13:30" departure="13:30">Breivikskiftet</stop>
+    <stop arrival="13:31" departure="13:31">Kiplehaugen</stop>
+    <stop arrival="13:32" departure="13:32">Nedre Godvik</stop>
+    <stop arrival="13:33" departure="13:33">Øvre Godvik</stop>
+    <stop arrival="13:35" departure="13:35">Godviksvingene</stop>
+    <stop arrival="13:37" departure="13:37">Ørjebekk</stop>
+    <stop arrival="13:40">Storavatnet term.</stop>
+  </route>
+  <route no="445" destination="Anglevik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/328743/111598/845600/313219/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:10" routeNo="445">Bergen Busstasjon</stop>
+    <stop arrival="13:11" departure="13:11">Olav Kyrres gate</stop>
+    <stop arrival="13:13" departure="13:13">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:18" departure="13:18">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:24" departure="13:24">Frida Fasmer R555</stop>
+    <stop arrival="13:25" departure="13:25">Storavatnet term.</stop>
+    <stop arrival="13:27" departure="13:27">Breivikskiftet</stop>
+    <stop arrival="13:28" departure="13:28">Drotningsvik Rv 555</stop>
+    <stop arrival="13:30" departure="13:30">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Straume term.</stop>
+    <stop arrival="13:36" departure="13:36">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="13:37" departure="13:37">Åttringavegen</stop>
+    <stop arrival="13:38" departure="13:38">Sotraheimen</stop>
+    <stop arrival="13:38" departure="13:38">Foldnes Grunnavågen</stop>
+    <stop arrival="13:39" departure="13:39">Foldnesvegen</stop>
+    <stop arrival="13:40" departure="13:40">Foldnes</stop>
+    <stop arrival="13:41" departure="13:41">Vågaleite (Fjell)</stop>
+    <stop arrival="13:42" departure="13:42">Våge kryss (Fjell)</stop>
+    <stop arrival="13:44" departure="13:44">Anglevik</stop>
+    <stop arrival="13:45">Anglevik snuplass</stop>
+  </route>
+  <route no="468" destination="Ågotnes terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/312879/106680/18358/95116/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="13:10" routeNo="468">Bergen Busstasjon</stop>
+    <stop arrival="13:13" departure="13:13">Olav Kyrres gate</stop>
+    <stop arrival="13:14" departure="13:14">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:19" departure="13:19">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:24" departure="13:24">Frida Fasmer R555</stop>
+    <stop arrival="13:25" departure="13:25">Storavatnet term.</stop>
+    <stop arrival="13:27" departure="13:27">Breivikskiftet</stop>
+    <stop arrival="13:28" departure="13:28">Drotningsvik Rv 555</stop>
+    <stop arrival="13:30" departure="13:30">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Straume term.</stop>
+    <stop arrival="13:36" departure="13:36">Bildøy</stop>
+    <stop arrival="13:38" departure="13:38">Bildøy bro</stop>
+    <stop arrival="13:38" departure="13:38">Døsjeskiftet</stop>
+    <stop arrival="13:38" departure="13:38">Kolltveit kryss</stop>
+    <stop arrival="13:39" departure="13:39">Kolltveit ved skulen</stop>
+    <stop arrival="13:39" departure="13:39">Kolltveit sør</stop>
+    <stop arrival="13:39" departure="13:39">Kolltveit Bergasletto</stop>
+    <stop arrival="13:40" departure="13:40">Kolltveit kai</stop>
+    <stop arrival="13:40" departure="13:40">Kolltveit senter</stop>
+    <stop arrival="13:42" departure="13:42">Morland ved bensinstasjon</stop>
+    <stop arrival="13:43" departure="13:43">Morlandstø</stop>
+    <stop arrival="13:44" departure="13:44">Knappskog utmark</stop>
+    <stop arrival="13:45" departure="13:45">Fjæreide kryss</stop>
+    <stop arrival="13:46" departure="13:46">Knappskog</stop>
+    <stop arrival="13:48" departure="13:48">Ormevik</stop>
+    <stop arrival="13:49" departure="13:49">Spjeld</stop>
+    <stop arrival="13:50" departure="13:50">Spjeldbrekko</stop>
+    <stop arrival="13:51" departure="13:51">Ågotnes Vanntanken</stop>
+    <stop arrival="13:53" departure="13:53">Ågotnes</stop>
+    <stop arrival="13:54" departure="13:54">Ågotnes Maggevarden</stop>
+    <stop arrival="13:54" departure="13:54">Ågotnes Kryss CCB</stop>
+    <stop arrival="13:55">Ågotnes terminal</stop>
+  </route>
+  <route no="453" destination="Steinsland snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/689817/232054/9608/225135/1/" trafficDays="kjører Sø, ikke 16. Mai; også 13., 24. Mai">
+    <stop departure="13:10" routeNo="453">Bergen Busstasjon</stop>
+    <stop arrival="13:11" departure="13:11">Olav Kyrres gate</stop>
+    <stop arrival="13:13" departure="13:13">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:18" departure="13:18">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:24" departure="13:24">Frida Fasmer R555</stop>
+    <stop arrival="13:25" departure="13:25">Storavatnet term.</stop>
+    <stop arrival="13:27" departure="13:27">Breivikskiftet</stop>
+    <stop arrival="13:29" departure="13:29">Drotningsvik Rv 555</stop>
+    <stop arrival="13:31" departure="13:31">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Straume term.</stop>
+    <stop arrival="13:36" departure="13:36">Bildøy</stop>
+    <stop arrival="13:39" departure="13:39">Fjell Blommen</stop>
+    <stop arrival="13:39" departure="13:39">Fjell Heljedalen</stop>
+    <stop arrival="13:40" departure="13:40">Fjell</stop>
+    <stop arrival="13:40" departure="13:40">Fjell kyrkje</stop>
+    <stop arrival="13:40" departure="13:40">Fjell Leite</stop>
+    <stop arrival="13:41" departure="13:41">Fjell Søre</stop>
+    <stop arrival="13:41" departure="13:41">Fjell Podlagrinda</stop>
+    <stop arrival="13:42" departure="13:42">Fjell Krossleite</stop>
+    <stop arrival="13:42" departure="13:42">Fjell søre Krossleite</stop>
+    <stop arrival="13:43" departure="13:43">Tellnesskogen</stop>
+    <stop arrival="13:44" departure="13:44">Tellnes Bruabrekko</stop>
+    <stop arrival="13:45" departure="13:45">Tellnesskiftet</stop>
+    <stop arrival="13:45" departure="13:45">Tellnes skule</stop>
+    <stop arrival="13:47" departure="13:47">Dala (Fjell)</stop>
+    <stop arrival="13:47" departure="13:47">Dala (Fjell)</stop>
+    <stop arrival="13:48" departure="13:48">Dalseide (Fjell)</stop>
+    <stop arrival="13:53" departure="13:53">Trengereid Slettebakken (Fjell</stop>
+    <stop arrival="13:54" departure="13:54">Trengereid (Fjell)</stop>
+    <stop arrival="13:55" departure="13:55">Skogsskiftet term.</stop>
+    <stop arrival="13:56" departure="13:56">Skogsskiftet Midtstegen</stop>
+    <stop arrival="13:57" departure="13:57">Skoge (Sund)</stop>
+    <stop arrival="13:58" departure="13:58">Skoge Kvalvågen (Sund)</stop>
+    <stop arrival="14:00" departure="14:00">Sangoltskiftet</stop>
+    <stop arrival="14:01" departure="14:01">Skogsvåg Aurabekken</stop>
+    <stop arrival="14:01" departure="14:01">Skogsvåg Dommedalen</stop>
+    <stop arrival="14:02" departure="14:02">Skogsvåg Oppedal</stop>
+    <stop arrival="14:03" departure="14:03">Sundskogen</stop>
+    <stop arrival="14:04" departure="14:04">Klokkarvik Stølen</stop>
+    <stop arrival="14:05" departure="14:05">Klokkarvik Kyrkjevegen</stop>
+    <stop arrival="14:05" departure="14:05">Klokkarvik</stop>
+    <stop arrival="14:05" departure="14:05">Klokkarvik Limavåg</stop>
+    <stop arrival="14:06" departure="14:06">Klokkarvik Sund barneskule</stop>
+    <stop arrival="14:06" departure="14:06">Klokkarvik Børnes</stop>
+    <stop arrival="14:07" departure="14:07">Førde Stauradalen (Sund)</stop>
+    <stop arrival="14:07" departure="14:07">Førde (Sund)</stop>
+    <stop arrival="14:08" departure="14:08">Førde Melkevik (Sund)</stop>
+    <stop arrival="14:09" departure="14:09">Førdestraumen (Sund)</stop>
+    <stop arrival="14:09" departure="14:09">Førdestraumen sør (Sund)</stop>
+    <stop arrival="14:09" departure="14:09">Høyland grustaket (Sund)</stop>
+    <stop arrival="14:10" departure="14:10">Høyland (Sund)</stop>
+    <stop arrival="14:11" departure="14:11">Høyland Bakeriet (Sund)</stop>
+    <stop arrival="14:11" departure="14:11">Kleppevik (Sund)</stop>
+    <stop arrival="14:12" departure="14:12">Kleppe (Sund)</stop>
+    <stop arrival="14:12" departure="14:12">Kleppe barnehage (Sund)</stop>
+    <stop arrival="14:13" departure="14:13">Kleppe utmark (Sund)</stop>
+    <stop arrival="14:15" departure="14:15">Forlandskiftet</stop>
+    <stop arrival="14:15" departure="14:15">Stranda Skole</stop>
+    <stop arrival="14:17" departure="14:17">Steinsland Ungdomshus (Sund)</stop>
+    <stop arrival="14:18" departure="14:18">Steinslansd Trena (Sund)</stop>
+    <stop arrival="14:19" departure="14:19">Steinslandskitfet (Sund)</stop>
+    <stop arrival="14:20">Steinsland snuplass</stop>
+  </route>
+  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/710652/238736/302136/85816/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:25" routeNo="441">Storavatnet term.</stop>
+    <stop arrival="13:26" departure="13:26">Ørjebekk</stop>
+    <stop arrival="13:27" departure="13:27">Øvre Godvik</stop>
+    <stop arrival="13:28" departure="13:28">Nedre Godvik</stop>
+    <stop arrival="13:28" departure="13:28">Kiplehaugen</stop>
+    <stop arrival="13:28" departure="13:28">Breivikskiftet</stop>
+    <stop arrival="13:29" departure="13:29">Breivikdalen</stop>
+    <stop arrival="13:30" departure="13:30">Stiaberget</stop>
+    <stop arrival="13:30" departure="13:30">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:31" departure="13:31">Drotningsvik Rv 555</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:34" departure="13:34">Knarrevik under brua</stop>
+    <stop arrival="13:35" departure="13:35">Hjelteryggen Svensveien</stop>
+    <stop arrival="13:37" departure="13:37">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="13:37">Hjelteryggen Nordre knappen</stop>
+  </route>
+  <route no="444" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/16887/7607/224048/106395/1/" trafficDays="kjører 17. Mai">
+    <stop departure="13:20" routeNo="444">Bergen Busstasjon</stop>
+    <stop arrival="13:23" departure="13:23">Olav Kyrres gate</stop>
+    <stop arrival="13:24" departure="13:24">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:27" departure="13:27">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:31" departure="13:31">Frida Fasmer R555</stop>
+    <stop arrival="13:32" departure="13:32">Breivikskiftet</stop>
+    <stop arrival="13:33" departure="13:33">Drotningsvik Rv 555</stop>
+    <stop arrival="13:35" departure="13:35">Knarrevik</stop>
+    <stop arrival="13:40">Straume term.</stop>
+  </route>
+  <route no="442" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/660501/222088/435982/2176/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:10" routeNo="442">Gavelen snuplass</stop>
+    <stop arrival="13:11" departure="13:11">Ebbesvik (Fjell)</stop>
+    <stop arrival="13:12" departure="13:12">Ebbesvik (Fjell)</stop>
+    <stop arrival="13:13" departure="13:13">Ebbesvik Holten (Fjell)</stop>
+    <stop arrival="13:14" departure="13:14">Snekkevik kryss</stop>
+    <stop arrival="13:15" departure="13:15">Brattholmen snuplass</stop>
+    <stop arrival="13:16" departure="13:16">Brattholmen skule</stop>
+    <stop arrival="13:17" departure="13:17">Brattholmen (garasjen)</stop>
+    <stop arrival="13:18" departure="13:18">Storskaret (Fjell)</stop>
+    <stop arrival="13:19" departure="13:19">Danielsen skole (Fjell)</stop>
+    <stop arrival="13:20" departure="13:20">Straume søre (Fjell)</stop>
+    <stop arrival="13:22" departure="13:22">Instamyra (Fjell)</stop>
+    <stop arrival="13:26" departure="13:26">Lonavegen (Fjell)</stop>
+    <stop arrival="13:30" departure="13:30">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Drotningsvik Rv 555</stop>
+    <stop arrival="13:36" departure="13:36">Breivikskiftet</stop>
+    <stop arrival="13:39" departure="13:39">Frida Fasmer</stop>
+    <stop arrival="13:44" departure="13:44">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:48" departure="13:48">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:49" departure="13:49">Christies gate (Festplassen)</stop>
+    <stop arrival="13:49" departure="13:49">Kaigaten/v. Jernbanen</stop>
+    <stop arrival="13:50">Bergen Busstasjon</stop>
+  </route>
+  <route no="445" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/15225/7133/448190/219020/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="13:15" routeNo="445">Anglevik snuplass</stop>
+    <stop arrival="13:16" departure="13:16">Anglevik</stop>
+    <stop arrival="13:16" departure="13:16">Våge kryss (Fjell)</stop>
+    <stop arrival="13:17" departure="13:17">Vågaleite (Fjell)</stop>
+    <stop arrival="13:18" departure="13:18">Foldnes</stop>
+    <stop arrival="13:20" departure="13:20">Foldnesvegen</stop>
+    <stop arrival="13:22" departure="13:22">Foldnes Grunnavågen</stop>
+    <stop arrival="13:24" departure="13:24">Sotraheimen</stop>
+    <stop arrival="13:26" departure="13:26">Åttringavegen</stop>
+    <stop arrival="13:28" departure="13:28">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="13:30" departure="13:30">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Drotningsvik Rv 555</stop>
+    <stop arrival="13:36" departure="13:36">Breivikskiftet</stop>
+    <stop arrival="13:38" departure="13:38">Frida Fasmer</stop>
+    <stop arrival="13:43" departure="13:43">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:47" departure="13:47">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:49" departure="13:49">Nygårdsgaten</stop>
+    <stop arrival="13:50">Bergen Busstasjon</stop>
+  </route>
+  <route no="445" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/127842/44673/430418/172595/1/" trafficDays="kjører">
+    <stop departure="13:15" routeNo="445">Anglevik snuplass</stop>
+    <stop arrival="13:16" departure="13:16">Anglevik</stop>
+    <stop arrival="13:16" departure="13:16">Våge kryss (Fjell)</stop>
+    <stop arrival="13:17" departure="13:17">Vågaleite (Fjell)</stop>
+    <stop arrival="13:18" departure="13:18">Foldnes</stop>
+    <stop arrival="13:20" departure="13:20">Foldnesvegen</stop>
+    <stop arrival="13:22" departure="13:22">Foldnes Grunnavågen</stop>
+    <stop arrival="13:24" departure="13:24">Sotraheimen</stop>
+    <stop arrival="13:26" departure="13:26">Åttringavegen</stop>
+    <stop arrival="13:28" departure="13:28">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="13:30" departure="13:30">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Drotningsvik Rv 555</stop>
+    <stop arrival="13:36" departure="13:36">Breivikskiftet</stop>
+    <stop arrival="13:39" departure="13:39">Frida Fasmer</stop>
+    <stop arrival="13:44" departure="13:44">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:48" departure="13:48">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:49" departure="13:49">Christies gate (Festplassen)</stop>
+    <stop arrival="13:49" departure="13:49">Kaigaten/v. Jernbanen</stop>
+    <stop arrival="13:50">Bergen Busstasjon</stop>
+  </route>
+  <route no="471" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/195474/67595/588162/228923/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:00" routeNo="471">Turøy snuplass</stop>
+    <stop arrival="13:04" departure="13:04">Misje nord</stop>
+    <stop arrival="13:04" departure="13:04">Misje</stop>
+    <stop arrival="13:05" departure="13:05">Misje sør</stop>
+    <stop arrival="13:06" departure="13:06">Solsvik Elvebakken R561</stop>
+    <stop arrival="13:08" departure="13:08">Vindenes kryss</stop>
+    <stop arrival="13:10" departure="13:10">Ågotnes terminal</stop>
+    <stop arrival="13:10" departure="13:10">Ågotnes Kryss CCB</stop>
+    <stop arrival="13:11" departure="13:11">Ågotnes Maggevarden</stop>
+    <stop arrival="13:11" departure="13:11">Ågotnes</stop>
+    <stop arrival="13:12" departure="13:12">Ågotnes Vanntanken</stop>
+    <stop arrival="13:13" departure="13:13">Spjeldbrekko</stop>
+    <stop arrival="13:13" departure="13:13">Spjeld</stop>
+    <stop arrival="13:14" departure="13:14">Ormevik</stop>
+    <stop arrival="13:14" departure="13:14">Knappskog</stop>
+    <stop arrival="13:15" departure="13:15">Fjæreide kryss</stop>
+    <stop arrival="13:16" departure="13:16">Knappskog utmark</stop>
+    <stop arrival="13:17" departure="13:17">Morlandstø</stop>
+    <stop arrival="13:17" departure="13:17">Morland ved bensinstasjon</stop>
+    <stop arrival="13:18" departure="13:18">Kolltveit senter</stop>
+    <stop arrival="13:19" departure="13:19">Kolltveit kai</stop>
+    <stop arrival="13:20" departure="13:20">Kolltveit Bergasletto</stop>
+    <stop arrival="13:21" departure="13:21">Kolltveit sør</stop>
+    <stop arrival="13:21" departure="13:21">Kolltveit ved skulen</stop>
+    <stop arrival="13:22" departure="13:22">Kolltveit kryss</stop>
+    <stop arrival="13:23" departure="13:23">Døsjeskiftet</stop>
+    <stop arrival="13:24" departure="13:24">Bildøy bro</stop>
+    <stop arrival="13:26" departure="13:26">Bildøy</stop>
+    <stop arrival="13:30" departure="13:30">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:35" departure="13:35">Drotningsvik Rv 555</stop>
+    <stop arrival="13:36" departure="13:36">Breivikskiftet</stop>
+    <stop arrival="13:39" departure="13:39">Frida Fasmer</stop>
+    <stop arrival="13:43" departure="13:43">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:47" departure="13:47">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:49" departure="13:49">Nygårdsgaten</stop>
+    <stop arrival="13:50">Bergen Busstasjon</stop>
+  </route>
+  <route no="442" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/541881/182553/497048/67897/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="13:30" routeNo="442">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:36" departure="13:36">Drotningsvik Rv 555</stop>
+    <stop arrival="13:37" departure="13:37">Breivikskiftet</stop>
+    <stop arrival="13:40" departure="13:40">Storavatnet term.</stop>
+    <stop arrival="13:41" departure="13:41">Frida Fasmer</stop>
+    <stop arrival="13:47" departure="13:47">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:52" departure="13:52">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:54" departure="13:54">Nygårdsgaten</stop>
+    <stop arrival="13:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="444" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/120633/42194/591668/255623/1/" trafficDays="kjører 17. Mai">
+    <stop departure="13:30" routeNo="444">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:36" departure="13:36">Drotningsvik Rv 555</stop>
+    <stop arrival="13:37" departure="13:37">Breivikskiftet</stop>
+    <stop arrival="13:40" departure="13:40">Storavatnet term.</stop>
+    <stop arrival="13:41" departure="13:41">Frida Fasmer</stop>
+    <stop arrival="13:46" departure="13:46">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:51" departure="13:51">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:52" departure="13:52">Christies gate (Festplassen)</stop>
+    <stop arrival="13:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="468" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/31554/12904/461802/220383/1/" trafficDays="kjører 1., 16., 17. Mai">
+    <stop departure="13:30" routeNo="468">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:36" departure="13:36">Drotningsvik Rv 555</stop>
+    <stop arrival="13:37" departure="13:37">Breivikskiftet</stop>
+    <stop arrival="13:40" departure="13:40">Storavatnet term.</stop>
+    <stop arrival="13:41" departure="13:41">Frida Fasmer</stop>
+    <stop arrival="13:47" departure="13:47">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:52" departure="13:52">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:54" departure="13:54">Christies gate (Festplassen)</stop>
+    <stop arrival="13:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="468" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/787749/265003/24168/250499/1/" trafficDays="kjører Sø, ikke 16. Mai; også 13., 24. Mai">
+    <stop departure="13:05" routeNo="468">Ågotnes terminal</stop>
+    <stop arrival="13:06" departure="13:06">Ågotnes Kryss CCB</stop>
+    <stop arrival="13:06" departure="13:06">Ågotnes Maggevarden</stop>
+    <stop arrival="13:07" departure="13:07">Ågotnes</stop>
+    <stop arrival="13:08" departure="13:08">Ågotnes Vanntanken</stop>
+    <stop arrival="13:10" departure="13:10">Spjeldbrekko</stop>
+    <stop arrival="13:11" departure="13:11">Spjeld</stop>
+    <stop arrival="13:11" departure="13:11">Ormevik</stop>
+    <stop arrival="13:12" departure="13:12">Knappskog</stop>
+    <stop arrival="13:13" departure="13:13">Fjæreide kryss</stop>
+    <stop arrival="13:15" departure="13:15">Knappskog utmark</stop>
+    <stop arrival="13:16" departure="13:16">Morlandstø</stop>
+    <stop arrival="13:17" departure="13:17">Morland ved bensinstasjon</stop>
+    <stop arrival="13:18" departure="13:18">Kolltveit senter</stop>
+    <stop arrival="13:19" departure="13:19">Kolltveit kai</stop>
+    <stop arrival="13:20" departure="13:20">Kolltveit Bergasletto</stop>
+    <stop arrival="13:21" departure="13:21">Kolltveit sør</stop>
+    <stop arrival="13:21" departure="13:21">Kolltveit ved skulen</stop>
+    <stop arrival="13:22" departure="13:22">Kolltveit kryss</stop>
+    <stop arrival="13:23" departure="13:23">Døsjeskiftet</stop>
+    <stop arrival="13:24" departure="13:24">Bildøy bro</stop>
+    <stop arrival="13:26" departure="13:26">Bildøy</stop>
+    <stop arrival="13:30" departure="13:30">Straume term.</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:36" departure="13:36">Drotningsvik Rv 555</stop>
+    <stop arrival="13:37" departure="13:37">Breivikskiftet</stop>
+    <stop arrival="13:40" departure="13:40">Storavatnet term.</stop>
+    <stop arrival="13:41" departure="13:41">Frida Fasmer</stop>
+    <stop arrival="13:47" departure="13:47">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:52" departure="13:52">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:54" departure="13:54">Nygårdsgaten</stop>
+    <stop arrival="13:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="45" destination="Flesland Flyplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/295563/100170/248604/25781/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:33" routeNo="45">Straume term.</stop>
+    <stop arrival="13:37" departure="13:37">Knarrevik</stop>
+    <stop arrival="13:39" departure="13:39">Drotningsvik Rv 555</stop>
+    <stop arrival="13:41" departure="13:41">Breivikskiftet</stop>
+    <stop arrival="13:43" departure="13:43">Storavatnet term.</stop>
+    <stop arrival="13:44" departure="13:44">Frida Fasmer</stop>
+    <stop arrival="13:45" departure="13:45">Loddefjorddalen</stop>
+    <stop arrival="13:48" departure="13:48">Loddefjord term.</stop>
+    <stop arrival="13:49" departure="13:49">Bjørndalstre krysset</stop>
+    <stop arrival="13:49" departure="13:49">Bjørndalstræ R557</stop>
+    <stop arrival="13:50" departure="13:50">Ravnestølen</stop>
+    <stop arrival="13:51" departure="13:51">Sætermyr</stop>
+    <stop arrival="13:52" departure="13:52">Bjørndalsskogen</stop>
+    <stop arrival="13:53" departure="13:53">Kjerreidviken</stop>
+    <stop arrival="13:54" departure="13:54">Bjørge</stop>
+    <stop arrival="13:54" departure="13:54">Sandeidbråtet</stop>
+    <stop arrival="13:54" departure="13:54">Sandeidet barnehage</stop>
+    <stop arrival="13:56" departure="13:56">Sementbroen</stop>
+    <stop arrival="13:57" departure="13:57">Straume bro</stop>
+    <stop arrival="13:57" departure="13:57">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="13:58" departure="13:58">Søreide skole</stop>
+    <stop arrival="13:59" departure="13:59">Dolvikbakken</stop>
+    <stop arrival="13:59" departure="13:59">Kokstad Bilhandel</stop>
+    <stop arrival="14:00" departure="14:00">BKK , Kokstad</stop>
+    <stop arrival="14:00" departure="14:00">Nera</stop>
+    <stop arrival="14:00" departure="14:00">Scandic</stop>
+    <stop arrival="14:07" departure="14:07">Birkelandskrysset Terminal</stop>
+    <stop arrival="14:09" departure="14:09">Kokstadskiftet</stop>
+    <stop arrival="14:12" departure="14:12">Liland (Flyplassvegen)</stop>
+    <stop arrival="14:15">Flesland Flyplass</stop>
+  </route>
+  <route no="70" destination="Haukeland sykehus sør" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/26037/10395/794378/388510/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:33" routeNo="70">Straume term.</stop>
+    <stop arrival="13:36" departure="13:36">Knarrevik</stop>
+    <stop arrival="13:39" departure="13:39">Drotningsvik Rv 555</stop>
+    <stop arrival="13:40" departure="13:40">Breivikskiftet</stop>
+    <stop arrival="13:43" departure="13:43">Storavatnet term.</stop>
+    <stop arrival="13:44" departure="13:44">Frida Fasmer</stop>
+    <stop arrival="13:45" departure="13:45">Loddefjorddalen</stop>
+    <stop arrival="13:48" departure="13:48">Loddefjord term.</stop>
+    <stop arrival="13:49" departure="13:49">Bjørndalstre krysset</stop>
+    <stop arrival="13:49" departure="13:49">Tennebekk</stop>
+    <stop arrival="13:52" departure="13:52">Lyngbøtunet</stop>
+    <stop arrival="13:53" departure="13:53">Lyderhornsveien</stop>
+    <stop arrival="13:54" departure="13:54">Nygård, Laksevåg</stop>
+    <stop arrival="13:55" departure="13:55">Kringsjå</stop>
+    <stop arrival="13:56" departure="13:56">Oldernes</stop>
+    <stop arrival="13:57" departure="13:57">Vågedalen</stop>
+    <stop arrival="13:58" departure="13:58">Fergeveien</stop>
+    <stop arrival="13:59" departure="13:59">Jansongården</stop>
+    <stop arrival="14:00" departure="14:00">Solveien</stop>
+    <stop arrival="14:01" departure="14:01">Gyldenpris</stop>
+    <stop arrival="14:03" departure="14:03">Lotheveien</stop>
+    <stop arrival="14:04" departure="14:04">Michael Krohns gate</stop>
+    <stop arrival="14:04" departure="14:04">Lien (Solheimsviken)</stop>
+    <stop arrival="14:05" departure="14:05">Solheimsviken</stop>
+    <stop arrival="14:08" departure="14:08">Danmarksplass/ Ibsens gt.</stop>
+    <stop departure="14:08">Ibsens gate /Haukeland sykehus</stop>
+    <stop arrival="14:10" departure="14:10">Haukeland sykehus nord</stop>
+    <stop arrival="14:10">Haukeland sykehus sør</stop>
+  </route>
+  <route no="444" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/645984/217304/600588/84969/1/" trafficDays="kjører 17. Mai">
+    <stop departure="13:30" routeNo="444">Bergen Busstasjon</stop>
+    <stop arrival="13:33" departure="13:33">Olav Kyrres gate</stop>
+    <stop arrival="13:34" departure="13:34">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:37" departure="13:37">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:41" departure="13:41">Frida Fasmer R555</stop>
+    <stop arrival="13:42" departure="13:42">Breivikskiftet</stop>
+    <stop arrival="13:43" departure="13:43">Drotningsvik Rv 555</stop>
+    <stop arrival="13:45" departure="13:45">Knarrevik</stop>
+    <stop arrival="13:50">Straume term.</stop>
+  </route>
+  <route no="444" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/455580/153830/975684/335982/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:43" routeNo="444">Olav Kyrres gate</stop>
+    <stop arrival="13:44" departure="13:44">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:47" departure="13:47">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:51" departure="13:51">Frida Fasmer R555</stop>
+    <stop arrival="13:52" departure="13:52">Breivikskiftet</stop>
+    <stop arrival="13:53" departure="13:53">Drotningsvik Rv 555</stop>
+    <stop arrival="13:55" departure="13:55">Knarrevik</stop>
+    <stop arrival="14:00">Straume term.</stop>
+  </route>
+  <route no="32" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/964074/322621/793128/75207/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:15" routeNo="32">Bergen Busstasjon</stop>
+    <stop arrival="13:18" departure="13:18">Olav Kyrres gate</stop>
+    <stop arrival="13:20" departure="13:20">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:21" departure="13:21">Gyldenpris</stop>
+    <stop arrival="13:26" departure="13:26">Løvstakktunnelen</stop>
+    <stop arrival="13:27" departure="13:27">Sikthaugen</stop>
+    <stop arrival="13:28" departure="13:28">Hamregården</stop>
+    <stop arrival="13:28" departure="13:28">Nebbeveien</stop>
+    <stop arrival="13:29" departure="13:29">Løvås</stop>
+    <stop arrival="13:30" departure="13:30">Oasen Terminal</stop>
+    <stop arrival="13:31" departure="13:31">Skarphaugen</stop>
+    <stop arrival="13:33" departure="13:33">Fyllingdsalsveien v/Shell</stop>
+    <stop arrival="13:35" departure="13:35">Sandeide terminal</stop>
+    <stop arrival="13:36" departure="13:36">Sandeidet barnehage</stop>
+    <stop arrival="13:36" departure="13:36">Sandeidbråtet</stop>
+    <stop arrival="13:37" departure="13:37">Bjørge</stop>
+    <stop arrival="13:39" departure="13:39">Kjerreidviken</stop>
+    <stop arrival="13:41" departure="13:41">Bjørndalsskogen</stop>
+    <stop arrival="13:42" departure="13:42">Sætermyr</stop>
+    <stop arrival="13:43" departure="13:43">Ravnestølen</stop>
+    <stop arrival="13:45" departure="13:45">Bjørndalstræ R557</stop>
+    <stop arrival="13:47" departure="13:47">Loddefjord term.</stop>
+    <stop arrival="13:49" departure="13:49">Loddefjorddalen</stop>
+    <stop arrival="13:50" departure="13:50">Frida Fasmer</stop>
+    <stop arrival="13:51" departure="13:51">Frida Fasmer R555</stop>
+    <stop arrival="13:52" departure="13:52">Storavatnet term.</stop>
+    <stop arrival="13:54" departure="13:54">Breivikskiftet</stop>
+    <stop arrival="13:55" departure="13:55">Drotningsvik Rv 555</stop>
+    <stop arrival="13:57" departure="13:57">Knarrevik</stop>
+    <stop arrival="14:02">Straume term.</stop>
+  </route>
+  <route no="441" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/11529/5716/785634/388974/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:50" routeNo="441">Hjelteryggen Nordre Knappen</stop>
+    <stop arrival="13:51" departure="13:51">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="13:53" departure="13:53">Hjelteryggen Svensveien</stop>
+    <stop arrival="13:54" departure="13:54">Knarrevik under brua</stop>
+    <stop arrival="13:55" departure="13:55">Knarrevik</stop>
+    <stop arrival="13:56" departure="13:56">Drotningsvik Rv 555</stop>
+    <stop arrival="13:56" departure="13:56">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:57" departure="13:57">Breivika</stop>
+    <stop arrival="13:58" departure="13:58">Breivikdalen</stop>
+    <stop arrival="14:00" departure="14:00">Breivikskiftet</stop>
+    <stop arrival="14:01" departure="14:01">Kiplehaugen</stop>
+    <stop arrival="14:02" departure="14:02">Nedre Godvik</stop>
+    <stop arrival="14:03" departure="14:03">Øvre Godvik</stop>
+    <stop arrival="14:05" departure="14:05">Godviksvingene</stop>
+    <stop arrival="14:07" departure="14:07">Ørjebekk</stop>
+    <stop arrival="14:10">Storavatnet term.</stop>
+  </route>
+  <route no="459" destination="Tælavåg snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/139437/48719/48698/22130/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="13:40" routeNo="459">Bergen Busstasjon</stop>
+    <stop arrival="13:41" departure="13:41">Olav Kyrres gate</stop>
+    <stop arrival="13:43" departure="13:43">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:48" departure="13:48">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:54" departure="13:54">Frida Fasmer R555</stop>
+    <stop arrival="13:55" departure="13:55">Storavatnet term.</stop>
+    <stop arrival="13:57" departure="13:57">Breivikskiftet</stop>
+    <stop arrival="13:58" departure="13:58">Drotningsvik Rv 555</stop>
+    <stop arrival="14:00" departure="14:00">Knarrevik</stop>
+    <stop arrival="14:05" departure="14:05">Straume term.</stop>
+    <stop arrival="14:06" departure="14:06">Bildøy</stop>
+    <stop arrival="14:09" departure="14:09">Fjell Blommen</stop>
+    <stop arrival="14:09" departure="14:09">Fjell Heljedalen</stop>
+    <stop arrival="14:10" departure="14:10">Fjell</stop>
+    <stop arrival="14:10" departure="14:10">Fjell kyrkje</stop>
+    <stop arrival="14:10" departure="14:10">Fjell Leite</stop>
+    <stop arrival="14:11" departure="14:11">Fjell Søre</stop>
+    <stop arrival="14:11" departure="14:11">Fjell Podlagrinda</stop>
+    <stop arrival="14:12" departure="14:12">Fjell Krossleite</stop>
+    <stop arrival="14:12" departure="14:12">Fjell søre Krossleite</stop>
+    <stop arrival="14:13" departure="14:13">Tellnesskogen</stop>
+    <stop arrival="14:14" departure="14:14">Tellnes Bruabrekko</stop>
+    <stop arrival="14:15" departure="14:15">Tellnesskiftet</stop>
+    <stop arrival="14:15" departure="14:15">Tellnes skule</stop>
+    <stop arrival="14:17" departure="14:17">Dala (Fjell)</stop>
+    <stop arrival="14:17" departure="14:17">Dala (Fjell)</stop>
+    <stop arrival="14:18" departure="14:18">Dalseide (Fjell)</stop>
+    <stop arrival="14:23" departure="14:23">Trengereid Slettebakken (Fjell</stop>
+    <stop arrival="14:24" departure="14:24">Trengereid (Fjell)</stop>
+    <stop arrival="14:25" departure="14:25">Skogsskiftet term.</stop>
+    <stop arrival="14:28" departure="14:28">Hammersland (Sund)</stop>
+    <stop arrival="14:28" departure="14:28">Hammersland (Sund)</stop>
+    <stop arrival="14:29" departure="14:29">Eidesjøen Tveitaneset</stop>
+    <stop arrival="14:30" departure="14:30">Eidesjøen</stop>
+    <stop arrival="14:31" departure="14:31">Pollen skule</stop>
+    <stop arrival="14:32" departure="14:32">Kårevik</stop>
+    <stop arrival="14:32" departure="14:32">Kårevik</stop>
+    <stop arrival="14:33" departure="14:33">Spildepollen</stop>
+    <stop arrival="14:34" departure="14:34">Kausland Sund Auto</stop>
+    <stop arrival="14:34" departure="14:34">Kausland industri</stop>
+    <stop arrival="14:35" departure="14:35">Kausland (brekko)</stop>
+    <stop arrival="14:36" departure="14:36">Kausland gard</stop>
+    <stop arrival="14:36" departure="14:36">Kausland kyrkje</stop>
+    <stop arrival="14:36" departure="14:36">Kausland (Lunde)</stop>
+    <stop arrival="14:38" departure="14:38">Glesnes Skule</stop>
+    <stop arrival="14:39" departure="14:39">Glesvær (Elva)</stop>
+    <stop arrival="14:39" departure="14:39">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="14:39" departure="14:39">Glesvær (Vollakrysset)</stop>
+    <stop arrival="14:40" departure="14:40">Glesvær snuplass</stop>
+    <stop arrival="14:40" departure="14:40">Glesvær (Vollakrysset)</stop>
+    <stop arrival="14:41" departure="14:41">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="14:41" departure="14:41">Glesvær (Elva)</stop>
+    <stop arrival="14:41" departure="14:41">Glesnes Skule</stop>
+    <stop arrival="14:43" departure="14:43">Kausland (Lunde)</stop>
+    <stop arrival="14:43" departure="14:43">Kausland kyrkje</stop>
+    <stop arrival="14:44" departure="14:44">Kausland gard</stop>
+    <stop arrival="14:44" departure="14:44">Kausland (brekko)</stop>
+    <stop arrival="14:45" departure="14:45">Kausland industri</stop>
+    <stop arrival="14:45" departure="14:45">Kausland Sund Auto</stop>
+    <stop arrival="14:46" departure="14:46">Spildepollen</stop>
+    <stop arrival="14:47" departure="14:47">Asphaug</stop>
+    <stop arrival="14:49" departure="14:49">Tælavåg gravplass</stop>
+    <stop arrival="14:51" departure="14:51">Tælavåg Sælstø</stop>
+    <stop arrival="14:51" departure="14:51">Tælavåg Museum (Idrettsplass)</stop>
+    <stop arrival="14:52" departure="14:52">Tælavåg Nipa byggefelt</stop>
+    <stop arrival="14:52" departure="14:52">Tælavåg Nipa</stop>
+    <stop arrival="14:53" departure="14:53">Tælavåg bedehus</stop>
+    <stop arrival="14:53" departure="14:53">Tælavåg Telle</stop>
+    <stop arrival="14:53" departure="14:53">Tælavåg skule</stop>
+    <stop arrival="14:54" departure="14:54">Tælavåg Midttveit</stop>
+    <stop arrival="14:54" departure="14:54">Tælavåg Øvretveit (brekko)</stop>
+    <stop arrival="14:55" departure="14:55">Tælavåg Øvretveit</stop>
+    <stop arrival="14:55">Tælavåg snuplass</stop>
+  </route>
+  <route no="458" destination="Glesvær snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/9738/5448/869838/431673/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:40" routeNo="458">Bergen Busstasjon</stop>
+    <stop departure="13:41">Olav Kyrres gate</stop>
+    <stop departure="13:43">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:48" departure="13:48">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:54" departure="13:54">Frida Fasmer R555</stop>
+    <stop arrival="13:55" departure="13:55">Storavatnet term.</stop>
+    <stop arrival="13:57" departure="13:57">Breivikskiftet</stop>
+    <stop arrival="13:59" departure="13:59">Drotningsvik Rv 555</stop>
+    <stop arrival="14:01" departure="14:01">Knarrevik</stop>
+    <stop arrival="14:05" departure="14:05">Straume term.</stop>
+    <stop arrival="14:06" departure="14:06">Bildøy</stop>
+    <stop arrival="14:09" departure="14:09">Fjell Blommen</stop>
+    <stop arrival="14:09" departure="14:09">Fjell Heljedalen</stop>
+    <stop arrival="14:10" departure="14:10">Fjell</stop>
+    <stop arrival="14:10" departure="14:10">Fjell kyrkje</stop>
+    <stop arrival="14:10" departure="14:10">Fjell Leite</stop>
+    <stop arrival="14:11" departure="14:11">Fjell Søre</stop>
+    <stop arrival="14:11" departure="14:11">Fjell Podlagrinda</stop>
+    <stop arrival="14:12" departure="14:12">Fjell Krossleite</stop>
+    <stop arrival="14:12" departure="14:12">Fjell søre Krossleite</stop>
+    <stop arrival="14:13" departure="14:13">Tellnesskogen</stop>
+    <stop arrival="14:14" departure="14:14">Tellnes Bruabrekko</stop>
+    <stop arrival="14:15" departure="14:15">Tellnesskiftet</stop>
+    <stop arrival="14:15" departure="14:15">Tellnes skule</stop>
+    <stop arrival="14:17" departure="14:17">Dala (Fjell)</stop>
+    <stop arrival="14:17" departure="14:17">Dala (Fjell)</stop>
+    <stop arrival="14:18" departure="14:18">Dalseide (Fjell)</stop>
+    <stop arrival="14:23" departure="14:23">Trengereid Slettebakken (Fjell</stop>
+    <stop arrival="14:24" departure="14:24">Trengereid (Fjell)</stop>
+    <stop arrival="14:25" departure="14:25">Skogsskiftet term.</stop>
+    <stop arrival="14:28" departure="14:28">Hammersland (Sund)</stop>
+    <stop arrival="14:28" departure="14:28">Hammersland (Sund)</stop>
+    <stop arrival="14:29" departure="14:29">Eidesjøen Tveitaneset</stop>
+    <stop arrival="14:30" departure="14:30">Eidesjøen</stop>
+    <stop arrival="14:31" departure="14:31">Pollen skule</stop>
+    <stop arrival="14:31" departure="14:31">Kårevik</stop>
+    <stop arrival="14:32" departure="14:32">Kårevik</stop>
+    <stop arrival="14:32" departure="14:32">Spildepollen</stop>
+    <stop arrival="14:33" departure="14:33">Asphaug</stop>
+    <stop arrival="14:35" departure="14:35">Tælavåg gravplass</stop>
+    <stop arrival="14:36" departure="14:36">Tælavåg Sælstø</stop>
+    <stop arrival="14:36" departure="14:36">Tælavåg Museum (Idrettsplass)</stop>
+    <stop arrival="14:37" departure="14:37">Tælavåg Nipa byggefelt</stop>
+    <stop arrival="14:38" departure="14:38">Tælavåg Nipa</stop>
+    <stop arrival="14:38" departure="14:38">Tælavåg bedehus</stop>
+    <stop arrival="14:38" departure="14:38">Tælavåg Telle</stop>
+    <stop arrival="14:38" departure="14:38">Tælavåg skule</stop>
+    <stop arrival="14:39" departure="14:39">Tælavåg Midttveit</stop>
+    <stop arrival="14:39" departure="14:39">Tælavåg Øvretveit (brekko)</stop>
+    <stop arrival="14:40" departure="14:40">Tælavåg Øvretveit</stop>
+    <stop arrival="14:40" departure="14:40">Tælavåg snuplass</stop>
+    <stop arrival="14:40" departure="14:40">Tælavåg Øvretveit</stop>
+    <stop arrival="14:41" departure="14:41">Tælavåg Øvretveit (brekko)</stop>
+    <stop arrival="14:41" departure="14:41">Tælavåg Midttveit</stop>
+    <stop arrival="14:42" departure="14:42">Tælavåg skule</stop>
+    <stop arrival="14:42" departure="14:42">Tælavåg Telle</stop>
+    <stop arrival="14:42" departure="14:42">Tælavåg bedehus</stop>
+    <stop arrival="14:43" departure="14:43">Tælavåg Nipa</stop>
+    <stop arrival="14:43" departure="14:43">Tælavåg Nipa byggefelt</stop>
+    <stop arrival="14:44" departure="14:44">Tælavåg Museum (Idrettsplass)</stop>
+    <stop arrival="14:44" departure="14:44">Tælavåg Sælstø</stop>
+    <stop arrival="14:46" departure="14:46">Tælavåg gravplass</stop>
+    <stop arrival="14:47" departure="14:47">Asphaug</stop>
+    <stop arrival="14:49" departure="14:49">Spildepollen</stop>
+    <stop arrival="14:50" departure="14:50">Kausland Sund Auto</stop>
+    <stop arrival="14:50" departure="14:50">Kausland industri</stop>
+    <stop arrival="14:51" departure="14:51">Kausland (brekko)</stop>
+    <stop arrival="14:51" departure="14:51">Kausland gard</stop>
+    <stop arrival="14:52" departure="14:52">Kausland kyrkje</stop>
+    <stop arrival="14:52" departure="14:52">Kausland (Lunde)</stop>
+    <stop arrival="14:53" departure="14:53">Glesnes Skule</stop>
+    <stop arrival="14:54" departure="14:54">Glesvær (Elva)</stop>
+    <stop arrival="14:54" departure="14:54">Glesvær (Slettebergsmauget)</stop>
+    <stop arrival="14:55" departure="14:55">Glesvær (Vollakrysset)</stop>
+    <stop arrival="14:55">Glesvær snuplass</stop>
+  </route>
+</routes>

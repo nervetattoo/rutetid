@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
-  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/674706/229983/237394/106205/1/">
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/569028/194757/586214/103431/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="18:16" routeNo="270">Arna terminal</stop>
     <stop arrival="18:17" departure="18:17">Ytre Arna vegen v.nr 204</stop>
     <stop arrival="18:18" departure="18:18">Listøl</stop>
@@ -35,7 +35,7 @@
     <stop arrival="18:43" departure="18:43">Rollandskrysset</stop>
     <stop arrival="18:44">Åsane terminal</stop>
   </route>
-  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/536889/184087/267374/45277/1/">
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/70248/28540/997914/475542/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="18:17" routeNo="270">Arna terminal</stop>
     <stop arrival="18:18" departure="18:18">Ytre Arna vegen v.nr 204</stop>
     <stop arrival="18:19" departure="18:19">Listøl</stop>
@@ -70,7 +70,7 @@
     <stop arrival="18:45" departure="18:45">Rollandskrysset</stop>
     <stop arrival="18:46">Åsane terminal</stop>
   </route>
-  <route no="394" destination="Haus" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/569226/190802/447160/33838/1/">
+  <route no="394" destination="Haus" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/249060/84080/183340/8650/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="18:18" routeNo="394">Arna terminal</stop>
     <stop arrival="18:19" departure="18:19">Bommane (Arna)</stop>
     <stop arrival="18:20" departure="18:20">Beyer (Arna)</stop>
@@ -96,7 +96,7 @@
     <stop arrival="18:39" departure="18:39">Mjeldalen v gml kommunehus</stop>
     <stop arrival="18:41">Haus</stop>
   </route>
-  <route no="398" destination="Olsnesskiftet" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/226524/76619/431180/140082/1/">
+  <route no="398" destination="Olsnesskiftet" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/70788/24707/541968/247388/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
     <stop departure="18:18" routeNo="398">Arna terminal</stop>
     <stop arrival="18:19" departure="18:19">Bommane (Arna)</stop>
     <stop arrival="18:20" departure="18:20">Beyer (Arna)</stop>
@@ -153,7 +153,7 @@
     <stop arrival="19:10" departure="19:10">Olsnesskiftet</stop>
     <stop arrival="19:11">Olsnesskiftet</stop>
   </route>
-  <route no="900" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/698778/234100/772790/153470/1/">
+  <route no="900" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/711462/238333/351766/61271/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="18:18" routeNo="900">Arna terminal</stop>
     <stop arrival="18:20" departure="18:20">Bommane (Arnatveitvegen)</stop>
     <stop arrival="18:21" departure="18:21">Indre Arna skule</stop>
@@ -166,28 +166,9 @@
     <stop arrival="18:27" departure="18:27">Arna busser</stop>
     <stop arrival="18:27" departure="18:27">Sæthre steinindustri</stop>
     <stop arrival="18:29" departure="18:29">Espelandsmyrane fylkesvn.</stop>
-    <stop arrival="18:30" departure="18:30">Espeland Janus (Arna)</stop>
-    <stop arrival="18:31" departure="18:31">Espelandshallen (Arna)</stop>
-    <stop arrival="18:32" departure="18:32">Lone øst</stop>
-    <stop arrival="18:33" departure="18:33">Lone vest</stop>
-    <stop arrival="18:34" departure="18:34">Haukeland øst (Arna)</stop>
-    <stop arrival="18:34" departure="18:34">Haukeland (Arna)</stop>
-    <stop arrival="18:35" departure="18:35">Haukeland vest (Arna)</stop>
-    <stop arrival="18:36" departure="18:36">Søylen (Espeland)</stop>
-    <stop arrival="18:36" departure="18:36">Bratland</stop>
-    <stop arrival="18:37" departure="18:37">Grimen øst</stop>
-    <stop arrival="18:38" departure="18:38">Grimen</stop>
-    <stop arrival="18:39" departure="18:39">Helldal skole</stop>
-    <stop arrival="18:40" departure="18:40">Helldal, Frank Mohn</stop>
-    <stop arrival="18:40" departure="18:40">Helldal (Fana)</stop>
-    <stop arrival="18:42" departure="18:42">BKK Trafo (Helldal)</stop>
-    <stop arrival="18:44" departure="18:44">Midttunflaten</stop>
-    <stop arrival="18:45" departure="18:45">Midtun bro</stop>
-    <stop arrival="18:47" departure="18:47">Herredshuset, Nesttun</stop>
-    <stop arrival="18:48" departure="18:48">Nesttun</stop>
-    <stop arrival="18:49">Nesttun terminal</stop>
+    <stop arrival="18:30">Espeland Janus (Arna)</stop>
   </route>
-  <route no="394" destination="Haus" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/239091/80748/658366/249487/1/">
+  <route no="394" destination="Haus" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/295062/99405/372722/88008/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="18:48" routeNo="394">Arna terminal</stop>
     <stop arrival="18:49" departure="18:49">Bommane (Arna)</stop>
     <stop arrival="18:50" departure="18:50">Beyer (Arna)</stop>
@@ -216,7 +197,7 @@
     <stop arrival="19:10" departure="19:10">Åsheimveien</stop>
     <stop arrival="19:11">Haus</stop>
   </route>
-  <route no="900" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/54756/19407/134822/49161/1/">
+  <route no="900" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/483720/162395/255562/33461/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="18:48" routeNo="900">Arna terminal</stop>
     <stop arrival="18:50" departure="18:50">Bommane (Arnatveitvegen)</stop>
     <stop arrival="18:51" departure="18:51">Indre Arna skule</stop>

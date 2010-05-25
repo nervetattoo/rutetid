@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="11" destination="Tollbodalmenningen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/373590/128194/811390/281165/1/" trafficDays="kjører Ma - Fr, Sø, også 1. Mai">
+    <stop departure="15:00" routeNo="11">Starefoss</stop>
+    <stop arrival="15:00" departure="15:00">Starefossveien</stop>
+    <stop arrival="15:01" departure="15:01">Starefossbakken</stop>
+    <stop arrival="15:02" departure="15:02">Nystuveien</stop>
+    <stop arrival="15:03" departure="15:03">Fjellveien (Bergen)</stop>
+    <stop arrival="15:04" departure="15:04">Bellevue</stop>
+    <stop arrival="15:05" departure="15:05">Svartediksvei</stop>
+    <stop arrival="15:06" departure="15:06">Kalvedalsveien</stop>
+    <stop arrival="15:08" departure="15:08">Kalfarlien</stop>
+    <stop arrival="15:10" departure="15:10">Stadsporten (jernbanen)</stop>
+    <stop arrival="15:11" departure="15:11">Kong Oscars gate</stop>
+    <stop arrival="15:12" departure="15:12">Allehelgensgate</stop>
+    <stop arrival="15:15" departure="15:15">Bergen Strandkai terminal</stop>
+    <stop arrival="15:18" departure="15:18">Christiand Michelsens gate</stop>
+    <stop arrival="15:20" departure="15:20">Klosteret</stop>
+    <stop arrival="15:21" departure="15:21">Fredriksberg</stop>
+    <stop arrival="15:22" departure="15:22">Nordnes skole</stop>
+    <stop arrival="15:23" departure="15:23">Akvariet</stop>
+    <stop arrival="15:25">Tollbodalmenningen</stop>
+  </route>
+  <route no="11" destination="Tollbodalmenningen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/64923/25313/74620/15669/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="15:30" routeNo="11">Starefoss</stop>
+    <stop arrival="15:30" departure="15:30">Starefossveien</stop>
+    <stop arrival="15:31" departure="15:31">Starefossbakken</stop>
+    <stop arrival="15:32" departure="15:32">Nystuveien</stop>
+    <stop arrival="15:33" departure="15:33">Fjellveien (Bergen)</stop>
+    <stop arrival="15:34" departure="15:34">Bellevue</stop>
+    <stop arrival="15:35" departure="15:35">Svartediksvei</stop>
+    <stop arrival="15:36" departure="15:36">Kalvedalsveien</stop>
+    <stop arrival="15:38" departure="15:38">Kalfarlien</stop>
+    <stop arrival="15:40" departure="15:40">Stadsporten (jernbanen)</stop>
+    <stop arrival="15:41" departure="15:41">Kong Oscars gate</stop>
+    <stop arrival="15:42" departure="15:42">Allehelgensgate</stop>
+    <stop arrival="15:45" departure="15:45">Bergen Strandkai terminal</stop>
+    <stop arrival="15:48" departure="15:48">Christiand Michelsens gate</stop>
+    <stop arrival="15:50" departure="15:50">Klosteret</stop>
+    <stop arrival="15:51" departure="15:51">Fredriksberg</stop>
+    <stop arrival="15:52" departure="15:52">Nordnes skole</stop>
+    <stop arrival="15:53" departure="15:53">Akvariet</stop>
+    <stop arrival="15:55">Tollbodalmenningen</stop>
+  </route>
+</routes>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="285" destination="Breistein snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/57555/24419/24088/7141/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="12:15" routeNo="285">Bergen Busstasjon</stop>
+    <stop arrival="12:16" departure="12:16">Christies gate (Festplassen)</stop>
+    <stop arrival="12:18" departure="12:18">Torget (Bergen)</stop>
+    <stop arrival="12:19" departure="12:19">Bryggen</stop>
+    <stop arrival="12:19" departure="12:19">Slottsgaten</stop>
+    <stop arrival="12:21" departure="12:21">Bontelabo</stop>
+    <stop arrival="12:21" departure="12:21">Skutevikstorget</stop>
+    <stop arrival="12:22" departure="12:22">Sjøgaten</stop>
+    <stop arrival="12:23" departure="12:23">Sandvikstorget</stop>
+    <stop arrival="12:24" departure="12:24">Ludebryggen</stop>
+    <stop arrival="12:25" departure="12:25">Munkebotten</stop>
+    <stop arrival="12:26" departure="12:26">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="12:28" departure="12:28">Handelshøyskolen</stop>
+    <stop arrival="12:30" departure="12:30">Eidsvåg</stop>
+    <stop arrival="12:35" departure="12:35">Åsane terminal</stop>
+    <stop arrival="12:36" departure="12:36">Rollandskrysset</stop>
+    <stop arrival="12:36" departure="12:36">Litleåskryss</stop>
+    <stop arrival="12:37" departure="12:37">Salhuskrysset</stop>
+    <stop arrival="12:38" departure="12:38">Nyborg</stop>
+    <stop arrival="12:40" departure="12:40">Domus Nyborg</stop>
+    <stop arrival="12:41" departure="12:41">Liavegen (Åsane)</stop>
+    <stop arrival="12:42" departure="12:42">Vågsbotn</stop>
+    <stop arrival="12:42" departure="12:42">Eikås</stop>
+    <stop arrival="12:43" departure="12:43">Vikaleitet</stop>
+    <stop arrival="12:44" departure="12:44">Haukåsvegen</stop>
+    <stop arrival="12:45" departure="12:45">Haukås barnehage</stop>
+    <stop arrival="12:45" departure="12:45">Myrsæter</stop>
+    <stop arrival="12:46" departure="12:46">Bergen Travpark</stop>
+    <stop arrival="12:47" departure="12:47">Vestlandsheimen</stop>
+    <stop arrival="12:49" departure="12:49">Vollane</stop>
+    <stop arrival="12:49" departure="12:49">Kaiveg</stop>
+    <stop arrival="12:50" departure="12:50">Breistein kai</stop>
+    <stop arrival="12:52" departure="12:52">Eikemo (Åsane)</stop>
+    <stop arrival="12:53" departure="12:53">Såtavegen</stop>
+    <stop arrival="12:55">Breistein snuplass</stop>
+  </route>
+  <route no="285" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/689265/234990/814456/177473/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="12:55" routeNo="285">Breistein snuplass</stop>
+    <stop arrival="12:56" departure="12:56">Såtavegen</stop>
+    <stop arrival="12:56" departure="12:56">Eikemo (Åsane)</stop>
+    <stop arrival="12:57" departure="12:57">Breistein kai</stop>
+    <stop arrival="12:58" departure="12:58">Kaiveg</stop>
+    <stop arrival="13:00" departure="13:00">Vollane</stop>
+    <stop arrival="13:03" departure="13:03">Vestlandsheimen</stop>
+    <stop arrival="13:05" departure="13:05">Myrsæter</stop>
+    <stop arrival="13:05" departure="13:05">Haukås barnehage</stop>
+    <stop arrival="13:06" departure="13:06">Haukåsvegen</stop>
+    <stop arrival="13:07" departure="13:07">Vikaleitet</stop>
+    <stop arrival="13:08" departure="13:08">Eikås</stop>
+    <stop arrival="13:08" departure="13:08">Vågsbotn</stop>
+    <stop arrival="13:09" departure="13:09">Liavegen (Åsane)</stop>
+    <stop arrival="13:10" departure="13:10">Domus Nyborg</stop>
+    <stop arrival="13:12" departure="13:12">Nyborg</stop>
+    <stop arrival="13:13" departure="13:13">Salhuskrysset</stop>
+    <stop arrival="13:14" departure="13:14">Litleåskryss</stop>
+    <stop arrival="13:14" departure="13:14">Rollandskrysset</stop>
+    <stop arrival="13:15" departure="13:15">Åsane terminal</stop>
+    <stop arrival="13:20" departure="13:20">Eidsvåg</stop>
+    <stop arrival="13:22" departure="13:22">Handelshøyskolen</stop>
+    <stop arrival="13:24" departure="13:24">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="13:25" departure="13:25">Munkebotten</stop>
+    <stop arrival="13:26" departure="13:26">Ludebryggen</stop>
+    <stop arrival="13:30" departure="13:30">Sandvikstorget</stop>
+    <stop arrival="13:32" departure="13:32">Skutevikstorget</stop>
+    <stop arrival="13:33" departure="13:33">Bontelabo</stop>
+    <stop arrival="13:34" departure="13:34">Slottsgaten</stop>
+    <stop arrival="13:35" departure="13:35">Bryggen</stop>
+    <stop arrival="13:37" departure="13:37">Olav Kyrres gate</stop>
+    <stop arrival="13:40">Bergen Busstasjon</stop>
+  </route>
+  <route no="285" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/424632/146765/764284/240600/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="12:55" routeNo="285">Breistein snuplass</stop>
+    <stop arrival="12:57" departure="12:57">Såtavegen</stop>
+    <stop arrival="12:58" departure="12:58">Eikemo (Åsane)</stop>
+    <stop arrival="13:00" departure="13:00">Breistein kai</stop>
+    <stop arrival="13:01" departure="13:01">Kaiveg</stop>
+    <stop arrival="13:02" departure="13:02">Vollane</stop>
+    <stop arrival="13:04" departure="13:04">Vestlandsheimen</stop>
+    <stop arrival="13:05" departure="13:05">Myrsæter</stop>
+    <stop arrival="13:05" departure="13:05">Haukås barnehage</stop>
+    <stop arrival="13:06" departure="13:06">Haukåsvegen</stop>
+    <stop arrival="13:08" departure="13:08">Vikaleitet</stop>
+    <stop arrival="13:09" departure="13:09">Eikås</stop>
+    <stop arrival="13:10" departure="13:10">Vågsbotn</stop>
+    <stop arrival="13:11" departure="13:11">Liavegen (Åsane)</stop>
+    <stop arrival="13:11" departure="13:11">Domus Nyborg</stop>
+    <stop arrival="13:12" departure="13:12">Nyborg</stop>
+    <stop arrival="13:13" departure="13:13">Salhuskrysset</stop>
+    <stop arrival="13:14" departure="13:14">Litleåskryss</stop>
+    <stop arrival="13:14" departure="13:14">Rollandskrysset</stop>
+    <stop arrival="13:15">Åsane terminal</stop>
+  </route>
+</routes>

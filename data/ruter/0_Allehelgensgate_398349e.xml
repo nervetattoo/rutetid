@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
-  <route no="31" destination="Varden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/274740/96004/353038/84942/1/">
-    <stop departure="23:38" routeNo="31">Mannsverk vognstasjon</stop>
-    <stop arrival="23:38" departure="23:38">Wiers -Jenssens vei</stop>
-    <stop arrival="23:39" departure="23:39">Strimmelen</stop>
-    <stop arrival="23:40" departure="23:40">Kolstien</stop>
-    <stop arrival="23:42" departure="23:42">Kanonhaugen</stop>
+  <route no="31" destination="Varden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/121110/44838/381646/150453/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="23:35" routeNo="31">Mannsverk vognstasjon</stop>
+    <stop arrival="23:35" departure="23:35">Wiers -Jenssens vei</stop>
+    <stop arrival="23:36" departure="23:36">Strimmelen</stop>
+    <stop arrival="23:37" departure="23:37">Kolstien</stop>
+    <stop arrival="23:39" departure="23:39">Kanonhaugen</stop>
+    <stop arrival="23:40" departure="23:40">Lægdene</stop>
+    <stop arrival="23:40" departure="23:40">Lægdenesvingen</stop>
+    <stop arrival="23:41" departure="23:41">Montana</stop>
+    <stop arrival="23:42" departure="23:42">Sollien v/nr. 57</stop>
+    <stop arrival="23:42" departure="23:42">Sollien v/nr. 87</stop>
+    <stop arrival="23:43" departure="23:43">Sollien v/nr. 126</stop>
     <stop arrival="23:43" departure="23:43">Lægdene</stop>
-    <stop arrival="23:43" departure="23:43">Lægdenesvingen</stop>
-    <stop arrival="23:44" departure="23:44">Montana</stop>
-    <stop arrival="23:44" departure="23:44">Sollien v/nr. 57</stop>
-    <stop arrival="23:45" departure="23:45">Sollien v/nr. 87</stop>
-    <stop arrival="23:45" departure="23:45">Sollien v/nr. 126</stop>
-    <stop arrival="23:45" departure="23:45">Lægdene</stop>
-    <stop arrival="23:46" departure="23:46">Lærerskolen, Landås</stop>
-    <stop arrival="23:46" departure="23:46">Langhaugen</stop>
-    <stop arrival="23:47" departure="23:47">Fridalen</stop>
-    <stop arrival="23:47" departure="23:47">Haukeland sykehus sør</stop>
-    <stop arrival="23:48" departure="23:48">Haukeland sykehus nord</stop>
-    <stop arrival="23:48" departure="23:48">Haraldsplass sykehus</stop>
-    <stop arrival="23:49" departure="23:49">Haukeland skole</stop>
-    <stop arrival="23:51" departure="23:51">Svartediksveien</stop>
-    <stop arrival="23:52" departure="23:52">Kalvedalsveien</stop>
-    <stop arrival="23:54" departure="23:54">Kalfarlien</stop>
-    <stop arrival="23:55" departure="23:55">Stadsporten (jernbanen)</stop>
-    <stop arrival="23:57" departure="23:57">Kong Oscars gate</stop>
-    <stop arrival="23:58" departure="23:58">Allehelgensgate</stop>
+    <stop arrival="23:44" departure="23:44">Lærerskolen, Landås</stop>
+    <stop arrival="23:45" departure="23:45">Langhaugen</stop>
+    <stop arrival="23:45" departure="23:45">Fridalen</stop>
+    <stop arrival="23:46" departure="23:46">Haukeland sykehus sør</stop>
+    <stop arrival="23:47" departure="23:47">Haukeland sykehus nord</stop>
+    <stop arrival="23:47" departure="23:47">Haraldsplass sykehus</stop>
+    <stop arrival="23:48" departure="23:48">Haukeland skole</stop>
+    <stop arrival="23:50" departure="23:50">Svartediksveien</stop>
+    <stop arrival="23:51" departure="23:51">Kalvedalsveien</stop>
+    <stop arrival="23:53" departure="23:53">Kalfarlien</stop>
+    <stop arrival="23:54" departure="23:54">Stadsporten (jernbanen)</stop>
+    <stop arrival="23:56" departure="23:56">Kong Oscars gate</stop>
+    <stop arrival="23:57" departure="23:57">Allehelgensgate</stop>
     <stop arrival="0:00" departure="0:00">Olav Kyrres gate</stop>
     <stop arrival="0:02" departure="0:02">Møhlenpris v/ Industrihuset</stop>
     <stop arrival="0:03" departure="0:03">Gyldenpris</stop>
@@ -49,7 +49,7 @@
     <stop arrival="0:16" departure="0:16">Vardeveien</stop>
     <stop arrival="0:17">Varden</stop>
   </route>
-  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/411561/141593/497144/111389/1/">
+  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/467685/160301/211332/50233/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
     <stop departure="23:35" routeNo="31">Varden</stop>
     <stop arrival="23:36" departure="23:36">Vardeveien</stop>
     <stop arrival="23:36" departure="23:36">Vardesvingen</stop>
@@ -96,7 +96,7 @@
     <stop arrival="0:24" departure="0:24">Strimmelen</stop>
     <stop arrival="0:25">Mannsverk vognstasjon</stop>
   </route>
-  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/729966/248110/162212/162227/1/">
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/637680/217348/153926/135608/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="23:30" routeNo="80">Flaktveit snuplass</stop>
     <stop arrival="23:31" departure="23:31">Breimyra</stop>
     <stop arrival="23:32" departure="23:32">Ulvhøyen</stop>
@@ -140,7 +140,7 @@
     <stop arrival="0:26" departure="0:26">Skarphaugen</stop>
     <stop arrival="0:27">Oasen Terminal</stop>
   </route>
-  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/982383/332297/497364/78779/1/">
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/137631/50713/205838/57042/1/" trafficDays="kjører Fr">
     <stop departure="23:30" routeNo="80">Flaktveit snuplass</stop>
     <stop arrival="23:31" departure="23:31">Breimyra</stop>
     <stop arrival="23:32" departure="23:32">Ulvhøyen</stop>
@@ -184,7 +184,7 @@
     <stop arrival="0:24" departure="0:24">Skarphaugen</stop>
     <stop arrival="0:25">Oasen Terminal</stop>
   </route>
-  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/734934/248457/272950/108505/1/">
+  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/916701/309046/495810/57664/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:00" routeNo="2">Bergen Strandkai terminal</stop>
     <stop arrival="0:02" departure="0:02">Strandgaten (Svaneapoteket)</stop>
     <stop arrival="0:03" departure="0:03">Småstrandgaten</stop>
@@ -210,7 +210,7 @@
     <stop arrival="0:23" departure="0:23">Knausen</stop>
     <stop arrival="0:24">Birkelundstoppen</stop>
   </route>
-  <route no="23" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/461868/158069/188152/59883/1/">
+  <route no="23" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/445401/152580/68466/114237/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="23:52" routeNo="23">Øyjorden (Bergen)</stop>
     <stop arrival="23:53" departure="23:53">Øyjordsveien</stop>
     <stop arrival="23:54" departure="23:54">Skytterveien</stop>
@@ -254,7 +254,7 @@
     <stop arrival="0:46" departure="0:46">Gomarhaug</stop>
     <stop arrival="0:48">Birkelandskrysset Terminal</stop>
   </route>
-  <route no="23" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/783351/265272/862512/170140/1/">
+  <route no="23" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/480708/164391/565956/122743/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="23:52" routeNo="23">Øyjorden (Bergen)</stop>
     <stop arrival="23:53" departure="23:53">Øyjordsveien</stop>
     <stop arrival="23:54" departure="23:54">Skytterveien</stop>
@@ -298,7 +298,7 @@
     <stop arrival="0:46" departure="0:46">Gomarhaug</stop>
     <stop arrival="0:48">Birkelandskrysset Terminal</stop>
   </route>
-  <route no="70" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/937407/314232/187592/218676/1/">
+  <route no="70" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/504531/169940/918370/291011/1/" trafficDays="kjører Ma, også 2., 14., 18., 25. Mai">
     <stop departure="0:03" routeNo="70">Bergen Busstasjon</stop>
     <stop arrival="0:06" departure="0:06">Olav Kyrres gate</stop>
     <stop arrival="0:08" departure="0:08">Møhlenpris v/ Industrihuset</stop>
@@ -326,7 +326,7 @@
     <stop arrival="0:28" departure="0:28">Lyngbøkollen</stop>
     <stop arrival="0:29">Nipedalen</stop>
   </route>
-  <route no="70" destination="Gravdal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/955062/320170/686204/24748/1/">
+  <route no="70" destination="Gravdal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/893160/299536/601894/3227/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:02" routeNo="70">Bergen Busstasjon</stop>
     <stop arrival="0:07" departure="0:07">Olav Kyrres gate</stop>
     <stop arrival="0:09" departure="0:09">Møhlenpris v/ Industrihuset</stop>
@@ -343,7 +343,7 @@
     <stop arrival="0:18" departure="0:18">Skjenevik</stop>
     <stop arrival="0:19">Gravdal</stop>
   </route>
-  <route no="41" destination="Hetlevikåsen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/752262/252102/456740/22384/1/">
+  <route no="41" destination="Hetlevikåsen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/243498/82514/894348/366008/1/" trafficDays="kjører daglig, ikke 2., 17., 18. Mai">
     <stop departure="0:05" routeNo="41">Bergen Busstasjon</stop>
     <stop arrival="0:08" departure="0:08">Olav Kyrres gate</stop>
     <stop arrival="0:09" departure="0:09">Møhlenpris v/ Industrihuset</stop>
@@ -359,7 +359,7 @@
     <stop arrival="0:30" departure="0:30">Storaholtet</stop>
     <stop arrival="0:32">Hetlevikåsen snuplass</stop>
   </route>
-  <route no="42" destination="Alvøen kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/228390/77576/137926/7167/1/">
+  <route no="42" destination="Alvøen kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/988158/330832/179786/239493/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:05" routeNo="42">Bergen Busstasjon</stop>
     <stop arrival="0:08" departure="0:08">Olav Kyrres gate</stop>
     <stop arrival="0:09" departure="0:09">Møhlenpris v/ Industrihuset</stop>
@@ -389,7 +389,7 @@
     <stop arrival="0:42" departure="0:42">Alvøen nede</stop>
     <stop arrival="0:43">Alvøen kai</stop>
   </route>
-  <route no="42" destination="Bjorøy skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/217056/73841/863458/359378/1/">
+  <route no="42" destination="Bjorøy skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/965196/323221/802684/79611/1/" trafficDays="kjører Ma, Sø, ikke 2., 17. Mai; også 14., 25. Mai">
     <stop departure="0:05" routeNo="42">Bergen Busstasjon</stop>
     <stop arrival="0:08" departure="0:08">Olav Kyrres gate</stop>
     <stop arrival="0:09" departure="0:09">Møhlenpris v/ Industrihuset</stop>
@@ -413,7 +413,7 @@
     <stop arrival="0:42" departure="0:42">Bjorøy etter X Kai</stop>
     <stop arrival="0:43">Bjorøy skole</stop>
   </route>
-  <route no="44" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/325089/109928/850840/317057/1/">
+  <route no="44" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/785742/263479/101876/210976/1/" trafficDays="kjører Ma - Lø, ikke 17., 18. Mai">
     <stop departure="0:05" routeNo="44">Bergen Busstasjon</stop>
     <stop arrival="0:08" departure="0:08">Olav Kyrres gate</stop>
     <stop arrival="0:09" departure="0:09">Møhlenpris v/ Industrihuset</stop>
@@ -439,7 +439,7 @@
     <stop arrival="0:38" departure="0:38">Ørjebekk</stop>
     <stop arrival="0:40">Storavatnet term.</stop>
   </route>
-  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/719769/243311/505512/12835/1/">
+  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/841758/283974/854660/146746/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
     <stop departure="23:50" routeNo="2">Birkelundstoppen</stop>
     <stop arrival="23:50" departure="23:50">Knausen</stop>
     <stop arrival="23:51" departure="23:51">Kolstibotn</stop>
@@ -464,7 +464,7 @@
     <stop arrival="0:10" departure="0:10">Allehelgensgate</stop>
     <stop arrival="0:20">Bergen Strandkai terminal</stop>
   </route>
-  <route no="70" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/109194/38183/604146/265678/1/">
+  <route no="70" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/973737/326364/162460/243352/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:05" routeNo="70">Bergen Busstasjon</stop>
     <stop arrival="0:10" departure="0:10">Olav Kyrres gate</stop>
     <stop arrival="0:13" departure="0:13">Møhlenpris v/ Industrihuset</stop>
@@ -492,7 +492,7 @@
     <stop arrival="0:36" departure="0:36">Lyngbøkollen</stop>
     <stop arrival="0:38">Nipedalen</stop>
   </route>
-  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/286371/97338/257020/33053/1/">
+  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/957360/321001/94264/271988/1/" trafficDays="kjører">
     <stop departure="0:08" routeNo="441">Bergen Busstasjon</stop>
     <stop arrival="0:10" departure="0:10">Olav Kyrres gate</stop>
     <stop arrival="0:11" departure="0:11">Møhlenpris v/ Industrihuset</stop>
@@ -514,7 +514,7 @@
     <stop arrival="0:37" departure="0:37">Hjelteryggen Søre Knappen</stop>
     <stop arrival="0:37">Hjelteryggen Nordre knappen</stop>
   </route>
-  <route no="454" destination="Skogsskiftet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/471849/159411/497322/91378/1/">
+  <route no="454" destination="Skogsskiftet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/810741/272375/286130/127182/1/" trafficDays="kjører">
     <stop departure="0:08" routeNo="454">Bergen Busstasjon</stop>
     <stop arrival="0:10" departure="0:10">Olav Kyrres gate</stop>
     <stop arrival="0:11" departure="0:11">Møhlenpris v/ Industrihuset</stop>
@@ -594,7 +594,7 @@
     <stop arrival="1:39" departure="1:39">Skogsskiftet Hald Stadion</stop>
     <stop arrival="1:40">Skogsskiftet term.</stop>
   </route>
-  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/627459/213460/470828/26262/1/">
+  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/992871/335264/995914/167001/1/" trafficDays="kjører Ma, også 2., 14., 18., 25. Mai">
     <stop departure="0:05" routeNo="30">Bergen Busstasjon</stop>
     <stop arrival="0:10" departure="0:10">Olav Kyrres gate</stop>
     <stop arrival="0:11" departure="0:11">Møhlenpris v/ Industrihuset</stop>
@@ -624,7 +624,7 @@
     <stop arrival="0:42" departure="0:42">Birkelandsflaten</stop>
     <stop arrival="0:45">Birkelandskrysset Terminal</stop>
   </route>
-  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/23397/12128/768750/376576/1/">
+  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/653997/222328/89280/173359/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:05" routeNo="30">Bergen Busstasjon</stop>
     <stop arrival="0:10" departure="0:10">Olav Kyrres gate</stop>
     <stop arrival="0:11" departure="0:11">Møhlenpris v/ Industrihuset</stop>
@@ -655,7 +655,7 @@
     <stop arrival="0:42" departure="0:42">Birkelandsflaten</stop>
     <stop arrival="0:45">Birkelandskrysset Terminal</stop>
   </route>
-  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/486684/166618/509206/92376/1/">
+  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/296283/103151/744560/273520/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:05" routeNo="30">Bergen Busstasjon</stop>
     <stop arrival="0:10" departure="0:10">Olav Kyrres gate</stop>
     <stop arrival="0:11" departure="0:11">Møhlenpris v/ Industrihuset</stop>
@@ -689,7 +689,7 @@
     <stop arrival="0:42" departure="0:42">Birkelandsflaten</stop>
     <stop arrival="0:45">Birkelandskrysset Terminal</stop>
   </route>
-  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/58125/21255/634180/297715/1/">
+  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/411726/139122/858082/291799/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:10" routeNo="441">Bergen Busstasjon</stop>
     <stop arrival="0:11" departure="0:11">Olav Kyrres gate</stop>
     <stop arrival="0:13" departure="0:13">Møhlenpris v/ Industrihuset</stop>
@@ -711,7 +711,7 @@
     <stop arrival="0:37" departure="0:37">Hjelteryggen Søre Knappen</stop>
     <stop arrival="0:37">Hjelteryggen Nordre knappen</stop>
   </route>
-  <route no="454" destination="Skogsskiftet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/39729/15365/256484/114999/1/">
+  <route no="454" destination="Skogsskiftet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/713139/239835/264202/105612/1/" trafficDays="kjører Lø">
     <stop departure="0:10" routeNo="454">Bergen Busstasjon</stop>
     <stop arrival="0:11" departure="0:11">Olav Kyrres gate</stop>
     <stop arrival="0:13" departure="0:13">Møhlenpris v/ Industrihuset</stop>
@@ -791,7 +791,7 @@
     <stop arrival="1:39" departure="1:39">Skogsskiftet Hald Stadion</stop>
     <stop arrival="1:40">Skogsskiftet term.</stop>
   </route>
-  <route no="465" destination="Ågotnes terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/741378/249420/16826/238713/1/">
+  <route no="465" destination="Ågotnes terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/670641/225841/509402/31154/1/" trafficDays="kjører Lø">
     <stop departure="0:10" routeNo="465">Bergen Busstasjon</stop>
     <stop arrival="0:11" departure="0:11">Olav Kyrres gate</stop>
     <stop arrival="0:13" departure="0:13">Møhlenpris v/ Industrihuset</stop>
@@ -839,7 +839,7 @@
     <stop arrival="1:04" departure="1:04">Kårtveit (gamleskule)</stop>
     <stop arrival="1:05">Ågotnes terminal</stop>
   </route>
-  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/662109/225130/494878/26743/1/">
+  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/809952/274411/711714/85880/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="23:45" routeNo="31">Varden</stop>
     <stop arrival="23:46" departure="23:46">Vardeveien</stop>
     <stop arrival="23:46" departure="23:46">Vardesvingen</stop>
@@ -886,8 +886,8 @@
     <stop arrival="0:34" departure="0:34">Strimmelen</stop>
     <stop arrival="0:35">Mannsverk vognstasjon</stop>
   </route>
-  <route no="468" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/48354/18532/613766/290765/1/">
-    <stop departure="0:08" routeNo="468">Bergen Busstasjon</stop>
+  <route no="468" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/699825/235667/372326/47112/1/" trafficDays="kjører Ma, Sø, ikke 2., 17. Mai; også 14., 25. Mai">
+    <stop departure="0:10" routeNo="468">Bergen Busstasjon</stop>
     <stop arrival="0:13" departure="0:13">Olav Kyrres gate</stop>
     <stop arrival="0:14" departure="0:14">Møhlenpris v/ Industrihuset</stop>
     <stop arrival="0:19" departure="0:19">Lyngbø Motorvei R555</stop>
@@ -956,7 +956,7 @@
     <stop arrival="1:27" departure="1:27">Bildøy</stop>
     <stop arrival="1:30">Straume term.</stop>
   </route>
-  <route no="484" destination="Steinrusten snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/460734/156175/547126/119985/1/">
+  <route no="484" destination="Steinrusten snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/942945/316890/155612/236509/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:10" routeNo="484">Bergen Busstasjon</stop>
     <stop arrival="0:13" departure="0:13">Olav Kyrres gate</stop>
     <stop arrival="0:14" departure="0:14">Møhlenpris v/ Industrihuset</stop>
@@ -984,7 +984,7 @@
     <stop arrival="0:47" departure="0:47">Djupamyr (Askøy)</stop>
     <stop arrival="0:48">Steinrusten snuplass</stop>
   </route>
-  <route no="484" destination="Steinrusten snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/657756/221850/121092/158706/1/">
+  <route no="484" destination="Steinrusten snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/360042/122612/300912/30442/1/" trafficDays="kjører 2., 17., 18. Mai">
     <stop departure="0:08" routeNo="484">Bergen Busstasjon</stop>
     <stop arrival="0:13" departure="0:13">Olav Kyrres gate</stop>
     <stop arrival="0:14" departure="0:14">Møhlenpris v/ Industrihuset</stop>
@@ -1012,7 +1012,7 @@
     <stop arrival="0:48" departure="0:48">Djupamyr (Askøy)</stop>
     <stop arrival="0:50">Steinrusten snuplass</stop>
   </route>
-  <route no="491" destination="Hetlevik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/151077/53068/351116/125199/1/">
+  <route no="491" destination="Hetlevik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/931740/313289/433526/93817/1/" trafficDays="kjører Lø">
     <stop departure="0:10" routeNo="491">Bergen Busstasjon</stop>
     <stop arrival="0:13" departure="0:13">Olav Kyrres gate</stop>
     <stop arrival="0:14" departure="0:14">Møhlenpris v/ Industrihuset</stop>
@@ -1057,7 +1057,7 @@
     <stop arrival="1:04" departure="1:04">Hetlevik barneskole</stop>
     <stop arrival="1:05">Hetlevik snuplass</stop>
   </route>
-  <route no="494" destination="Ravnanger term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/952368/320259/917762/141425/1/">
+  <route no="494" destination="Ravnanger term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/640179/216196/853250/213232/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:10" routeNo="494">Bergen Busstasjon</stop>
     <stop arrival="0:13" departure="0:13">Olav Kyrres gate</stop>
     <stop arrival="0:14" departure="0:14">Møhlenpris v/ Industrihuset</stop>
@@ -1093,7 +1093,7 @@
     <stop arrival="1:08" departure="1:08">Ravnanger</stop>
     <stop arrival="1:12">Ravnanger term.</stop>
   </route>
-  <route no="494" destination="Ravnanger term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/282282/96920/711806/261809/1/">
+  <route no="494" destination="Ravnanger term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/966372/324950/412356/115946/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:10" routeNo="494">Bergen Busstasjon</stop>
     <stop arrival="0:13" departure="0:13">Olav Kyrres gate</stop>
     <stop arrival="0:14" departure="0:14">Møhlenpris v/ Industrihuset</stop>
@@ -1125,7 +1125,7 @@
     <stop arrival="0:51" departure="0:51">Ravnanger</stop>
     <stop arrival="0:52">Ravnanger term.</stop>
   </route>
-  <route no="20" destination="Fana" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/317688/109671/75608/68092/1/">
+  <route no="20" destination="Fana" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/57834/23053/617710/289577/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
     <stop departure="23:58" routeNo="20">Lønborglien snuplass</stop>
     <stop arrival="23:58" departure="23:58">Lønborglien 2</stop>
     <stop arrival="23:59" departure="23:59">Lønborglien 1</stop>
@@ -1189,7 +1189,7 @@
     <stop arrival="1:08" departure="1:08">Norheimsveien</stop>
     <stop arrival="1:09">Fana</stop>
   </route>
-  <route no="22" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/988110/333408/527324/65708/1/">
+  <route no="22" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/793995/268703/608048/39359/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="23:44" routeNo="22">Åsane terminal</stop>
     <stop arrival="23:45" departure="23:45">Hesthaugen</stop>
     <stop arrival="23:46" departure="23:46">Stamskaret</stop>
@@ -1256,7 +1256,7 @@
     <stop arrival="0:56" departure="0:56">Nattland gård (nyeveien)</stop>
     <stop arrival="0:57">Birkelundstoppen</stop>
   </route>
-  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/894426/303854/747108/75412/1/">
+  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/891393/302843/860446/133092/1/" trafficDays="kjører Ma, også 2., 14., 18., 25. Mai">
     <stop departure="0:15" routeNo="620">Olav Kyrres gate</stop>
     <stop arrival="0:20" departure="0:20">Bergen Busstasjon</stop>
     <stop arrival="0:23" departure="0:23">Danmarksplass</stop>
@@ -1306,7 +1306,7 @@
     <stop arrival="1:08" departure="1:08">Fjellheim</stop>
     <stop arrival="1:09">Os - Osøyro</stop>
   </route>
-  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/991356/336197/280694/190106/1/">
+  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/402228/139821/392128/61989/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:15" routeNo="620">Olav Kyrres gate</stop>
     <stop arrival="0:20" departure="0:20">Bergen Busstasjon</stop>
     <stop arrival="0:23" departure="0:23">Danmarksplass</stop>
@@ -1356,7 +1356,7 @@
     <stop arrival="1:04" departure="1:04">Fjellheim</stop>
     <stop arrival="1:05">Os - Osøyro</stop>
   </route>
-  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/768030/261836/14580/248720/1/">
+  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/459984/159154/829834/261589/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:15" routeNo="620">Olav Kyrres gate</stop>
     <stop arrival="0:20" departure="0:20">Bergen Busstasjon</stop>
     <stop arrival="0:23" departure="0:23">Danmarksplass</stop>
@@ -1406,7 +1406,7 @@
     <stop arrival="1:05" departure="1:05">Fjellheim</stop>
     <stop arrival="1:06">Os - Osøyro</stop>
   </route>
-  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/218772/77787/581678/217915/1/">
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/201324/71971/583048/224416/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
     <stop departure="23:40" routeNo="90">Salhus kai</stop>
     <stop arrival="23:40" departure="23:40">Langeland (Åsane)</stop>
     <stop arrival="23:41" departure="23:41">Nygård, Salhus</stop>
@@ -1453,7 +1453,7 @@
     <stop arrival="0:40" departure="0:40">Johan Hjorts vei</stop>
     <stop arrival="0:42">Sletten (Bergen)</stop>
   </route>
-  <route no="32" destination="Loddefjord term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/969207/324365/535490/55324/1/">
+  <route no="32" destination="Loddefjord term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/68040/23976/973830/464235/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:15" routeNo="32">Bergen Busstasjon</stop>
     <stop arrival="0:18" departure="0:18">Olav Kyrres gate</stop>
     <stop arrival="0:20" departure="0:20">Møhlenpris v/ Industrihuset</stop>
@@ -1477,7 +1477,7 @@
     <stop arrival="0:45" departure="0:45">Bjørndalstræ R557</stop>
     <stop arrival="0:47">Loddefjord term.</stop>
   </route>
-  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/752865/254412/169572/166169/1/">
+  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/306765/105712/160192/22159/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:00" routeNo="2">Birkelundstoppen</stop>
     <stop arrival="0:00" departure="0:00">Knausen</stop>
     <stop arrival="0:01" departure="0:01">Kolstibotn</stop>
@@ -1502,7 +1502,7 @@
     <stop arrival="0:20" departure="0:20">Allehelgensgate</stop>
     <stop arrival="0:30">Bergen Strandkai terminal</stop>
   </route>
-  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/863484/292073/306354/134651/1/">
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/759978/257571/78054/214299/1/" trafficDays="kjører Lø">
     <stop departure="0:05" routeNo="24">Handelshøyskolen</stop>
     <stop arrival="0:07" departure="0:07">Nyhavnsvei (Gamle Bergen)</stop>
     <stop arrival="0:09" departure="0:09">Munkebotten</stop>
@@ -1529,7 +1529,7 @@
     <stop arrival="0:39" departure="0:39">Hopstangen</stop>
     <stop arrival="0:40">Nesttun terminal</stop>
   </route>
-  <route no="21" destination="Søråshøgda snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/492255/168082/303576/12297/1/">
+  <route no="21" destination="Søråshøgda snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/302484/104825/642762/220553/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:05" routeNo="21">Lønborglien snuplass</stop>
     <stop arrival="0:05" departure="0:05">Lønborglien 2</stop>
     <stop arrival="0:06" departure="0:06">Lønborglien 1</stop>
@@ -1580,7 +1580,7 @@
     <stop arrival="1:01" departure="1:01">Søråsgrenda</stop>
     <stop arrival="1:02">Søråshøgda snuplass</stop>
   </route>
-  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/914574/308333/664298/27293/1/">
+  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/170169/60198/526202/206380/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:05" routeNo="2">Birkelundstoppen</stop>
     <stop arrival="0:05" departure="0:05">Knausen</stop>
     <stop arrival="0:06" departure="0:06">Kolstibotn</stop>
@@ -1605,7 +1605,7 @@
     <stop arrival="0:25" departure="0:25">Allehelgensgate</stop>
     <stop arrival="0:30">Bergen Strandkai terminal</stop>
   </route>
-  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/273813/94707/744158/280809/1/">
+  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/233019/81109/50724/52312/1/" trafficDays="kjører Ma, også 2., 14., 18., 25. Mai">
     <stop departure="0:20" routeNo="2">Bergen Strandkai terminal</stop>
     <stop arrival="0:23" departure="0:23">Strandgaten (Svaneapoteket)</stop>
     <stop arrival="0:25" departure="0:25">Småstrandgaten</stop>
@@ -1631,7 +1631,7 @@
     <stop arrival="0:44" departure="0:44">Knausen</stop>
     <stop arrival="0:45">Birkelundstoppen</stop>
   </route>
-  <route no="21" destination="Søråshøgda snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/173394/61766/285408/84906/1/">
+  <route no="21" destination="Søråshøgda snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/238803/83569/780786/310792/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:08" routeNo="21">Lønborglien snuplass</stop>
     <stop arrival="0:08" departure="0:08">Lønborglien 2</stop>
     <stop arrival="0:09" departure="0:09">Lønborglien 1</stop>
@@ -1682,7 +1682,7 @@
     <stop arrival="1:04" departure="1:04">Søråsgrenda</stop>
     <stop arrival="1:05">Søråshøgda snuplass</stop>
   </route>
-  <route no="31" destination="Varden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/640404/217890/781438/177255/1/">
+  <route no="31" destination="Varden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/761223/258163/254020/126735/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:08" routeNo="31">Mannsverk vognstasjon</stop>
     <stop arrival="0:08" departure="0:08">Wiers -Jenssens vei</stop>
     <stop arrival="0:09" departure="0:09">Strimmelen</stop>
@@ -1731,7 +1731,7 @@
     <stop arrival="0:46" departure="0:46">Vardeveien</stop>
     <stop arrival="0:47">Varden</stop>
   </route>
-  <route no="31" destination="Varden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/838350/283872/951904/196506/1/">
+  <route no="31" destination="Varden" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/480873/164713/820666/250046/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:08" routeNo="31">Mannsverk vognstasjon</stop>
     <stop arrival="0:08" departure="0:08">Wiers -Jenssens vei</stop>
     <stop arrival="0:09" departure="0:09">Strimmelen</stop>
@@ -1780,7 +1780,7 @@
     <stop arrival="0:46" departure="0:46">Vardeveien</stop>
     <stop arrival="0:47">Varden</stop>
   </route>
-  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/272553/95620/773310/295805/1/">
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/35517/16608/722094/349209/1/" trafficDays="kjører Ma - Lø, også 2. Mai">
     <stop departure="0:00" routeNo="80">Flaktveit snuplass</stop>
     <stop arrival="0:01" departure="0:01">Breimyra</stop>
     <stop arrival="0:02" departure="0:02">Ulvhøyen</stop>
@@ -1824,7 +1824,7 @@
     <stop arrival="0:54" departure="0:54">Skarphaugen</stop>
     <stop arrival="0:55">Oasen Terminal</stop>
   </route>
-  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/576567/196977/510304/62975/1/">
+  <route no="80" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/651330/221898/221228/106508/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:00" routeNo="80">Flaktveit snuplass</stop>
     <stop arrival="0:01" departure="0:01">Breimyra</stop>
     <stop arrival="0:02" departure="0:02">Ulvhøyen</stop>
@@ -1868,7 +1868,7 @@
     <stop arrival="0:56" departure="0:56">Skarphaugen</stop>
     <stop arrival="0:57">Oasen Terminal</stop>
   </route>
-  <route no="80" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/945576/319985/648672/9144/1/">
+  <route no="80" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/492513/168964/390450/31054/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:00" routeNo="80">Flaktveit snuplass</stop>
     <stop arrival="0:01" departure="0:01">Breimyra</stop>
     <stop arrival="0:02" departure="0:02">Ulvhøyen</stop>
@@ -1897,7 +1897,7 @@
     <stop arrival="0:32" departure="0:32">Olav Kyrres gate</stop>
     <stop arrival="0:35">Bergen Busstasjon</stop>
   </route>
-  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/418854/143071/322906/21836/1/">
+  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/616383/208914/934110/261595/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:30" routeNo="2">Bergen Strandkai terminal</stop>
     <stop arrival="0:32" departure="0:32">Strandgaten (Svaneapoteket)</stop>
     <stop arrival="0:33" departure="0:33">Småstrandgaten</stop>
@@ -1923,7 +1923,7 @@
     <stop arrival="0:53" departure="0:53">Knausen</stop>
     <stop arrival="0:54">Birkelundstoppen</stop>
   </route>
-  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/388821/134076/821502/281144/1/">
+  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/173349/62252/79634/17966/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:05" routeNo="31">Varden</stop>
     <stop arrival="0:06" departure="0:06">Vardeveien</stop>
     <stop arrival="0:06" departure="0:06">Vardesvingen</stop>
@@ -1972,7 +1972,7 @@
     <stop arrival="0:54" departure="0:54">Strimmelen</stop>
     <stop arrival="0:55">Mannsverk vognstasjon</stop>
   </route>
-  <route no="20" destination="Fanahammeren" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/500202/170668/767498/217015/1/">
+  <route no="20" destination="Fanahammeren" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/678483/230095/919268/233473/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:20" routeNo="20">Lønborglien snuplass</stop>
     <stop arrival="0:20" departure="0:20">Lønborglien 2</stop>
     <stop arrival="0:21" departure="0:21">Lønborglien 1</stop>
@@ -2032,7 +2032,7 @@
     <stop arrival="1:19" departure="1:19">Volladalen</stop>
     <stop arrival="1:20">Fanahammeren</stop>
   </route>
-  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/640884/217109/10364/208447/1/">
+  <route no="2" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/490698/167047/500098/86484/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:35" routeNo="2">Bergen Strandkai terminal</stop>
     <stop arrival="0:37" departure="0:37">Strandgaten (Svaneapoteket)</stop>
     <stop arrival="0:38" departure="0:38">Småstrandgaten</stop>
@@ -2058,7 +2058,7 @@
     <stop arrival="0:58" departure="0:58">Knausen</stop>
     <stop arrival="0:59">Birkelundstoppen</stop>
   </route>
-  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/951324/321814/265460/184384/1/">
+  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/374364/129494/534048/142242/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:05" routeNo="71">Viddalen</stop>
     <stop arrival="0:07" departure="0:07">Bryggedalen</stop>
     <stop arrival="0:08" departure="0:08">Åsane sand + singel</stop>
@@ -2107,7 +2107,7 @@
     <stop arrival="0:54" departure="0:54">Lyngbøkollen</stop>
     <stop arrival="0:55">Nipedalen</stop>
   </route>
-  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/265227/92800/879420/351301/1/">
+  <route no="30" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/485205/166126/424566/50548/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:35" routeNo="30">Bergen Busstasjon</stop>
     <stop arrival="0:40" departure="0:40">Olav Kyrres gate</stop>
     <stop arrival="0:41" departure="0:41">Møhlenpris v/ Industrihuset</stop>
@@ -2149,7 +2149,7 @@
     <stop arrival="1:12" departure="1:12">Gomarhaug</stop>
     <stop arrival="1:16">Birkelandskrysset Terminal</stop>
   </route>
-  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/351339/121521/868502/317138/1/">
+  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/914181/309135/556312/26571/1/" trafficDays="kjører Ma, også 2., 14., 18., 25. Mai">
     <stop departure="0:20" routeNo="31">Varden</stop>
     <stop arrival="0:21" departure="0:21">Vardeveien</stop>
     <stop arrival="0:21" departure="0:21">Vardesvingen</stop>
@@ -2196,7 +2196,7 @@
     <stop arrival="1:09" departure="1:09">Strimmelen</stop>
     <stop arrival="1:10">Mannsverk vognstasjon</stop>
   </route>
-  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/269265/94182/540166/180336/1/">
+  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/136764/50015/86598/2297/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:15" routeNo="31">Varden</stop>
     <stop arrival="0:16" departure="0:16">Vardeveien</stop>
     <stop arrival="0:16" departure="0:16">Vardesvingen</stop>
@@ -2243,7 +2243,7 @@
     <stop arrival="1:04" departure="1:04">Strimmelen</stop>
     <stop arrival="1:05">Mannsverk vognstasjon</stop>
   </route>
-  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/795702/269991/57820/236324/1/">
+  <route no="71" destination="Nipedalen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/118350/44207/913934/417517/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:15" routeNo="71">Viddalen</stop>
     <stop arrival="0:17" departure="0:17">Bryggedalen</stop>
     <stop arrival="0:18" departure="0:18">Åsane sand + singel</stop>
@@ -2292,7 +2292,7 @@
     <stop arrival="1:05" departure="1:05">Lyngbøkollen</stop>
     <stop arrival="1:07">Nipedalen</stop>
   </route>
-  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/923475/312719/342310/136670/1/">
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/699792/238158/933748/233610/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:10" routeNo="90">Salhus kai</stop>
     <stop arrival="0:10" departure="0:10">Langeland (Åsane)</stop>
     <stop arrival="0:11" departure="0:11">Nygård, Salhus</stop>
@@ -2339,7 +2339,7 @@
     <stop arrival="1:10" departure="1:10">Johan Hjorts vei</stop>
     <stop arrival="1:12">Sletten (Bergen)</stop>
   </route>
-  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/510582/173651/379604/19609/1/">
+  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/77160/29177/669802/309182/1/" trafficDays="kjører Sø, ikke 2. Mai">
     <stop departure="0:30" routeNo="2">Birkelundstoppen</stop>
     <stop arrival="0:30" departure="0:30">Knausen</stop>
     <stop arrival="0:31" departure="0:31">Kolstibotn</stop>
@@ -2364,7 +2364,7 @@
     <stop arrival="0:50" departure="0:50">Allehelgensgate</stop>
     <stop arrival="1:00">Bergen Strandkai terminal</stop>
   </route>
-  <route no="22" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/180090/64106/594628/237284/1/">
+  <route no="22" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/778749/263659/401106/59030/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:20" routeNo="22">Åsane terminal</stop>
     <stop arrival="0:21" departure="0:21">Hesthaugen</stop>
     <stop arrival="0:22" departure="0:22">Stamskaret</stop>
@@ -2431,7 +2431,7 @@
     <stop arrival="1:27" departure="1:27">Nattland gård (nyeveien)</stop>
     <stop arrival="1:28">Birkelundstoppen</stop>
   </route>
-  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/29184/13206/665226/322888/1/">
+  <route no="2" destination="Bergen Strandkai terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/731229/247221/878262/195391/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:35" routeNo="2">Birkelundstoppen</stop>
     <stop arrival="0:35" departure="0:35">Knausen</stop>
     <stop arrival="0:36" departure="0:36">Kolstibotn</stop>
@@ -2456,7 +2456,7 @@
     <stop arrival="0:55" departure="0:55">Allehelgensgate</stop>
     <stop arrival="1:00">Bergen Strandkai terminal</stop>
   </route>
-  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/47586/20327/407254/187766/1/">
+  <route no="31" destination="Mannsverk vognstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/181971/65122/952964/415826/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:30" routeNo="31">Varden</stop>
     <stop arrival="0:31" departure="0:31">Vardeveien</stop>
     <stop arrival="0:31" departure="0:31">Vardesvingen</stop>
@@ -2503,7 +2503,7 @@
     <stop arrival="1:16" departure="1:16">Strimmelen</stop>
     <stop arrival="1:17">Mannsverk vognstasjon</stop>
   </route>
-  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/798540/271132/692690/80165/1/">
+  <route no="90" destination="Sletten (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/643785/219547/453348/12079/1/" trafficDays="kjører Ti - Lø, ikke 14., 18., 25. Mai">
     <stop departure="0:39" routeNo="90">Åsane terminal</stop>
     <stop arrival="0:44" departure="0:44">Eidsvåg</stop>
     <stop arrival="0:46" departure="0:46">Handelshøyskolen</stop>

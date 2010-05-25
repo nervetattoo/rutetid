@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="20" destination="Rådal ved Lagunen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/936297/315918/787232/81517/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="21:03" routeNo="20">Gaia Fana</stop>
+    <stop departure="21:05">Fana kirke</stop>
+    <stop arrival="21:05" departure="21:05">Norheimsveien</stop>
+    <stop arrival="21:06" departure="21:06">Kvernabekkvegen</stop>
+    <stop arrival="21:07" departure="21:07">Titlestad</stop>
+    <stop arrival="21:07" departure="21:07">Rydland (Titlestad, Fana)</stop>
+    <stop arrival="21:08" departure="21:08">Øvre Titlestad</stop>
+    <stop arrival="21:09" departure="21:09">Bergheim</stop>
+    <stop arrival="21:09" departure="21:09">Bergheim</stop>
+    <stop arrival="21:11" departure="21:11">Hordnesskiftet Stend</stop>
+    <stop arrival="21:12" departure="21:12">Steinknuseverket</stop>
+    <stop arrival="21:12" departure="21:12">Rådalshaug</stop>
+    <stop arrival="21:13" departure="21:13">Sunea</stop>
+    <stop arrival="21:14" departure="21:14">Rådal</stop>
+    <stop arrival="21:15">Rådal ved Lagunen</stop>
+  </route>
+  <route no="20" destination="Fana" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/760176/257151/483280/11753/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="21:06" routeNo="20">Lagunen</stop>
+    <stop arrival="21:07" departure="21:07">Rådal</stop>
+    <stop arrival="21:08" departure="21:08">Sunea</stop>
+    <stop arrival="21:08" departure="21:08">Rådalshaug</stop>
+    <stop arrival="21:08" departure="21:08">Steinknuseverket</stop>
+    <stop arrival="21:09" departure="21:09">Hordnesskiftet Stend</stop>
+    <stop arrival="21:11" departure="21:11">Bergheim</stop>
+    <stop arrival="21:12" departure="21:12">Bergheim</stop>
+    <stop arrival="21:13" departure="21:13">Øvre Titlestad</stop>
+    <stop arrival="21:15" departure="21:15">Rydland (Titlestad, Fana)</stop>
+    <stop arrival="21:16" departure="21:16">Titlestad</stop>
+    <stop arrival="21:17" departure="21:17">Kvernabekkvegen</stop>
+    <stop arrival="21:18" departure="21:18">Norheimsveien</stop>
+    <stop arrival="21:19">Fana</stop>
+  </route>
+  <route no="20" destination="Lønborglien snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/652632/221470/382182/26453/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="21:10" routeNo="20">Gaia Fana</stop>
+    <stop arrival="21:12" departure="21:12">Fana kirke</stop>
+    <stop arrival="21:12" departure="21:12">Norheimsveien</stop>
+    <stop arrival="21:13" departure="21:13">Kvernabekkvegen</stop>
+    <stop arrival="21:14" departure="21:14">Titlestad</stop>
+    <stop arrival="21:14" departure="21:14">Rydland (Titlestad, Fana)</stop>
+    <stop arrival="21:15" departure="21:15">Øvre Titlestad</stop>
+    <stop arrival="21:16" departure="21:16">Bergheim</stop>
+    <stop arrival="21:16" departure="21:16">Bergheim</stop>
+    <stop arrival="21:18" departure="21:18">Hordnesskiftet Stend</stop>
+    <stop arrival="21:19" departure="21:19">Steinknuseverket</stop>
+    <stop arrival="21:19" departure="21:19">Rådalshaug</stop>
+    <stop arrival="21:20" departure="21:20">Sunea</stop>
+    <stop arrival="21:21" departure="21:21">Rådal</stop>
+    <stop arrival="21:22" departure="21:22">Rådal ved Lagunen</stop>
+    <stop arrival="21:25" departure="21:25">Skjold skole</stop>
+    <stop arrival="21:27" departure="21:27">Mårdalen</stop>
+    <stop arrival="21:28" departure="21:28">Nesttunbrekka</stop>
+    <stop arrival="21:28" departure="21:28">Skjoldskiftet</stop>
+    <stop arrival="21:29" departure="21:29">Nesttun</stop>
+    <stop arrival="21:30" departure="21:30">Nesttun terminal</stop>
+    <stop arrival="21:31" departure="21:31">Hopsbro</stop>
+    <stop arrival="21:32" departure="21:32">Tveiteråsskiftet</stop>
+    <stop arrival="21:33" departure="21:33">Paradis</stop>
+    <stop arrival="21:35" departure="21:35">Nydalen</stop>
+    <stop arrival="21:36" departure="21:36">Fantoft</stop>
+    <stop arrival="21:37" departure="21:37">Storetveit</stop>
+    <stop arrival="21:37" departure="21:37">Elvebakken</stop>
+    <stop arrival="21:38" departure="21:38">Minde</stop>
+    <stop arrival="21:41" departure="21:41">Mindemyren</stop>
+    <stop arrival="21:42" departure="21:42">Postterminalen</stop>
+    <stop arrival="21:43" departure="21:43">Kanalveien v/LBK</stop>
+    <stop arrival="21:45" departure="21:45">Danmarksplass v/Forum kino</stop>
+    <stop arrival="21:48" departure="21:48">Bergen Busstasjon</stop>
+    <stop arrival="21:50" departure="21:50">Christies gate (Festplassen)</stop>
+    <stop arrival="21:53" departure="21:53">Torget v/DnB</stop>
+    <stop arrival="21:54" departure="21:54">Bryggen</stop>
+    <stop arrival="21:54" departure="21:54">Slottsgaten</stop>
+    <stop arrival="21:55" departure="21:55">Bontelabo</stop>
+    <stop arrival="21:56" departure="21:56">Skutevikstorget</stop>
+    <stop arrival="21:56" departure="21:56">Sjøgaten</stop>
+    <stop arrival="21:57" departure="21:57">Sandvikstorget</stop>
+    <stop arrival="21:58" departure="21:58">Ludebryggen</stop>
+    <stop arrival="21:58" departure="21:58">Munkebotten</stop>
+    <stop arrival="22:00" departure="22:00">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="22:01" departure="22:01">Handelshøyskolen</stop>
+    <stop arrival="22:02" departure="22:02">Solbakken</stop>
+    <stop arrival="22:02" departure="22:02">Eikeviken</stop>
+    <stop arrival="22:03" departure="22:03">Hellebakken</stop>
+    <stop arrival="22:04" departure="22:04">Brunestykket</stop>
+    <stop arrival="22:05" departure="22:05">Lønborg</stop>
+    <stop arrival="22:05" departure="22:05">Nordre Lønborg</stop>
+    <stop arrival="22:07" departure="22:07">Lønborglien 1</stop>
+    <stop arrival="22:08" departure="22:08">Lønborglien 2</stop>
+    <stop arrival="22:09">Lønborglien snuplass</stop>
+  </route>
+  <route no="20" destination="Fana" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/573870/195215/564234/90827/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="21:05" routeNo="20">Nesttun terminal</stop>
+    <stop arrival="21:07" departure="21:07">Nesttun</stop>
+    <stop arrival="21:10" departure="21:10">Skjoldskiftet</stop>
+    <stop arrival="21:10" departure="21:10">Nesttunbrekka</stop>
+    <stop arrival="21:11" departure="21:11">Mårdalen</stop>
+    <stop arrival="21:11" departure="21:11">Skjoldhøgda</stop>
+    <stop arrival="21:11" departure="21:11">Skjold skole</stop>
+    <stop arrival="21:12" departure="21:12">Lagunen</stop>
+    <stop arrival="21:13" departure="21:13">Rådal</stop>
+    <stop arrival="21:14" departure="21:14">Sunea</stop>
+    <stop arrival="21:14" departure="21:14">Rådalshaug</stop>
+    <stop arrival="21:14" departure="21:14">Steinknuseverket</stop>
+    <stop arrival="21:15" departure="21:15">Hordnesskiftet Stend</stop>
+    <stop arrival="21:17" departure="21:17">Bergheim</stop>
+    <stop arrival="21:18" departure="21:18">Bergheim</stop>
+    <stop arrival="21:19" departure="21:19">Øvre Titlestad</stop>
+    <stop arrival="21:21" departure="21:21">Rydland (Titlestad, Fana)</stop>
+    <stop arrival="21:22" departure="21:22">Titlestad</stop>
+    <stop arrival="21:23" departure="21:23">Kvernabekkvegen</stop>
+    <stop arrival="21:24" departure="21:24">Norheimsveien</stop>
+    <stop arrival="21:25">Fana</stop>
+  </route>
+  <route no="20" destination="Fana" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/993033/334829/870878/104429/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="21:37" routeNo="20">Lagunen</stop>
+    <stop arrival="21:38" departure="21:38">Rådal</stop>
+    <stop arrival="21:39" departure="21:39">Sunea</stop>
+    <stop arrival="21:39" departure="21:39">Rådalshaug</stop>
+    <stop arrival="21:39" departure="21:39">Steinknuseverket</stop>
+    <stop arrival="21:40" departure="21:40">Hordnesskiftet Stend</stop>
+    <stop arrival="21:42" departure="21:42">Bergheim</stop>
+    <stop arrival="21:43" departure="21:43">Bergheim</stop>
+    <stop arrival="21:44" departure="21:44">Øvre Titlestad</stop>
+    <stop arrival="21:46" departure="21:46">Rydland (Titlestad, Fana)</stop>
+    <stop arrival="21:47" departure="21:47">Titlestad</stop>
+    <stop arrival="21:48" departure="21:48">Kvernabekkvegen</stop>
+    <stop arrival="21:49" departure="21:49">Norheimsveien</stop>
+    <stop arrival="21:50">Fana</stop>
+  </route>
+  <route no="20" destination="Rådal ved Lagunen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/20409/10573/301368/143882/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="21:45" routeNo="20">Gaia Fana</stop>
+    <stop arrival="21:47" departure="21:47">Fana kirke</stop>
+    <stop arrival="21:47" departure="21:47">Norheimsveien</stop>
+    <stop arrival="21:48" departure="21:48">Kvernabekkvegen</stop>
+    <stop arrival="21:49" departure="21:49">Titlestad</stop>
+    <stop arrival="21:49" departure="21:49">Rydland (Titlestad, Fana)</stop>
+    <stop arrival="21:50" departure="21:50">Øvre Titlestad</stop>
+    <stop arrival="21:51" departure="21:51">Bergheim</stop>
+    <stop arrival="21:51" departure="21:51">Bergheim</stop>
+    <stop arrival="21:53" departure="21:53">Hordnesskiftet Stend</stop>
+    <stop arrival="21:54" departure="21:54">Steinknuseverket</stop>
+    <stop arrival="21:54" departure="21:54">Rådalshaug</stop>
+    <stop arrival="21:55" departure="21:55">Sunea</stop>
+    <stop arrival="21:56" departure="21:56">Rådal</stop>
+    <stop arrival="21:57">Rådal ved Lagunen</stop>
+  </route>
+</routes>

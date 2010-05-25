@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
-  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/318255/111167/964908/376369/1/">
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/367200/127482/705218/230209/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="19:17" routeNo="270">Arna terminal</stop>
     <stop arrival="19:18" departure="19:18">Ytre Arna vegen v.nr 204</stop>
     <stop arrival="19:18" departure="19:18">Listøl</stop>
@@ -35,7 +35,7 @@
     <stop arrival="19:42" departure="19:42">Rollandskrysset</stop>
     <stop arrival="19:45">Åsane terminal</stop>
   </route>
-  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/904482/306619/757654/77333/1/">
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/957612/324329/30116/304146/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="19:17" routeNo="270">Arna terminal</stop>
     <stop arrival="19:18" departure="19:18">Ytre Arna vegen v.nr 204</stop>
     <stop arrival="19:19" departure="19:19">Listøl</stop>
@@ -70,7 +70,7 @@
     <stop arrival="19:42" departure="19:42">Rollandskrysset</stop>
     <stop arrival="19:45">Åsane terminal</stop>
   </route>
-  <route no="390" destination="Hatland v ungdomsskulen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/121956/41634/725210/321953/1/">
+  <route no="390" destination="Hatland v ungdomsskulen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/503355/168767/242516/46527/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="19:18" routeNo="390">Arna terminal</stop>
     <stop arrival="19:19" departure="19:19">Bommane (Arna)</stop>
     <stop arrival="19:20" departure="19:20">Beyer (Arna)</stop>
@@ -125,7 +125,7 @@
     <stop arrival="20:09" departure="20:09">Lonevåg v Rådhuset</stop>
     <stop arrival="20:09">Hatland v ungdomsskulen</stop>
   </route>
-  <route no="900" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/566817/190156/943064/282593/1/">
+  <route no="900" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/649794/217774/753826/160315/1/" trafficDays="kjører Lø, ikke 1. Mai">
     <stop departure="19:18" routeNo="900">Arna terminal</stop>
     <stop arrival="19:20" departure="19:20">Bommane (Arnatveitvegen)</stop>
     <stop arrival="19:21" departure="19:21">Indre Arna skule</stop>
@@ -157,9 +157,22 @@
     <stop arrival="19:45" departure="19:45">Midtun bro</stop>
     <stop arrival="19:47" departure="19:47">Herredshuset, Nesttun</stop>
     <stop arrival="19:48" departure="19:48">Nesttun</stop>
-    <stop arrival="19:49">Nesttun terminal</stop>
+    <stop arrival="19:49" departure="19:49">Nesttun terminal</stop>
+    <stop arrival="19:51" departure="19:51">Hopsbro</stop>
+    <stop arrival="19:53" departure="19:53">Tveiteråsskiftet</stop>
+    <stop arrival="19:54" departure="19:54">Paradis</stop>
+    <stop arrival="19:55" departure="19:55">Nydalen</stop>
+    <stop arrival="19:57" departure="19:57">Fantoft</stop>
+    <stop arrival="19:58" departure="19:58">Storetveit</stop>
+    <stop arrival="19:59" departure="19:59">Elvebakken</stop>
+    <stop arrival="20:01" departure="20:01">Minde</stop>
+    <stop arrival="20:02" departure="20:02">Mindemyren</stop>
+    <stop arrival="20:03" departure="20:03">Postterminalen</stop>
+    <stop arrival="20:03" departure="20:03">Kanalveien v/LBK</stop>
+    <stop arrival="20:05" departure="20:05">Danmarksplass v/Forum kino</stop>
+    <stop arrival="20:09">Bergen Busstasjon</stop>
   </route>
-  <route no="900" destination="Takvam rundkøyring" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/308550/103998/493710/144005/1/">
+  <route no="900" destination="Takvam rundkøyring" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/672729/225391/466458/8986/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="19:48" routeNo="900">Arna terminal</stop>
     <stop arrival="19:49" departure="19:49">Bommane (Arna)</stop>
     <stop arrival="19:50" departure="19:50">Beyer (Arna)</stop>
@@ -176,7 +189,7 @@
     <stop arrival="19:59" departure="19:59">Tunestveit</stop>
     <stop arrival="20:00">Takvam rundkøyring</stop>
   </route>
-  <route no="900" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/472008/158491/293470/10604/1/">
+  <route no="900" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/946410/316625/458466/86240/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="19:48" routeNo="900">Arna terminal</stop>
     <stop arrival="19:50" departure="19:50">Bommane (Arnatveitvegen)</stop>
     <stop arrival="19:51" departure="19:51">Indre Arna skule</stop>

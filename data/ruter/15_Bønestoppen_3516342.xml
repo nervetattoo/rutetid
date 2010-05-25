@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="60" destination="Bønes senter" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/888552/300704/234902/178733/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="14:40" routeNo="60">Bergen Busstasjon</stop>
+    <stop arrival="14:43" departure="14:43">Nordahl Bruns gate</stop>
+    <stop arrival="14:46" departure="14:46">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="14:48" departure="14:48">Gyldenpris</stop>
+    <stop arrival="14:50" departure="14:50">Solveien</stop>
+    <stop arrival="14:51" departure="14:51">Gabriel Tischendorfs vei</stop>
+    <stop arrival="14:52" departure="14:52">Svingen / Fyllingsveien</stop>
+    <stop arrival="14:53" departure="14:53">Kaptein Amlands vei</stop>
+    <stop arrival="14:54" departure="14:54">Melkeplassen</stop>
+    <stop arrival="14:55" departure="14:55">Tjønna</stop>
+    <stop arrival="14:56" departure="14:56">Klauvsteinen</stop>
+    <stop arrival="14:56" departure="14:56">Løvstakkskiftet</stop>
+    <stop arrival="14:56" departure="14:56">Skytebanen, Løvstakken</stop>
+    <stop arrival="14:57" departure="14:57">Svartatjønn</stop>
+    <stop arrival="14:57" departure="14:57">Fosse-skiftet</stop>
+    <stop arrival="14:58" departure="14:58">Krohnegården</stop>
+    <stop arrival="14:58" departure="14:58">Helgeplasset</stop>
+    <stop arrival="14:58" departure="14:58">Benshaugen</stop>
+    <stop arrival="14:58" departure="14:58">Lyshovden nord</stop>
+    <stop arrival="14:59" departure="14:59">Lyshovden sør</stop>
+    <stop arrival="14:59" departure="14:59">Bråtet</stop>
+    <stop arrival="15:00" departure="15:00">Hatten</stop>
+    <stop arrival="15:00" departure="15:00">Bønestoppen</stop>
+    <stop arrival="15:02" departure="15:02">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:04" departure="15:04">Fjellsdalen</stop>
+    <stop arrival="15:06">Bønes senter</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/249048/87583/896778/365375/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:53" routeNo="60">Bergvegen</stop>
+    <stop arrival="14:55" departure="14:55">Kråkenestoppen</stop>
+    <stop arrival="14:56" departure="14:56">Bønes skole</stop>
+    <stop arrival="14:58" departure="14:58">Bønes hagesenter</stop>
+    <stop arrival="14:59" departure="14:59">Våkleiva</stop>
+    <stop arrival="15:00" departure="15:00">Bønes senter</stop>
+    <stop arrival="15:02" departure="15:02">Bønesskogen</stop>
+    <stop arrival="15:03" departure="15:03">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:04" departure="15:04">Bønestoppen</stop>
+    <stop arrival="15:05" departure="15:05">Hatten</stop>
+    <stop arrival="15:05" departure="15:05">Bråtet</stop>
+    <stop arrival="15:06" departure="15:06">Lyshovden sør</stop>
+    <stop arrival="15:07" departure="15:07">Lyshovden nord</stop>
+    <stop arrival="15:08" departure="15:08">Benshaugen</stop>
+    <stop arrival="15:08" departure="15:08">Helgeplasset</stop>
+    <stop arrival="15:09" departure="15:09">Sikthaugen</stop>
+    <stop arrival="15:10" departure="15:10">Vestre Sikthaugen</stop>
+    <stop arrival="15:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/84960/32857/270764/107067/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="14:55" routeNo="60">Bergvegen</stop>
+    <stop arrival="14:56" departure="14:56">Kråkenestoppen</stop>
+    <stop arrival="14:57" departure="14:57">Bønes skole</stop>
+    <stop arrival="14:59" departure="14:59">Bønes hagesenter</stop>
+    <stop arrival="14:59" departure="14:59">Våkleiva</stop>
+    <stop arrival="15:00" departure="15:00">Bønes senter</stop>
+    <stop arrival="15:02" departure="15:02">Bønesskogen</stop>
+    <stop arrival="15:04" departure="15:04">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:05" departure="15:05">Bønestoppen</stop>
+    <stop arrival="15:06" departure="15:06">Hatten</stop>
+    <stop arrival="15:06" departure="15:06">Bråtet</stop>
+    <stop arrival="15:08" departure="15:08">Lyshovden sør</stop>
+    <stop arrival="15:09" departure="15:09">Lyshovden nord</stop>
+    <stop arrival="15:09" departure="15:09">Benshaugen</stop>
+    <stop arrival="15:10" departure="15:10">Helgeplasset</stop>
+    <stop arrival="15:11" departure="15:11">Sikthaugen</stop>
+    <stop arrival="15:12" departure="15:12">Vestre Sikthaugen</stop>
+    <stop arrival="15:20" departure="15:20">Gyldenpris</stop>
+    <stop arrival="15:22" departure="15:22">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:22" departure="15:22">Christies gate (Festplassen)</stop>
+    <stop arrival="15:27">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bønes senter" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/475542/163080/679774/181375/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:45" routeNo="60">Olav Kyrres gate</stop>
+    <stop arrival="14:50" departure="14:50">Bergen Busstasjon</stop>
+    <stop arrival="14:52" departure="14:52">Nordahl Bruns gate</stop>
+    <stop arrival="14:54" departure="14:54">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="14:55" departure="14:55">Gyldenpris</stop>
+    <stop arrival="15:00" departure="15:00">Løvstakktunnelen</stop>
+    <stop arrival="15:01" departure="15:01">Vestre Sikthaugen</stop>
+    <stop arrival="15:02" departure="15:02">Sikthaugen</stop>
+    <stop arrival="15:03" departure="15:03">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:03" departure="15:03">Benshaugen</stop>
+    <stop arrival="15:04" departure="15:04">Lyshovden nord</stop>
+    <stop arrival="15:05" departure="15:05">Lyshovden sør</stop>
+    <stop arrival="15:06" departure="15:06">Bråtet</stop>
+    <stop arrival="15:07" departure="15:07">Hatten</stop>
+    <stop arrival="15:07" departure="15:07">Bønestoppen</stop>
+    <stop arrival="15:09" departure="15:09">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:10" departure="15:10">Fjellsdalen</stop>
+    <stop arrival="15:12">Bønes senter</stop>
+  </route>
+  <route no="62" destination="Bønestoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/795720/269847/683422/76471/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:55" routeNo="62">Oasen Terminal</stop>
+    <stop arrival="14:56" departure="14:56">Løvås</stop>
+    <stop arrival="14:57" departure="14:57">Nebbeveien</stop>
+    <stop arrival="14:58" departure="14:58">Hamregården</stop>
+    <stop arrival="14:59" departure="14:59">Sikthaugen</stop>
+    <stop arrival="15:00" departure="15:00">Skaret</stop>
+    <stop arrival="15:01" departure="15:01">Vestre Sikthaugen</stop>
+    <stop arrival="15:02" departure="15:02">Sikthaugen</stop>
+    <stop arrival="15:03" departure="15:03">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:03" departure="15:03">Benshaugen</stop>
+    <stop arrival="15:04" departure="15:04">Lyshovden nord</stop>
+    <stop arrival="15:05" departure="15:05">Lyshovden sør</stop>
+    <stop arrival="15:06" departure="15:06">Bråtet</stop>
+    <stop arrival="15:07" departure="15:07">Hatten</stop>
+    <stop arrival="15:07" departure="15:07">Bønestoppen</stop>
+    <stop arrival="15:08" departure="15:08">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:09" departure="15:09">Fjellsdalen</stop>
+    <stop arrival="15:10" departure="15:10">Bønes senter</stop>
+    <stop arrival="15:11" departure="15:11">Våkleiva</stop>
+    <stop arrival="15:13" departure="15:13">Bønes hagesenter</stop>
+    <stop arrival="15:14" departure="15:14">Bønesstølen</stop>
+    <stop arrival="15:14" departure="15:14">Bønesskiftet</stop>
+    <stop arrival="15:16" departure="15:16">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="15:17" departure="15:17">Kråkenes 1</stop>
+    <stop arrival="15:18" departure="15:18">Bergvegen</stop>
+    <stop arrival="15:19" departure="15:19">Kråkenestoppen</stop>
+    <stop arrival="15:20" departure="15:20">Bønes skole</stop>
+    <stop arrival="15:22" departure="15:22">Bønes hagesenter</stop>
+    <stop arrival="15:22" departure="15:22">Våkleiva</stop>
+    <stop arrival="15:23" departure="15:23">Bønes senter</stop>
+    <stop arrival="15:24" departure="15:24">Bønesskogen</stop>
+    <stop arrival="15:24" departure="15:24">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:25">Bønestoppen</stop>
+  </route>
+  <route no="60" destination="Bønes senter" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/975198/329605/24030/313051/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="15:00" routeNo="60">Bergen Busstasjon</stop>
+    <stop arrival="15:01" departure="15:01">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="15:02" departure="15:02">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:02" departure="15:02">Gyldenpris</stop>
+    <stop arrival="15:05" departure="15:05">Løvstakktunnelen</stop>
+    <stop arrival="15:05" departure="15:05">Vestre Sikthaugen</stop>
+    <stop arrival="15:05" departure="15:05">Sikthaugen</stop>
+    <stop arrival="15:06" departure="15:06">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:07" departure="15:07">Benshaugen</stop>
+    <stop arrival="15:08" departure="15:08">Lyshovden nord</stop>
+    <stop arrival="15:08" departure="15:08">Lyshovden sør</stop>
+    <stop arrival="15:09" departure="15:09">Bråtet</stop>
+    <stop arrival="15:10" departure="15:10">Hatten</stop>
+    <stop arrival="15:10" departure="15:10">Bønestoppen</stop>
+    <stop arrival="15:12" departure="15:12">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:13" departure="15:13">Fjellsdalen</stop>
+    <stop arrival="15:15">Bønes senter</stop>
+  </route>
+  <route no="61" destination="Bergvegen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/737250/250339/748978/128739/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:06" routeNo="61">Vestre Sikthaugen</stop>
+    <stop arrival="15:07" departure="15:07">Sikthaugen</stop>
+    <stop arrival="15:08" departure="15:08">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:08" departure="15:08">Benshaugen</stop>
+    <stop arrival="15:09" departure="15:09">Lyshovden nord</stop>
+    <stop arrival="15:10" departure="15:10">Lyshovden sør</stop>
+    <stop arrival="15:11" departure="15:11">Bråtet</stop>
+    <stop arrival="15:12" departure="15:12">Hatten</stop>
+    <stop arrival="15:12" departure="15:12">Bønestoppen</stop>
+    <stop arrival="15:14" departure="15:14">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:15" departure="15:15">Fjellsdalen</stop>
+    <stop arrival="15:17" departure="15:17">Bønes senter</stop>
+    <stop arrival="15:18" departure="15:18">Våkleiva</stop>
+    <stop arrival="15:18" departure="15:18">Bønes hagesenter</stop>
+    <stop arrival="15:20" departure="15:20">Bønes skole</stop>
+    <stop arrival="15:21" departure="15:21">Kråkenestoppen</stop>
+    <stop arrival="15:22">Bergvegen</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/599100/204267/913928/257267/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:13" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:15" departure="15:15">Kråkenestoppen</stop>
+    <stop arrival="15:16" departure="15:16">Bønes skole</stop>
+    <stop arrival="15:18" departure="15:18">Bønes hagesenter</stop>
+    <stop arrival="15:19" departure="15:19">Våkleiva</stop>
+    <stop arrival="15:20" departure="15:20">Bønes senter</stop>
+    <stop arrival="15:22" departure="15:22">Bønesskogen</stop>
+    <stop arrival="15:23" departure="15:23">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:24" departure="15:24">Bønestoppen</stop>
+    <stop arrival="15:25" departure="15:25">Hatten</stop>
+    <stop arrival="15:25" departure="15:25">Bråtet</stop>
+    <stop arrival="15:26" departure="15:26">Lyshovden sør</stop>
+    <stop arrival="15:27" departure="15:27">Lyshovden nord</stop>
+    <stop arrival="15:28" departure="15:28">Benshaugen</stop>
+    <stop arrival="15:28" departure="15:28">Helgeplasset</stop>
+    <stop arrival="15:29" departure="15:29">Sikthaugen</stop>
+    <stop arrival="15:30" departure="15:30">Vestre Sikthaugen</stop>
+    <stop arrival="15:45">Bergen Busstasjon</stop>
+  </route>
+  <route no="62" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/401103/138307/877706/305153/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:25" routeNo="62">Bønestoppen</stop>
+    <stop arrival="15:26" departure="15:26">Hatten</stop>
+    <stop arrival="15:27" departure="15:27">Bråtet</stop>
+    <stop arrival="15:28" departure="15:28">Lillehatten</stop>
+    <stop arrival="15:29" departure="15:29">Sælemyr</stop>
+    <stop arrival="15:33">Oasen Terminal</stop>
+  </route>
+  <route no="60" destination="Bønes senter" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/363699/125799/270956/14248/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:05" routeNo="60">Olav Kyrres gate</stop>
+    <stop arrival="15:10" departure="15:10">Bergen Busstasjon</stop>
+    <stop arrival="15:12" departure="15:12">Nordahl Bruns gate</stop>
+    <stop arrival="15:14" departure="15:14">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:15" departure="15:15">Gyldenpris</stop>
+    <stop arrival="15:20" departure="15:20">Løvstakktunnelen</stop>
+    <stop arrival="15:21" departure="15:21">Vestre Sikthaugen</stop>
+    <stop arrival="15:22" departure="15:22">Sikthaugen</stop>
+    <stop arrival="15:23" departure="15:23">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:23" departure="15:23">Benshaugen</stop>
+    <stop arrival="15:24" departure="15:24">Lyshovden nord</stop>
+    <stop arrival="15:25" departure="15:25">Lyshovden sør</stop>
+    <stop arrival="15:26" departure="15:26">Bråtet</stop>
+    <stop arrival="15:27" departure="15:27">Hatten</stop>
+    <stop arrival="15:27" departure="15:27">Bønestoppen</stop>
+    <stop arrival="15:29" departure="15:29">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:30" departure="15:30">Fjellsdalen</stop>
+    <stop arrival="15:32">Bønes senter</stop>
+  </route>
+  <route no="60" destination="Bønes senter" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/156936/56851/152320/23849/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="15:20" routeNo="60">Bergen Busstasjon</stop>
+    <stop arrival="15:21" departure="15:21">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="15:22" departure="15:22">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:22" departure="15:22">Gyldenpris</stop>
+    <stop arrival="15:25" departure="15:25">Løvstakktunnelen</stop>
+    <stop arrival="15:25" departure="15:25">Vestre Sikthaugen</stop>
+    <stop arrival="15:25" departure="15:25">Sikthaugen</stop>
+    <stop arrival="15:26" departure="15:26">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:27" departure="15:27">Benshaugen</stop>
+    <stop arrival="15:28" departure="15:28">Lyshovden nord</stop>
+    <stop arrival="15:28" departure="15:28">Lyshovden sør</stop>
+    <stop arrival="15:29" departure="15:29">Bråtet</stop>
+    <stop arrival="15:30" departure="15:30">Hatten</stop>
+    <stop arrival="15:30" departure="15:30">Bønestoppen</stop>
+    <stop arrival="15:32" departure="15:32">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:33" departure="15:33">Fjellsdalen</stop>
+    <stop arrival="15:35">Bønes senter</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/610512/208023/316332/45343/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="15:25" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:26" departure="15:26">Kråkenestoppen</stop>
+    <stop arrival="15:27" departure="15:27">Bønes skole</stop>
+    <stop arrival="15:29" departure="15:29">Bønes hagesenter</stop>
+    <stop arrival="15:29" departure="15:29">Våkleiva</stop>
+    <stop arrival="15:30" departure="15:30">Bønes senter</stop>
+    <stop arrival="15:31" departure="15:31">Bønesskogen</stop>
+    <stop arrival="15:32" departure="15:32">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:33" departure="15:33">Bønestoppen</stop>
+    <stop arrival="15:34" departure="15:34">Hatten</stop>
+    <stop arrival="15:34" departure="15:34">Bråtet</stop>
+    <stop arrival="15:35" departure="15:35">Lyshovden sør</stop>
+    <stop arrival="15:36" departure="15:36">Lyshovden nord</stop>
+    <stop arrival="15:37" departure="15:37">Benshaugen</stop>
+    <stop arrival="15:37" departure="15:37">Helgeplasset</stop>
+    <stop arrival="15:38" departure="15:38">Krohnegården</stop>
+    <stop arrival="15:38" departure="15:38">Fosse-skiftet</stop>
+    <stop arrival="15:39" departure="15:39">Svartatjønn</stop>
+    <stop arrival="15:40" departure="15:40">Skytebanen, Løvstakken</stop>
+    <stop arrival="15:41" departure="15:41">Løvstakkskiftet</stop>
+    <stop arrival="15:42" departure="15:42">Klauvsteinen</stop>
+    <stop arrival="15:42" departure="15:42">Tjønna</stop>
+    <stop arrival="15:43" departure="15:43">Melkeplassen</stop>
+    <stop arrival="15:44" departure="15:44">Kaptein Amlands vei</stop>
+    <stop arrival="15:45" departure="15:45">Gabriel Tischendorfs vei</stop>
+    <stop arrival="15:46" departure="15:46">Solveien</stop>
+    <stop arrival="15:47" departure="15:47">Gyldenpris</stop>
+    <stop arrival="15:50" departure="15:50">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:52" departure="15:52">Nordahl Bruns gate</stop>
+    <stop arrival="15:53" departure="15:53">Christies gate (Festplassen)</stop>
+    <stop arrival="15:53" departure="15:53">Gyldenpris</stop>
+    <stop arrival="15:53" departure="15:53">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:53" departure="15:53">Nordahl Bruns gate</stop>
+    <stop arrival="15:58">Bergen Busstasjon</stop>
+  </route>
+  <route no="62" destination="Bønestoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/948207/320678/194654/218742/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:39" routeNo="62">Bønestoppen</stop>
+    <stop arrival="15:40" departure="15:40">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:40" departure="15:40">Fjellsdalen</stop>
+    <stop arrival="15:41" departure="15:41">Bønes senter</stop>
+    <stop arrival="15:42" departure="15:42">Våkleiva</stop>
+    <stop arrival="15:44" departure="15:44">Bønes hagesenter</stop>
+    <stop arrival="15:45" departure="15:45">Bønesstølen</stop>
+    <stop arrival="15:45" departure="15:45">Bønesskiftet</stop>
+    <stop arrival="15:47" departure="15:47">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="15:48" departure="15:48">Kråkenes 1</stop>
+    <stop arrival="15:49" departure="15:49">Bergvegen</stop>
+    <stop arrival="15:50" departure="15:50">Kråkenestoppen</stop>
+    <stop arrival="15:50" departure="15:50">Bønes skole</stop>
+    <stop arrival="15:50" departure="15:50">Bønes hagesenter</stop>
+    <stop arrival="15:51" departure="15:51">Våkleiva</stop>
+    <stop arrival="15:51" departure="15:51">Bønes senter</stop>
+    <stop arrival="15:53" departure="15:53">Bønesskogen</stop>
+    <stop arrival="15:54" departure="15:54">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:55">Bønestoppen</stop>
+  </route>
+  <route no="Arb" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/669783/228887/599248/76363/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:03" routeNo="Arb">Kokstad Bilhandel</stop>
+    <stop arrival="15:04" departure="15:04">BKK , Kokstad</stop>
+    <stop arrival="15:06" departure="15:06">Nera</stop>
+    <stop arrival="15:06" departure="15:06">Scandic</stop>
+    <stop arrival="15:08" departure="15:08">Birkelandskrysset Terminal</stop>
+    <stop arrival="15:11" departure="15:11">Sandslislusen</stop>
+    <stop arrival="15:11" departure="15:11">Sandslisnuplass</stop>
+    <stop arrival="15:15" departure="15:15">Hydro bygget</stop>
+    <stop arrival="15:20" departure="15:20">Fanatorget</stop>
+    <stop arrival="15:25" departure="15:25">Dolvik terminal</stop>
+    <stop arrival="15:26" departure="15:26">Søreide skole</stop>
+    <stop arrival="15:27" departure="15:27">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="15:29" departure="15:29">Straume bro</stop>
+    <stop arrival="15:29" departure="15:29">Bergen Motorbåtforening</stop>
+    <stop arrival="15:31" departure="15:31">Straume (Straumeveien, Fana)</stop>
+    <stop arrival="15:33" departure="15:33">Bøjarnesvegen (Toftegård)</stop>
+    <stop arrival="15:35" departure="15:35">Dalhaugane</stop>
+    <stop arrival="15:36" departure="15:36">Bønes hagesenter</stop>
+    <stop arrival="15:37" departure="15:37">Våkleiva</stop>
+    <stop arrival="15:38" departure="15:38">Bønes senter</stop>
+    <stop arrival="15:39" departure="15:39">Bønesskogen</stop>
+    <stop arrival="15:40" departure="15:40">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:41" departure="15:41">Bønestoppen</stop>
+    <stop arrival="15:42" departure="15:42">Hatten</stop>
+    <stop arrival="15:42" departure="15:42">Bråtet</stop>
+    <stop arrival="15:43" departure="15:43">Lillehatten</stop>
+    <stop arrival="15:44" departure="15:44">Sælemyr</stop>
+    <stop arrival="15:46">Oasen Terminal</stop>
+  </route>
+  <route no="60" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/507375/173692/293498/22380/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:33" routeNo="60">Bergvegen</stop>
+    <stop arrival="15:35" departure="15:35">Kråkenestoppen</stop>
+    <stop arrival="15:36" departure="15:36">Bønes skole</stop>
+    <stop arrival="15:38" departure="15:38">Bønes hagesenter</stop>
+    <stop arrival="15:39" departure="15:39">Våkleiva</stop>
+    <stop arrival="15:40" departure="15:40">Bønes senter</stop>
+    <stop arrival="15:42" departure="15:42">Bønesskogen</stop>
+    <stop arrival="15:43" departure="15:43">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:44" departure="15:44">Bønestoppen</stop>
+    <stop arrival="15:45" departure="15:45">Hatten</stop>
+    <stop arrival="15:45" departure="15:45">Bråtet</stop>
+    <stop arrival="15:46" departure="15:46">Lyshovden sør</stop>
+    <stop arrival="15:47" departure="15:47">Lyshovden nord</stop>
+    <stop arrival="15:48" departure="15:48">Benshaugen</stop>
+    <stop arrival="15:48" departure="15:48">Helgeplasset</stop>
+    <stop arrival="15:49" departure="15:49">Sikthaugen</stop>
+    <stop arrival="15:50" departure="15:50">Vestre Sikthaugen</stop>
+    <stop arrival="16:05">Bergen Busstasjon</stop>
+  </route>
+  <route no="60" destination="Bønes senter" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/992553/335417/265480/198115/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:25" routeNo="60">Olav Kyrres gate</stop>
+    <stop arrival="15:30" departure="15:30">Bergen Busstasjon</stop>
+    <stop arrival="15:32" departure="15:32">Nordahl Bruns gate</stop>
+    <stop arrival="15:34" departure="15:34">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:35" departure="15:35">Gyldenpris</stop>
+    <stop arrival="15:40" departure="15:40">Løvstakktunnelen</stop>
+    <stop arrival="15:41" departure="15:41">Vestre Sikthaugen</stop>
+    <stop arrival="15:42" departure="15:42">Sikthaugen</stop>
+    <stop arrival="15:43" departure="15:43">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:43" departure="15:43">Benshaugen</stop>
+    <stop arrival="15:44" departure="15:44">Lyshovden nord</stop>
+    <stop arrival="15:45" departure="15:45">Lyshovden sør</stop>
+    <stop arrival="15:46" departure="15:46">Bråtet</stop>
+    <stop arrival="15:47" departure="15:47">Hatten</stop>
+    <stop arrival="15:47" departure="15:47">Bønestoppen</stop>
+    <stop arrival="15:49" departure="15:49">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:50" departure="15:50">Fjellsdalen</stop>
+    <stop arrival="15:52">Bønes senter</stop>
+  </route>
+  <route no="61" destination="Bergvegen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/325791/113186/191114/13041/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:41" routeNo="61">Vestre Sikthaugen</stop>
+    <stop arrival="15:42" departure="15:42">Sikthaugen</stop>
+    <stop arrival="15:43" departure="15:43">Helgeplasset (Gartneriet)</stop>
+    <stop arrival="15:43" departure="15:43">Benshaugen</stop>
+    <stop arrival="15:44" departure="15:44">Lyshovden nord</stop>
+    <stop arrival="15:45" departure="15:45">Lyshovden sør</stop>
+    <stop arrival="15:46" departure="15:46">Bråtet</stop>
+    <stop arrival="15:47" departure="15:47">Hatten</stop>
+    <stop arrival="15:47" departure="15:47">Bønestoppen</stop>
+    <stop arrival="15:49" departure="15:49">Bønesheia/Tjørnhaugen</stop>
+    <stop arrival="15:50" departure="15:50">Fjellsdalen</stop>
+    <stop arrival="15:52" departure="15:52">Bønes senter</stop>
+    <stop arrival="15:53" departure="15:53">Våkleiva</stop>
+    <stop arrival="15:53" departure="15:53">Bønes hagesenter</stop>
+    <stop arrival="15:55" departure="15:55">Bønes skole</stop>
+    <stop arrival="15:56" departure="15:56">Kråkenestoppen</stop>
+    <stop arrival="15:57">Bergvegen</stop>
+  </route>
+  <route no="62" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/740016/251282/303930/94707/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:55" routeNo="62">Bønestoppen</stop>
+    <stop arrival="15:56" departure="15:56">Hatten</stop>
+    <stop arrival="15:57" departure="15:57">Bråtet</stop>
+    <stop arrival="15:58" departure="15:58">Lillehatten</stop>
+    <stop arrival="15:59" departure="15:59">Sælemyr</stop>
+    <stop arrival="16:03">Oasen Terminal</stop>
+  </route>
+</routes>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <routes>
-  <route no="900" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/548463/184047/133458/116092/1/">
+  <route no="900" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/943563/315747/986962/178960/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="5:30" routeNo="900">Arna terminal</stop>
     <stop arrival="5:32" departure="5:32">Bommane (Arnatveitvegen)</stop>
     <stop arrival="5:33" departure="5:33">Indre Arna skule</stop>
@@ -47,7 +47,7 @@
     <stop arrival="6:16" departure="6:16">Danmarksplass v/Forum kino</stop>
     <stop arrival="6:20">Bergen Busstasjon</stop>
   </route>
-  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/964941/326739/48290/297502/1/">
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/347052/120776/376542/72587/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
     <stop departure="5:57" routeNo="270">Arna terminal</stop>
     <stop arrival="5:58" departure="5:58">Ytre Arna vegen v.nr 204</stop>
     <stop arrival="5:59" departure="5:59">Listøl</stop>

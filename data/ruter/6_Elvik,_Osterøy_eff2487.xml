@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="370" destination="Raknes sør" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/748545/250402/943258/222114/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:05" routeNo="370">Valestrand</stop>
+    <stop arrival="6:05" departure="6:05">Valestrand</stop>
+    <stop arrival="6:06" departure="6:06">Bullabrekka (Osterøy)</stop>
+    <stop arrival="6:07" departure="6:07">Elvik, Osterøy</stop>
+    <stop arrival="6:08" departure="6:08">Røskeland, Osterøy</stop>
+    <stop arrival="6:11" departure="6:11">Tveitaskaret</stop>
+    <stop arrival="6:12" departure="6:12">Horsås</stop>
+    <stop arrival="6:13" departure="6:13">Måsevoll</stop>
+    <stop arrival="6:14" departure="6:14">Mjeldstad Øvre</stop>
+    <stop arrival="6:14" departure="6:14">Mjeldstad Mitre</stop>
+    <stop arrival="6:15" departure="6:15">Mjeldstad Nedre</stop>
+    <stop arrival="6:16" departure="6:16">Tepstad</stop>
+    <stop arrival="6:16" departure="6:16">Tepstad</stop>
+    <stop arrival="6:17" departure="6:17">Birkeland (Osterøy)</stop>
+    <stop arrival="6:17" departure="6:17">Birkeland (Osterøy)</stop>
+    <stop arrival="6:18" departure="6:18">Hjelvik</stop>
+    <stop arrival="6:18" departure="6:18">Hjelvik</stop>
+    <stop arrival="6:19" departure="6:19">Hjelvik</stop>
+    <stop arrival="6:19" departure="6:19">Hjelvikvåg</stop>
+    <stop arrival="6:20" departure="6:20">Hjelvik</stop>
+    <stop arrival="6:21" departure="6:21">Hjelvik</stop>
+    <stop arrival="6:21" departure="6:21">Raknes nord</stop>
+    <stop arrival="6:23" departure="6:23">Raknes v fabrikken</stop>
+    <stop arrival="6:24" departure="6:24">Raknes</stop>
+    <stop arrival="6:25">Raknes sør</stop>
+  </route>
+</routes>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="546" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/158976/58430/679606/286811/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="23:30" routeNo="546">Nesttun terminal</stop>
+    <stop arrival="23:31" departure="23:31">Nesttun</stop>
+    <stop arrival="23:31" departure="23:31">Herredshuset, Nesttun</stop>
+    <stop arrival="23:32" departure="23:32">Midtun bro</stop>
+    <stop arrival="23:33" departure="23:33">Midttunflaten</stop>
+    <stop arrival="23:34" departure="23:34">Ulsmågveien 12-14</stop>
+    <stop arrival="23:34" departure="23:34">Ulsmågveien 29</stop>
+    <stop arrival="23:35" departure="23:35">Ulsmåg skole</stop>
+    <stop arrival="23:36" departure="23:36">Elvaneset 4</stop>
+    <stop arrival="23:37" departure="23:37">Elvaneset 3</stop>
+    <stop arrival="23:37" departure="23:37">Sørlia</stop>
+    <stop arrival="23:39" departure="23:39">Øvsttun</stop>
+    <stop arrival="23:40" departure="23:40">Solåsen</stop>
+    <stop arrival="23:40" departure="23:40">Øvsttun kapell</stop>
+    <stop arrival="23:41" departure="23:41">Dynevoll</stop>
+    <stop arrival="23:41" departure="23:41">Elvenes</stop>
+    <stop arrival="23:43" departure="23:43">Elvenes 1</stop>
+    <stop arrival="23:43" departure="23:43">Elvenes 2</stop>
+    <stop arrival="23:44" departure="23:44">Elvaneset 4</stop>
+    <stop arrival="23:45" departure="23:45">Elvaneset 5</stop>
+    <stop arrival="23:46" departure="23:46">Ulsmåg skole</stop>
+    <stop arrival="23:47" departure="23:47">Ulsmågveien 29</stop>
+    <stop arrival="23:48" departure="23:48">Ulsmågveien 12-14</stop>
+    <stop arrival="23:50" departure="23:50">Midttunflaten</stop>
+    <stop arrival="23:51" departure="23:51">Midtun bro</stop>
+    <stop arrival="23:53" departure="23:53">Herredshuset, Nesttun</stop>
+    <stop arrival="23:54" departure="23:54">Nesttun</stop>
+    <stop arrival="23:55">Nesttun terminal</stop>
+  </route>
+  <route no="546" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/360528/125628/516214/137931/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="23:40" routeNo="546">Nesttun terminal</stop>
+    <stop arrival="23:41" departure="23:41">Nesttun</stop>
+    <stop arrival="23:41" departure="23:41">Herredshuset, Nesttun</stop>
+    <stop arrival="23:42" departure="23:42">Midtun bro</stop>
+    <stop arrival="23:43" departure="23:43">Midttunflaten</stop>
+    <stop arrival="23:44" departure="23:44">Ulsmågveien 12-14</stop>
+    <stop arrival="23:44" departure="23:44">Ulsmågveien 29</stop>
+    <stop arrival="23:45" departure="23:45">Ulsmåg skole</stop>
+    <stop arrival="23:46" departure="23:46">Elvaneset 4</stop>
+    <stop arrival="23:47" departure="23:47">Elvaneset 3</stop>
+    <stop arrival="23:47" departure="23:47">Sørlia</stop>
+    <stop arrival="23:49" departure="23:49">Øvsttun</stop>
+    <stop arrival="23:50" departure="23:50">Solåsen</stop>
+    <stop arrival="23:50" departure="23:50">Øvsttun kapell</stop>
+    <stop arrival="23:51" departure="23:51">Dynevoll</stop>
+    <stop arrival="23:51" departure="23:51">Elvenes</stop>
+    <stop arrival="23:53" departure="23:53">Elvenes 1</stop>
+    <stop arrival="23:53" departure="23:53">Elvenes 2</stop>
+    <stop arrival="23:54" departure="23:54">Elvaneset 4</stop>
+    <stop arrival="23:55" departure="23:55">Elvaneset 5</stop>
+    <stop arrival="23:56" departure="23:56">Ulsmåg skole</stop>
+    <stop arrival="23:57" departure="23:57">Ulsmågveien 29</stop>
+    <stop arrival="23:58" departure="23:58">Ulsmågveien 12-14</stop>
+    <stop arrival="0:00" departure="0:00">Midttunflaten</stop>
+    <stop arrival="0:01" departure="0:01">Midtun bro</stop>
+    <stop arrival="0:03" departure="0:03">Herredshuset, Nesttun</stop>
+    <stop arrival="0:04" departure="0:04">Nesttun</stop>
+    <stop arrival="0:05">Nesttun terminal</stop>
+  </route>
+</routes>
