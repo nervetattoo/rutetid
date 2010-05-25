@@ -4,6 +4,7 @@ function getMicroTime() {
     return ((float)$usec + (float)$sec); 
 }
 function r_implode($glue, $pieces) {
+    $retVal = array();
     foreach($pieces as $r_pieces) {
         if(is_array($r_pieces))
             $retVal[] = r_implode($glue, $r_pieces);
