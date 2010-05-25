@@ -49,6 +49,17 @@
                                 <td class="there">{$route.arrivalSpan} minutter <span class="dim">({$route.arrivalTime})</span></td>
                             </tr>
                         {/foreach}
+                    {elseif $easteregg}
+                            <tr class="odd first">
+                                <td class="no">Til <strong>fots</strong></td>
+                                <td class="here">Du står på de!</td>
+                                <td class="there">Pust ut, du er fremme.</td>
+                            </tr>
+                            <tr class="even">
+                                <td class="no">På <strong>hender</strong></td>
+                                <td class="here">De henger på deg!</td>
+                                <td class="there">Kan du det?</td>
+                            </tr>
                     {else}
                             <tr class="info odd">
                                 <td colspan="3" class="no-borders">
