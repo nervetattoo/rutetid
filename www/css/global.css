@@ -515,6 +515,7 @@ ul.ui-autocomplete li a.ui-state-active {
     font-size: 11px;
     line-height: 1.45;
     padding: 0;
+    color: rgba(255, 255, 255, .75);
 }
 
 #popover-about .employer { text-align: center; }
