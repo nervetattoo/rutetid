@@ -53,8 +53,8 @@
                             <tr class="info odd">
                                 <td colspan="3" class="no-borders">
                                     <h2>Hallao!</h2>
-                                    <p>Vi driver stadig og legger inn bussruter. Tygger de med litt salt og pepper. Akkurat nå har vi disse bussene i systemet vårt: {foreach from=$activeRoutes item=route name=activeRoutes}{if $smarty.foreach.activeRoutes.first}<strong>{$route}</strong>{elseif $smarty.foreach.activeRoutes.last} og <strong>{$route}</strong>.{else}, <strong>{$route}</strong>{/if}{/foreach}</p>
-                                    <p>Akkurat nå er det forresten <strong>{$departures}</strong> avganger i systemet.</p>
+                                    <p>Vi driver stadig og legger inn bussruter. Tygger de med litt salt og pepper. I dette øyeblikk er det <strong>{$activeRoutes|@count}</strong> rutebiler i systemet vårt.</p>
+                                    <p>Akkurat nå er det forresten <strong>{$departures}</strong> avganger å søke blant.</p>
                                     <p>Vil du hjelpe til, få dine faste ruter her? <a href="mailto:raymond.julin@gmail.com">Ta kontakt</a></p>
                                 </td>
                             </tr>
@@ -71,6 +71,8 @@
 {include file='contentbottom.tpl'}
                 <div class="clear"></div>
                 {include file='aboutpopover.tpl'}
+                <!-- {$timeUsed}
+                -->
             </div>
         </div>
 {include file='footer.tpl'}

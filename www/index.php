@@ -22,7 +22,9 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
         $offset = 0;
         $limit = 5;
     }
+    $sTime = getMicroTime();
     $hits = $search->search($from, $to, $time, false, $limit, $offset);
+    $timeUsed = getMicroTime() - $sTime;
     if (isset($_GET['format']) && $_GET['format'] == "json") {
         echo json_encode($hits);
         exit;
@@ -31,6 +33,7 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
     if (count($hits) == 0)
         $view->assign('error', "noHits");
 
+    $view->assign('timeUsed', $timeUsed);
     $view->assign('from', $from);
     $view->assign('to', $to);
     if($time != date('H:i'))

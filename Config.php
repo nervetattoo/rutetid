@@ -7,6 +7,20 @@ if (!defined('PREFIX'))
     define('PREFIX', 'main');
 
 
+function r_implode($glue, $pieces) {
+    $retVal = array();
+    foreach($pieces as $r_pieces) {
+        if(is_array($r_pieces))
+            $retVal[] = r_implode($glue, $r_pieces);
+        else
+            $retVal[] = $r_pieces;
+    }
+    return implode($glue, $retVal);
+} 
+function getMicroTime() { 
+    list($usec, $sec) = explode(" ", microtime()); 
+    return ((float)$usec + (float)$sec); 
+}
 function toLower($text) {
     return mb_strtolower($text, "UTF-8");
 }

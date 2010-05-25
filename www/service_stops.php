@@ -1,26 +1,18 @@
 <?php
-function getMicroTime() { 
-    list($usec, $sec) = explode(" ", microtime()); 
-    return ((float)$usec + (float)$sec); 
-}
-function r_implode($glue, $pieces) {
-    $retVal = array();
-    foreach($pieces as $r_pieces) {
-        if(is_array($r_pieces))
-            $retVal[] = r_implode($glue, $r_pieces);
-        else
-            $retVal[] = $r_pieces;
-    }
-    return implode($glue, $retVal);
-} 
 require_once("../Config.php");
 
 $start = getMicroTime();
 $memcache = new Memcache;
 $memcache->connect('localhost', 11211);
 
-$filters = array();
-if (isset($_GET['lat']) && isset($_GET['long'])) {
+$filters = array(
+    'active' => true
+);
+if (isset($_GET['term'])) {
+    $query = toLower($_GET['term']);
+    $filters['search'] =  new MongoRegex("/^$query/i");
+}
+elseif (isset($_GET['lat']) && isset($_GET['long'])) {
     $lat = $_GET['lat'];
     $long = $_GET['long'];
     $regex = '/^[0-9]+\.[0-9]*$/';
@@ -29,11 +21,6 @@ if (isset($_GET['lat']) && isset($_GET['long'])) {
             '$near' => array((float)$lat, (float)$long)
         );
     }
-}
-
-if (isset($_GET['term'])) {
-    $query = toLower($_GET['term']);
-    $filters['search'] =  new MongoRegex("/^$query/i");
 }
 
 $cacheKey = md5(r_implode(":", $filters));
