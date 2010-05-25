@@ -32,7 +32,7 @@ if (isset($_GET['lat']) && isset($_GET['long'])) {
 }
 
 if (isset($_GET['term'])) {
-    $query = $_GET['term'];
+    $query = toLower($_GET['term']);
     $filters['search'] =  new MongoRegex("/^$query/i");
 }
 
