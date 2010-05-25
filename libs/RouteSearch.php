@@ -113,7 +113,7 @@ class RouteSearch {
                         $arrivalTime = Config::timeAdd(str_replace(":","",$startTime), $runningTime, "H:i");
 
                         while ($waitTime < 0)
-                            $waitTime += 3600;
+                            $waitTime += 1440;
                         $timeSort[] = $waitTime;
                         // Wait time should be arrival time minus specified search time
                         $hits[] = array(
