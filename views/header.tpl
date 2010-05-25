@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Et spark i siden til Tide i Bergen &#151; Rute.bz</title>
+        <title>Finn din Bergensbuss &#151; Rute.bz</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
