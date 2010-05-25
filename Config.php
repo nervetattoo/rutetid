@@ -35,6 +35,31 @@ class Config {
         return new View;
     }
 
+    public static function timeAdd($t1, $t2, $format="H:i") {
+        $t1 = str_pad($t1, 4, "0", STR_PAD_LEFT);
+        $t2 = str_pad($t2, 4, "0", STR_PAD_LEFT);
+
+        $fi = substr($t1, -2);
+        $fH = substr($t1, 0, -2);
+        $si = substr($t2, -2);
+        $sH = substr($t2, 0, -2);
+
+        $newTime = date($format, mktime($fH, ($fi + $si) + ($sH * 60)));
+        return $newTime;
+    }
+
+    public static function timeSub($t1, $t2,$format="Hi") {
+        $t1 = str_pad($t1, 4, "0", STR_PAD_LEFT);
+        $t2 = str_pad($t2, 4, "0", STR_PAD_LEFT);
+        $fi = substr($t1, -2);
+        $fH = substr($t1, 0, -2);
+        $si = substr($t2, -2);
+        $sH = substr($t2, 0, -2);
+
+        $newTime = date($format, mktime($fH - $sH, $fi - $si));
+        return $newTime;
+    }
+
     /**
      * Parse a traffic days text and return an array over running days
      *

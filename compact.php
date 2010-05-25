@@ -6,7 +6,11 @@ require_once("libs/BusStops.php");
 $db = Config::getDb();
 
 // Clear db
-$db->import->drop();
+$db->routes->drop();
+$db->departures->drop();
+
+$db->departures->ensureIndex(array('route'=>1, 'days'=>1, 'time'=>1),array('unique'=>true, 'dropDups'=>true));
+$db->routes->ensureIndex(array('num'=>1, 'dest' => 1, 'hash' => 1),array('unique'=>true, 'dropDups'=>true));
 
 $busStops = array();
 $files = scandir("data/ruter/");
@@ -18,6 +22,8 @@ foreach ($files as $fil) {
         foreach ($xml->route as $r) {
             $a = $r->attributes();
             $num = (string)$a->no;
+            $trafficDays = (string)$a->trafficDays;
+            $days = Config::parseTrafficDaysText($trafficDays);
             if ($num == "BUSSNatt")
                 $num = "Nattbuss";
             else
@@ -29,14 +35,10 @@ foreach ($files as $fil) {
              */
             $first = true;
             $key = 0;
-            $hashbase = "";
+            $hashbase = "$num:" . implode(":", $days) . ":" . $dest;
             $stops = array();
-            $departures = array(
-                1 => array(),
-                6 => array(),
-                7 => array()
-            );
-            $weekday = 7; // Force sunday for now
+            $stopsSearch = array();
+            $timeOffset = 0;
             foreach ($r->stop as $st) {
                 $key++;
                 $name = (string)$st;
@@ -47,8 +49,12 @@ foreach ($files as $fil) {
                         $stop = $db->stops->insert(array(
                             'name' => $name,
                             'aliases' => array($name),
+                            'active' => true,
                             'search' => array(toLower($name))
                         ));
+                    }
+                    else {
+                        BusStops::activateStop($stop);
                     }
                     $busStops[$name] = $stop;
                 }
@@ -63,7 +69,7 @@ foreach ($files as $fil) {
                     $lastMin = ($sH * 60) + $sM; 
                 }
                 else {
-                    $departures[$weekday][] = (string)$sa->departure;
+                    $firstTimes = explode(":", "", $sa->departure);
                     $depart = str_replace(":", "", $sa->departure);
                 }
 
@@ -75,66 +81,58 @@ foreach ($files as $fil) {
                 if (!$first) {
                     $to = $name;
                     $toId = $busStops[$name]['_id'];
-                    $timeDiff = date("i", mktime($sH, (int)($sM - $lastMin)));
+                    $timeDiff = (int)date("i", mktime((int)$sH, (int)($sM - $lastMin)));
+                    $timeOffset += $timeDiff;
                 }
                 else {
                     $from = $name;
                     $fromId = $busStops[$name]['_id'];
                     $timeDiff = 0;
+                    $timeOffset = 0;
                 }
 
                 //echo " +$timeDiff\n";
                 // Store last time diff
                 $first = false;
+                $stopsSearch[] = toLower($name);
                 $stops[] = array(
                     'name' => $name,
-                    'timeDiff' => $timeDiff
+                    'stopId' => $stop['_id'],
+                    'timeDiff' => $timeDiff,
+                    'timeOffset' => $timeOffset
                 );
             }
             $stopHash = sha1($hashbase);
 
             // Set route in db 
-            $route = $db->import->findOne(array(
+            $route = $db->routes->findOne(array(
                 'num' => $num, 
                 'dest' => $dest,
                 'hash' => $stopHash
             ));
-            $departure = array(
-                'from' => $from,
-                'fromId' => $fromId,
-                'to' => $to,
-                'toId' => $toId,
-                'days' => array(1,2,3,4,5,6,7),
-                'time' => (int)$depart,
-                'route' => $num
-            );
-            $db->departures->insert($departure);
-            $deps++;
             if ($route === null) {
                 $route = array(
                     'num' => $num, 
                     'dest' => $dest,
                     'hash' => $stopHash,
                     'stops' => $stops,
-                    'departures' => $departures
+                    'from' => $from,
+                    'fromId' => $fromId,
+                    'to' => $to,
+                    'toId' => $toId,
+                    'search' => $stopsSearch
                 );
-                if ($db->import->insert($route)) {
-                    $cnt = count($departures[$weekday]);
-                    echo "Inserted $num $dest now has $cnt departures on $weekday\n";
+                if ($route = $db->routes->insert($route)) {
+                    echo "Inserted $num $dest\n";
                 }
             }
-            else {
-                $departures[$weekday] = array_unique(array_merge($route['departures'][$weekday], $departures[$weekday]));
-                $res = $db->import->update(
-                    array('_id' => $route['_id']),
-                    array('$set' => array(
-                        "departures" => $departures
-                    ))
-                );
-                if ($res) {
-                    $cnt = count($departures[$weekday]);
-                    echo "Updated $num $dest now has $cnt departures on $weekday\n";
-                }
+            $departure = array(
+                'route' => $route['_id'],
+                'days' => $days,
+                'time' => (int)$depart
+            );
+            if ($db->departures->insert($departure)) {
+                $deps++;
             }
         }
     }

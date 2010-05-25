@@ -39,7 +39,9 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
     $view->assign('routes', $hits);
 }
 
-$view->assign('activeRoutes', $search->getActiveBusNumbers());
+$activeRoutes = $search->getActiveBusNumbers();
+sort($activeRoutes);
+$view->assign('activeRoutes', $activeRoutes);
 $view->assign('departures', $search->getDepartureCount());
 
 if (isset($_GET['format']) && $_GET['format'] == "json") {
