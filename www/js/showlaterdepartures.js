@@ -9,8 +9,7 @@ var AddDepartures = function()
 }
 
 AddDepartures.prototype = {
-    oddEven: ['even', 'odd'],
-    maxRows: 25,
+    maxRows: 10,
     rowsRemoved: 0,
     
     init: function()
@@ -44,11 +43,7 @@ AddDepartures.prototype = {
         
     formatDepartures: function(data)
     {
-        var self = this;
-        
-        this.alternate = this.oddEven;
-        if(($('#routes tbody tr').length % 2) == 0)
-            this.alternate = this.alternate.reverse();            
+        var self = this;         
         
         var rowCount = data.length + $('#routes tbody tr').length;
         var rowsToRemove = rowCount - this.maxRows;
@@ -63,7 +58,7 @@ AddDepartures.prototype = {
         $(data)
             .each(function(i, bus)
             {
-                departuresHtml += '<tr class="' + self.alternate[(i % 2)] + '">';
+                departuresHtml += '<tr>';
                 departuresHtml += '<td class="no">Rutebil <strong>' + bus.id + '</strong></td>';
                 departuresHtml += '<td class="here">' + bus.wait + ' minutter <span class="dim">(' + bus.startTime + ')</span></td>';
                 departuresHtml += '<td class="there">' + bus.arrivalSpan + ' minutter <span class="dim">(' + bus.arrivalTime + ')</span></td>';
@@ -76,7 +71,13 @@ AddDepartures.prototype = {
     addDepartures: function(html)
     {
         $('#routes tbody')
-            .append(html);
+            .append(html)
+        .find('tr:even')
+            .addClass('odd')
+            .removeClass('even')
+        .end().find('tr:odd')
+            .addClass('even')
+            .removeClass('odd');
     }
 };
 
