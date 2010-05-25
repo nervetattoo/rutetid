@@ -40,6 +40,20 @@ foreach ($files as $fil) {
             foreach ($r->stop as $st) {
                 $key++;
                 $name = (string)$st;
+                // 
+                if (!array_key_exists($name, $busStops)) {
+                    $stop = BusStops::getStop($name);
+                    if ($stop === null) {
+                        $stop = $db->stops->insert(array(
+                            'name' => $name,
+                            'aliases' => array($name),
+                            'search' => array(toLower($name))
+                        ));
+                    }
+                    $busStops[$name] = $stop;
+                }
+                else
+                    $stop = $busStops[$name];
                 $hashbase .= $name;
                 $sa = $st->attributes();
                 //echo "Parsing stop $key $st";
@@ -59,13 +73,11 @@ foreach ($files as $fil) {
                     list($sH, $sM) = explode(":", $sa->departure);
 
                 if (!$first) {
-                    $busStops[$name] = BusStops::getStop($name);
                     $to = $name;
                     $toId = $busStops[$name]['_id'];
                     $timeDiff = date("i", mktime($sH, (int)($sM - $lastMin)));
                 }
                 else {
-                    $busStops[$name] = BusStops::getStop($name);
                     $from = $name;
                     $fromId = $busStops[$name]['_id'];
                     $timeDiff = 0;

@@ -13,8 +13,8 @@ class BusStops {
         $db = Config::getDb();
         // Try aliases
         $stop = $db->stops->find(array(
-            'aliases' => array(
-                '$in' => array($name)
+            'search' => array(
+                '$in' => array(toLower($name))
             )
         ))->getNext();
         return $stop;
@@ -116,7 +116,8 @@ class BusStops {
                             $db->stops->insert(array(
                                 'name'=>$name,
                                 'location' => $location,
-                                'aliases' => array($name)
+                                'aliases' => array($name),
+                                'search' => array(toLower($name))
                             ));
                         }
                         else {

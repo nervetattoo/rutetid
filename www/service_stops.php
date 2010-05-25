@@ -33,7 +33,7 @@ if (isset($_GET['lat']) && isset($_GET['long'])) {
 
 if (isset($_GET['term'])) {
     $query = $_GET['term'];
-    $filters['name'] = new MongoRegex("/^$query/i");
+    $filters['search'] =  new MongoRegex("/^$query/i");
 }
 
 $cacheKey = md5(r_implode(":", $filters));
