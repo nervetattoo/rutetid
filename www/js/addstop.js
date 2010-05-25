@@ -50,7 +50,7 @@ $(function()
                 {
                     e.preventDefault();
 
-                    var stopIndex = $(e.target).parent().prevAll('.stop').length;
+                    var stopIndex = $(e.target).closest('li').prevAll('.stop').length;
                     var stops = $.getJSON('/insert.php?route_json=' + $.urlParam('route'), function(data) {
                         $.each(data.stops, function(i, stop) {
 

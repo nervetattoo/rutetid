@@ -10,6 +10,8 @@ var AddDepartures = function()
 
 AddDepartures.prototype = {
     oddEven: ['even', 'odd'],
+    maxRows: 25,
+    rowsRemoved: 0,
     
     init: function()
     {
@@ -28,8 +30,8 @@ AddDepartures.prototype = {
             	        to: $('#to').val(),
             	        time: $('#time').val(),
             	        format: 'json',
-            	        limit: 10,
-            	        offset: ($('#routes tbody tr:not(.shadow)').length - 1)
+            	        limit: 5,
+            	        offset: ($('#routes tbody tr').length - 1) + self.rowsRemoved
             	    },
             	    success: function(data)
             	    {
@@ -45,8 +47,17 @@ AddDepartures.prototype = {
         var self = this;
         
         this.alternate = this.oddEven;
-        if(($('#routes tbody tr:not(.shadow)').length % 2) == 0)
+        if(($('#routes tbody tr').length % 2) == 0)
             this.alternate = this.alternate.reverse();            
+        
+        var rowCount = data.length + $('#routes tbody tr').length;
+        var rowsToRemove = rowCount - this.maxRows;
+        if(rowsToRemove > 0)
+        {
+            this.rowsRemoved += rowsToRemove;
+            $('#routes tbody tr:lt(' + rowsToRemove + ')')
+                .remove();
+        }
         
         var departuresHtml = '';
         $(data)

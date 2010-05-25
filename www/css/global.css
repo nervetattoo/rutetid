@@ -246,6 +246,13 @@ ul.ui-autocomplete li a.ui-state-active {
     border-left: 1px solid #F56E59;
 }
 
+#routes thead .shadow td {
+    background: #ED9480;
+    height: 3px;
+    border-right: 1px solid #E97358;
+    border-left: 1px solid #EAA596;
+}
+
 #routes tbody td {
     height: 35px;
     background: #FFD7CE;
@@ -259,16 +266,9 @@ ul.ui-autocomplete li a.ui-state-active {
     border-right-color: #F98F78;
 }
 
-#routes tbody .shadow td {
-    background: #ED9480;
-    height: 3px;
-    border-right-color: #E97358;
-    border-left-color: #EAA596;
-}
-
 #routes tbody td .dim { color: rgba(75, 14, 1, .5); }
 
-#routes .no {
+#rutetid #routes .no {
     width: 74px;
     padding: 0 11px 0 15px;
     border-left: none;
@@ -279,13 +279,13 @@ ul.ui-autocomplete li a.ui-state-active {
     padding: 0 11px;
 }
 
-#routes .there {
+#rutetid #routes .there {
     width: 127px;
     padding: 0 11px;
     border-right: none;
 }
 
-#routes .no-borders { border: none; }
+#rutetid #routes .no-borders { border: none; }
 
 #routes #show-more-routes {
     display: block;
