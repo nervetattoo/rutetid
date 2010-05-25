@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="442" destination="Brattholmen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/534801/180192/56510/150014/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="16:05" routeNo="442">Straume term.</stop>
+    <stop arrival="16:07" departure="16:07">Lonavegen (Fjell)</stop>
+    <stop arrival="16:07" departure="16:07">Instamyra (Fjell)</stop>
+    <stop arrival="16:08" departure="16:08">Straume søre (Fjell)</stop>
+    <stop arrival="16:09" departure="16:09">Danielsen skole (Fjell)</stop>
+    <stop arrival="16:11" departure="16:11">Storskaret (Fjell)</stop>
+    <stop arrival="16:12" departure="16:12">Brattholmen (garasjen)</stop>
+    <stop arrival="16:14" departure="16:14">Brattholmen skule</stop>
+    <stop arrival="16:15">Brattholmen snuplass</stop>
+  </route>
+  <route no="442" destination="Brattholmen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/688815/231544/431910/13650/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:05" routeNo="442">Straume term.</stop>
+    <stop arrival="16:07" departure="16:07">Lonavegen (Fjell)</stop>
+    <stop arrival="16:07" departure="16:07">Instamyra (Fjell)</stop>
+    <stop arrival="16:08" departure="16:08">Straume søre (Fjell)</stop>
+    <stop arrival="16:10" departure="16:10">Danielsen skole (Fjell)</stop>
+    <stop arrival="16:12" departure="16:12">Storskaret (Fjell)</stop>
+    <stop arrival="16:15" departure="16:15">Brattholmen (garasjen)</stop>
+    <stop arrival="16:18" departure="16:18">Brattholmen skule</stop>
+    <stop arrival="16:20">Brattholmen snuplass</stop>
+  </route>
+  <route no="441" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/52146/19253/854644/409941/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:55" routeNo="441">Hjelteryggen snuplass</stop>
+    <stop arrival="15:56" departure="15:56">Hjelteryggen Nordre Knappen</stop>
+    <stop arrival="15:57" departure="15:57">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="15:59" departure="15:59">Hjelteryggen Svensveien</stop>
+    <stop arrival="16:02" departure="16:02">Knarrevik under brua</stop>
+    <stop arrival="16:03" departure="16:03">Knarrevik</stop>
+    <stop arrival="16:04" departure="16:04">Valenskiftet (Fjell)</stop>
+    <stop arrival="16:04" departure="16:04">Valen Tona (Fjell)</stop>
+    <stop arrival="16:05" departure="16:05">Arefjord sjøen</stop>
+    <stop arrival="16:06" departure="16:06">Arefjord</stop>
+    <stop arrival="16:06" departure="16:06">Arefjord grustak</stop>
+    <stop arrival="16:07" departure="16:07">Storskaret (Fjell)</stop>
+    <stop arrival="16:08" departure="16:08">Danielsen skole (Fjell)</stop>
+    <stop arrival="16:08" departure="16:08">Straume søre (Fjell)</stop>
+    <stop arrival="16:10" departure="16:10">Instamyra (Fjell)</stop>
+    <stop arrival="16:14" departure="16:14">Lonavegen (Fjell)</stop>
+    <stop arrival="16:18">Straume term.</stop>
+  </route>
+  <route no="442" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/760296/255363/474768/16049/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="16:15" routeNo="442">Brattholmen snuplass</stop>
+    <stop arrival="16:16" departure="16:16">Brattholmen skule</stop>
+    <stop arrival="16:17" departure="16:17">Brattholmen (garasjen)</stop>
+    <stop arrival="16:18" departure="16:18">Storskaret (Fjell)</stop>
+    <stop arrival="16:19" departure="16:19">Danielsen skole (Fjell)</stop>
+    <stop arrival="16:20" departure="16:20">Straume søre (Fjell)</stop>
+    <stop arrival="16:22" departure="16:22">Instamyra (Fjell)</stop>
+    <stop arrival="16:26" departure="16:26">Lonavegen (Fjell)</stop>
+    <stop arrival="16:30">Straume term.</stop>
+  </route>
+  <route no="442" destination="Brattholmen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/455382/153735/599932/148172/1/" trafficDays="kjører Ma - Fr, Sø, også 1. Mai">
+    <stop departure="16:35" routeNo="442">Straume term.</stop>
+    <stop arrival="16:37" departure="16:37">Lonavegen (Fjell)</stop>
+    <stop arrival="16:37" departure="16:37">Instamyra (Fjell)</stop>
+    <stop arrival="16:38" departure="16:38">Straume søre (Fjell)</stop>
+    <stop arrival="16:39" departure="16:39">Danielsen skole (Fjell)</stop>
+    <stop arrival="16:41" departure="16:41">Storskaret (Fjell)</stop>
+    <stop arrival="16:42" departure="16:42">Brattholmen (garasjen)</stop>
+    <stop arrival="16:44" departure="16:44">Brattholmen skule</stop>
+    <stop arrival="16:45">Brattholmen snuplass</stop>
+  </route>
+</routes>

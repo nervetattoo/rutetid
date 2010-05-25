@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="512" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/942573/319462/700204/35911/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="12:30" routeNo="512">Grimstad (Fana)</stop>
+    <stop arrival="12:31" departure="12:31">Grimstad handel (Fana)</stop>
+    <stop arrival="12:33" departure="12:33">Ytre Hope</stop>
+    <stop arrival="12:35" departure="12:35">Hope (Grimstad, Fana)</stop>
+    <stop arrival="12:36" departure="12:36">Ytre Hammersland</stop>
+    <stop arrival="12:37" departure="12:37">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="12:40" departure="12:40">Søreide skole</stop>
+    <stop arrival="12:41" departure="12:41">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="12:43" departure="12:43">Straume bro</stop>
+    <stop arrival="12:43" departure="12:43">Bergen Motorbåtforening</stop>
+    <stop arrival="12:45" departure="12:45">Straume (Straumeveien, Fana)</stop>
+    <stop arrival="12:46" departure="12:46">Bøjarnesvegen (Toftegård)</stop>
+    <stop arrival="12:46" departure="12:46">Bønesskiftet</stop>
+    <stop arrival="12:48" departure="12:48">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="12:48" departure="12:48">Kråkenes 1</stop>
+    <stop arrival="12:49" departure="12:49">Langebekken</stop>
+    <stop arrival="12:49" departure="12:49">Langegården</stop>
+    <stop arrival="12:50" departure="12:50">Krambua</stop>
+    <stop arrival="12:50" departure="12:50">Fjøsanger</stop>
+    <stop arrival="12:54" departure="12:54">Kanalveien v/NRK</stop>
+    <stop arrival="12:55" departure="12:55">Mindemyren</stop>
+    <stop arrival="12:56" departure="12:56">Postterminalen</stop>
+    <stop arrival="12:56" departure="12:56">Kanalveien v/LBK</stop>
+    <stop arrival="12:58" departure="12:58">Danmarksplass v/Forum kino</stop>
+    <stop arrival="13:02">Bergen Busstasjon</stop>
+  </route>
+</routes>

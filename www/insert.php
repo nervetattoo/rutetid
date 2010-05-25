@@ -5,25 +5,26 @@ require_once("../libs/BusStops.php");
 $db = Config::getDb();
 $view = new View;
 
-$buses = $db->buses->find();
-$busList = array();
-while ($bus = $buses->getNext())
+$routes = $db->routes->find();
+$routeList = array();
+$routeSort = array();
+while ($route = $routes->getNext())
 {
-    $busId = $bus['id'];
     if (isset($_GET['route']))
-        $routeId = $_GET['route'];
+        $getId = $_GET['route'];
     else
-        $routeId = false;
-    foreach ($bus['routes'] as $i => $route) {
-        $busList[] = array(
-            'id'=>$busId, 
-            'name'=>$route['name'], 
-            'i'=>$i,
-            'selected' => ($routeId && $routeId == $busId."_".$i)
-        );
-    }
+        $getId = false;
+    $id = $route['_id'];
+    $routeSort[] = $route['num'];
+    $routeList[] = array(
+        'id' => $id,
+        'num' => $route['num'],
+        'dest' => $route['dest'],
+        'selected' => ($getId && $getId == $id)
+    );
 }
-$view->assign('routes', $busList);
+array_multisort($routeSort, SORT_ASC, $routeList);
+$view->assign('routes', $routeList);
 
 if (isset($_GET['route_json']))
 {
@@ -44,15 +45,16 @@ if (isset($_GET['route_json']))
 
 if (isset($_GET['route']))
 {
-    list($busId, $routeKey) = explode('_', $_GET['route']);
+    $routeId = $_GET['route'];
     $view->assign('stops', $route['stops']);
 
     $route = null;
-    $bus = null;
-    foreach ($buses as $bus)
-        if ($bus['id'] == $busId) 
-            $route = $bus['routes'][$routeKey];
-    if ($route && $bus) {
+    $routes->reset();
+    while ($r = $routes->getNext()) {
+        if ($r['_id'] == $routeId)
+            $route = $r;
+    }
+    if ($route) {
         $stops = $route['stops'];
         $markers = array();
         $markerUrl = "";
@@ -64,7 +66,7 @@ if (isset($_GET['route']))
         foreach ($stops as $st) {
             $stop = BusStops::getStop($st['name']);
             $i++;
-            if ($stop !== null) {
+            if ($stop !== null && isset($stop['location']) && $i % 4) {
                 $m = $stop['location'][0] . "," . $stop['location'][1];
                 $markers[] = $m;
                 $markerUrl .= "&markers=size:mid|color:red|label:$i|$m";

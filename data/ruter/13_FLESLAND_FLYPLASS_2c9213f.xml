@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="409" destination="Flesland kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/384816/128279/327012/35234/1/" trafficDays="kjører 25. Apr">
+    <stop departure="13:00" routeNo="409">Flesland Flyplass</stop>
+    <stop arrival="13:07">Flesland kai</stop>
+  </route>
+  <route no="409" destination="Flesland kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/30666/10222/393284/186421/1/" trafficDays="kjører 20. til 30. Apr Ma - Fr">
+    <stop departure="13:30" routeNo="409">Flesland Flyplass</stop>
+    <stop arrival="13:37">Flesland kai</stop>
+  </route>
+  <route no="523" destination="Flesland snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/398958/138280/900342/317185/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:50" routeNo="523">Birkelandskrysset Terminal</stop>
+    <stop arrival="13:51" departure="13:51">Kokstadskiftet</stop>
+    <stop arrival="13:52" departure="13:52">Liland (Flyplassvegen)</stop>
+    <stop arrival="13:53" departure="13:53">Flesland Flyplass</stop>
+    <stop arrival="13:54" departure="13:54">Lønningen (Fana)</stop>
+    <stop arrival="13:55" departure="13:55">Liland (Fana)</stop>
+    <stop arrival="13:56" departure="13:56">Liland skole</stop>
+    <stop arrival="13:58" departure="13:58">Blomsterdalen</stop>
+    <stop arrival="13:59" departure="13:59">Grana</stop>
+    <stop arrival="14:00" departure="14:00">Nobi</stop>
+    <stop arrival="14:01" departure="14:01">Sommerleiren</stop>
+    <stop arrival="14:02" departure="14:02">Slettenskiftet</stop>
+    <stop arrival="14:03" departure="14:03">Flesland gård</stop>
+    <stop arrival="14:04" departure="14:04">Flesland bruktjern</stop>
+    <stop arrival="14:05" departure="14:05">Flesland</stop>
+    <stop arrival="14:05">Flesland snuplass</stop>
+  </route>
+</routes>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="524" destination="Birkelandskrysset Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/496989/170965/571838/120256/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:25" routeNo="524">Espeland kai (Fana)</stop>
+    <stop arrival="6:26" departure="6:26">Wiikskiftet</stop>
+    <stop arrival="6:26" departure="6:26">M. Espeland</stop>
+    <stop arrival="6:27" departure="6:27">Myntevik</stop>
+    <stop arrival="6:28" departure="6:28">E. Espeland</stop>
+    <stop arrival="6:30" departure="6:30">Ådlandsskiftet</stop>
+    <stop arrival="6:31" departure="6:31">Ådlandsflaten</stop>
+    <stop arrival="6:32" departure="6:32">Blomsterdalen</stop>
+    <stop arrival="6:35">Birkelandskrysset Terminal</stop>
+  </route>
+  <route no="524" destination="Espeland kai (Fana)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/357477/124462/122562/57878/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:40" routeNo="524">Birkelandskrysset Terminal</stop>
+    <stop arrival="6:40" departure="6:40">Kokstadskiftet</stop>
+    <stop arrival="6:41" departure="6:41">Liland (Flyplassvegen)</stop>
+    <stop arrival="6:42" departure="6:42">Flesland Flyplass</stop>
+    <stop arrival="6:43" departure="6:43">Lønningen (Fana)</stop>
+    <stop arrival="6:43" departure="6:43">Liland (Fana)</stop>
+    <stop arrival="6:44" departure="6:44">Liland skole</stop>
+    <stop arrival="6:45" departure="6:45">Blomsterdalen</stop>
+    <stop arrival="6:45" departure="6:45">Grana</stop>
+    <stop arrival="6:46" departure="6:46">Nobi</stop>
+    <stop arrival="6:46" departure="6:46">Sommerleiren</stop>
+    <stop arrival="6:46" departure="6:46">Slettenskiftet</stop>
+    <stop arrival="6:47" departure="6:47">Flesland gård</stop>
+    <stop arrival="6:47" departure="6:47">Flesland bruktjern</stop>
+    <stop arrival="6:47" departure="6:47">Flesland</stop>
+    <stop arrival="6:47" departure="6:47">Flesland snuplass</stop>
+    <stop arrival="6:48" departure="6:48">Flesland</stop>
+    <stop arrival="6:48" departure="6:48">Flesland bruktjern</stop>
+    <stop arrival="6:49" departure="6:49">Flesland gård</stop>
+    <stop arrival="6:50" departure="6:50">Slettenskiftet</stop>
+    <stop arrival="6:52" departure="6:52">Sommerleiren</stop>
+    <stop arrival="6:52" departure="6:52">Nobi</stop>
+    <stop arrival="6:54" departure="6:54">Grana</stop>
+    <stop arrival="6:55" departure="6:55">Blomsterdalen</stop>
+    <stop arrival="6:56" departure="6:56">Ådlandsflaten</stop>
+    <stop arrival="6:57" departure="6:57">Ådlandsskiftet</stop>
+    <stop arrival="6:58" departure="6:58">E. Espeland</stop>
+    <stop arrival="6:58" departure="6:58">Myntevik</stop>
+    <stop arrival="6:59" departure="6:59">M. Espeland</stop>
+    <stop arrival="6:59" departure="6:59">Wiikskiftet</stop>
+    <stop arrival="7:00">Espeland kai (Fana)</stop>
+  </route>
+</routes>

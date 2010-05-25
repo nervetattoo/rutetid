@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="211" destination="Jordal snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/967170/327346/656514/5867/1/" trafficDays="kjører Ti">
+    <stop departure="13:15" routeNo="211">Lillevågen</stop>
+    <stop arrival="13:16" departure="13:16">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="13:17" departure="13:17">Fabrikkvegen</stop>
+    <stop arrival="13:19" departure="13:19">Eidsvåg snuplass</stop>
+    <stop arrival="13:20" departure="13:20">Munkebottsveien</stop>
+    <stop arrival="13:21" departure="13:21">Fatland</stop>
+    <stop arrival="13:26" departure="13:26">Jordal (Eidsvåg)</stop>
+    <stop arrival="13:29">Jordal snuplass</stop>
+  </route>
+  <route no="211" destination="Jordal snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/556524/190464/368714/1151/1/" trafficDays="kjører Ti">
+    <stop departure="13:15" routeNo="211">Lillevågen</stop>
+    <stop arrival="13:16" departure="13:16">Hagebyen (Eidsvåg)</stop>
+    <stop arrival="13:17" departure="13:17">Fabrikkvegen</stop>
+    <stop arrival="13:19" departure="13:19">Eidsvåg snuplass</stop>
+    <stop arrival="13:20" departure="13:20">Munkebottsveien</stop>
+    <stop arrival="13:21" departure="13:21">Fatland</stop>
+    <stop arrival="13:26" departure="13:26">Jordal (Eidsvåg)</stop>
+    <stop arrival="13:29">Jordal snuplass</stop>
+  </route>
+</routes>

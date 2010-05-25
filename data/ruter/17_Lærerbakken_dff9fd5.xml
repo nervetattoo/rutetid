@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="6" destination="Grønnestølen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/234861/81867/56714/49930/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="16:35" routeNo="6">Formannsvei</stop>
+    <stop arrival="16:37" departure="16:37">Kirkegaten</stop>
+    <stop arrival="16:38" departure="16:38">Sandvikskirken</stop>
+    <stop arrival="16:39" departure="16:39">Nye Sandviksveien</stop>
+    <stop arrival="16:40" departure="16:40">Sverresborg</stop>
+    <stop arrival="16:41" departure="16:41">Øvre Dreggsalmenningen</stop>
+    <stop arrival="16:43" departure="16:43">Bryggen</stop>
+    <stop arrival="16:44" departure="16:44">Torget v/Lido</stop>
+    <stop arrival="16:45" departure="16:45">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="16:48" departure="16:48">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="16:50" departure="16:50">Gyldenpris</stop>
+    <stop arrival="16:51" departure="16:51">Gyldenprisveien</stop>
+    <stop arrival="16:52" departure="16:52">Lotheveien</stop>
+    <stop arrival="16:53" departure="16:53">Michael Krohns gate</stop>
+    <stop arrival="16:54" departure="16:54">Lien (Solheimsviken)</stop>
+    <stop arrival="16:56" departure="16:56">Vikens gate</stop>
+    <stop arrival="16:56" departure="16:56">Bøhmergaten</stop>
+    <stop arrival="16:57" departure="16:57">Michael Krohns gate</stop>
+    <stop arrival="16:59" departure="16:59">Sygnagaten</stop>
+    <stop arrival="17:00" departure="17:00">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:00" departure="17:00">Lærerbakken</stop>
+    <stop arrival="17:01" departure="17:01">Kristian Bings vei</stop>
+    <stop arrival="17:02" departure="17:02">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:02" departure="17:02">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:04" departure="17:04">Minde Allé</stop>
+    <stop arrival="17:05" departure="17:05">Fjøsangerveien/Minde Allé</stop>
+    <stop arrival="17:06" departure="17:06">Kristianborg</stop>
+    <stop arrival="17:07" departure="17:07">Løbergsalleen</stop>
+    <stop arrival="17:08">Grønnestølen</stop>
+  </route>
+  <route no="6" destination="Formannsvei" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/247005/85943/641078/238205/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:05" routeNo="6">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:06" departure="17:06">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:06" departure="17:06">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:07" departure="17:07">Lærerbakken</stop>
+    <stop arrival="17:09" departure="17:09">Skrivergaten</stop>
+    <stop arrival="17:10" departure="17:10">Møregaten</stop>
+    <stop arrival="17:10" departure="17:10">Bøhmergaten</stop>
+    <stop arrival="17:11" departure="17:11">Vikens gate</stop>
+    <stop arrival="17:12" departure="17:12">Solheimsviken</stop>
+    <stop arrival="17:13" departure="17:13">Lien (Solheimsviken)</stop>
+    <stop arrival="17:13" departure="17:13">Michael Krohns gate</stop>
+    <stop arrival="17:14" departure="17:14">Lotheveien</stop>
+    <stop arrival="17:18" departure="17:18">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:20" departure="17:20">Christies gate (Festplassen)</stop>
+    <stop arrival="17:23" departure="17:23">Torget v/DnB</stop>
+    <stop arrival="17:25" departure="17:25">Bryggen</stop>
+    <stop arrival="17:26" departure="17:26">Sandbrugaten</stop>
+    <stop arrival="17:29" departure="17:29">Sverresborg</stop>
+    <stop arrival="17:30" departure="17:30">Nye Sandviksveien</stop>
+    <stop arrival="17:32" departure="17:32">Sandvikskirken</stop>
+    <stop arrival="17:34" departure="17:34">Amalie Skrams vei</stop>
+    <stop arrival="17:35">Formannsvei</stop>
+  </route>
+  <route no="6" destination="Formannsvei" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/409728/140142/434362/80606/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="17:05" routeNo="6">Grønnestølen</stop>
+    <stop arrival="17:06" departure="17:06">Løbergsalleen</stop>
+    <stop arrival="17:07" departure="17:07">Kristianborg</stop>
+    <stop arrival="17:08" departure="17:08">Fjøsangerveien/Minde Allé</stop>
+    <stop arrival="17:10" departure="17:10">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:11" departure="17:11">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:11" departure="17:11">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:12" departure="17:12">Lærerbakken</stop>
+    <stop arrival="17:14" departure="17:14">Skrivergaten</stop>
+    <stop arrival="17:15" departure="17:15">Møregaten</stop>
+    <stop arrival="17:15" departure="17:15">Bøhmergaten</stop>
+    <stop arrival="17:16" departure="17:16">Vikens gate</stop>
+    <stop arrival="17:17" departure="17:17">Solheimsviken</stop>
+    <stop arrival="17:18" departure="17:18">Lien (Solheimsviken)</stop>
+    <stop arrival="17:18" departure="17:18">Michael Krohns gate</stop>
+    <stop arrival="17:19" departure="17:19">Lotheveien</stop>
+    <stop arrival="17:23" departure="17:23">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:25" departure="17:25">Christies gate (Festplassen)</stop>
+    <stop arrival="17:28" departure="17:28">Torget v/DnB</stop>
+    <stop arrival="17:29" departure="17:29">Bryggen</stop>
+    <stop arrival="17:30" departure="17:30">Sandbrugaten</stop>
+    <stop arrival="17:31" departure="17:31">Sverresborg</stop>
+    <stop arrival="17:32" departure="17:32">Nye Sandviksveien</stop>
+    <stop arrival="17:33" departure="17:33">Sandvikskirken</stop>
+    <stop arrival="17:34" departure="17:34">Amalie Skrams vei</stop>
+    <stop arrival="17:35">Formannsvei</stop>
+  </route>
+  <route no="5" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/933003/314498/845814/111907/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="16:45" routeNo="5">Mulen</stop>
+    <stop arrival="16:46" departure="16:46">Prahls vei</stop>
+    <stop arrival="16:47" departure="16:47">Øvre Sandviksvei</stop>
+    <stop arrival="16:49" departure="16:49">Ladegårdsgaten</stop>
+    <stop arrival="16:49" departure="16:49">Helgesens gate</stop>
+    <stop arrival="16:51" departure="16:51">Øvre Dreggsalmenningen</stop>
+    <stop arrival="16:53" departure="16:53">Bryggen</stop>
+    <stop arrival="16:54" departure="16:54">Torget v/Lido</stop>
+    <stop arrival="16:55" departure="16:55">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="16:58" departure="16:58">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:00" departure="17:00">Gyldenpris</stop>
+    <stop arrival="17:02" departure="17:02">Gyldenprisveien</stop>
+    <stop arrival="17:03" departure="17:03">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:05" departure="17:05">Frydenbølien</stop>
+    <stop arrival="17:06" departure="17:06">Solheimslien - nord</stop>
+    <stop arrival="17:07" departure="17:07">Solheimslien</stop>
+    <stop arrival="17:07" departure="17:07">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:08" departure="17:08">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:09" departure="17:09">Løvstakkveien</stop>
+    <stop arrival="17:10" departure="17:10">Blekenberg</stop>
+    <stop arrival="17:11" departure="17:11">Sygnagaten</stop>
+    <stop arrival="17:12" departure="17:12">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:13" departure="17:13">Lærerbakken</stop>
+    <stop arrival="17:13" departure="17:13">Kristian Bings vei</stop>
+    <stop arrival="17:14" departure="17:14">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:14" departure="17:14">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:15">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="6" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/34836/15170/172364/74570/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="16:50" routeNo="6">Formannsvei</stop>
+    <stop arrival="16:52" departure="16:52">Kirkegaten</stop>
+    <stop arrival="16:53" departure="16:53">Sandvikskirken</stop>
+    <stop arrival="16:54" departure="16:54">Nye Sandviksveien</stop>
+    <stop arrival="16:55" departure="16:55">Sverresborg</stop>
+    <stop arrival="16:56" departure="16:56">Øvre Dreggsalmenningen</stop>
+    <stop arrival="16:58" departure="16:58">Bryggen</stop>
+    <stop arrival="16:59" departure="16:59">Torget v/Lido</stop>
+    <stop arrival="17:00" departure="17:00">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:02" departure="17:02">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:04" departure="17:04">Gyldenpris</stop>
+    <stop arrival="17:05" departure="17:05">Gyldenprisveien</stop>
+    <stop arrival="17:06" departure="17:06">Lotheveien</stop>
+    <stop arrival="17:07" departure="17:07">Michael Krohns gate</stop>
+    <stop arrival="17:08" departure="17:08">Lien (Solheimsviken)</stop>
+    <stop arrival="17:09" departure="17:09">Vikens gate</stop>
+    <stop arrival="17:09" departure="17:09">Bøhmergaten</stop>
+    <stop arrival="17:10" departure="17:10">Michael Krohns gate</stop>
+    <stop arrival="17:11" departure="17:11">Sygnagaten</stop>
+    <stop arrival="17:12" departure="17:12">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:13" departure="17:13">Lærerbakken</stop>
+    <stop arrival="17:14" departure="17:14">Kristian Bings vei</stop>
+    <stop arrival="17:14" departure="17:14">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:14" departure="17:14">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:15">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="5" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/104304/38309/92852/11658/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:50" routeNo="5">Mulen</stop>
+    <stop arrival="16:51" departure="16:51">Prahls vei</stop>
+    <stop arrival="16:52" departure="16:52">Øvre Sandviksvei</stop>
+    <stop arrival="16:54" departure="16:54">Ladegårdsgaten</stop>
+    <stop arrival="16:54" departure="16:54">Helgesens gate</stop>
+    <stop arrival="16:56" departure="16:56">Øvre Dreggsalmenningen</stop>
+    <stop arrival="16:58" departure="16:58">Bryggen</stop>
+    <stop arrival="16:59" departure="16:59">Torget v/Lido</stop>
+    <stop arrival="17:00" departure="17:00">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:03" departure="17:03">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:05" departure="17:05">Gyldenpris</stop>
+    <stop arrival="17:07" departure="17:07">Gyldenprisveien</stop>
+    <stop arrival="17:08" departure="17:08">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:10" departure="17:10">Frydenbølien</stop>
+    <stop arrival="17:11" departure="17:11">Solheimslien - nord</stop>
+    <stop arrival="17:12" departure="17:12">Solheimslien</stop>
+    <stop arrival="17:12" departure="17:12">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:13" departure="17:13">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:14" departure="17:14">Løvstakkveien</stop>
+    <stop arrival="17:15" departure="17:15">Blekenberg</stop>
+    <stop arrival="17:16" departure="17:16">Sygnagaten</stop>
+    <stop arrival="17:17" departure="17:17">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:18" departure="17:18">Lærerbakken</stop>
+    <stop arrival="17:18" departure="17:18">Kristian Bings vei</stop>
+    <stop arrival="17:19" departure="17:19">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:19" departure="17:19">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:20">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="5" destination="Mulen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/151260/53958/6852/46995/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:15" routeNo="5">Grønnestølen</stop>
+    <stop arrival="17:16" departure="17:16">Løbergsalleen</stop>
+    <stop arrival="17:17" departure="17:17">Kristianborg</stop>
+    <stop arrival="17:18" departure="17:18">Fjøsangerveien/Minde Allé</stop>
+    <stop arrival="17:20" departure="17:20">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:21" departure="17:21">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:21" departure="17:21">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:22" departure="17:22">Lærerbakken</stop>
+    <stop arrival="17:24" departure="17:24">Skrivergaten</stop>
+    <stop arrival="17:25" departure="17:25">Blekenberg</stop>
+    <stop arrival="17:26" departure="17:26">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:27" departure="17:27">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:28" departure="17:28">Solheimslien</stop>
+    <stop arrival="17:28" departure="17:28">Frydenbølien</stop>
+    <stop arrival="17:29" departure="17:29">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:30" departure="17:30">Gyldenprisveien</stop>
+    <stop arrival="17:33" departure="17:33">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:35" departure="17:35">Christies gate (Festplassen)</stop>
+    <stop arrival="17:38" departure="17:38">Torget v/DnB</stop>
+    <stop arrival="17:41" departure="17:41">Bryggen</stop>
+    <stop arrival="17:42" departure="17:42">Sandbrugaten</stop>
+    <stop arrival="17:45" departure="17:45">Helgesens gate</stop>
+    <stop arrival="17:46" departure="17:46">Ladegårdsgaten</stop>
+    <stop arrival="17:47" departure="17:47">Øvre Sandviksvei</stop>
+    <stop arrival="17:48" departure="17:48">Prahls vei</stop>
+    <stop arrival="17:50">Mulen</stop>
+  </route>
+  <route no="6" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/112959/41232/524954/224825/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="17:00" routeNo="6">Formannsvei</stop>
+    <stop arrival="17:02" departure="17:02">Kirkegaten</stop>
+    <stop arrival="17:03" departure="17:03">Sandvikskirken</stop>
+    <stop arrival="17:04" departure="17:04">Nye Sandviksveien</stop>
+    <stop arrival="17:05" departure="17:05">Sverresborg</stop>
+    <stop arrival="17:06" departure="17:06">Øvre Dreggsalmenningen</stop>
+    <stop arrival="17:08" departure="17:08">Bryggen</stop>
+    <stop arrival="17:09" departure="17:09">Torget v/Lido</stop>
+    <stop arrival="17:10" departure="17:10">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:12" departure="17:12">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:14" departure="17:14">Gyldenpris</stop>
+    <stop arrival="17:15" departure="17:15">Gyldenprisveien</stop>
+    <stop arrival="17:16" departure="17:16">Lotheveien</stop>
+    <stop arrival="17:17" departure="17:17">Michael Krohns gate</stop>
+    <stop arrival="17:18" departure="17:18">Lien (Solheimsviken)</stop>
+    <stop arrival="17:19" departure="17:19">Vikens gate</stop>
+    <stop arrival="17:19" departure="17:19">Bøhmergaten</stop>
+    <stop arrival="17:20" departure="17:20">Michael Krohns gate</stop>
+    <stop arrival="17:21" departure="17:21">Sygnagaten</stop>
+    <stop arrival="17:22" departure="17:22">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:23" departure="17:23">Lærerbakken</stop>
+    <stop arrival="17:24" departure="17:24">Kristian Bings vei</stop>
+    <stop arrival="17:24" departure="17:24">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:24" departure="17:24">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:25">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="6" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/815763/275530/951578/203868/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:05" routeNo="6">Formannsvei</stop>
+    <stop arrival="17:07" departure="17:07">Kirkegaten</stop>
+    <stop arrival="17:08" departure="17:08">Sandvikskirken</stop>
+    <stop arrival="17:09" departure="17:09">Nye Sandviksveien</stop>
+    <stop arrival="17:10" departure="17:10">Sverresborg</stop>
+    <stop arrival="17:11" departure="17:11">Øvre Dreggsalmenningen</stop>
+    <stop arrival="17:13" departure="17:13">Bryggen</stop>
+    <stop arrival="17:14" departure="17:14">Torget v/Lido</stop>
+    <stop arrival="17:15" departure="17:15">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:17" departure="17:17">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:19" departure="17:19">Gyldenpris</stop>
+    <stop arrival="17:20" departure="17:20">Gyldenprisveien</stop>
+    <stop arrival="17:21" departure="17:21">Lotheveien</stop>
+    <stop arrival="17:22" departure="17:22">Michael Krohns gate</stop>
+    <stop arrival="17:23" departure="17:23">Lien (Solheimsviken)</stop>
+    <stop arrival="17:24" departure="17:24">Vikens gate</stop>
+    <stop arrival="17:24" departure="17:24">Bøhmergaten</stop>
+    <stop arrival="17:25" departure="17:25">Michael Krohns gate</stop>
+    <stop arrival="17:26" departure="17:26">Sygnagaten</stop>
+    <stop arrival="17:27" departure="17:27">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:28" departure="17:28">Lærerbakken</stop>
+    <stop arrival="17:29" departure="17:29">Kristian Bings vei</stop>
+    <stop arrival="17:29" departure="17:29">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:29" departure="17:29">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:30">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="6" destination="Formannsvei" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/7470/6049/53956/24488/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="17:30" routeNo="6">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:31" departure="17:31">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:31" departure="17:31">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:32" departure="17:32">Lærerbakken</stop>
+    <stop arrival="17:34" departure="17:34">Skrivergaten</stop>
+    <stop arrival="17:35" departure="17:35">Møregaten</stop>
+    <stop arrival="17:35" departure="17:35">Bøhmergaten</stop>
+    <stop arrival="17:36" departure="17:36">Vikens gate</stop>
+    <stop arrival="17:37" departure="17:37">Solheimsviken</stop>
+    <stop arrival="17:38" departure="17:38">Lien (Solheimsviken)</stop>
+    <stop arrival="17:38" departure="17:38">Michael Krohns gate</stop>
+    <stop arrival="17:39" departure="17:39">Lotheveien</stop>
+    <stop arrival="17:43" departure="17:43">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:45" departure="17:45">Christies gate (Festplassen)</stop>
+    <stop arrival="17:48" departure="17:48">Torget v/DnB</stop>
+    <stop arrival="17:49" departure="17:49">Bryggen</stop>
+    <stop arrival="17:50" departure="17:50">Sandbrugaten</stop>
+    <stop arrival="17:51" departure="17:51">Sverresborg</stop>
+    <stop arrival="17:52" departure="17:52">Nye Sandviksveien</stop>
+    <stop arrival="17:53" departure="17:53">Sandvikskirken</stop>
+    <stop arrival="17:54" departure="17:54">Amalie Skrams vei</stop>
+    <stop arrival="17:55">Formannsvei</stop>
+  </route>
+  <route no="5" destination="Mulen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/187572/66036/750294/312623/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="17:35" routeNo="5">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:36" departure="17:36">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:36" departure="17:36">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:37" departure="17:37">Lærerbakken</stop>
+    <stop arrival="17:39" departure="17:39">Skrivergaten</stop>
+    <stop arrival="17:40" departure="17:40">Blekenberg</stop>
+    <stop arrival="17:41" departure="17:41">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:42" departure="17:42">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:43" departure="17:43">Solheimslien</stop>
+    <stop arrival="17:43" departure="17:43">Frydenbølien</stop>
+    <stop arrival="17:44" departure="17:44">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:45" departure="17:45">Gyldenprisveien</stop>
+    <stop arrival="17:48" departure="17:48">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:50" departure="17:50">Christies gate (Festplassen)</stop>
+    <stop arrival="17:53" departure="17:53">Torget v/DnB</stop>
+    <stop arrival="17:55" departure="17:55">Bryggen</stop>
+    <stop arrival="17:55" departure="17:55">Sandbrugaten</stop>
+    <stop arrival="17:57" departure="17:57">Helgesens gate</stop>
+    <stop arrival="17:57" departure="17:57">Ladegårdsgaten</stop>
+    <stop arrival="17:58" departure="17:58">Øvre Sandviksvei</stop>
+    <stop arrival="17:59" departure="17:59">Prahls vei</stop>
+    <stop arrival="18:00">Mulen</stop>
+  </route>
+  <route no="6" destination="Formannsvei" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/467175/159333/512680/100617/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:35" routeNo="6">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:36" departure="17:36">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:36" departure="17:36">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:37" departure="17:37">Lærerbakken</stop>
+    <stop arrival="17:39" departure="17:39">Skrivergaten</stop>
+    <stop arrival="17:40" departure="17:40">Møregaten</stop>
+    <stop arrival="17:40" departure="17:40">Bøhmergaten</stop>
+    <stop arrival="17:41" departure="17:41">Vikens gate</stop>
+    <stop arrival="17:42" departure="17:42">Solheimsviken</stop>
+    <stop arrival="17:43" departure="17:43">Lien (Solheimsviken)</stop>
+    <stop arrival="17:43" departure="17:43">Michael Krohns gate</stop>
+    <stop arrival="17:44" departure="17:44">Lotheveien</stop>
+    <stop arrival="17:48" departure="17:48">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:50" departure="17:50">Christies gate (Festplassen)</stop>
+    <stop arrival="17:53" departure="17:53">Torget v/DnB</stop>
+    <stop arrival="17:55" departure="17:55">Bryggen</stop>
+    <stop arrival="17:56" departure="17:56">Sandbrugaten</stop>
+    <stop arrival="17:59" departure="17:59">Sverresborg</stop>
+    <stop arrival="18:00" departure="18:00">Nye Sandviksveien</stop>
+    <stop arrival="18:02" departure="18:02">Sandvikskirken</stop>
+    <stop arrival="18:04" departure="18:04">Amalie Skrams vei</stop>
+    <stop arrival="18:05">Formannsvei</stop>
+  </route>
+  <route no="5" destination="Grønnestølen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/303603/104712/695708/246653/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="17:15" routeNo="5">Mulen</stop>
+    <stop arrival="17:16" departure="17:16">Prahls vei</stop>
+    <stop arrival="17:17" departure="17:17">Øvre Sandviksvei</stop>
+    <stop arrival="17:19" departure="17:19">Ladegårdsgaten</stop>
+    <stop arrival="17:19" departure="17:19">Helgesens gate</stop>
+    <stop arrival="17:21" departure="17:21">Øvre Dreggsalmenningen</stop>
+    <stop arrival="17:23" departure="17:23">Bryggen</stop>
+    <stop arrival="17:24" departure="17:24">Torget v/Lido</stop>
+    <stop arrival="17:25" departure="17:25">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:28" departure="17:28">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:30" departure="17:30">Gyldenpris</stop>
+    <stop arrival="17:32" departure="17:32">Gyldenprisveien</stop>
+    <stop arrival="17:33" departure="17:33">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:35" departure="17:35">Frydenbølien</stop>
+    <stop arrival="17:36" departure="17:36">Solheimslien - nord</stop>
+    <stop arrival="17:37" departure="17:37">Solheimslien</stop>
+    <stop arrival="17:37" departure="17:37">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:38" departure="17:38">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:39" departure="17:39">Løvstakkveien</stop>
+    <stop arrival="17:40" departure="17:40">Blekenberg</stop>
+    <stop arrival="17:41" departure="17:41">Sygnagaten</stop>
+    <stop arrival="17:41" departure="17:41">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:41" departure="17:41">Lærerbakken</stop>
+    <stop arrival="17:42" departure="17:42">Kristian Bings vei</stop>
+    <stop arrival="17:42" departure="17:42">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:42" departure="17:42">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:43" departure="17:43">Minde Allé</stop>
+    <stop arrival="17:43" departure="17:43">Fjøsangerveien/Minde Allé</stop>
+    <stop arrival="17:44" departure="17:44">Kristianborg</stop>
+    <stop arrival="17:45" departure="17:45">Løbergsalleen</stop>
+    <stop arrival="17:45">Grønnestølen</stop>
+  </route>
+  <route no="5" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/259740/90068/214372/20607/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="17:20" routeNo="5">Mulen</stop>
+    <stop arrival="17:21" departure="17:21">Prahls vei</stop>
+    <stop arrival="17:21" departure="17:21">Øvre Sandviksvei</stop>
+    <stop arrival="17:22" departure="17:22">Ladegårdsgaten</stop>
+    <stop arrival="17:23" departure="17:23">Helgesens gate</stop>
+    <stop arrival="17:24" departure="17:24">Øvre Dreggsalmenningen</stop>
+    <stop arrival="17:28" departure="17:28">Bryggen</stop>
+    <stop arrival="17:29" departure="17:29">Torget v/Lido</stop>
+    <stop arrival="17:30" departure="17:30">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:32" departure="17:32">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:34" departure="17:34">Gyldenpris</stop>
+    <stop arrival="17:35" departure="17:35">Gyldenprisveien</stop>
+    <stop arrival="17:36" departure="17:36">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:37" departure="17:37">Frydenbølien</stop>
+    <stop arrival="17:37" departure="17:37">Solheimslien - nord</stop>
+    <stop arrival="17:38" departure="17:38">Solheimslien</stop>
+    <stop arrival="17:38" departure="17:38">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:39" departure="17:39">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:39" departure="17:39">Løvstakkveien</stop>
+    <stop arrival="17:40" departure="17:40">Blekenberg</stop>
+    <stop arrival="17:41" departure="17:41">Sygnagaten</stop>
+    <stop arrival="17:42" departure="17:42">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:43" departure="17:43">Lærerbakken</stop>
+    <stop arrival="17:43" departure="17:43">Kristian Bings vei</stop>
+    <stop arrival="17:44" departure="17:44">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:44" departure="17:44">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:45">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="5" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/455412/155345/178622/62494/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:20" routeNo="5">Mulen</stop>
+    <stop arrival="17:21" departure="17:21">Prahls vei</stop>
+    <stop arrival="17:22" departure="17:22">Øvre Sandviksvei</stop>
+    <stop arrival="17:24" departure="17:24">Ladegårdsgaten</stop>
+    <stop arrival="17:24" departure="17:24">Helgesens gate</stop>
+    <stop arrival="17:26" departure="17:26">Øvre Dreggsalmenningen</stop>
+    <stop arrival="17:28" departure="17:28">Bryggen</stop>
+    <stop arrival="17:29" departure="17:29">Torget v/Lido</stop>
+    <stop arrival="17:30" departure="17:30">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:33" departure="17:33">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:35" departure="17:35">Gyldenpris</stop>
+    <stop arrival="17:37" departure="17:37">Gyldenprisveien</stop>
+    <stop arrival="17:38" departure="17:38">Lien nord (Gyldenpris)</stop>
+    <stop arrival="17:40" departure="17:40">Frydenbølien</stop>
+    <stop arrival="17:41" departure="17:41">Solheimslien - nord</stop>
+    <stop arrival="17:42" departure="17:42">Solheimslien</stop>
+    <stop arrival="17:42" departure="17:42">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:43" departure="17:43">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:44" departure="17:44">Løvstakkveien</stop>
+    <stop arrival="17:45" departure="17:45">Blekenberg</stop>
+    <stop arrival="17:46" departure="17:46">Sygnagaten</stop>
+    <stop arrival="17:47" departure="17:47">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:48" departure="17:48">Lærerbakken</stop>
+    <stop arrival="17:48" departure="17:48">Kristian Bings vei</stop>
+    <stop arrival="17:49" departure="17:49">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:49" departure="17:49">Mindeveien v/nr. 73</stop>
+    <stop arrival="17:50">Mindeveien endeholdeplass</stop>
+  </route>
+  <route no="5" destination="Mulen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/254415/88345/463796/147094/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:50" routeNo="5">Mindeveien endeholdeplass</stop>
+    <stop arrival="17:51" departure="17:51">Løbergsv. v/nr. 98</stop>
+    <stop arrival="17:51" departure="17:51">Løbergsv. v/kirkegården</stop>
+    <stop arrival="17:52" departure="17:52">Lærerbakken</stop>
+    <stop arrival="17:54" departure="17:54">Skrivergaten</stop>
+    <stop arrival="17:55" departure="17:55">Blekenberg</stop>
+    <stop arrival="17:56" departure="17:56">Solheimslien v/høyblokk</stop>
+    <stop arrival="17:57" departure="17:57">Solheimslien v/nr. 32</stop>
+    <stop arrival="17:58" departure="17:58">Solheimslien</stop>
+    <stop arrival="17:58" departure="17:58">Frydenbølien</stop>
+    <stop arrival="17:59" departure="17:59">Lien nord (Gyldenpris)</stop>
+    <stop arrival="18:00" departure="18:00">Gyldenprisveien</stop>
+    <stop arrival="18:03" departure="18:03">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="18:05" departure="18:05">Christies gate (Festplassen)</stop>
+    <stop arrival="18:08" departure="18:08">Torget v/DnB</stop>
+    <stop arrival="18:11" departure="18:11">Bryggen</stop>
+    <stop arrival="18:12" departure="18:12">Sandbrugaten</stop>
+    <stop arrival="18:15" departure="18:15">Helgesens gate</stop>
+    <stop arrival="18:16" departure="18:16">Ladegårdsgaten</stop>
+    <stop arrival="18:17" departure="18:17">Øvre Sandviksvei</stop>
+    <stop arrival="18:18" departure="18:18">Prahls vei</stop>
+    <stop arrival="18:20">Mulen</stop>
+  </route>
+  <route no="6" destination="Mindeveien endeholdeplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/351696/120813/670852/218194/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="17:35" routeNo="6">Formannsvei</stop>
+    <stop arrival="17:37" departure="17:37">Kirkegaten</stop>
+    <stop arrival="17:38" departure="17:38">Sandvikskirken</stop>
+    <stop arrival="17:39" departure="17:39">Nye Sandviksveien</stop>
+    <stop arrival="17:40" departure="17:40">Sverresborg</stop>
+    <stop arrival="17:41" departure="17:41">Øvre Dreggsalmenningen</stop>
+    <stop arrival="17:43" departure="17:43">Bryggen</stop>
+    <stop arrival="17:44" departure="17:44">Torget v/Lido</stop>
+    <stop arrival="17:45" departure="17:45">Olav Kyrres gate v/Hagelin</stop>
+    <stop arrival="17:47" departure="17:47">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="17:49" departure="17:49">Gyldenpris</stop>
+    <stop arrival="17:50" departure="17:50">Gyldenprisveien</stop>
+    <stop arrival="17:51" departure="17:51">Lotheveien</stop>
+    <stop arrival="17:52" departure="17:52">Michael Krohns gate</stop>
+    <stop arrival="17:53" departure="17:53">Lien (Solheimsviken)</stop>
+    <stop arrival="17:54" departure="17:54">Vikens gate</stop>
+    <stop arrival="17:54" departure="17:54">Bøhmergaten</stop>
+    <stop arrival="17:55" departure="17:55">Michael Krohns gate</stop>
+    <stop arrival="17:56" departure="17:56">Sygnagaten</stop>
+    <stop arrival="17:57" departure="17:57">Søre Skogvei v/Løvstaklien</stop>
+    <stop arrival="17:58" departure="17:58">Lærerbakken</stop>
+    <stop arrival="17:59" departure="17:59">Kristian Bings vei</stop>
+    <stop arrival="17:59" departure="17:59">Søndre Skogvei v/Mindeveien</stop>
+    <stop arrival="17:59" departure="17:59">Mindeveien v/nr. 73</stop>
+    <stop arrival="18:00">Mindeveien endeholdeplass</stop>
+  </route>
+</routes>

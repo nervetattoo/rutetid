@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="442" destination="Brattholmen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/871233/292336/518764/31029/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:05" routeNo="442">Straume term.</stop>
+    <stop arrival="10:07" departure="10:07">Lonavegen (Fjell)</stop>
+    <stop arrival="10:07" departure="10:07">Instamyra (Fjell)</stop>
+    <stop arrival="10:08" departure="10:08">Straume søre (Fjell)</stop>
+    <stop arrival="10:09" departure="10:09">Danielsen skole (Fjell)</stop>
+    <stop arrival="10:11" departure="10:11">Storskaret (Fjell)</stop>
+    <stop arrival="10:12" departure="10:12">Brattholmen (garasjen)</stop>
+    <stop arrival="10:14" departure="10:14">Brattholmen skule</stop>
+    <stop arrival="10:15">Brattholmen snuplass</stop>
+  </route>
+  <route no="442" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/631962/212585/674420/126556/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:15" routeNo="442">Brattholmen snuplass</stop>
+    <stop arrival="10:16" departure="10:16">Brattholmen skule</stop>
+    <stop arrival="10:17" departure="10:17">Brattholmen (garasjen)</stop>
+    <stop arrival="10:18" departure="10:18">Storskaret (Fjell)</stop>
+    <stop arrival="10:19" departure="10:19">Danielsen skole (Fjell)</stop>
+    <stop arrival="10:20" departure="10:20">Straume søre (Fjell)</stop>
+    <stop arrival="10:22" departure="10:22">Instamyra (Fjell)</stop>
+    <stop arrival="10:26" departure="10:26">Lonavegen (Fjell)</stop>
+    <stop arrival="10:30">Straume term.</stop>
+  </route>
+  <route no="442" destination="Brattholmen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/992856/332853/991874/164986/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:35" routeNo="442">Straume term.</stop>
+    <stop arrival="10:37" departure="10:37">Lonavegen (Fjell)</stop>
+    <stop arrival="10:37" departure="10:37">Instamyra (Fjell)</stop>
+    <stop arrival="10:38" departure="10:38">Straume søre (Fjell)</stop>
+    <stop arrival="10:39" departure="10:39">Danielsen skole (Fjell)</stop>
+    <stop arrival="10:41" departure="10:41">Storskaret (Fjell)</stop>
+    <stop arrival="10:42" departure="10:42">Brattholmen (garasjen)</stop>
+    <stop arrival="10:44" departure="10:44">Brattholmen skule</stop>
+    <stop arrival="10:45">Brattholmen snuplass</stop>
+  </route>
+</routes>

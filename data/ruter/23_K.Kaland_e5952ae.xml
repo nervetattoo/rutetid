@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="525" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/280695/98952/500852/156862/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="23:25" routeNo="525">Milde</stop>
+    <stop arrival="23:26" departure="23:26">Fana folkehøgskole (Aboretet)</stop>
+    <stop arrival="23:27" departure="23:27">Geilen</stop>
+    <stop arrival="23:27" departure="23:27">Grendatunvegen</stop>
+    <stop arrival="23:28" departure="23:28">Planteskogen (Milde)</stop>
+    <stop arrival="23:30" departure="23:30">Hjellestadskiftet</stop>
+    <stop arrival="23:31" departure="23:31">Seilforeningen</stop>
+    <stop arrival="23:32" departure="23:32">Hjellestad post</stop>
+    <stop arrival="23:32" departure="23:32">Hjellestad</stop>
+    <stop arrival="23:32" departure="23:32">Hjellestad post</stop>
+    <stop arrival="23:34" departure="23:34">Seilforeningen</stop>
+    <stop arrival="23:35" departure="23:35">Hjellestadskiftet</stop>
+    <stop arrival="23:36" departure="23:36">K.Kaland</stop>
+    <stop arrival="23:37" departure="23:37">Ådlandsbro</stop>
+    <stop arrival="23:38" departure="23:38">Heggernesskiftet</stop>
+    <stop arrival="23:39" departure="23:39">Kartveitskiftet</stop>
+    <stop arrival="23:40" departure="23:40">Ådlandsskiftet</stop>
+    <stop arrival="23:41" departure="23:41">Ådlandsflaten</stop>
+    <stop arrival="23:41" departure="23:41">Blomsterdalen</stop>
+    <stop arrival="23:45" departure="23:45">Birkelandskrysset Terminal</stop>
+    <stop arrival="23:45" departure="23:45">Scandic</stop>
+    <stop arrival="23:45" departure="23:45">Nera</stop>
+    <stop arrival="23:46" departure="23:46">BKK , Kokstad</stop>
+    <stop arrival="23:46" departure="23:46">Kokstad Bilhandel</stop>
+    <stop arrival="23:54" departure="23:54">Dolvik terminal</stop>
+    <stop arrival="23:54" departure="23:54">Dolvikbakken</stop>
+    <stop arrival="23:55" departure="23:55">Søreide skole</stop>
+    <stop arrival="23:56" departure="23:56">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="23:58" departure="23:58">Straume bro</stop>
+    <stop arrival="23:58" departure="23:58">Bergen Motorbåtforening</stop>
+    <stop arrival="0:00" departure="0:00">Straume (Straumeveien, Fana)</stop>
+    <stop arrival="0:00" departure="0:00">Bøjarnesvegen (Toftegård)</stop>
+    <stop arrival="0:01" departure="0:01">Bønesskiftet</stop>
+    <stop arrival="0:02" departure="0:02">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="0:02" departure="0:02">Kråkenes 1</stop>
+    <stop arrival="0:02" departure="0:02">Langebekken</stop>
+    <stop arrival="0:03" departure="0:03">Langegården</stop>
+    <stop arrival="0:03" departure="0:03">Krambua</stop>
+    <stop arrival="0:03" departure="0:03">Fjøsanger</stop>
+    <stop arrival="0:07" departure="0:07">Kanalveien v/NRK</stop>
+    <stop arrival="0:08" departure="0:08">Mindemyren</stop>
+    <stop arrival="0:09" departure="0:09">Postterminalen</stop>
+    <stop arrival="0:09" departure="0:09">Kanalveien v/LBK</stop>
+    <stop arrival="0:11" departure="0:11">Danmarksplass v/Forum kino</stop>
+    <stop arrival="0:14" departure="0:14">Bergen Busstasjon</stop>
+    <stop arrival="0:16" departure="0:16">Christies gate (Festplassen)</stop>
+    <stop arrival="0:21">Bergen Busstasjon</stop>
+  </route>
+  <route no="525" destination="Milde" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/231093/82370/295236/70588/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="23:25" routeNo="525">Bergen Busstasjon</stop>
+    <stop arrival="23:27" departure="23:27">Danmarksplass</stop>
+    <stop arrival="23:28" departure="23:28">Solheimsgaten</stop>
+    <stop arrival="23:28" departure="23:28">Reperbanen</stop>
+    <stop arrival="23:29" departure="23:29">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="23:30" departure="23:30">Kristianborg</stop>
+    <stop arrival="23:30" departure="23:30">Grønnestølsbakken</stop>
+    <stop arrival="23:31" departure="23:31">Fjøsanger</stop>
+    <stop arrival="23:31" departure="23:31">Langegården</stop>
+    <stop arrival="23:32" departure="23:32">Langebekken</stop>
+    <stop arrival="23:32" departure="23:32">Kråkenes 1</stop>
+    <stop arrival="23:32" departure="23:32">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="23:33" departure="23:33">Bønesskiftet</stop>
+    <stop arrival="23:33" departure="23:33">Bøjarnesvegen (Toftegård)</stop>
+    <stop arrival="23:33" departure="23:33">Straume (Straumeveien, Fana)</stop>
+    <stop arrival="23:36" departure="23:36">Sementbroen</stop>
+    <stop arrival="23:38" departure="23:38">Straume bro</stop>
+    <stop arrival="23:40" departure="23:40">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="23:41" departure="23:41">Søreide skole</stop>
+    <stop arrival="23:41" departure="23:41">Dolvik terminal</stop>
+    <stop arrival="23:42" departure="23:42">Kokstad Bilhandel</stop>
+    <stop arrival="23:44" departure="23:44">BKK , Kokstad</stop>
+    <stop arrival="23:46" departure="23:46">Nera</stop>
+    <stop arrival="23:47" departure="23:47">Scandic</stop>
+    <stop arrival="23:50" departure="23:50">Birkelandskrysset Terminal</stop>
+    <stop arrival="23:51" departure="23:51">Blomsterdalen</stop>
+    <stop arrival="23:51" departure="23:51">Ådlandsflaten</stop>
+    <stop arrival="23:52" departure="23:52">Ådlandsskiftet</stop>
+    <stop arrival="23:52" departure="23:52">Kartveitskiftet</stop>
+    <stop arrival="23:52" departure="23:52">Heggernesskiftet</stop>
+    <stop arrival="23:53" departure="23:53">Ådlandsbro</stop>
+    <stop arrival="23:53" departure="23:53">K.Kaland</stop>
+    <stop arrival="23:53" departure="23:53">Hjellestadskiftet</stop>
+    <stop arrival="23:56" departure="23:56">Seilforeningen</stop>
+    <stop arrival="23:59" departure="23:59">Hjellestad post</stop>
+    <stop arrival="0:00" departure="0:00">Hjellestad</stop>
+    <stop arrival="0:00" departure="0:00">Hjellestad post</stop>
+    <stop arrival="0:02" departure="0:02">Seilforeningen</stop>
+    <stop arrival="0:04" departure="0:04">Hjellestadskiftet</stop>
+    <stop arrival="0:04" departure="0:04">Planteskogen (Milde)</stop>
+    <stop arrival="0:06" departure="0:06">Planteskogen (Milde)</stop>
+    <stop arrival="0:07" departure="0:07">Grendatunvegen</stop>
+    <stop arrival="0:08" departure="0:08">Geilen</stop>
+    <stop arrival="0:09" departure="0:09">Fana folkehøgskole (Aboretet)</stop>
+    <stop arrival="0:10">Milde</stop>
+  </route>
+  <route no="525" destination="Milde" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/926304/314156/59540/278998/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="23:20" routeNo="525">Bergen Busstasjon</stop>
+    <stop arrival="23:23" departure="23:23">Danmarksplass</stop>
+    <stop arrival="23:23" departure="23:23">Solheimsgaten</stop>
+    <stop arrival="23:24" departure="23:24">Reperbanen</stop>
+    <stop arrival="23:24" departure="23:24">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="23:25" departure="23:25">Kristianborg</stop>
+    <stop arrival="23:26" departure="23:26">Grønnestølsbakken</stop>
+    <stop arrival="23:27" departure="23:27">Fjøsanger</stop>
+    <stop arrival="23:27" departure="23:27">Langegården</stop>
+    <stop arrival="23:28" departure="23:28">Langebekken</stop>
+    <stop arrival="23:29" departure="23:29">Kråkenes 1</stop>
+    <stop arrival="23:29" departure="23:29">Kråkenes 2 (Kleiva)</stop>
+    <stop arrival="23:30" departure="23:30">Bønesskiftet</stop>
+    <stop arrival="23:31" departure="23:31">Bøjarnesvegen (Toftegård)</stop>
+    <stop arrival="23:31" departure="23:31">Straume (Straumeveien, Fana)</stop>
+    <stop arrival="23:33" departure="23:33">Sementbroen</stop>
+    <stop arrival="23:35" departure="23:35">Straume bro</stop>
+    <stop arrival="23:37" departure="23:37">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="23:37" departure="23:37">Søreide skole</stop>
+    <stop arrival="23:38" departure="23:38">Grimstadskiftet</stop>
+    <stop arrival="23:38" departure="23:38">Dolvik terminal</stop>
+    <stop arrival="23:39" departure="23:39">Kokstad Bilhandel</stop>
+    <stop arrival="23:42" departure="23:42">BKK , Kokstad</stop>
+    <stop arrival="23:45" departure="23:45">Nera</stop>
+    <stop arrival="23:46" departure="23:46">Scandic</stop>
+    <stop arrival="23:50" departure="23:50">Birkelandskrysset Terminal</stop>
+    <stop arrival="23:52" departure="23:52">Blomsterdalen</stop>
+    <stop arrival="23:53" departure="23:53">Ådlandsflaten</stop>
+    <stop arrival="23:54" departure="23:54">Ådlandsskiftet</stop>
+    <stop arrival="23:55" departure="23:55">Kartveitskiftet</stop>
+    <stop arrival="23:55" departure="23:55">Heggernesskiftet</stop>
+    <stop arrival="23:57" departure="23:57">Ådlandsbro</stop>
+    <stop arrival="23:57" departure="23:57">K.Kaland</stop>
+    <stop arrival="23:58" departure="23:58">Hjellestadskiftet</stop>
+    <stop arrival="23:59" departure="23:59">Seilforeningen</stop>
+    <stop arrival="0:00" departure="0:00">Hjellestad post</stop>
+    <stop arrival="0:00" departure="0:00">Hjellestad</stop>
+    <stop arrival="0:00" departure="0:00">Hjellestad post</stop>
+    <stop arrival="0:02" departure="0:02">Seilforeningen</stop>
+    <stop arrival="0:04" departure="0:04">Hjellestadskiftet</stop>
+    <stop arrival="0:04" departure="0:04">Planteskogen (Milde)</stop>
+    <stop arrival="0:06" departure="0:06">Planteskogen (Milde)</stop>
+    <stop arrival="0:07" departure="0:07">Grendatunvegen</stop>
+    <stop arrival="0:08" departure="0:08">Geilen</stop>
+    <stop arrival="0:09" departure="0:09">Fana folkehøgskole (Aboretet)</stop>
+    <stop arrival="0:10">Milde</stop>
+  </route>
+</routes>

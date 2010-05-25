@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/204285/72286/484758/174284/1/" trafficDays="kjører 2., 17., 25. Mai">
+    <stop departure="3:45" routeNo="24">Olav Kyrres gate</stop>
+    <stop arrival="3:50" departure="3:50">Bergen Busstasjon</stop>
+    <stop arrival="3:54" departure="3:54">Danmarksplass</stop>
+    <stop arrival="3:55" departure="3:55">Solheimsgaten</stop>
+    <stop arrival="3:56" departure="3:56">Reperbanen</stop>
+    <stop arrival="3:57" departure="3:57">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="4:00" departure="4:00">Minde</stop>
+    <stop arrival="4:01" departure="4:01">Elvebakken</stop>
+    <stop arrival="4:02" departure="4:02">Storetveit</stop>
+    <stop arrival="4:02" departure="4:02">Fantoft</stop>
+    <stop arrival="4:03" departure="4:03">Nydalen</stop>
+    <stop arrival="4:04" departure="4:04">Paradis</stop>
+    <stop arrival="4:05" departure="4:05">Tveiteråsskiftet</stop>
+    <stop arrival="4:06" departure="4:06">Hopsbro</stop>
+    <stop arrival="4:08" departure="4:08">Hopstangen</stop>
+    <stop arrival="4:09">Nesttun terminal</stop>
+  </route>
+  <route no="24" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/906345/306305/379638/112296/1/" trafficDays="kjører Sø, ikke 2. Mai">
+    <stop departure="3:45" routeNo="24">Olav Kyrres gate</stop>
+    <stop arrival="3:50" departure="3:50">Bergen Busstasjon</stop>
+    <stop arrival="3:54" departure="3:54">Danmarksplass</stop>
+    <stop arrival="3:55" departure="3:55">Solheimsgaten</stop>
+    <stop arrival="3:56" departure="3:56">Reperbanen</stop>
+    <stop arrival="3:58" departure="3:58">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="4:01" departure="4:01">Minde</stop>
+    <stop arrival="4:02" departure="4:02">Elvebakken</stop>
+    <stop arrival="4:03" departure="4:03">Storetveit</stop>
+    <stop arrival="4:03" departure="4:03">Fantoft</stop>
+    <stop arrival="4:04" departure="4:04">Nydalen</stop>
+    <stop arrival="4:05" departure="4:05">Paradis</stop>
+    <stop arrival="4:06" departure="4:06">Tveiteråsskiftet</stop>
+    <stop arrival="4:07" departure="4:07">Hopsbro</stop>
+    <stop arrival="4:09" departure="4:09">Hopstangen</stop>
+    <stop arrival="4:10">Nesttun terminal</stop>
+  </route>
+</routes>

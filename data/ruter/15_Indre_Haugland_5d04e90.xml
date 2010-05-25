@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="606" destination="Haugsdal snuplass (Samdal)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/154728/57225/752832/324840/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:55" routeNo="606">Kaland (Fana)</stop>
+    <stop arrival="14:56" departure="14:56">Austevoll (Fana)</stop>
+    <stop arrival="14:57" departure="14:57">Kalandseid</stop>
+    <stop arrival="14:57" departure="14:57">Fredheim (Kalandseid)</stop>
+    <stop arrival="14:59" departure="14:59">Engevik</stop>
+    <stop arrival="15:00" departure="15:00">Sæletun</stop>
+    <stop arrival="15:00" departure="15:00">Grustaket</stop>
+    <stop arrival="15:01" departure="15:01">Høgli</stop>
+    <stop arrival="15:01" departure="15:01">Hauglandslien</stop>
+    <stop arrival="15:02" departure="15:02">Hauglandsgrinden</stop>
+    <stop arrival="15:02" departure="15:02">Ytre Haugland</stop>
+    <stop arrival="15:03" departure="15:03">Indre Haugland</stop>
+    <stop arrival="15:03" departure="15:03">Renen</stop>
+    <stop arrival="15:04" departure="15:04">Eideskiftet (Fana)</stop>
+    <stop arrival="15:04" departure="15:04">Fjelltveit</stop>
+    <stop arrival="15:05" departure="15:05">Indre Fjelltveit</stop>
+    <stop arrival="15:05" departure="15:05">Samdal sag</stop>
+    <stop arrival="15:07" departure="15:07">Hålandskiftet</stop>
+    <stop arrival="15:07" departure="15:07">Samdal skole</stop>
+    <stop arrival="15:08" departure="15:08">Samdal</stop>
+    <stop arrival="15:10" departure="15:10">Haugsdal (Samdal, Fana)</stop>
+    <stop arrival="15:11" departure="15:11">Haugsdal (Samdal, Fana)</stop>
+    <stop arrival="15:12">Haugsdal snuplass (Samdal)</stop>
+  </route>
+  <route no="606" destination="Kaland (Fana)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/157773/58241/684966/289892/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:20" routeNo="606">Haugsdal snuplass (Samdal)</stop>
+    <stop arrival="15:21" departure="15:21">Haugsdal (Samdal, Fana)</stop>
+    <stop arrival="15:22" departure="15:22">Haugsdal (Samdal, Fana)</stop>
+    <stop departure="15:24">Samdal</stop>
+    <stop arrival="15:25" departure="15:25">Samdal skole</stop>
+    <stop arrival="15:25" departure="15:25">Hålandskiftet</stop>
+    <stop arrival="15:27" departure="15:27">Samdal sag</stop>
+    <stop arrival="15:28" departure="15:28">Indre Fjelltveit</stop>
+    <stop arrival="15:29" departure="15:29">Fjelltveit</stop>
+    <stop arrival="15:30" departure="15:30">Eideskiftet (Fana)</stop>
+    <stop arrival="15:31" departure="15:31">Renen</stop>
+    <stop arrival="15:32" departure="15:32">Indre Haugland</stop>
+    <stop arrival="15:32" departure="15:32">Ytre Haugland</stop>
+    <stop arrival="15:33" departure="15:33">Hauglandsgrinden</stop>
+    <stop arrival="15:34" departure="15:34">Hauglandslien</stop>
+    <stop arrival="15:34" departure="15:34">Høgli</stop>
+    <stop arrival="15:35" departure="15:35">Grustaket</stop>
+    <stop arrival="15:36" departure="15:36">Sæletun</stop>
+    <stop arrival="15:36" departure="15:36">Engevik</stop>
+    <stop arrival="15:39" departure="15:39">Fredheim (Kalandseid)</stop>
+    <stop arrival="15:40" departure="15:40">Kalandseid</stop>
+    <stop arrival="15:43" departure="15:43">Austevoll (Fana)</stop>
+    <stop arrival="15:45">Kaland (Fana)</stop>
+  </route>
+</routes>

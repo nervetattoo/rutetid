@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="45" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/247320/84082/823006/329065/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:05" routeNo="45">Flesland Flyplass</stop>
+    <stop arrival="16:06" departure="16:06">Liland (Flyplassvegen)</stop>
+    <stop arrival="16:08" departure="16:08">Birkelandskrysset Terminal</stop>
+    <stop arrival="16:10" departure="16:10">Scandic</stop>
+    <stop arrival="16:12" departure="16:12">Nera</stop>
+    <stop arrival="16:14" departure="16:14">BKK , Kokstad</stop>
+    <stop arrival="16:15" departure="16:15">Kokstad Bilhandel</stop>
+    <stop arrival="16:17" departure="16:17">Storrinden</stop>
+    <stop arrival="16:19" departure="16:19">Dolvikbakken</stop>
+    <stop arrival="16:19" departure="16:19">Grimstadskiftet</stop>
+    <stop arrival="16:20" departure="16:20">Søreide skole</stop>
+    <stop arrival="16:22" departure="16:22">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="16:24" departure="16:24">Straume bro</stop>
+    <stop arrival="16:25" departure="16:25">Sementbroen</stop>
+    <stop arrival="16:30" departure="16:30">Sandeide terminal</stop>
+    <stop arrival="16:31" departure="16:31">Sandeidet barnehage</stop>
+    <stop arrival="16:32" departure="16:32">Sandeidbråtet</stop>
+    <stop arrival="16:33" departure="16:33">Bjørge</stop>
+    <stop arrival="16:36" departure="16:36">Kjerreidviken</stop>
+    <stop arrival="16:38" departure="16:38">Bjørndalsskogen</stop>
+    <stop arrival="16:40" departure="16:40">Sætermyr</stop>
+    <stop arrival="16:42" departure="16:42">Ravnestølen</stop>
+    <stop arrival="16:44" departure="16:44">Bjørndalstræ R557</stop>
+    <stop arrival="16:47" departure="16:47">Loddefjord term.</stop>
+    <stop arrival="16:49" departure="16:49">Loddefjorddalen</stop>
+    <stop arrival="16:50" departure="16:50">Frida Fasmer</stop>
+    <stop arrival="16:51" departure="16:51">Frida Fasmer R555</stop>
+    <stop arrival="16:52" departure="16:52">Storavatnet term.</stop>
+    <stop arrival="16:54" departure="16:54">Breivikskiftet</stop>
+    <stop arrival="16:56" departure="16:56">Drotningsvik Rv 555</stop>
+    <stop arrival="16:58" departure="16:58">Knarrevik</stop>
+    <stop arrival="17:02">Straume term.</stop>
+  </route>
+  <route no="45" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/646281/217081/107476/161689/1/" trafficDays="kjører">
+    <stop departure="16:05" routeNo="45">Flesland Flyplass</stop>
+    <stop arrival="16:06" departure="16:06">Liland (Flyplassvegen)</stop>
+    <stop arrival="16:08" departure="16:08">Birkelandskrysset Terminal</stop>
+    <stop arrival="16:10" departure="16:10">Scandic</stop>
+    <stop arrival="16:10" departure="16:10">Nera</stop>
+    <stop arrival="16:11" departure="16:11">BKK , Kokstad</stop>
+    <stop arrival="16:11" departure="16:11">Kokstad Bilhandel</stop>
+    <stop arrival="16:12" departure="16:12">Birkelandsflaten</stop>
+    <stop arrival="16:12" departure="16:12">Birkelandsflaten</stop>
+    <stop arrival="16:12" departure="16:12">Sandslislusen</stop>
+    <stop arrival="16:13" departure="16:13">Sandslisnuplass</stop>
+    <stop arrival="16:13" departure="16:13">Sandsligården</stop>
+    <stop arrival="16:14" departure="16:14">Statoil (Sandsli)</stop>
+    <stop arrival="16:15" departure="16:15">Statoil stasjon Sandsli</stop>
+    <stop arrival="16:16" departure="16:16">Hydro Sandsli</stop>
+    <stop arrival="16:17" departure="16:17">Petedalsheia</stop>
+    <stop arrival="16:18" departure="16:18">Fanatorget</stop>
+    <stop arrival="16:20" departure="16:20">Regnbueåsen</stop>
+    <stop arrival="16:23" departure="16:23">Skranevegen</stop>
+    <stop arrival="16:23" departure="16:23">Grimstadskiftet</stop>
+    <stop arrival="16:24" departure="16:24">Søreide skole</stop>
+    <stop arrival="16:25" departure="16:25">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="16:27" departure="16:27">Straume bro</stop>
+    <stop arrival="16:28" departure="16:28">Sementbroen</stop>
+    <stop arrival="16:31" departure="16:31">Sandeidet barnehage</stop>
+    <stop arrival="16:31" departure="16:31">Sandeidbråtet</stop>
+    <stop arrival="16:32" departure="16:32">Bjørge</stop>
+    <stop arrival="16:34" departure="16:34">Kjerreidviken</stop>
+    <stop arrival="16:36" departure="16:36">Bjørndalsskogen</stop>
+    <stop arrival="16:37" departure="16:37">Sætermyr</stop>
+    <stop arrival="16:38" departure="16:38">Ravnestølen</stop>
+    <stop arrival="16:40" departure="16:40">Bjørndalstræ R557</stop>
+    <stop arrival="16:42" departure="16:42">Loddefjord term.</stop>
+    <stop arrival="16:48" departure="16:48">Loddefjorddalen</stop>
+    <stop arrival="16:49" departure="16:49">Frida Fasmer</stop>
+    <stop arrival="16:51" departure="16:51">Frida Fasmer R555</stop>
+    <stop arrival="16:55" departure="16:55">Storavatnet term.</stop>
+    <stop arrival="16:58" departure="16:58">Breivikskiftet</stop>
+    <stop arrival="17:00" departure="17:00">Drotningsvik Rv 555</stop>
+    <stop arrival="17:04" departure="17:04">Knarrevik</stop>
+    <stop arrival="17:10">Straume term.</stop>
+  </route>
+  <route no="409" destination="Flesland kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/942123/314042/497136/65473/1/" trafficDays="kjører 20. til 30. Apr Ma - Fr">
+    <stop departure="16:20" routeNo="409">Flesland Flyplass</stop>
+    <stop arrival="16:27">Flesland kai</stop>
+  </route>
+  <route no="523" destination="Flesland snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/362286/126059/192638/24443/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:20" routeNo="523">Birkelandskrysset Terminal</stop>
+    <stop arrival="16:20" departure="16:20">Kokstadskiftet</stop>
+    <stop arrival="16:21" departure="16:21">Liland (Flyplassvegen)</stop>
+    <stop arrival="16:22" departure="16:22">Flesland Flyplass</stop>
+    <stop arrival="16:23" departure="16:23">Lønningen (Fana)</stop>
+    <stop arrival="16:23" departure="16:23">Liland (Fana)</stop>
+    <stop arrival="16:24" departure="16:24">Liland skole</stop>
+    <stop arrival="16:25" departure="16:25">Blomsterdalen</stop>
+    <stop arrival="16:26" departure="16:26">Grana</stop>
+    <stop arrival="16:28" departure="16:28">Nobi</stop>
+    <stop arrival="16:29" departure="16:29">Sommerleiren</stop>
+    <stop arrival="16:31" departure="16:31">Slettenskiftet</stop>
+    <stop arrival="16:33" departure="16:33">Flesland gård</stop>
+    <stop arrival="16:34" departure="16:34">Flesland bruktjern</stop>
+    <stop arrival="16:34" departure="16:34">Flesland</stop>
+    <stop arrival="16:35">Flesland snuplass</stop>
+  </route>
+  <route no="45" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/712224/239051/886212/205698/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:35" routeNo="45">Flesland Flyplass</stop>
+    <stop arrival="16:36" departure="16:36">Liland (Flyplassvegen)</stop>
+    <stop arrival="16:38" departure="16:38">Birkelandskrysset Terminal</stop>
+    <stop arrival="16:40" departure="16:40">Scandic</stop>
+    <stop arrival="16:42" departure="16:42">Nera</stop>
+    <stop arrival="16:44" departure="16:44">BKK , Kokstad</stop>
+    <stop arrival="16:45" departure="16:45">Kokstad Bilhandel</stop>
+    <stop arrival="16:47" departure="16:47">Storrinden</stop>
+    <stop arrival="16:49" departure="16:49">Dolvikbakken</stop>
+    <stop arrival="16:49" departure="16:49">Grimstadskiftet</stop>
+    <stop arrival="16:50" departure="16:50">Søreide skole</stop>
+    <stop arrival="16:52" departure="16:52">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="16:53" departure="16:53">Straume bro</stop>
+    <stop arrival="16:55" departure="16:55">Sementbroen</stop>
+    <stop arrival="17:00" departure="17:00">Sandeide terminal</stop>
+    <stop arrival="17:01" departure="17:01">Sandeidet barnehage</stop>
+    <stop arrival="17:02" departure="17:02">Sandeidbråtet</stop>
+    <stop arrival="17:03" departure="17:03">Bjørge</stop>
+    <stop arrival="17:05" departure="17:05">Kjerreidviken</stop>
+    <stop arrival="17:08" departure="17:08">Bjørndalsskogen</stop>
+    <stop arrival="17:09" departure="17:09">Sætermyr</stop>
+    <stop arrival="17:11" departure="17:11">Ravnestølen</stop>
+    <stop arrival="17:13" departure="17:13">Bjørndalstræ R557</stop>
+    <stop arrival="17:16" departure="17:16">Loddefjord term.</stop>
+    <stop arrival="17:18" departure="17:18">Loddefjorddalen</stop>
+    <stop arrival="17:19" departure="17:19">Frida Fasmer</stop>
+    <stop arrival="17:20" departure="17:20">Frida Fasmer R555</stop>
+    <stop arrival="17:21" departure="17:21">Storavatnet term.</stop>
+    <stop arrival="17:23" departure="17:23">Breivikskiftet</stop>
+    <stop arrival="17:25" departure="17:25">Drotningsvik Rv 555</stop>
+    <stop arrival="17:27" departure="17:27">Knarrevik</stop>
+    <stop arrival="17:31">Straume term.</stop>
+  </route>
+  <route no="409" destination="Flesland kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/337251/112426/772882/274024/1/" trafficDays="kjører 25. Apr">
+    <stop departure="16:45" routeNo="409">Flesland Flyplass</stop>
+    <stop arrival="16:52">Flesland kai</stop>
+  </route>
+  <route no="523" destination="Flesland snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/528891/181594/491958/69683/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="16:50" routeNo="523">Birkelandskrysset Terminal</stop>
+    <stop arrival="16:50" departure="16:50">Kokstadskiftet</stop>
+    <stop arrival="16:51" departure="16:51">Liland (Flyplassvegen)</stop>
+    <stop arrival="16:52" departure="16:52">Flesland Flyplass</stop>
+    <stop arrival="16:53" departure="16:53">Lønningen (Fana)</stop>
+    <stop arrival="16:53" departure="16:53">Liland (Fana)</stop>
+    <stop arrival="16:54" departure="16:54">Liland skole</stop>
+    <stop arrival="16:55" departure="16:55">Blomsterdalen</stop>
+    <stop arrival="16:56" departure="16:56">Grana</stop>
+    <stop arrival="16:58" departure="16:58">Nobi</stop>
+    <stop arrival="16:59" departure="16:59">Sommerleiren</stop>
+    <stop arrival="17:01" departure="17:01">Slettenskiftet</stop>
+    <stop arrival="17:03" departure="17:03">Flesland gård</stop>
+    <stop arrival="17:04" departure="17:04">Flesland bruktjern</stop>
+    <stop arrival="17:04" departure="17:04">Flesland</stop>
+    <stop arrival="17:05">Flesland snuplass</stop>
+  </route>
+</routes>

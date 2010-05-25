@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="630" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/137574/51784/672752/290520/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="18:55" routeNo="630">Halhjemsmarka</stop>
+    <stop arrival="18:57" departure="18:57">Auredalen</stop>
+    <stop arrival="18:58" departure="18:58">Vernøy</stop>
+    <stop arrival="19:00" departure="19:00">Halhjem</stop>
+    <stop arrival="19:01" departure="19:01">Halhjem kafe</stop>
+    <stop arrival="19:02" departure="19:02">Haugland (Os)</stop>
+    <stop arrival="19:03" departure="19:03">Nesjabuen</stop>
+    <stop arrival="19:04" departure="19:04">Lekven</stop>
+    <stop arrival="19:05" departure="19:05">Trolldalen (Os)</stop>
+    <stop arrival="19:07" departure="19:07">Mobergslien</stop>
+    <stop arrival="19:08" departure="19:08">Moberg</stop>
+    <stop arrival="19:09" departure="19:09">Mobergsbakken</stop>
+    <stop arrival="19:10" departure="19:10">Os kai</stop>
+    <stop arrival="19:10">Os - Osøyro</stop>
+  </route>
+  <route no="630" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/901251/306289/338692/131072/1/" trafficDays="kjører Lø, Sø, også 13., 17., 24. Mai">
+    <stop departure="19:00" routeNo="630">Halhjemsmarka</stop>
+    <stop arrival="19:02" departure="19:02">Auredalen</stop>
+    <stop arrival="19:03" departure="19:03">Vernøy</stop>
+    <stop arrival="19:05" departure="19:05">Halhjem</stop>
+    <stop arrival="19:06" departure="19:06">Halhjem kafe</stop>
+    <stop arrival="19:07" departure="19:07">Haugland (Os)</stop>
+    <stop arrival="19:08" departure="19:08">Nesjabuen</stop>
+    <stop arrival="19:09" departure="19:09">Lekven</stop>
+    <stop arrival="19:10" departure="19:10">Trolldalen (Os)</stop>
+    <stop arrival="19:12" departure="19:12">Mobergslien</stop>
+    <stop arrival="19:13" departure="19:13">Moberg</stop>
+    <stop arrival="19:14" departure="19:14">Mobergsbakken</stop>
+    <stop arrival="19:15" departure="19:15">Os kai</stop>
+    <stop arrival="19:15">Os - Osøyro</stop>
+  </route>
+  <route no="630" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/75999/31206/252210/100773/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="19:35" routeNo="630">Halhjem</stop>
+    <stop arrival="19:36" departure="19:36">Halhjem kafe</stop>
+    <stop arrival="19:37" departure="19:37">Haugland (Os)</stop>
+    <stop arrival="19:38" departure="19:38">Nesjabuen</stop>
+    <stop arrival="19:39" departure="19:39">Lekven</stop>
+    <stop arrival="19:40" departure="19:40">Trolldalen (Os)</stop>
+    <stop arrival="19:42" departure="19:42">Mobergslien</stop>
+    <stop arrival="19:43" departure="19:43">Moberg</stop>
+    <stop arrival="19:44" departure="19:44">Mobergsbakken</stop>
+    <stop arrival="19:45" departure="19:45">Os kai</stop>
+    <stop arrival="19:45">Os - Osøyro</stop>
+  </route>
+  <route no="630" destination="Halhjemsmarka" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/657015/224880/890042/226016/1/" trafficDays="kjører daglig">
+    <stop departure="19:40" routeNo="630">Os - Osøyro</stop>
+    <stop arrival="19:41" departure="19:41">Mobergsbakken</stop>
+    <stop arrival="19:42" departure="19:42">Moberg</stop>
+    <stop arrival="19:43" departure="19:43">Mobergslien</stop>
+    <stop arrival="19:44" departure="19:44">Trolldalen (Os)</stop>
+    <stop arrival="19:45" departure="19:45">Lekven</stop>
+    <stop arrival="19:46" departure="19:46">Lunde (Halhjemsvn.)</stop>
+    <stop arrival="19:47" departure="19:47">Nesjabuen</stop>
+    <stop arrival="19:48" departure="19:48">Haugland (Os)</stop>
+    <stop arrival="19:49" departure="19:49">Halhjem kafe</stop>
+    <stop arrival="19:50" departure="19:50">Halhjem</stop>
+    <stop arrival="19:51" departure="19:51">Vernøy</stop>
+    <stop arrival="19:53" departure="19:53">Auredalen</stop>
+    <stop arrival="19:55">Halhjemsmarka</stop>
+  </route>
+</routes>

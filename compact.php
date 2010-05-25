@@ -35,7 +35,7 @@ foreach ($files as $fil) {
              */
             $first = true;
             $key = 0;
-            $hashbase = "$num:" . implode(":", $days) . ":" . $dest;
+            $hashbase = "$num:" . $dest;
             $stops = array();
             $stopsSearch = array();
             $timeOffset = 0;

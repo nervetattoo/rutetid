@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="626" destination="Røttingen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/317793/111788/377194/82666/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:10" routeNo="626">Ulvensletta</stop>
+    <stop arrival="14:12" departure="14:12">Vaksinen</stop>
+    <stop arrival="14:14" departure="14:14">Ådnadalen</stop>
+    <stop arrival="14:15" departure="14:15">Irgenskryss</stop>
+    <stop arrival="14:17" departure="14:17">Nore Neset skule</stop>
+    <stop arrival="14:19" departure="14:19">Skeie (Os)</stop>
+    <stop arrival="14:20" departure="14:20">Grindevoll snuplass</stop>
+    <stop arrival="14:20" departure="14:20">Ravneberghaugen</stop>
+    <stop arrival="14:20" departure="14:20">Storum (Os)</stop>
+    <stop arrival="14:21" departure="14:21">Storumhammeren</stop>
+    <stop arrival="14:22" departure="14:22">Blindesund</stop>
+    <stop arrival="14:22" departure="14:22">Lepsøy</stop>
+    <stop arrival="14:23" departure="14:23">Lepsøy kai</stop>
+    <stop arrival="14:23" departure="14:23">Sundøy</stop>
+    <stop arrival="14:24" departure="14:24">Bruarøy</stop>
+    <stop arrival="14:24" departure="14:24">Bruarøy Ungdomshuset</stop>
+    <stop arrival="14:24" departure="14:24">Hauane (Røtinga)</stop>
+    <stop arrival="14:25">Røttingen snuplass</stop>
+  </route>
+  <route no="626" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/783051/266875/272676/124679/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:25" routeNo="626">Røttingen snuplass</stop>
+    <stop arrival="14:26" departure="14:26">Hauane (Røtinga)</stop>
+    <stop arrival="14:26" departure="14:26">Bruarøy Ungdomshuset</stop>
+    <stop arrival="14:26" departure="14:26">Bruarøy</stop>
+    <stop arrival="14:27" departure="14:27">Sundøy</stop>
+    <stop arrival="14:27" departure="14:27">Lepsøy kai</stop>
+    <stop arrival="14:28" departure="14:28">Lepsøy</stop>
+    <stop arrival="14:29" departure="14:29">Blindesund</stop>
+    <stop arrival="14:29" departure="14:29">Storumhammeren</stop>
+    <stop arrival="14:30" departure="14:30">Storum (Os)</stop>
+    <stop arrival="14:30" departure="14:30">Ravneberghaugen</stop>
+    <stop arrival="14:30" departure="14:30">Grindevoll</stop>
+    <stop arrival="14:30" departure="14:30">Thuen</stop>
+    <stop arrival="14:32" departure="14:32">Thuen Bedehuset</stop>
+    <stop arrival="14:34" departure="14:34">Mobergslien</stop>
+    <stop arrival="14:35" departure="14:35">Moberg</stop>
+    <stop arrival="14:37" departure="14:37">Mobergsbakken</stop>
+    <stop arrival="14:39" departure="14:39">Os kai</stop>
+    <stop arrival="14:40">Os - Osøyro</stop>
+  </route>
+</routes>

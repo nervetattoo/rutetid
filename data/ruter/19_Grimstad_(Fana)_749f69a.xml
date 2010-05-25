@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="512" destination="Søreide skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/386727/134166/804240/273215/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="19:50" routeNo="512">Grimstad (Fana)</stop>
+    <stop arrival="19:51" departure="19:51">Grimstad handel (Fana)</stop>
+    <stop arrival="19:53" departure="19:53">Ytre Hope</stop>
+    <stop arrival="19:55" departure="19:55">Hope (Grimstad, Fana)</stop>
+    <stop arrival="19:56" departure="19:56">Ytre Hammersland</stop>
+    <stop arrival="19:57" departure="19:57">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="20:00">Søreide skole</stop>
+  </route>
+</routes>
