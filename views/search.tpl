@@ -66,9 +66,11 @@
                 {else}
                     <div class="bottom abs hid clear"></div>
                 {/if}
+                <a id="about" class="abs hid clear" href="/om.php" rel="popover">Les om denne tjenesten</a>
                 </div>
 {include file='contentbottom.tpl'}
                 <div class="clear"></div>
+                {include file='aboutpopover.tpl'}
             </div>
         </div>
 {include file='footer.tpl'}

@@ -220,14 +220,12 @@ ul.ui-autocomplete li a.ui-state-active {
 
 #routes {
     width: 402px;
-    padding: 10px 10px 17px;
+    padding: 10px 10px 51px;
     float: left;
     top: -27px;
     left: -10px;
     background: url(/gfx/routes-thead.png) 0 0 no-repeat;
 }
-
-#routes.has-routes { padding-bottom: 51px; }
 
 #routes table { width: 402px; }
 
@@ -258,12 +256,13 @@ ul.ui-autocomplete li a.ui-state-active {
     background: #FFD7CE;
     color: #4B0E01;
     border-right: 1px solid #F9A08C;
-    border-left: 1px solid #FBD3CA;
+    border-left: 1px solid #FFE3DD;
 }
 
 #routes tbody .odd td {
     background: #FFBBAC;
     border-right-color: #F98F78;
+    border-left-color: #FBD3CA;
 }
 
 #routes tbody td .dim { color: rgba(75, 14, 1, .5); }
@@ -301,7 +300,7 @@ ul.ui-autocomplete li a.ui-state-active {
     display: block;
     width: 408px;
     height: 17px;
-    bottom: 0;
+    bottom: 34px;
     left: 7px;
     background: url(/gfx/search-bottom-generic.png) 0 0 no-repeat;
 }
@@ -434,4 +433,105 @@ ul.ui-autocomplete li a.ui-state-active {
     float: right;
     clear: right;
     border: 1px solid #07586B;
+}
+
+
+
+/*  ABOUT LINK AND POPOVER
+    ================================================================     */
+
+#about {
+    display: block;
+    width: 150px;
+    height: 31px;
+    line-height: 31px;
+    color: #FFF;
+    text-decoration: none;
+    bottom: 10px;
+    left: 20px;
+}
+
+#about:hover { text-decoration: underline; }
+
+#popover-about {
+    width: 340px;
+    height: 430px;
+    padding: 26px 31px;
+    top: 94px;
+    left: 50%;
+    margin-left: -201px;
+    color: #FFF;
+    background: url(/gfx/pop-over-bg.png) 0 0 no-repeat;
+    display: none;
+}
+
+#popover-about h2 {
+    height: 24px;
+    background: url(/gfx/pop-over-about-heading.png) 0 0 no-repeat;
+    text-indent: -9999px;
+    margin: 0 0 12px;
+}
+
+#popover-about p {
+    font-size: 12px;
+    line-height: 1.67;
+    padding: 0 0 12px;
+}
+
+#popover-about .contributors {
+    width: 402px;
+    left: -31px;
+    background: url(/gfx/pop-over-hr.png) 0 0 no-repeat;
+    padding: 0 0 15px;
+}
+
+#popover-about .contributors ul {
+    width: 336px;
+    padding: 21px 33px 0;
+    float: left;
+    background: url(/gfx/pop-over-hr.png) 0 100% no-repeat;
+}
+
+#popover-about .contributors ul li.person {
+    width: 69px;
+    float: left;
+    text-align: center;
+    padding: 0 20px 18px 0;
+}
+
+#popover-about .contributors ul li.last { padding-right: 0; }
+
+#popover-about .contributors ul li.person img {
+    display: block;
+    margin: 0 0 8px;
+}
+
+#popover-about .contributors ul li.person h2 {
+    font-size: 12px;
+    line-height: 1.67;
+}
+
+#popover-about .contributors ul li.person .pos {
+    font-size: 11px;
+    line-height: 1.45;
+    padding: 0;
+}
+
+#popover-about .employer { text-align: center; }
+
+#popover-about a {
+    color: #005F76;
+    text-decoration: underline;
+}
+
+#popover-about a:hover { text-decoration: none; }
+
+#popover-about .close {
+    display: block;
+    width: 18px;
+    height: 18px;
+    top: 10px;
+    right: 10px;
+    text-indent: -9999px;
+    background: url(/gfx/pop-over-close.png) 0 0 no-repeat;
 }
