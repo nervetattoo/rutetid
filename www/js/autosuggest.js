@@ -1,13 +1,13 @@
 /*
  *  @author     Hein Haraldson Berg
- *  @email      hein@keyteq.no
+ *  @email      hein@haraldsonberg.net
  */
 
 $(function()
 {
     window.setInitialFromValueFromGeolocation = function()
     {
-        if($('#from').length && $('#from').val() == '')
+        if($('#from').length && $('#from').val() == '' && !$('#from').data('user'))
         {
             $.ajax(
         	{
@@ -18,8 +18,12 @@ $(function()
         	    },
         	    success: function(data)
         	    {
-        	        $('#from')
-        	           .val(data.stops[0].name);
+                    var closestStop = data.stops[0].name;
+                    if(closestStop)
+                    {
+            	        $('#from')
+            	           .val(closestStop);
+                    }
         	    },
         	    dataType: 'json'
         	});
@@ -32,7 +36,7 @@ $(function()
             source: function(req, add)
             {
                 var from = ($(this.element).is('#to')) ? $('#from').val() : '';
-
+                
 				$.ajax(
 				{
 				    url: '/service_stops.php',
@@ -49,6 +53,14 @@ $(function()
 				    dataType: 'jsonp'
 				});
 			}
+        })
+        .focus(function()
+        {
+            $(this).data('user', true);
+        })
+        .blur(function()
+        {
+            $(this).data('user', false);
         });
         
     function fetchStops(data, add)

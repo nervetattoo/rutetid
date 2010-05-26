@@ -1,6 +1,6 @@
 /*
  *  @author     Hein Haraldson Berg
- *  @email      hein@keyteq.no
+ *  @email      hein@haraldsonberg.net
  */
 
 var Geolocation = function()
@@ -33,6 +33,7 @@ Geolocation.prototype = {
             {
                 self.lat = position.coords.latitude;
                 self.long = position.coords.longitude;
+                
                 $('body')
                     .data(
                     {
@@ -45,8 +46,8 @@ Geolocation.prototype = {
             },
             function(error)
             {
+                return false;
                 var errorMsg = self.errorHandler(error, 'get');
-                console.warn(errorMsg);
             },
             { maximumAge: self.maximumLocationAge }
         );
@@ -71,8 +72,8 @@ Geolocation.prototype = {
             },
             function(error)
             {
+                return false;
                 var errorMsg = self.errorHandler(error, 'update');
-                console.warn(errorMsg);
             },
             { maximumAge: self.maximumLocationAge }
         );
@@ -112,22 +113,7 @@ Geolocation.prototype = {
 
 
 // INITIALIZE
-
 $(function()
 {
     var RUTETID_Geolocation = new Geolocation();
 });
-
-
-
-
-/*
-$('<img>',
-{
-    'src': 'http://maps.google.com/maps/api/staticmap?zoom=' + self.zoomLevel + '&size=400x400&center=' + self.lat + ',' + self.long +
-    self.getNearbyBusStops(self.lat, self.long) +
-    '&markers=icon:http://hein.raymond.raw.no/gfx/icon-user.png|shadow:false|' + self.lat + ',' + self.long +
-    '&sensor=false&maptype=roadmap',
-    'alt': 'Ze map'
-}).appendTo(document.body);
-*/
