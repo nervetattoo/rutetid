@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="260" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/802989/272713/353004/91161/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="8:20" routeNo="260">Salhus kai</stop>
+    <stop arrival="8:20" departure="8:20">Langeland (Åsane)</stop>
+    <stop arrival="8:21" departure="8:21">Nygård, Salhus</stop>
+    <stop arrival="8:22" departure="8:22">Ranten</stop>
+    <stop arrival="8:23" departure="8:23">Kistebakkane</stop>
+    <stop arrival="8:24" departure="8:24">Matre</stop>
+    <stop arrival="8:25" departure="8:25">Støbotn</stop>
+    <stop arrival="8:28" departure="8:28">Åsane Byggsenter</stop>
+    <stop arrival="8:32" departure="8:32">Pukkverket</stop>
+    <stop arrival="8:32" departure="8:32">Ulset</stop>
+    <stop arrival="8:33" departure="8:33">Salhuskrysset</stop>
+    <stop arrival="8:34" departure="8:34">Litleåskryss</stop>
+    <stop arrival="8:34" departure="8:34">Rollandskrysset</stop>
+    <stop arrival="8:35">Åsane terminal</stop>
+  </route>
+  <route no="260" destination="Salhus kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/719667/244940/816906/168564/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="8:40" routeNo="260">Åsane terminal</stop>
+    <stop arrival="8:41" departure="8:41">Rollandskrysset</stop>
+    <stop arrival="8:41" departure="8:41">Litleåskryss</stop>
+    <stop arrival="8:42" departure="8:42">Salhusvegen</stop>
+    <stop arrival="8:43" departure="8:43">Ulset</stop>
+    <stop arrival="8:43" departure="8:43">Pukkverket</stop>
+    <stop arrival="8:45" departure="8:45">Åsane Byggsenter</stop>
+    <stop arrival="8:46" departure="8:46">Hitlandsvingen</stop>
+    <stop arrival="8:46" departure="8:46">Bogetveitvegen</stop>
+    <stop arrival="8:47" departure="8:47">Støbotn</stop>
+    <stop arrival="8:48" departure="8:48">Matre</stop>
+    <stop arrival="8:49" departure="8:49">Kistebakkane</stop>
+    <stop arrival="8:51" departure="8:51">Nygård, Salhus</stop>
+    <stop arrival="8:52" departure="8:52">Langeland (Åsane)</stop>
+    <stop arrival="8:53">Salhus kai</stop>
+  </route>
+</routes>

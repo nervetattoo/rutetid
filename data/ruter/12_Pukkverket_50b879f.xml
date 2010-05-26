@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="260" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/468042/161058/699010/193491/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="12:10" routeNo="260">Salhus kai</stop>
+    <stop arrival="12:10" departure="12:10">Langeland (Åsane)</stop>
+    <stop arrival="12:11" departure="12:11">Nygård, Salhus</stop>
+    <stop arrival="12:12" departure="12:12">Ranten</stop>
+    <stop arrival="12:13" departure="12:13">Kistebakkane</stop>
+    <stop arrival="12:14" departure="12:14">Matre</stop>
+    <stop arrival="12:15" departure="12:15">Støbotn</stop>
+    <stop arrival="12:18" departure="12:18">Åsane Byggsenter</stop>
+    <stop arrival="12:22" departure="12:22">Pukkverket</stop>
+    <stop arrival="12:22" departure="12:22">Ulset</stop>
+    <stop arrival="12:23" departure="12:23">Salhuskrysset</stop>
+    <stop arrival="12:24" departure="12:24">Litleåskryss</stop>
+    <stop arrival="12:24" departure="12:24">Rollandskrysset</stop>
+    <stop arrival="12:25">Åsane terminal</stop>
+  </route>
+  <route no="260" destination="Salhus kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/888594/301240/388366/102017/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="12:40" routeNo="260">Åsane terminal</stop>
+    <stop arrival="12:41" departure="12:41">Rollandskrysset</stop>
+    <stop arrival="12:41" departure="12:41">Litleåskryss</stop>
+    <stop arrival="12:42" departure="12:42">Salhusvegen</stop>
+    <stop arrival="12:43" departure="12:43">Ulset</stop>
+    <stop arrival="12:43" departure="12:43">Pukkverket</stop>
+    <stop arrival="12:47" departure="12:47">Åsane Byggsenter</stop>
+    <stop arrival="12:48" departure="12:48">Hitlandsvingen</stop>
+    <stop arrival="12:49" departure="12:49">Bogetveitvegen</stop>
+    <stop arrival="12:50" departure="12:50">Støbotn</stop>
+    <stop arrival="12:51" departure="12:51">Matre</stop>
+    <stop arrival="12:51" departure="12:51">Kistebakkane</stop>
+    <stop arrival="12:52" departure="12:52">Nygård, Salhus</stop>
+    <stop arrival="12:53" departure="12:53">Langeland (Åsane)</stop>
+    <stop arrival="12:53">Salhus kai</stop>
+  </route>
+  <route no="260" destination="Salhus kai" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/869472/294875/212394/183631/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="12:40" routeNo="260">Åsane terminal</stop>
+    <stop arrival="12:41" departure="12:41">Rollandskrysset</stop>
+    <stop arrival="12:41" departure="12:41">Litleåskryss</stop>
+    <stop arrival="12:42" departure="12:42">Salhusvegen</stop>
+    <stop arrival="12:43" departure="12:43">Ulset</stop>
+    <stop arrival="12:43" departure="12:43">Pukkverket</stop>
+    <stop arrival="12:45" departure="12:45">Åsane Byggsenter</stop>
+    <stop arrival="12:46" departure="12:46">Hitlandsvingen</stop>
+    <stop arrival="12:46" departure="12:46">Bogetveitvegen</stop>
+    <stop arrival="12:47" departure="12:47">Støbotn</stop>
+    <stop arrival="12:48" departure="12:48">Matre</stop>
+    <stop arrival="12:49" departure="12:49">Kistebakkane</stop>
+    <stop arrival="12:51" departure="12:51">Nygård, Salhus</stop>
+    <stop arrival="12:52" departure="12:52">Langeland (Åsane)</stop>
+    <stop arrival="12:53">Salhus kai</stop>
+  </route>
+</routes>

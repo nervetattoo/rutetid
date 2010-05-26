@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="385" destination="Øvre Rivanes" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/792015/264969/27700/250155/1/" trafficDays="kjører Ma, Ti, To, Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:05" routeNo="385">Haus</stop>
+    <stop arrival="13:09" departure="13:09">Tveitane (Osterøy)</stop>
+    <stop arrival="13:10" departure="13:10">Knutasvingen</stop>
+    <stop arrival="13:11" departure="13:11">Knutasvingen</stop>
+    <stop arrival="13:12" departure="13:12">Knutasvingen</stop>
+    <stop arrival="13:13" departure="13:13">Haksteinsvingen</stop>
+    <stop arrival="13:13" departure="13:13">Tråi</stop>
+    <stop arrival="13:14" departure="13:14">Tråi</stop>
+    <stop arrival="13:18" departure="13:18">Sundland (Osterøy)</stop>
+    <stop arrival="13:19" departure="13:19">Øvre Verkane nord</stop>
+    <stop arrival="13:19" departure="13:19">Gaupås (Osterøy)</stop>
+    <stop arrival="13:20">Øvre Rivanes</stop>
+  </route>
+  <route no="385" destination="Haus" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/365823/122907/444990/100554/1/" trafficDays="kjører Ma, Ti, To, Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:20" routeNo="385">Øvre Rivanes</stop>
+    <stop arrival="13:21" departure="13:21">Gaupås (Osterøy)</stop>
+    <stop arrival="13:21" departure="13:21">Øvre Verkane nord</stop>
+    <stop arrival="13:22" departure="13:22">Sundland (Osterøy)</stop>
+    <stop arrival="13:26" departure="13:26">Tråi</stop>
+    <stop arrival="13:27" departure="13:27">Tråi</stop>
+    <stop arrival="13:27" departure="13:27">Haksteinsvingen</stop>
+    <stop arrival="13:28" departure="13:28">Knutasvingen</stop>
+    <stop arrival="13:29" departure="13:29">Knutasvingen</stop>
+    <stop arrival="13:30" departure="13:30">Knutasvingen</stop>
+    <stop arrival="13:31" departure="13:31">Tveitane (Osterøy)</stop>
+    <stop arrival="13:35">Haus</stop>
+  </route>
+</routes>

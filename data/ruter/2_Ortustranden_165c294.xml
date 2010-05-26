@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="BUSSNatt" destination="Oasen Terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/51351/21623/326156/145961/1/" trafficDays="kjører Lø, Sø, også 17., 25. Mai">
+    <stop departure="2:00" routeNo="BUSSNatt">Olav Kyrres gate</stop>
+    <stop arrival="2:02" departure="2:02">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="2:03" departure="2:03">Gyldenpris</stop>
+    <stop arrival="2:07" departure="2:07">Løvstakktunnelen</stop>
+    <stop arrival="2:07" departure="2:07">Sikthaugen</stop>
+    <stop arrival="2:09" departure="2:09">Lynghaug skole</stop>
+    <stop arrival="2:09" departure="2:09">Dag Hammarskjølds vei</stop>
+    <stop arrival="2:10" departure="2:10">Træet (Benshaugen)</stop>
+    <stop arrival="2:11" departure="2:11">Hjalmar Brantings vei</stop>
+    <stop arrival="2:11" departure="2:11">Sælemyr</stop>
+    <stop arrival="2:12" departure="2:12">Lyshovden skole</stop>
+    <stop arrival="2:12" departure="2:12">Ortustranden</stop>
+    <stop arrival="2:13" departure="2:13">Smiberget</stop>
+    <stop arrival="2:14" departure="2:14">Torgny Segersteds vei</stop>
+    <stop arrival="2:15" departure="2:15">Sælen skole</stop>
+    <stop arrival="2:17" departure="2:17">Skarphaugen</stop>
+    <stop arrival="2:18">Oasen Terminal</stop>
+  </route>
+</routes>

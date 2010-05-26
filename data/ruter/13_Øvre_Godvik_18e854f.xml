@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="441" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/989706/331774/462858/98474/1/" trafficDays="kjører Ma - Fr, Sø, også 1. Mai">
+    <stop departure="12:50" routeNo="441">Hjelteryggen Nordre Knappen</stop>
+    <stop arrival="12:51" departure="12:51">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="12:53" departure="12:53">Hjelteryggen Svensveien</stop>
+    <stop arrival="12:54" departure="12:54">Knarrevik under brua</stop>
+    <stop arrival="12:55" departure="12:55">Knarrevik</stop>
+    <stop arrival="12:56" departure="12:56">Drotningsvik Rv 555</stop>
+    <stop arrival="12:56" departure="12:56">Drotningsvik v/Hydro</stop>
+    <stop arrival="12:57" departure="12:57">Breivika</stop>
+    <stop arrival="12:58" departure="12:58">Breivikdalen</stop>
+    <stop arrival="13:00" departure="13:00">Breivikskiftet</stop>
+    <stop arrival="13:01" departure="13:01">Kiplehaugen</stop>
+    <stop arrival="13:02" departure="13:02">Nedre Godvik</stop>
+    <stop arrival="13:03" departure="13:03">Øvre Godvik</stop>
+    <stop arrival="13:05" departure="13:05">Godviksvingene</stop>
+    <stop arrival="13:07" departure="13:07">Ørjebekk</stop>
+    <stop arrival="13:10">Storavatnet term.</stop>
+  </route>
+  <route no="424" destination="Loddefjord term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/961200/322232/111432/264684/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:10" routeNo="424">Ramsvik</stop>
+    <stop arrival="13:11" departure="13:11">Ramsvik</stop>
+    <stop arrival="13:11" departure="13:11">Janastølen</stop>
+    <stop arrival="13:12" departure="13:12">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:13" departure="13:13">Breivika</stop>
+    <stop arrival="13:15" departure="13:15">Breivikdalen</stop>
+    <stop arrival="13:16" departure="13:16">Breivikskiftet</stop>
+    <stop arrival="13:17" departure="13:17">Kiplehaugen</stop>
+    <stop arrival="13:18" departure="13:18">Nedre Godvik</stop>
+    <stop arrival="13:20" departure="13:20">Øvre Godvik</stop>
+    <stop arrival="13:23" departure="13:23">Ørjebekk</stop>
+    <stop arrival="13:25" departure="13:25">Storavatnet term.</stop>
+    <stop arrival="13:26" departure="13:26">Frida Fasmer</stop>
+    <stop arrival="13:27" departure="13:27">Loddefjorddalen</stop>
+    <stop arrival="13:30">Loddefjord term.</stop>
+  </route>
+  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/783525/263027/675916/76783/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:25" routeNo="441">Storavatnet term.</stop>
+    <stop arrival="13:26" departure="13:26">Ørjebekk</stop>
+    <stop arrival="13:27" departure="13:27">Øvre Godvik</stop>
+    <stop arrival="13:28" departure="13:28">Nedre Godvik</stop>
+    <stop arrival="13:28" departure="13:28">Kiplehaugen</stop>
+    <stop arrival="13:28" departure="13:28">Breivikskiftet</stop>
+    <stop arrival="13:29" departure="13:29">Breivikdalen</stop>
+    <stop arrival="13:30" departure="13:30">Stiaberget</stop>
+    <stop arrival="13:30" departure="13:30">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:31" departure="13:31">Drotningsvik Rv 555</stop>
+    <stop arrival="13:33" departure="13:33">Knarrevik</stop>
+    <stop arrival="13:34" departure="13:34">Knarrevik under brua</stop>
+    <stop arrival="13:35" departure="13:35">Hjelteryggen Svensveien</stop>
+    <stop arrival="13:37" departure="13:37">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="13:37">Hjelteryggen Nordre knappen</stop>
+  </route>
+  <route no="441" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/279009/94889/279676/46836/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="13:20" routeNo="441">Hjelteryggen Nordre Knappen</stop>
+    <stop arrival="13:21" departure="13:21">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="13:23" departure="13:23">Hjelteryggen Svensveien</stop>
+    <stop arrival="13:24" departure="13:24">Knarrevik under brua</stop>
+    <stop arrival="13:25" departure="13:25">Knarrevik</stop>
+    <stop arrival="13:26" departure="13:26">Drotningsvik Rv 555</stop>
+    <stop arrival="13:26" departure="13:26">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:27" departure="13:27">Breivika</stop>
+    <stop arrival="13:28" departure="13:28">Breivikdalen</stop>
+    <stop arrival="13:30" departure="13:30">Breivikskiftet</stop>
+    <stop arrival="13:31" departure="13:31">Kiplehaugen</stop>
+    <stop arrival="13:32" departure="13:32">Nedre Godvik</stop>
+    <stop arrival="13:33" departure="13:33">Øvre Godvik</stop>
+    <stop arrival="13:35" departure="13:35">Godviksvingene</stop>
+    <stop arrival="13:37" departure="13:37">Ørjebekk</stop>
+    <stop arrival="13:40">Storavatnet term.</stop>
+  </route>
+  <route no="424" destination="Loddefjord term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/539370/181627/956826/298623/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:35" routeNo="424">Ramsvik</stop>
+    <stop arrival="13:35" departure="13:35">Ramsvik</stop>
+    <stop arrival="13:36" departure="13:36">Janastølen</stop>
+    <stop arrival="13:36" departure="13:36">Drotningsvik v/Hydro</stop>
+    <stop arrival="13:37" departure="13:37">Breivika</stop>
+    <stop arrival="13:38" departure="13:38">Breivikdalen</stop>
+    <stop arrival="13:40" departure="13:40">Breivikskiftet</stop>
+    <stop arrival="13:41" departure="13:41">Kiplehaugen</stop>
+    <stop arrival="13:42" departure="13:42">Nedre Godvik</stop>
+    <stop arrival="13:43" departure="13:43">Øvre Godvik</stop>
+    <stop arrival="13:47" departure="13:47">Ørjebekk</stop>
+    <stop arrival="13:50" departure="13:50">Storavatnet term.</stop>
+    <stop arrival="13:51" departure="13:51">Frida Fasmer</stop>
+    <stop arrival="13:52" departure="13:52">Loddefjorddalen</stop>
+    <stop arrival="13:55">Loddefjord term.</stop>
+  </route>
+</routes>

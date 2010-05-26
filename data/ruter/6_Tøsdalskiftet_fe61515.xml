@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="626" destination="Røttingen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/106134/41225/368978/149111/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:00" routeNo="626">Tøsdalskiftet</stop>
+    <stop arrival="6:01" departure="6:01">Flåten Senter</stop>
+    <stop arrival="6:02" departure="6:02">Flåten (Os)</stop>
+    <stop arrival="6:03" departure="6:03">Kuven</stop>
+    <stop arrival="6:04" departure="6:04">Fjellheim</stop>
+    <stop arrival="6:05" departure="6:05">Os - Osøyro</stop>
+    <stop arrival="6:06" departure="6:06">Mobergsbakken</stop>
+    <stop arrival="6:07" departure="6:07">Moberg</stop>
+    <stop arrival="6:08" departure="6:08">Mobergslien</stop>
+    <stop arrival="6:11" departure="6:11">Thuen Bedehuset</stop>
+    <stop arrival="6:13" departure="6:13">Thuen</stop>
+    <stop arrival="6:15" departure="6:15">Grindevoll</stop>
+    <stop arrival="6:15" departure="6:15">Ravneberghaugen</stop>
+    <stop arrival="6:16" departure="6:16">Storum (Os)</stop>
+    <stop arrival="6:17" departure="6:17">Storumhammeren</stop>
+    <stop arrival="6:18" departure="6:18">Blindesund</stop>
+    <stop arrival="6:19" departure="6:19">Lepsøy</stop>
+    <stop arrival="6:20" departure="6:20">Lepsøy kai</stop>
+    <stop arrival="6:21" departure="6:21">Sundøy</stop>
+    <stop arrival="6:22" departure="6:22">Bruarøy</stop>
+    <stop arrival="6:23" departure="6:23">Bruarøy Ungdomshuset</stop>
+    <stop arrival="6:24" departure="6:24">Hauane (Røtinga)</stop>
+    <stop arrival="6:25">Røttingen snuplass</stop>
+  </route>
+  <route no="612" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/94107/37028/640642/288952/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:05" routeNo="612">Os - Osøyro</stop>
+    <stop arrival="6:06" departure="6:06">Fjellheim</stop>
+    <stop arrival="6:07" departure="6:07">Kuven</stop>
+    <stop arrival="6:08" departure="6:08">Flåten (Os)</stop>
+    <stop arrival="6:09" departure="6:09">Flåten Senter</stop>
+    <stop arrival="6:10" departure="6:10">Tøsdalskiftet</stop>
+    <stop arrival="6:12" departure="6:12">Os Vidaregåande skule</stop>
+    <stop arrival="6:13" departure="6:13">Ulvensletta</stop>
+    <stop arrival="6:14" departure="6:14">Vaksinen</stop>
+    <stop arrival="6:15" departure="6:15">Ådnadalen</stop>
+    <stop arrival="6:16" departure="6:16">Irgenskryss</stop>
+    <stop arrival="6:16" departure="6:16">Hagevik 1</stop>
+    <stop arrival="6:17" departure="6:17">Hagevik 2</stop>
+    <stop arrival="6:17" departure="6:17">Hagavik (Hovland - Os)</stop>
+    <stop arrival="6:17" departure="6:17">Hagavik (Hovland - Os)</stop>
+    <stop arrival="6:18" departure="6:18">Hagevik 2</stop>
+    <stop arrival="6:18" departure="6:18">Hagevik 1</stop>
+    <stop arrival="6:19" departure="6:19">Irgenskryss</stop>
+    <stop arrival="6:20" departure="6:20">Nore Neset skule</stop>
+    <stop arrival="6:21" departure="6:21">Skeie (Os)</stop>
+    <stop arrival="6:22" departure="6:22">Grindevoll snuplass</stop>
+    <stop arrival="6:23" departure="6:23">Grindevoll</stop>
+    <stop arrival="6:23" departure="6:23">Thuen</stop>
+    <stop arrival="6:26" departure="6:26">Thuen Bedehuset</stop>
+    <stop arrival="6:29" departure="6:29">Mobergslien</stop>
+    <stop arrival="6:30" departure="6:30">Moberg</stop>
+    <stop arrival="6:31" departure="6:31">Mobergsbakken</stop>
+    <stop arrival="6:32" departure="6:32">Os kai</stop>
+    <stop arrival="6:32">Os - Osøyro</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/889398/302221/129198/231867/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:05" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:06" departure="6:06">Fjellheim</stop>
+    <stop arrival="6:07" departure="6:07">Kuven</stop>
+    <stop arrival="6:08" departure="6:08">Flåten (Os)</stop>
+    <stop arrival="6:09" departure="6:09">Flåten Senter</stop>
+    <stop arrival="6:10" departure="6:10">Tøsdalskiftet</stop>
+    <stop arrival="6:10" departure="6:10">Ulvenskiftet</stop>
+    <stop arrival="6:11" departure="6:11">Hetleflåten</stop>
+    <stop arrival="6:12" departure="6:12">Helleflåttre</stop>
+    <stop arrival="6:13" departure="6:13">Storestraumen</stop>
+    <stop arrival="6:14" departure="6:14">Søfteland skule</stop>
+    <stop arrival="6:15" departure="6:15">Søfteland</stop>
+    <stop arrival="6:15" departure="6:15">Gåssandskiftet</stop>
+    <stop arrival="6:16" departure="6:16">Tømmernes</stop>
+    <stop arrival="6:16" departure="6:16">Røykenes (Os)</stop>
+    <stop arrival="6:17" departure="6:17">Bahus</stop>
+    <stop arrival="6:18" departure="6:18">Fløysand</stop>
+    <stop arrival="6:18" departure="6:18">Kalandseid</stop>
+    <stop arrival="6:19" departure="6:19">Austevoll (Fana)</stop>
+    <stop arrival="6:20" departure="6:20">Kaland (Fana)</stop>
+    <stop arrival="6:21" departure="6:21">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="6:21" departure="6:21">Kaland skole (Fana)</stop>
+    <stop arrival="6:23" departure="6:23">Nedre Sandven</stop>
+    <stop arrival="6:23" departure="6:23">Sandven</stop>
+    <stop arrival="6:24" departure="6:24">Øvre Hatlestad</stop>
+    <stop arrival="6:25" departure="6:25">Hatlestadlia</stop>
+    <stop arrival="6:25" departure="6:25">Hatlestad terr.</stop>
+    <stop arrival="6:26" departure="6:26">Valle (Fana)</stop>
+    <stop arrival="6:27" departure="6:27">Kirkebirkeland</stop>
+    <stop arrival="6:27" departure="6:27">Lilletvedt</stop>
+    <stop arrival="6:28" departure="6:28">Bjørkåsen</stop>
+    <stop arrival="6:28" departure="6:28">Elvenes vegkryss</stop>
+    <stop arrival="6:29" departure="6:29">Skjoldskiftet</stop>
+    <stop arrival="6:30" departure="6:30">Nesttun</stop>
+    <stop arrival="6:30" departure="6:30">Nesttun terminal</stop>
+    <stop arrival="6:31" departure="6:31">Hopsbro</stop>
+    <stop arrival="6:32" departure="6:32">Tveiteråsskiftet</stop>
+    <stop arrival="6:33" departure="6:33">Paradis</stop>
+    <stop arrival="6:35" departure="6:35">Nydalen</stop>
+    <stop arrival="6:36" departure="6:36">Fantoft</stop>
+    <stop arrival="6:37" departure="6:37">Storetveit</stop>
+    <stop arrival="6:37" departure="6:37">Elvebakken</stop>
+    <stop arrival="6:38" departure="6:38">Minde</stop>
+    <stop arrival="6:41" departure="6:41">Mindemyren</stop>
+    <stop arrival="6:42" departure="6:42">Postterminalen</stop>
+    <stop arrival="6:43" departure="6:43">Kanalveien v/LBK</stop>
+    <stop arrival="6:45" departure="6:45">Danmarksplass v/Forum kino</stop>
+    <stop arrival="6:50" departure="6:50">Bergen Busstasjon</stop>
+    <stop arrival="6:52" departure="6:52">Christies gate (Festplassen)</stop>
+    <stop arrival="6:57">Bergen Busstasjon</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/772491/263211/973808/229407/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="6:15" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:16" departure="6:16">Fjellheim</stop>
+    <stop arrival="6:17" departure="6:17">Kuven</stop>
+    <stop arrival="6:18" departure="6:18">Flåten (Os)</stop>
+    <stop arrival="6:19" departure="6:19">Flåten Senter</stop>
+    <stop arrival="6:20" departure="6:20">Tøsdalskiftet</stop>
+    <stop arrival="6:20" departure="6:20">Ulvenskiftet</stop>
+    <stop arrival="6:21" departure="6:21">Hetleflåten</stop>
+    <stop arrival="6:22" departure="6:22">Helleflåttre</stop>
+    <stop arrival="6:23" departure="6:23">Storestraumen</stop>
+    <stop arrival="6:24" departure="6:24">Søfteland skule</stop>
+    <stop arrival="6:25" departure="6:25">Søfteland</stop>
+    <stop arrival="6:25" departure="6:25">Gåssandskiftet</stop>
+    <stop arrival="6:26" departure="6:26">Tømmernes</stop>
+    <stop arrival="6:26" departure="6:26">Røykenes (Os)</stop>
+    <stop arrival="6:27" departure="6:27">Bahus</stop>
+    <stop arrival="6:28" departure="6:28">Fløysand</stop>
+    <stop arrival="6:28" departure="6:28">Kalandseid</stop>
+    <stop arrival="6:29" departure="6:29">Austevoll (Fana)</stop>
+    <stop arrival="6:30" departure="6:30">Kaland (Fana)</stop>
+    <stop arrival="6:30" departure="6:30">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="6:31" departure="6:31">Kaland skole (Fana)</stop>
+    <stop arrival="6:32" departure="6:32">Nedre Sandven</stop>
+    <stop arrival="6:32" departure="6:32">Sandven</stop>
+    <stop arrival="6:33" departure="6:33">Øvre Hatlestad</stop>
+    <stop arrival="6:33" departure="6:33">Hatlestadlia</stop>
+    <stop arrival="6:33" departure="6:33">Hatlestad terr.</stop>
+    <stop arrival="6:34" departure="6:34">Valle (Fana)</stop>
+    <stop arrival="6:35" departure="6:35">Kirkebirkeland</stop>
+    <stop arrival="6:36" departure="6:36">Lilletvedt</stop>
+    <stop arrival="6:37" departure="6:37">Bjørkåsen</stop>
+    <stop arrival="6:37" departure="6:37">Elvenes vegkryss</stop>
+    <stop arrival="6:38" departure="6:38">Skjoldskiftet</stop>
+    <stop arrival="6:38" departure="6:38">Nesttun</stop>
+    <stop arrival="6:39" departure="6:39">Nesttun terminal</stop>
+    <stop arrival="6:40" departure="6:40">Hopsbro</stop>
+    <stop arrival="6:41" departure="6:41">Tveiteråsskiftet</stop>
+    <stop arrival="6:42" departure="6:42">Paradis</stop>
+    <stop arrival="6:44" departure="6:44">Nydalen</stop>
+    <stop arrival="6:45" departure="6:45">Fantoft</stop>
+    <stop arrival="6:46" departure="6:46">Storetveit</stop>
+    <stop arrival="6:46" departure="6:46">Elvebakken</stop>
+    <stop arrival="6:47" departure="6:47">Minde</stop>
+    <stop arrival="6:51" departure="6:51">Mindemyren</stop>
+    <stop arrival="6:52" departure="6:52">Postterminalen</stop>
+    <stop arrival="6:52" departure="6:52">Kanalveien v/LBK</stop>
+    <stop arrival="6:54" departure="6:54">Danmarksplass v/Forum kino</stop>
+    <stop arrival="6:55" departure="6:55">Bergen Busstasjon</stop>
+    <stop arrival="7:01" departure="7:01">Christies gate (Festplassen)</stop>
+    <stop arrival="7:06">Bergen Busstasjon</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/757989/258419/552828/23751/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:20" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:21" departure="6:21">Fjellheim</stop>
+    <stop arrival="6:22" departure="6:22">Kuven</stop>
+    <stop arrival="6:23" departure="6:23">Flåten (Os)</stop>
+    <stop arrival="6:24" departure="6:24">Flåten Senter</stop>
+    <stop arrival="6:25" departure="6:25">Tøsdalskiftet</stop>
+    <stop arrival="6:25" departure="6:25">Ulvenskiftet</stop>
+    <stop arrival="6:26" departure="6:26">Hetleflåten</stop>
+    <stop arrival="6:27" departure="6:27">Helleflåttre</stop>
+    <stop arrival="6:28" departure="6:28">Storestraumen</stop>
+    <stop arrival="6:29" departure="6:29">Søfteland skule</stop>
+    <stop arrival="6:30" departure="6:30">Søfteland</stop>
+    <stop arrival="6:30" departure="6:30">Gåssandskiftet</stop>
+    <stop arrival="6:31" departure="6:31">Tømmernes</stop>
+    <stop arrival="6:31" departure="6:31">Røykenes (Os)</stop>
+    <stop arrival="6:32" departure="6:32">Bahus</stop>
+    <stop arrival="6:33" departure="6:33">Fløysand</stop>
+    <stop arrival="6:33" departure="6:33">Kalandseid</stop>
+    <stop arrival="6:34" departure="6:34">Austevoll (Fana)</stop>
+    <stop arrival="6:35" departure="6:35">Kaland (Fana)</stop>
+    <stop arrival="6:36" departure="6:36">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="6:36" departure="6:36">Kaland skole (Fana)</stop>
+    <stop arrival="6:38" departure="6:38">Nedre Sandven</stop>
+    <stop arrival="6:38" departure="6:38">Sandven</stop>
+    <stop arrival="6:39" departure="6:39">Øvre Hatlestad</stop>
+    <stop arrival="6:39" departure="6:39">Hatlestadlia</stop>
+    <stop arrival="6:39" departure="6:39">Hatlestad terr.</stop>
+    <stop arrival="6:40" departure="6:40">Valle (Fana)</stop>
+    <stop arrival="6:41" departure="6:41">Kirkebirkeland</stop>
+    <stop arrival="6:42" departure="6:42">Lilletvedt</stop>
+    <stop arrival="6:43" departure="6:43">Bjørkåsen</stop>
+    <stop arrival="6:43" departure="6:43">Elvenes vegkryss</stop>
+    <stop arrival="6:44" departure="6:44">Skjoldskiftet</stop>
+    <stop arrival="6:44" departure="6:44">Nesttun</stop>
+    <stop arrival="6:45" departure="6:45">Nesttun terminal</stop>
+    <stop arrival="6:47" departure="6:47">Hopsbro</stop>
+    <stop arrival="6:49" departure="6:49">Tveiteråsskiftet</stop>
+    <stop arrival="6:50" departure="6:50">Paradis</stop>
+    <stop arrival="6:52" departure="6:52">Nydalen</stop>
+    <stop arrival="6:54" departure="6:54">Fantoft</stop>
+    <stop arrival="6:55" departure="6:55">Storetveit</stop>
+    <stop arrival="6:55" departure="6:55">Elvebakken</stop>
+    <stop arrival="6:56" departure="6:56">Minde</stop>
+    <stop arrival="6:59" departure="6:59">Mindemyren</stop>
+    <stop arrival="7:00" departure="7:00">Postterminalen</stop>
+    <stop arrival="7:01" departure="7:01">Kanalveien v/LBK</stop>
+    <stop arrival="7:03" departure="7:03">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:08" departure="7:08">Bergen Busstasjon</stop>
+    <stop arrival="7:11" departure="7:11">Christies gate (Festplassen)</stop>
+    <stop arrival="7:16">Bergen Busstasjon</stop>
+  </route>
+  <route no="567" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/519177/178657/943748/298815/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:15" routeNo="567">Lysekloster skule</stop>
+    <stop arrival="6:15" departure="6:15">Søvik (Os)</stop>
+    <stop arrival="6:15" departure="6:15">Søvik (Os)</stop>
+    <stop arrival="6:16" departure="6:16">Søvik (Os)</stop>
+    <stop arrival="6:16" departure="6:16">Buena</stop>
+    <stop arrival="6:17" departure="6:17">Smeabakken</stop>
+    <stop arrival="6:18" departure="6:18">Lysekloster gård</stop>
+    <stop arrival="6:18" departure="6:18">Lysekloster ruiner</stop>
+    <stop arrival="6:19" departure="6:19">Langedalen</stop>
+    <stop arrival="6:20" departure="6:20">Åsen (Os)</stop>
+    <stop arrival="6:21" departure="6:21">Åsen (Os)</stop>
+    <stop arrival="6:22" departure="6:22">Åsen vegkryss (Os)</stop>
+    <stop arrival="6:24" departure="6:24">Ulven leir</stop>
+    <stop arrival="6:27" departure="6:27">Os Vidaregåande skule</stop>
+    <stop arrival="6:29" departure="6:29">Kolskogen</stop>
+    <stop arrival="6:30" departure="6:30">Tøsdalskiftet</stop>
+    <stop arrival="6:31" departure="6:31">Flåten Senter</stop>
+    <stop arrival="6:32" departure="6:32">Flåten (Os)</stop>
+    <stop arrival="6:33" departure="6:33">Kuven</stop>
+    <stop arrival="6:34" departure="6:34">Fjellheim</stop>
+    <stop arrival="6:35">Os - Osøyro</stop>
+  </route>
+  <route no="613" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/654459/223830/541946/52820/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:10" routeNo="613">Sør Strøno snuplass</stop>
+    <stop arrival="6:11" departure="6:11">Sør Strøno 2</stop>
+    <stop arrival="6:12" departure="6:12">Sør Strøno 1</stop>
+    <stop arrival="6:15" departure="6:15">Stokkavik 1</stop>
+    <stop arrival="6:16" departure="6:16">Nore Øyane skule</stop>
+    <stop arrival="6:18" departure="6:18">Strøno 1</stop>
+    <stop arrival="6:18" departure="6:18">Strøno 2</stop>
+    <stop arrival="6:19" departure="6:19">Strøno Ungdomshuset</stop>
+    <stop arrival="6:20" departure="6:20">Nord Strøno Snuplass</stop>
+    <stop arrival="6:21" departure="6:21">Strøno Ungdomshuset</stop>
+    <stop arrival="6:22" departure="6:22">Strøno 2</stop>
+    <stop arrival="6:23" departure="6:23">Strøno 1</stop>
+    <stop arrival="6:25" departure="6:25">Nore Øyane skule</stop>
+    <stop arrival="6:26" departure="6:26">Stokkavik 1</stop>
+    <stop arrival="6:27" departure="6:27">Strøno vegkryss</stop>
+    <stop arrival="6:27" departure="6:27">Hildershavn</stop>
+    <stop arrival="6:28" departure="6:28">Askvikskogen</stop>
+    <stop arrival="6:29" departure="6:29">Askvik (Os)</stop>
+    <stop arrival="6:29" departure="6:29">Grøvle (Os)</stop>
+    <stop arrival="6:29" departure="6:29">Ytre Hovland</stop>
+    <stop arrival="6:30" departure="6:30">Hagavik (Hovland - Os)</stop>
+    <stop arrival="6:31" departure="6:31">Hagevik 2</stop>
+    <stop arrival="6:31" departure="6:31">Hagevik 1</stop>
+    <stop arrival="6:32" departure="6:32">Irgenskryss</stop>
+    <stop arrival="6:33" departure="6:33">Ådnadalen</stop>
+    <stop arrival="6:34" departure="6:34">Vaksinen</stop>
+    <stop arrival="6:35" departure="6:35">Ulvensletta</stop>
+    <stop arrival="6:38" departure="6:38">Os Vidaregåande skule</stop>
+    <stop arrival="6:39" departure="6:39">Kolskogen</stop>
+    <stop arrival="6:40" departure="6:40">Tøsdalskiftet</stop>
+    <stop arrival="6:41" departure="6:41">Flåten Senter</stop>
+    <stop arrival="6:42" departure="6:42">Flåten (Os)</stop>
+    <stop arrival="6:43" departure="6:43">Kuven</stop>
+    <stop arrival="6:44" departure="6:44">Fjellheim</stop>
+    <stop arrival="6:45">Os - Osøyro</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/496725/171332/201444/64853/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:35" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:36" departure="6:36">Fjellheim</stop>
+    <stop arrival="6:37" departure="6:37">Kuven</stop>
+    <stop arrival="6:38" departure="6:38">Flåten (Os)</stop>
+    <stop arrival="6:39" departure="6:39">Flåten Senter</stop>
+    <stop arrival="6:40" departure="6:40">Tøsdalskiftet</stop>
+    <stop arrival="6:40" departure="6:40">Ulvenskiftet</stop>
+    <stop arrival="6:41" departure="6:41">Hetleflåten</stop>
+    <stop arrival="6:42" departure="6:42">Helleflåttre</stop>
+    <stop arrival="6:43" departure="6:43">Storestraumen</stop>
+    <stop arrival="6:44" departure="6:44">Søfteland skule</stop>
+    <stop arrival="6:45" departure="6:45">Søfteland</stop>
+    <stop arrival="6:45" departure="6:45">Gåssandskiftet</stop>
+    <stop arrival="6:46" departure="6:46">Tømmernes</stop>
+    <stop arrival="6:46" departure="6:46">Røykenes (Os)</stop>
+    <stop arrival="6:47" departure="6:47">Bahus</stop>
+    <stop arrival="6:48" departure="6:48">Fløysand</stop>
+    <stop arrival="6:48" departure="6:48">Kalandseid</stop>
+    <stop arrival="6:49" departure="6:49">Austevoll (Fana)</stop>
+    <stop arrival="6:50" departure="6:50">Kaland (Fana)</stop>
+    <stop arrival="6:51" departure="6:51">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="6:51" departure="6:51">Kaland skole (Fana)</stop>
+    <stop arrival="6:53" departure="6:53">Nedre Sandven</stop>
+    <stop arrival="6:53" departure="6:53">Sandven</stop>
+    <stop arrival="6:55" departure="6:55">Øvre Hatlestad</stop>
+    <stop arrival="6:56" departure="6:56">Hatlestadlia</stop>
+    <stop arrival="6:57" departure="6:57">Hatlestad terr.</stop>
+    <stop arrival="6:58" departure="6:58">Valle (Fana)</stop>
+    <stop arrival="6:59" departure="6:59">Kirkebirkeland</stop>
+    <stop arrival="7:00" departure="7:00">Lilletvedt</stop>
+    <stop arrival="7:01" departure="7:01">Bjørkåsen</stop>
+    <stop arrival="7:01" departure="7:01">Elvenes vegkryss</stop>
+    <stop arrival="7:02" departure="7:02">Skjoldskiftet</stop>
+    <stop arrival="7:02" departure="7:02">Nesttun</stop>
+    <stop arrival="7:03" departure="7:03">Nesttun terminal</stop>
+    <stop arrival="7:06" departure="7:06">Hopsbro</stop>
+    <stop arrival="7:08" departure="7:08">Tveiteråsskiftet</stop>
+    <stop arrival="7:09" departure="7:09">Paradis</stop>
+    <stop arrival="7:11" departure="7:11">Nydalen</stop>
+    <stop arrival="7:13" departure="7:13">Fantoft</stop>
+    <stop arrival="7:14" departure="7:14">Storetveit</stop>
+    <stop arrival="7:14" departure="7:14">Elvebakken</stop>
+    <stop arrival="7:15" departure="7:15">Minde</stop>
+    <stop arrival="7:18" departure="7:18">Mindemyren</stop>
+    <stop arrival="7:19" departure="7:19">Postterminalen</stop>
+    <stop arrival="7:20" departure="7:20">Kanalveien v/LBK</stop>
+    <stop arrival="7:22" departure="7:22">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:25" departure="7:25">Bergen Busstasjon</stop>
+    <stop arrival="7:27" departure="7:27">Christies gate (Festplassen)</stop>
+    <stop arrival="7:30">Bergen Busstasjon</stop>
+  </route>
+  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/805473/274245/704252/83635/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:05" routeNo="620">Bergen Busstasjon</stop>
+    <stop arrival="6:08" departure="6:08">Danmarksplass</stop>
+    <stop arrival="6:09" departure="6:09">Solheimsgaten</stop>
+    <stop arrival="6:10" departure="6:10">Reperbanen</stop>
+    <stop arrival="6:12" departure="6:12">Fjøsangerveien/ Minde Allè</stop>
+    <stop arrival="6:13" departure="6:13">Minde</stop>
+    <stop arrival="6:14" departure="6:14">Elvebakken</stop>
+    <stop arrival="6:14" departure="6:14">Storetveit</stop>
+    <stop arrival="6:14" departure="6:14">Fantoft</stop>
+    <stop arrival="6:15" departure="6:15">Nydalen</stop>
+    <stop arrival="6:16" departure="6:16">Paradis</stop>
+    <stop arrival="6:17" departure="6:17">Tveiteråsskiftet</stop>
+    <stop arrival="6:18" departure="6:18">Hopsbro</stop>
+    <stop arrival="6:20" departure="6:20">Hopstangen</stop>
+    <stop arrival="6:21" departure="6:21">Nesttun terminal</stop>
+    <stop arrival="6:21" departure="6:21">Nesttun</stop>
+    <stop arrival="6:22" departure="6:22">Skjoldskiftet</stop>
+    <stop arrival="6:22" departure="6:22">Elvenes vegkryss</stop>
+    <stop arrival="6:23" departure="6:23">Bjørkåsen</stop>
+    <stop arrival="6:24" departure="6:24">Lilletvedt</stop>
+    <stop arrival="6:24" departure="6:24">Kirkebirkeland</stop>
+    <stop arrival="6:25" departure="6:25">Valle (Fana)</stop>
+    <stop arrival="6:26" departure="6:26">Hatlestad terr.</stop>
+    <stop arrival="6:28" departure="6:28">Øvre Hatlestad</stop>
+    <stop arrival="6:29" departure="6:29">Sandven</stop>
+    <stop arrival="6:30" departure="6:30">Nedre Sandven</stop>
+    <stop arrival="6:31" departure="6:31">Kaland skole (Fana)</stop>
+    <stop arrival="6:32" departure="6:32">Kaland (Fana)</stop>
+    <stop arrival="6:33" departure="6:33">Austevoll (Fana)</stop>
+    <stop arrival="6:34" departure="6:34">Kalandseid</stop>
+    <stop arrival="6:34" departure="6:34">Fløysand</stop>
+    <stop arrival="6:35" departure="6:35">Bahus</stop>
+    <stop arrival="6:36" departure="6:36">Røykenes (Os)</stop>
+    <stop arrival="6:37" departure="6:37">Tømmernes</stop>
+    <stop arrival="6:38" departure="6:38">Gåssandskiftet</stop>
+    <stop arrival="6:38" departure="6:38">Søfteland</stop>
+    <stop arrival="6:39" departure="6:39">Søfteland skule</stop>
+    <stop arrival="6:40" departure="6:40">Storestraumen</stop>
+    <stop arrival="6:42" departure="6:42">Hetleflåttre</stop>
+    <stop arrival="6:43" departure="6:43">Hetleflåten</stop>
+    <stop arrival="6:44" departure="6:44">Ulvenskiftet</stop>
+    <stop arrival="6:44" departure="6:44">Tøsdalskiftet</stop>
+    <stop arrival="6:45" departure="6:45">Flåten Senter</stop>
+    <stop arrival="6:46" departure="6:46">Flåten (Os)</stop>
+    <stop arrival="6:47" departure="6:47">Kuven</stop>
+    <stop arrival="6:48" departure="6:48">Fjellheim</stop>
+    <stop arrival="6:49">Os - Osøyro</stop>
+  </route>
+  <route no="626" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/958689/325411/945112/152993/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:25" routeNo="626">Røttingen snuplass</stop>
+    <stop arrival="6:26" departure="6:26">Hauane (Røtinga)</stop>
+    <stop arrival="6:27" departure="6:27">Bruarøy Ungdomshuset</stop>
+    <stop arrival="6:28" departure="6:28">Bruarøy</stop>
+    <stop arrival="6:28" departure="6:28">Sundøy</stop>
+    <stop arrival="6:30" departure="6:30">Lepsøy kai</stop>
+    <stop arrival="6:31" departure="6:31">Lepsøy</stop>
+    <stop arrival="6:32" departure="6:32">Blindesund</stop>
+    <stop arrival="6:34" departure="6:34">Storumhammeren</stop>
+    <stop arrival="6:34" departure="6:34">Storum (Os)</stop>
+    <stop arrival="6:35" departure="6:35">Ravneberghaugen</stop>
+    <stop arrival="6:35" departure="6:35">Grindevoll</stop>
+    <stop arrival="6:35" departure="6:35">Grindevoll snuplass</stop>
+    <stop arrival="6:36" departure="6:36">Skeie (Os)</stop>
+    <stop arrival="6:36" departure="6:36">Nore Neset skule</stop>
+    <stop arrival="6:37" departure="6:37">Irgenskryss</stop>
+    <stop arrival="6:38" departure="6:38">Ådnadalen</stop>
+    <stop arrival="6:39" departure="6:39">Vaksinen</stop>
+    <stop arrival="6:40" departure="6:40">Ulvensletta</stop>
+    <stop arrival="6:42" departure="6:42">Os Vidaregåande skule</stop>
+    <stop arrival="6:44" departure="6:44">Kolskogen</stop>
+    <stop arrival="6:45" departure="6:45">Tøsdalskiftet</stop>
+    <stop arrival="6:46" departure="6:46">Flåten Senter</stop>
+    <stop arrival="6:47" departure="6:47">Flåten (Os)</stop>
+    <stop arrival="6:48" departure="6:48">Kuven</stop>
+    <stop arrival="6:49" departure="6:49">Fjellheim</stop>
+    <stop arrival="6:50">Os - Osøyro</stop>
+  </route>
+  <route no="613" destination="Sør Strøno snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/958107/325047/904946/133104/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:40" routeNo="613">Os - Osøyro</stop>
+    <stop arrival="6:41" departure="6:41">Fjellheim</stop>
+    <stop arrival="6:42" departure="6:42">Kuven</stop>
+    <stop arrival="6:43" departure="6:43">Flåten (Os)</stop>
+    <stop arrival="6:44" departure="6:44">Flåten Senter</stop>
+    <stop arrival="6:45" departure="6:45">Tøsdalskiftet</stop>
+    <stop arrival="6:47" departure="6:47">Os Vidaregåande skule</stop>
+    <stop arrival="6:50" departure="6:50">Ulvensletta</stop>
+    <stop arrival="6:51" departure="6:51">Vaksinen</stop>
+    <stop arrival="6:52" departure="6:52">Ådnadalen</stop>
+    <stop arrival="6:53" departure="6:53">Irgenskryss</stop>
+    <stop arrival="6:54" departure="6:54">Hagevik 1</stop>
+    <stop arrival="6:55" departure="6:55">Hagevik 2</stop>
+    <stop arrival="6:55" departure="6:55">Hagavik (Hovland - Os)</stop>
+    <stop arrival="6:56" departure="6:56">Ytre Hovland</stop>
+    <stop arrival="6:56" departure="6:56">Grøvle (Os)</stop>
+    <stop arrival="6:56" departure="6:56">Askvik (Os)</stop>
+    <stop arrival="6:57" departure="6:57">Askvikskogen</stop>
+    <stop arrival="6:58" departure="6:58">Hildershavn</stop>
+    <stop arrival="6:58" departure="6:58">Strøno vegkryss</stop>
+    <stop arrival="7:04" departure="7:04">Sør Strøno 1</stop>
+    <stop arrival="7:06" departure="7:06">Sør Strøno 2</stop>
+    <stop arrival="7:08">Sør Strøno snuplass</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/675729/230959/313230/68628/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="6:45" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:46" departure="6:46">Fjellheim</stop>
+    <stop arrival="6:47" departure="6:47">Kuven</stop>
+    <stop arrival="6:48" departure="6:48">Flåten (Os)</stop>
+    <stop arrival="6:49" departure="6:49">Flåten Senter</stop>
+    <stop arrival="6:50" departure="6:50">Tøsdalskiftet</stop>
+    <stop arrival="6:50" departure="6:50">Ulvenskiftet</stop>
+    <stop arrival="6:51" departure="6:51">Hetleflåten</stop>
+    <stop arrival="6:52" departure="6:52">Helleflåttre</stop>
+    <stop arrival="6:53" departure="6:53">Storestraumen</stop>
+    <stop arrival="6:54" departure="6:54">Søfteland skule</stop>
+    <stop arrival="6:55" departure="6:55">Søfteland</stop>
+    <stop arrival="6:55" departure="6:55">Gåssandskiftet</stop>
+    <stop arrival="6:56" departure="6:56">Tømmernes</stop>
+    <stop arrival="6:56" departure="6:56">Røykenes (Os)</stop>
+    <stop arrival="6:57" departure="6:57">Bahus</stop>
+    <stop arrival="6:58" departure="6:58">Fløysand</stop>
+    <stop arrival="6:58" departure="6:58">Kalandseid</stop>
+    <stop arrival="6:59" departure="6:59">Austevoll (Fana)</stop>
+    <stop arrival="7:00" departure="7:00">Kaland (Fana)</stop>
+    <stop arrival="7:01" departure="7:01">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="7:01" departure="7:01">Kaland skole (Fana)</stop>
+    <stop arrival="7:03" departure="7:03">Nedre Sandven</stop>
+    <stop arrival="7:03" departure="7:03">Sandven</stop>
+    <stop arrival="7:04" departure="7:04">Øvre Hatlestad</stop>
+    <stop arrival="7:04" departure="7:04">Hatlestadlia</stop>
+    <stop arrival="7:04" departure="7:04">Hatlestad terr.</stop>
+    <stop arrival="7:05" departure="7:05">Valle (Fana)</stop>
+    <stop arrival="7:06" departure="7:06">Kirkebirkeland</stop>
+    <stop arrival="7:07" departure="7:07">Lilletvedt</stop>
+    <stop arrival="7:08" departure="7:08">Bjørkåsen</stop>
+    <stop arrival="7:08" departure="7:08">Elvenes vegkryss</stop>
+    <stop arrival="7:09" departure="7:09">Skjoldskiftet</stop>
+    <stop arrival="7:09" departure="7:09">Nesttun</stop>
+    <stop arrival="7:10" departure="7:10">Nesttun terminal</stop>
+    <stop arrival="7:11" departure="7:11">Hopsbro</stop>
+    <stop arrival="7:12" departure="7:12">Tveiteråsskiftet</stop>
+    <stop arrival="7:13" departure="7:13">Paradis</stop>
+    <stop arrival="7:15" departure="7:15">Nydalen</stop>
+    <stop arrival="7:16" departure="7:16">Fantoft</stop>
+    <stop arrival="7:17" departure="7:17">Storetveit</stop>
+    <stop arrival="7:17" departure="7:17">Elvebakken</stop>
+    <stop arrival="7:18" departure="7:18">Minde</stop>
+    <stop arrival="7:22" departure="7:22">Mindemyren</stop>
+    <stop arrival="7:23" departure="7:23">Postterminalen</stop>
+    <stop arrival="7:23" departure="7:23">Kanalveien v/LBK</stop>
+    <stop arrival="7:25" departure="7:25">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:29" departure="7:29">Bergen Busstasjon</stop>
+    <stop arrival="7:32" departure="7:32">Christies gate (Festplassen)</stop>
+    <stop arrival="7:37">Bergen Busstasjon</stop>
+  </route>
+  <route no="620" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/318387/111844/868650/328196/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="6:34" routeNo="620">Nesttun terminal</stop>
+    <stop arrival="6:34" departure="6:34">Nesttun</stop>
+    <stop arrival="6:35" departure="6:35">Skjoldskiftet</stop>
+    <stop arrival="6:36" departure="6:36">Elvenes vegkryss</stop>
+    <stop arrival="6:36" departure="6:36">Bjørkåsen</stop>
+    <stop arrival="6:37" departure="6:37">Lilletvedt</stop>
+    <stop arrival="6:38" departure="6:38">Kirkebirkeland</stop>
+    <stop arrival="6:39" departure="6:39">Valle (Fana)</stop>
+    <stop arrival="6:40" departure="6:40">Hatlestad terr.</stop>
+    <stop arrival="6:41" departure="6:41">Øvre Hatlestad</stop>
+    <stop arrival="6:42" departure="6:42">Sandven</stop>
+    <stop arrival="6:43" departure="6:43">Nedre Sandven</stop>
+    <stop arrival="6:44" departure="6:44">Kaland skole (Fana)</stop>
+    <stop arrival="6:45" departure="6:45">Kaland (Fana)</stop>
+    <stop arrival="6:46" departure="6:46">Austevoll (Fana)</stop>
+    <stop arrival="6:47" departure="6:47">Kalandseid</stop>
+    <stop arrival="6:47" departure="6:47">Fløysand</stop>
+    <stop arrival="6:47" departure="6:47">Bahus</stop>
+    <stop arrival="6:48" departure="6:48">Røykenes (Os)</stop>
+    <stop arrival="6:48" departure="6:48">Tømmernes</stop>
+    <stop arrival="6:49" departure="6:49">Gåssandskiftet</stop>
+    <stop arrival="6:49" departure="6:49">Søfteland</stop>
+    <stop arrival="6:49" departure="6:49">Søfteland skule</stop>
+    <stop arrival="6:50" departure="6:50">Storestraumen</stop>
+    <stop arrival="6:52" departure="6:52">Hetleflåttre</stop>
+    <stop arrival="6:53" departure="6:53">Hetleflåten</stop>
+    <stop arrival="6:54" departure="6:54">Ulvenskiftet</stop>
+    <stop arrival="6:54" departure="6:54">Tøsdalskiftet</stop>
+    <stop arrival="6:55" departure="6:55">Flåten Senter</stop>
+    <stop arrival="6:56" departure="6:56">Flåten (Os)</stop>
+    <stop arrival="6:57" departure="6:57">Kuven</stop>
+    <stop arrival="6:58" departure="6:58">Fjellheim</stop>
+    <stop arrival="6:59">Os - Osøyro</stop>
+  </route>
+  <route no="612" destination="Hagavik (Hovland - Os)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/691170/236050/99046/180867/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:50" routeNo="612">Os - Osøyro</stop>
+    <stop arrival="6:51" departure="6:51">Fjellheim</stop>
+    <stop arrival="6:52" departure="6:52">Kuven</stop>
+    <stop arrival="6:53" departure="6:53">Flåten (Os)</stop>
+    <stop arrival="6:54" departure="6:54">Flåten Senter</stop>
+    <stop arrival="6:55" departure="6:55">Tøsdalskiftet</stop>
+    <stop arrival="6:55" departure="6:55">Ulvenskiftet</stop>
+    <stop arrival="6:56" departure="6:56">Vaktdal</stop>
+    <stop arrival="6:57" departure="6:57">Os Vidaregåande skule</stop>
+    <stop arrival="7:00" departure="7:00">Ulvensletta</stop>
+    <stop arrival="7:01" departure="7:01">Vaksinen</stop>
+    <stop arrival="7:02" departure="7:02">Ådnadalen</stop>
+    <stop arrival="7:03" departure="7:03">Irgenskryss</stop>
+    <stop arrival="7:04" departure="7:04">Hagevik 1</stop>
+    <stop arrival="7:05" departure="7:05">Hagevik 2</stop>
+    <stop arrival="7:05">Hagavik (Hovland - Os)</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/680151/232476/229092/112171/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:50" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:51" departure="6:51">Fjellheim</stop>
+    <stop arrival="6:52" departure="6:52">Kuven</stop>
+    <stop arrival="6:53" departure="6:53">Flåten (Os)</stop>
+    <stop arrival="6:54" departure="6:54">Flåten Senter</stop>
+    <stop arrival="6:55" departure="6:55">Tøsdalskiftet</stop>
+    <stop arrival="6:55" departure="6:55">Ulvenskiftet</stop>
+    <stop arrival="6:56" departure="6:56">Hetleflåten</stop>
+    <stop arrival="6:57" departure="6:57">Helleflåttre</stop>
+    <stop arrival="6:59" departure="6:59">Storestraumen</stop>
+    <stop arrival="7:00" departure="7:00">Søfteland skule</stop>
+    <stop arrival="7:01" departure="7:01">Søfteland</stop>
+    <stop arrival="7:01" departure="7:01">Gåssandskiftet</stop>
+    <stop arrival="7:02" departure="7:02">Tømmernes</stop>
+    <stop arrival="7:03" departure="7:03">Røykenes (Os)</stop>
+    <stop arrival="7:04" departure="7:04">Bahus</stop>
+    <stop arrival="7:05" departure="7:05">Fløysand</stop>
+    <stop arrival="7:05" departure="7:05">Kalandseid</stop>
+    <stop arrival="7:06" departure="7:06">Austevoll (Fana)</stop>
+    <stop arrival="7:07" departure="7:07">Kaland (Fana)</stop>
+    <stop arrival="7:08" departure="7:08">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="7:08" departure="7:08">Kaland skole (Fana)</stop>
+    <stop arrival="7:10" departure="7:10">Nedre Sandven</stop>
+    <stop arrival="7:10" departure="7:10">Sandven</stop>
+    <stop arrival="7:11" departure="7:11">Øvre Hatlestad</stop>
+    <stop arrival="7:12" departure="7:12">Hatlestadlia</stop>
+    <stop arrival="7:13" departure="7:13">Hatlestad terr.</stop>
+    <stop arrival="7:14" departure="7:14">Valle (Fana)</stop>
+    <stop arrival="7:15" departure="7:15">Kirkebirkeland</stop>
+    <stop arrival="7:16" departure="7:16">Lilletvedt</stop>
+    <stop arrival="7:17" departure="7:17">Bjørkåsen</stop>
+    <stop arrival="7:18" departure="7:18">Elvenes vegkryss</stop>
+    <stop arrival="7:19" departure="7:19">Skjoldskiftet</stop>
+    <stop arrival="7:19" departure="7:19">Nesttun</stop>
+    <stop arrival="7:20" departure="7:20">Nesttun terminal</stop>
+    <stop arrival="7:22" departure="7:22">Hopsbro</stop>
+    <stop arrival="7:24" departure="7:24">Tveiteråsskiftet</stop>
+    <stop arrival="7:25" departure="7:25">Paradis</stop>
+    <stop arrival="7:27" departure="7:27">Nydalen</stop>
+    <stop arrival="7:29" departure="7:29">Fantoft</stop>
+    <stop arrival="7:30" departure="7:30">Storetveit</stop>
+    <stop arrival="7:30" departure="7:30">Elvebakken</stop>
+    <stop arrival="7:31" departure="7:31">Minde</stop>
+    <stop arrival="7:34" departure="7:34">Mindemyren</stop>
+    <stop arrival="7:35" departure="7:35">Postterminalen</stop>
+    <stop arrival="7:36" departure="7:36">Kanalveien v/LBK</stop>
+    <stop arrival="7:38" departure="7:38">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:40" departure="7:40">Bergen Busstasjon</stop>
+    <stop arrival="7:43" departure="7:43">Christies gate (Festplassen)</stop>
+    <stop arrival="7:45">Bergen Busstasjon</stop>
+  </route>
+  <route no="620" destination="Christies gate (Festplassen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/200286/72522/851736/359106/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:50" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:51" departure="6:51">Fjellheim</stop>
+    <stop arrival="6:52" departure="6:52">Kuven</stop>
+    <stop arrival="6:53" departure="6:53">Flåten (Os)</stop>
+    <stop arrival="6:54" departure="6:54">Flåten Senter</stop>
+    <stop arrival="6:55" departure="6:55">Tøsdalskiftet</stop>
+    <stop arrival="6:55" departure="6:55">Ulvenskiftet</stop>
+    <stop arrival="6:56" departure="6:56">Hetleflåten</stop>
+    <stop arrival="6:57" departure="6:57">Helleflåttre</stop>
+    <stop arrival="6:59" departure="6:59">Storestraumen</stop>
+    <stop arrival="7:00" departure="7:00">Søfteland skule</stop>
+    <stop arrival="7:01" departure="7:01">Søfteland</stop>
+    <stop arrival="7:01" departure="7:01">Gåssandskiftet</stop>
+    <stop arrival="7:02" departure="7:02">Tømmernes</stop>
+    <stop arrival="7:03" departure="7:03">Røykenes (Os)</stop>
+    <stop arrival="7:04" departure="7:04">Bahus</stop>
+    <stop arrival="7:05" departure="7:05">Fløysand</stop>
+    <stop arrival="7:05" departure="7:05">Kalandseid</stop>
+    <stop arrival="7:06" departure="7:06">Austevoll (Fana)</stop>
+    <stop arrival="7:07" departure="7:07">Kaland (Fana)</stop>
+    <stop arrival="7:08" departure="7:08">Smådalen (Kaland i Fana)</stop>
+    <stop arrival="7:08" departure="7:08">Kaland skole (Fana)</stop>
+    <stop arrival="7:10" departure="7:10">Nedre Sandven</stop>
+    <stop arrival="7:10" departure="7:10">Sandven</stop>
+    <stop arrival="7:11" departure="7:11">Øvre Hatlestad</stop>
+    <stop arrival="7:12" departure="7:12">Hatlestadlia</stop>
+    <stop arrival="7:13" departure="7:13">Hatlestad terr.</stop>
+    <stop arrival="7:14" departure="7:14">Valle (Fana)</stop>
+    <stop arrival="7:15" departure="7:15">Kirkebirkeland</stop>
+    <stop arrival="7:16" departure="7:16">Lilletvedt</stop>
+    <stop arrival="7:17" departure="7:17">Bjørkåsen</stop>
+    <stop arrival="7:18" departure="7:18">Elvenes vegkryss</stop>
+    <stop arrival="7:19" departure="7:19">Skjoldskiftet</stop>
+    <stop arrival="7:19" departure="7:19">Nesttun</stop>
+    <stop arrival="7:20" departure="7:20">Nesttun terminal</stop>
+    <stop arrival="7:22" departure="7:22">Hopsbro</stop>
+    <stop arrival="7:24" departure="7:24">Tveiteråsskiftet</stop>
+    <stop arrival="7:25" departure="7:25">Paradis</stop>
+    <stop arrival="7:27" departure="7:27">Nydalen</stop>
+    <stop arrival="7:29" departure="7:29">Fantoft</stop>
+    <stop arrival="7:30" departure="7:30">Storetveit</stop>
+    <stop arrival="7:30" departure="7:30">Elvebakken</stop>
+    <stop arrival="7:31" departure="7:31">Minde</stop>
+    <stop arrival="7:34" departure="7:34">Mindemyren</stop>
+    <stop arrival="7:35" departure="7:35">Postterminalen</stop>
+    <stop arrival="7:36" departure="7:36">Kanalveien v/LBK</stop>
+    <stop arrival="7:38" departure="7:38">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:43" departure="7:43">Bergen Busstasjon</stop>
+    <stop arrival="7:46">Christies gate (Festplassen)</stop>
+  </route>
+  <route no="620" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/338106/118463/396748/85672/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:50" routeNo="620">Os - Osøyro</stop>
+    <stop arrival="6:51" departure="6:51">Fjellheim</stop>
+    <stop arrival="6:52" departure="6:52">Kuven</stop>
+    <stop arrival="6:53" departure="6:53">Flåten (Os)</stop>
+    <stop arrival="6:54" departure="6:54">Flåten Senter</stop>
+    <stop arrival="6:55" departure="6:55">Tøsdalskiftet</stop>
+    <stop arrival="6:55" departure="6:55">Ulvenskiftet</stop>
+    <stop arrival="6:56" departure="6:56">Hetleflåten</stop>
+    <stop arrival="6:57" departure="6:57">Helleflåttre</stop>
+    <stop arrival="6:59" departure="6:59">Storestraumen</stop>
+    <stop arrival="7:00" departure="7:00">Søfteland skule</stop>
+    <stop arrival="7:00" departure="7:00">Søfteland</stop>
+    <stop arrival="7:07" departure="7:07">Valle (Fana)</stop>
+    <stop arrival="7:35" departure="7:35">Mindemyren</stop>
+    <stop arrival="7:38" departure="7:38">Danmarksplass v/Forum kino</stop>
+    <stop arrival="7:40" departure="7:40">Bergen Busstasjon</stop>
+    <stop arrival="7:41" departure="7:41">Christies gate (Festplassen)</stop>
+    <stop arrival="7:43">Bergen Busstasjon</stop>
+  </route>
+</routes>

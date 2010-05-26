@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="495" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/139329/49297/56004/18441/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:18" routeNo="495">Ramsøy snuplass</stop>
+    <stop arrival="14:20" departure="14:20">Ramsøy bro</stop>
+    <stop arrival="14:21" departure="14:21">Hanøy</stop>
+    <stop arrival="14:21" departure="14:21">Hanøy bedehus</stop>
+    <stop arrival="14:22" departure="14:22">Hanøy skole</stop>
+    <stop arrival="14:23" departure="14:23">Hanøy Skaret</stop>
+    <stop arrival="14:23" departure="14:23">Hanøy Steinseidet</stop>
+    <stop arrival="14:24" departure="14:24">Hanøy Steinsbruddet</stop>
+    <stop arrival="14:24" departure="14:24">Hanøy Langøyvei</stop>
+    <stop arrival="14:25" departure="14:25">Kollevåg Friluften</stop>
+    <stop arrival="14:27" departure="14:27">Kollevågshøyden</stop>
+    <stop arrival="14:28" departure="14:28">Kollevåg Svartevatnet</stop>
+    <stop arrival="14:30" departure="14:30">Kollevåg</stop>
+    <stop arrival="14:31" departure="14:31">Kollevåg Hendriksen</stop>
+    <stop arrival="14:33" departure="14:33">Tveit kirke/skole (Askøy)</stop>
+    <stop arrival="14:34" departure="14:34">Tveitevågskiftet</stop>
+    <stop arrival="14:35" departure="14:35">Tveitetræet</stop>
+    <stop arrival="14:37" departure="14:37">Ravnanger (Jehovas V.)</stop>
+    <stop arrival="14:38" departure="14:38">Ravnanger term.</stop>
+    <stop arrival="14:38" departure="14:38">Ravnanger</stop>
+    <stop arrival="14:39" departure="14:39">Haugland bedehus (Askøy)</stop>
+    <stop arrival="14:40" departure="14:40">Haugland skole (Askøy)</stop>
+    <stop arrival="14:41" departure="14:41">Haugland sør (Askøy)</stop>
+    <stop arrival="14:42" departure="14:42">Fjellveien (Askøy)</stop>
+    <stop arrival="14:43" departure="14:43">Haugland Verkstedet (Askøy)</stop>
+    <stop arrival="14:44" departure="14:44">Kråvik (Askøy)</stop>
+    <stop arrival="14:44" departure="14:44">Pålelva (Askøy)</stop>
+    <stop arrival="14:45" departure="14:45">Lavikskiftet (Askøy)</stop>
+    <stop arrival="14:46" departure="14:46">Juvik bedehus (Askøy)</stop>
+    <stop arrival="14:47" departure="14:47">Juvikflaten (Askøy)</stop>
+    <stop arrival="14:48" departure="14:48">Krokåsskiftet (Askøy)</stop>
+    <stop arrival="14:50" departure="14:50">Askøy senter</stop>
+    <stop arrival="14:51" departure="14:51">Skansen (Askøy)</stop>
+    <stop arrival="14:52" departure="14:52">Torvgården (Askøy)</stop>
+    <stop arrival="14:53" departure="14:53">Florvågskiftet F216</stop>
+    <stop arrival="14:55" departure="14:55">Kleppestø ungdomsskole</stop>
+    <stop arrival="14:56" departure="14:56">Askøy Helsetun</stop>
+    <stop arrival="14:58" departure="14:58">Kleppestø senter</stop>
+    <stop arrival="15:00" departure="15:00">Kleppestø term.</stop>
+    <stop arrival="15:01" departure="15:01">Kleppestø (Rådhuset)</stop>
+    <stop arrival="15:02" departure="15:02">Holmedal (Askøy)</stop>
+    <stop arrival="15:03" departure="15:03">Storeklubben (Askøy)</stop>
+    <stop arrival="15:06" departure="15:06">Brøstaneset</stop>
+    <stop arrival="15:10" departure="15:10">Storavatnet term.</stop>
+    <stop arrival="15:11" departure="15:11">Frida Fasmer</stop>
+    <stop arrival="15:16" departure="15:16">Lyngbø Motorvei R555</stop>
+    <stop arrival="15:20" departure="15:20">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:22" departure="15:22">Nygårdsgaten</stop>
+    <stop arrival="15:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="495" destination="Ramsøy snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/166047/58198/529022/209162/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:05" routeNo="495">Ravnanger skole</stop>
+    <stop arrival="14:09" departure="14:09">Ravnanger term.</stop>
+    <stop arrival="14:10" departure="14:10">Ravnanger (Jehovas V.)</stop>
+    <stop arrival="14:11" departure="14:11">Tveitetræet</stop>
+    <stop arrival="14:11" departure="14:11">Tveitevågskiftet</stop>
+    <stop arrival="14:12" departure="14:12">Tveit kirke/skole (Askøy)</stop>
+    <stop arrival="14:13" departure="14:13">Kollevåg Hendriksen</stop>
+    <stop arrival="14:14" departure="14:14">Kollevåg</stop>
+    <stop arrival="14:15" departure="14:15">Kollevåg Svartevatnet</stop>
+    <stop arrival="14:16" departure="14:16">Kollevågshøyden</stop>
+    <stop arrival="14:17" departure="14:17">Kollevåg Friluften</stop>
+    <stop arrival="14:17" departure="14:17">Hanøy Langøyvei</stop>
+    <stop arrival="14:18" departure="14:18">Hanøy Steinsbruddet</stop>
+    <stop arrival="14:18" departure="14:18">Hanøy Steinseidet</stop>
+    <stop arrival="14:18" departure="14:18">Hanøy Skaret</stop>
+    <stop arrival="14:19" departure="14:19">Hanøy skole</stop>
+    <stop arrival="14:21" departure="14:21">Hanøy bedehus</stop>
+    <stop arrival="14:22" departure="14:22">Hanøy</stop>
+    <stop arrival="14:24" departure="14:24">Ramsøy bro</stop>
+    <stop arrival="14:29">Ramsøy snuplass</stop>
+  </route>
+  <route no="495" destination="Ramsøy snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/929502/312674/240974/189347/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="13:40" routeNo="495">Bergen Busstasjon</stop>
+    <stop arrival="13:43" departure="13:43">Olav Kyrres gate</stop>
+    <stop arrival="13:44" departure="13:44">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="13:49" departure="13:49">Lyngbø Motorvei R555</stop>
+    <stop arrival="13:54" departure="13:54">Frida Fasmer R555</stop>
+    <stop arrival="13:55" departure="13:55">Storavatnet term.</stop>
+    <stop arrival="13:58" departure="13:58">Brøstaneset</stop>
+    <stop arrival="14:00" departure="14:00">Storeklubben (Askøy)</stop>
+    <stop arrival="14:02" departure="14:02">Holmedal (Askøy)</stop>
+    <stop arrival="14:05" departure="14:05">Kleppestø term.</stop>
+    <stop arrival="14:06" departure="14:06">Kleppestø senter</stop>
+    <stop arrival="14:07" departure="14:07">Askøy Helsetun</stop>
+    <stop arrival="14:07" departure="14:07">Kleppestø ungdomsskole</stop>
+    <stop arrival="14:08" departure="14:08">Florvågskiftet F216</stop>
+    <stop arrival="14:08" departure="14:08">Torvgården (Askøy)</stop>
+    <stop arrival="14:09" departure="14:09">Skansen (Askøy)</stop>
+    <stop arrival="14:09" departure="14:09">Svingen F216 (Askøy)</stop>
+    <stop arrival="14:09" departure="14:09">Askøy senter</stop>
+    <stop arrival="14:10" departure="14:10">Krokåsskiftet (Askøy)</stop>
+    <stop arrival="14:11" departure="14:11">Juvikflaten (Askøy)</stop>
+    <stop arrival="14:12" departure="14:12">Juvik bedehus (Askøy)</stop>
+    <stop arrival="14:13" departure="14:13">Lavikskiftet (Askøy)</stop>
+    <stop arrival="14:14" departure="14:14">Pålelva (Askøy)</stop>
+    <stop arrival="14:14" departure="14:14">Kråvik (Askøy)</stop>
+    <stop arrival="14:15" departure="14:15">Haugland Verkstedet (Askøy)</stop>
+    <stop arrival="14:16" departure="14:16">Fjellveien (Askøy)</stop>
+    <stop arrival="14:18" departure="14:18">Haugland skole (Askøy)</stop>
+    <stop arrival="14:19" departure="14:19">Haugland bedehus (Askøy)</stop>
+    <stop arrival="14:21" departure="14:21">Ravnanger</stop>
+    <stop arrival="14:22" departure="14:22">Ravnanger term.</stop>
+    <stop arrival="14:23" departure="14:23">Ravnanger (Jehovas V.)</stop>
+    <stop arrival="14:24" departure="14:24">Tveitetræet</stop>
+    <stop arrival="14:24" departure="14:24">Tveitevågskiftet</stop>
+    <stop arrival="14:25" departure="14:25">Tveit kirke/skole (Askøy)</stop>
+    <stop arrival="14:26" departure="14:26">Kollevåg Hendriksen</stop>
+    <stop arrival="14:27" departure="14:27">Kollevåg</stop>
+    <stop arrival="14:28" departure="14:28">Kollevåg Svartevatnet</stop>
+    <stop arrival="14:29" departure="14:29">Kollevågshøyden</stop>
+    <stop arrival="14:30" departure="14:30">Kollevåg Friluften</stop>
+    <stop arrival="14:31" departure="14:31">Hanøy Langøyvei</stop>
+    <stop arrival="14:32" departure="14:32">Hanøy Steinsbruddet</stop>
+    <stop arrival="14:33" departure="14:33">Hanøy Steinseidet</stop>
+    <stop arrival="14:34" departure="14:34">Hanøy Skaret</stop>
+    <stop arrival="14:35" departure="14:35">Hanøy skole</stop>
+    <stop arrival="14:36" departure="14:36">Hanøy bedehus</stop>
+    <stop arrival="14:37" departure="14:37">Hanøy</stop>
+    <stop arrival="14:38" departure="14:38">Ramsøy bro</stop>
+    <stop arrival="14:42">Ramsøy snuplass</stop>
+  </route>
+  <route no="495" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/478719/162428/244642/37252/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="14:48" routeNo="495">Ramsøy snuplass</stop>
+    <stop arrival="14:50" departure="14:50">Ramsøy bro</stop>
+    <stop arrival="14:51" departure="14:51">Hanøy</stop>
+    <stop arrival="14:51" departure="14:51">Hanøy bedehus</stop>
+    <stop arrival="14:52" departure="14:52">Hanøy skole</stop>
+    <stop arrival="14:53" departure="14:53">Hanøy Skaret</stop>
+    <stop arrival="14:53" departure="14:53">Hanøy Steinseidet</stop>
+    <stop arrival="14:54" departure="14:54">Hanøy Steinsbruddet</stop>
+    <stop arrival="14:54" departure="14:54">Hanøy Langøyvei</stop>
+    <stop arrival="14:55" departure="14:55">Kollevåg Friluften</stop>
+    <stop arrival="14:57" departure="14:57">Kollevågshøyden</stop>
+    <stop arrival="14:58" departure="14:58">Kollevåg Svartevatnet</stop>
+    <stop arrival="15:00" departure="15:00">Kollevåg</stop>
+    <stop arrival="15:01" departure="15:01">Kollevåg Hendriksen</stop>
+    <stop arrival="15:03" departure="15:03">Tveit kirke/skole (Askøy)</stop>
+    <stop arrival="15:04" departure="15:04">Tveitevågskiftet</stop>
+    <stop arrival="15:05" departure="15:05">Tveitetræet</stop>
+    <stop arrival="15:07" departure="15:07">Ravnanger (Jehovas V.)</stop>
+    <stop arrival="15:08" departure="15:08">Ravnanger term.</stop>
+    <stop arrival="15:08" departure="15:08">Ravnanger</stop>
+    <stop arrival="15:09" departure="15:09">Haugland bedehus (Askøy)</stop>
+    <stop arrival="15:10" departure="15:10">Haugland skole (Askøy)</stop>
+    <stop arrival="15:11" departure="15:11">Haugland sør (Askøy)</stop>
+    <stop arrival="15:12" departure="15:12">Fjellveien (Askøy)</stop>
+    <stop arrival="15:13" departure="15:13">Haugland Verkstedet (Askøy)</stop>
+    <stop arrival="15:14" departure="15:14">Kråvik (Askøy)</stop>
+    <stop arrival="15:14" departure="15:14">Pålelva (Askøy)</stop>
+    <stop arrival="15:15" departure="15:15">Lavikskiftet (Askøy)</stop>
+    <stop arrival="15:16" departure="15:16">Juvik bedehus (Askøy)</stop>
+    <stop arrival="15:17" departure="15:17">Juvikflaten (Askøy)</stop>
+    <stop arrival="15:18" departure="15:18">Krokåsskiftet (Askøy)</stop>
+    <stop arrival="15:20" departure="15:20">Askøy senter</stop>
+    <stop arrival="15:21" departure="15:21">Skansen (Askøy)</stop>
+    <stop arrival="15:22" departure="15:22">Torvgården (Askøy)</stop>
+    <stop arrival="15:23" departure="15:23">Florvågskiftet F216</stop>
+    <stop arrival="15:25" departure="15:25">Kleppestø ungdomsskole</stop>
+    <stop arrival="15:26" departure="15:26">Askøy Helsetun</stop>
+    <stop arrival="15:28" departure="15:28">Kleppestø senter</stop>
+    <stop arrival="15:30" departure="15:30">Kleppestø term.</stop>
+    <stop arrival="15:31" departure="15:31">Kleppestø (Rådhuset)</stop>
+    <stop arrival="15:32" departure="15:32">Holmedal (Askøy)</stop>
+    <stop arrival="15:33" departure="15:33">Storeklubben (Askøy)</stop>
+    <stop arrival="15:36" departure="15:36">Brøstaneset</stop>
+    <stop arrival="15:40" departure="15:40">Storavatnet term.</stop>
+    <stop arrival="15:41" departure="15:41">Frida Fasmer</stop>
+    <stop arrival="15:46" departure="15:46">Lyngbø Motorvei R555</stop>
+    <stop arrival="15:50" departure="15:50">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:52" departure="15:52">Nygårdsgaten</stop>
+    <stop arrival="15:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="495" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/36522/15037/980048/477851/1/" trafficDays="kjører">
+    <stop departure="14:48" routeNo="495">Ramsøy snuplass</stop>
+    <stop arrival="14:50" departure="14:50">Ramsøy bro</stop>
+    <stop arrival="14:51" departure="14:51">Hanøy</stop>
+    <stop arrival="14:51" departure="14:51">Hanøy bedehus</stop>
+    <stop arrival="14:52" departure="14:52">Hanøy skole</stop>
+    <stop arrival="14:53" departure="14:53">Hanøy Skaret</stop>
+    <stop arrival="14:53" departure="14:53">Hanøy Steinseidet</stop>
+    <stop arrival="14:54" departure="14:54">Hanøy Steinsbruddet</stop>
+    <stop arrival="14:54" departure="14:54">Hanøy Langøyvei</stop>
+    <stop arrival="14:55" departure="14:55">Kollevåg Friluften</stop>
+    <stop arrival="14:57" departure="14:57">Kollevågshøyden</stop>
+    <stop arrival="14:58" departure="14:58">Kollevåg Svartevatnet</stop>
+    <stop arrival="15:00" departure="15:00">Kollevåg</stop>
+    <stop arrival="15:01" departure="15:01">Kollevåg Hendriksen</stop>
+    <stop arrival="15:03" departure="15:03">Tveit kirke/skole (Askøy)</stop>
+    <stop arrival="15:04" departure="15:04">Tveitevågskiftet</stop>
+    <stop arrival="15:05" departure="15:05">Tveitetræet</stop>
+    <stop arrival="15:07" departure="15:07">Ravnanger (Jehovas V.)</stop>
+    <stop arrival="15:08" departure="15:08">Ravnanger term.</stop>
+    <stop arrival="15:08" departure="15:08">Ravnanger</stop>
+    <stop arrival="15:09" departure="15:09">Haugland bedehus (Askøy)</stop>
+    <stop arrival="15:10" departure="15:10">Haugland skole (Askøy)</stop>
+    <stop arrival="15:11" departure="15:11">Haugland sør (Askøy)</stop>
+    <stop arrival="15:12" departure="15:12">Fjellveien (Askøy)</stop>
+    <stop arrival="15:13" departure="15:13">Haugland Verkstedet (Askøy)</stop>
+    <stop arrival="15:14" departure="15:14">Kråvik (Askøy)</stop>
+    <stop arrival="15:14" departure="15:14">Pålelva (Askøy)</stop>
+    <stop arrival="15:15" departure="15:15">Lavikskiftet (Askøy)</stop>
+    <stop arrival="15:16" departure="15:16">Juvik bedehus (Askøy)</stop>
+    <stop arrival="15:17" departure="15:17">Juvikflaten (Askøy)</stop>
+    <stop arrival="15:18" departure="15:18">Krokåsskiftet (Askøy)</stop>
+    <stop arrival="15:20" departure="15:20">Askøy senter</stop>
+    <stop arrival="15:21" departure="15:21">Skansen (Askøy)</stop>
+    <stop arrival="15:22" departure="15:22">Torvgården (Askøy)</stop>
+    <stop arrival="15:23" departure="15:23">Florvågskiftet F216</stop>
+    <stop arrival="15:25" departure="15:25">Kleppestø ungdomsskole</stop>
+    <stop arrival="15:26" departure="15:26">Askøy Helsetun</stop>
+    <stop arrival="15:28" departure="15:28">Kleppestø senter</stop>
+    <stop arrival="15:30" departure="15:30">Kleppestø term.</stop>
+    <stop arrival="15:31" departure="15:31">Kleppestø (Rådhuset)</stop>
+    <stop arrival="15:32" departure="15:32">Holmedal (Askøy)</stop>
+    <stop arrival="15:33" departure="15:33">Storeklubben (Askøy)</stop>
+    <stop arrival="15:36" departure="15:36">Brøstaneset</stop>
+    <stop arrival="15:40" departure="15:40">Storavatnet term.</stop>
+    <stop arrival="15:41" departure="15:41">Frida Fasmer</stop>
+    <stop arrival="15:46" departure="15:46">Lyngbø Motorvei R555</stop>
+    <stop arrival="15:51" departure="15:51">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="15:52" departure="15:52">Christies gate (Festplassen)</stop>
+    <stop arrival="15:55">Bergen Busstasjon</stop>
+  </route>
+</routes>

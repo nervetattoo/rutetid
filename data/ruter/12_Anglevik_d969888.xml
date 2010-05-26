@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="445" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/565446/190543/697882/160460/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="12:15" routeNo="445">Anglevik snuplass</stop>
+    <stop arrival="12:16" departure="12:16">Anglevik</stop>
+    <stop arrival="12:16" departure="12:16">Våge kryss (Fjell)</stop>
+    <stop arrival="12:17" departure="12:17">Vågaleite (Fjell)</stop>
+    <stop arrival="12:18" departure="12:18">Foldnes</stop>
+    <stop arrival="12:20" departure="12:20">Foldnesvegen</stop>
+    <stop arrival="12:22" departure="12:22">Foldnes Grunnavågen</stop>
+    <stop arrival="12:24" departure="12:24">Sotraheimen</stop>
+    <stop arrival="12:26" departure="12:26">Åttringavegen</stop>
+    <stop arrival="12:28" departure="12:28">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="12:30" departure="12:30">Straume term.</stop>
+    <stop arrival="12:33" departure="12:33">Knarrevik</stop>
+    <stop arrival="12:36" departure="12:36">Drotningsvik Rv 555</stop>
+    <stop arrival="12:37" departure="12:37">Breivikskiftet</stop>
+    <stop arrival="12:40" departure="12:40">Storavatnet term.</stop>
+    <stop arrival="12:41" departure="12:41">Frida Fasmer</stop>
+    <stop arrival="12:47" departure="12:47">Lyngbø Motorvei R555</stop>
+    <stop arrival="12:52" departure="12:52">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="12:54" departure="12:54">Christies gate (Festplassen)</stop>
+    <stop arrival="12:54" departure="12:54">Kaigaten/v. Jernbanen</stop>
+    <stop arrival="12:55">Bergen Busstasjon</stop>
+  </route>
+  <route no="445" destination="Anglevik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/608091/204713/351176/27109/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="12:10" routeNo="445">Bergen Busstasjon</stop>
+    <stop arrival="12:11" departure="12:11">Olav Kyrres gate</stop>
+    <stop arrival="12:13" departure="12:13">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="12:18" departure="12:18">Lyngbø Motorvei R555</stop>
+    <stop arrival="12:24" departure="12:24">Frida Fasmer R555</stop>
+    <stop arrival="12:25" departure="12:25">Storavatnet term.</stop>
+    <stop arrival="12:27" departure="12:27">Breivikskiftet</stop>
+    <stop arrival="12:28" departure="12:28">Drotningsvik Rv 555</stop>
+    <stop arrival="12:30" departure="12:30">Knarrevik</stop>
+    <stop arrival="12:35" departure="12:35">Straume term.</stop>
+    <stop arrival="12:36" departure="12:36">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="12:37" departure="12:37">Åttringavegen</stop>
+    <stop arrival="12:38" departure="12:38">Sotraheimen</stop>
+    <stop arrival="12:38" departure="12:38">Foldnes Grunnavågen</stop>
+    <stop arrival="12:39" departure="12:39">Foldnesvegen</stop>
+    <stop arrival="12:40" departure="12:40">Foldnes</stop>
+    <stop arrival="12:41" departure="12:41">Vågaleite (Fjell)</stop>
+    <stop arrival="12:42" departure="12:42">Våge kryss (Fjell)</stop>
+    <stop arrival="12:44" departure="12:44">Anglevik</stop>
+    <stop arrival="12:45">Anglevik snuplass</stop>
+  </route>
+  <route no="445" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/50055/18718/747172/356901/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="12:45" routeNo="445">Anglevik snuplass</stop>
+    <stop arrival="12:46" departure="12:46">Anglevik</stop>
+    <stop arrival="12:46" departure="12:46">Våge kryss (Fjell)</stop>
+    <stop arrival="12:47" departure="12:47">Vågaleite (Fjell)</stop>
+    <stop arrival="12:48" departure="12:48">Foldnes</stop>
+    <stop arrival="12:50" departure="12:50">Foldnesvegen</stop>
+    <stop arrival="12:52" departure="12:52">Foldnes Grunnavågen</stop>
+    <stop arrival="12:54" departure="12:54">Sotraheimen</stop>
+    <stop arrival="12:56" departure="12:56">Åttringavegen</stop>
+    <stop arrival="12:58" departure="12:58">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="13:00">Straume term.</stop>
+  </route>
+</routes>

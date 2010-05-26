@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="46" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/692799/232618/273004/94432/1/" trafficDays="kjører">
+    <stop departure="18:00" routeNo="46">Skålevik snuplass (Bergen)</stop>
+    <stop arrival="18:01" departure="18:01">Kjøkkelvik</stop>
+    <stop arrival="18:02" departure="18:02">Engelsberg</stop>
+    <stop arrival="18:03" departure="18:03">Brøstanese snuplass</stop>
+    <stop arrival="18:04" departure="18:04">Engelsberg</stop>
+    <stop arrival="18:05" departure="18:05">Skålevikstølen</stop>
+    <stop arrival="18:06" departure="18:06">Nybø gård</stop>
+    <stop arrival="18:07" departure="18:07">Åsenveien</stop>
+    <stop arrival="18:08" departure="18:08">Kjøkkelvik skole</stop>
+    <stop arrival="18:09" departure="18:09">Loddefjordtoppen</stop>
+    <stop arrival="18:10" departure="18:10">Loddefjorddalen</stop>
+    <stop arrival="18:15" departure="18:15">Loddefjord term.</stop>
+    <stop arrival="18:16" departure="18:16">Bjørndalstre krysset</stop>
+    <stop arrival="18:17" departure="18:17">Tennebekk</stop>
+    <stop arrival="18:21" departure="18:21">Lyngbø Motorvei R555</stop>
+    <stop arrival="18:27" departure="18:27">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="18:28" departure="18:28">Christies gate (Festplassen)</stop>
+    <stop arrival="18:30">Bergen Busstasjon</stop>
+  </route>
+  <route no="46" destination="Skålevik snuplass (Bergen)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/856476/287153/719150/74095/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="18:20" routeNo="46">Loddefjord term.</stop>
+    <stop arrival="18:23" departure="18:23">Loddefjordtoppen</stop>
+    <stop arrival="18:24" departure="18:24">Kjøkkelvik skole</stop>
+    <stop arrival="18:25" departure="18:25">Åsenveien</stop>
+    <stop arrival="18:27" departure="18:27">Nybø gård</stop>
+    <stop arrival="18:28" departure="18:28">Skålevikstølen</stop>
+    <stop arrival="18:29" departure="18:29">Kjøkkelvik</stop>
+    <stop arrival="18:30">Skålevik snuplass (Bergen)</stop>
+  </route>
+  <route no="46" destination="Loddefjord term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/750132/251712/613290/56611/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="18:30" routeNo="46">Skålevik snuplass (Bergen)</stop>
+    <stop arrival="18:31" departure="18:31">Kjøkkelvik</stop>
+    <stop arrival="18:32" departure="18:32">Engelsberg</stop>
+    <stop arrival="18:33" departure="18:33">Brøstanese snuplass</stop>
+    <stop arrival="18:34" departure="18:34">Engelsberg</stop>
+    <stop arrival="18:35" departure="18:35">Skålevikstølen</stop>
+    <stop arrival="18:36" departure="18:36">Nybø gård</stop>
+    <stop arrival="18:37" departure="18:37">Åsenveien</stop>
+    <stop arrival="18:38" departure="18:38">Kjøkkelvik skole</stop>
+    <stop arrival="18:39" departure="18:39">Loddefjordtoppen</stop>
+    <stop arrival="18:40" departure="18:40">Loddefjorddalen</stop>
+    <stop arrival="18:45">Loddefjord term.</stop>
+  </route>
+</routes>

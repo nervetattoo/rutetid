@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/392799/136008/896142/317141/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="11:16" routeNo="270">Arna terminal</stop>
+    <stop arrival="11:17" departure="11:17">Ytre Arna vegen v.nr 204</stop>
+    <stop arrival="11:18" departure="11:18">Listøl</stop>
+    <stop arrival="11:18" departure="11:18">Listøl</stop>
+    <stop arrival="11:19" departure="11:19">Holmen (Arna)</stop>
+    <stop arrival="11:19" departure="11:19">Solberg (Bergen)</stop>
+    <stop arrival="11:19" departure="11:19">Ytre Arna gård</stop>
+    <stop arrival="11:20" departure="11:20">Festtangen</stop>
+    <stop arrival="11:20" departure="11:20">Kvamstø</stop>
+    <stop arrival="11:21" departure="11:21">Sletta snuplass</stop>
+    <stop arrival="11:23" departure="11:23">Sægarsveg</stop>
+    <stop arrival="11:24" departure="11:24">Ytre Arna Kirke</stop>
+    <stop arrival="11:26" departure="11:26">Ytre Arna Sentrum</stop>
+    <stop arrival="11:26" departure="11:26">Bankaskiftet</stop>
+    <stop arrival="11:27" departure="11:27">Orfallet</stop>
+    <stop arrival="11:28" departure="11:28">Gamsevegen</stop>
+    <stop arrival="11:29" departure="11:29">Neset (Gaupås)</stop>
+    <stop arrival="11:30" departure="11:30">Hauglandskiftet</stop>
+    <stop arrival="11:30" departure="11:30">Kalsåsvegen</stop>
+    <stop arrival="11:31" departure="11:31">Kalsåsvatn</stop>
+    <stop arrival="11:32" departure="11:32">Hetlebakkskiftet</stop>
+    <stop arrival="11:33" departure="11:33">Blindheim øst</stop>
+    <stop arrival="11:33" departure="11:33">Blindheim vest</stop>
+    <stop arrival="11:34" departure="11:34">Blindheimsdalen</stop>
+    <stop arrival="11:36" departure="11:36">Birkeland (Åsane)</stop>
+    <stop arrival="11:38" departure="11:38">Vågsbotn</stop>
+    <stop arrival="11:39" departure="11:39">Liavegen (Åsane)</stop>
+    <stop arrival="11:39" departure="11:39">Domus Nyborg</stop>
+    <stop arrival="11:40" departure="11:40">Nyborg</stop>
+    <stop arrival="11:41" departure="11:41">Salhuskrysset</stop>
+    <stop arrival="11:42" departure="11:42">Litleåskryss</stop>
+    <stop arrival="11:43" departure="11:43">Rollandskrysset</stop>
+    <stop arrival="11:45">Åsane terminal</stop>
+  </route>
+  <route no="270" destination="Åsane terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/143196/52842/496702/200619/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:18" routeNo="270">Arna terminal</stop>
+    <stop arrival="11:19" departure="11:19">Ytre Arna vegen v.nr 204</stop>
+    <stop arrival="11:20" departure="11:20">Listøl</stop>
+    <stop arrival="11:20" departure="11:20">Listøl</stop>
+    <stop arrival="11:21" departure="11:21">Holmen (Arna)</stop>
+    <stop arrival="11:21" departure="11:21">Solberg (Bergen)</stop>
+    <stop arrival="11:21" departure="11:21">Ytre Arna gård</stop>
+    <stop arrival="11:22" departure="11:22">Festtangen</stop>
+    <stop arrival="11:22" departure="11:22">Kvamstø</stop>
+    <stop arrival="11:23" departure="11:23">Sletta snuplass</stop>
+    <stop arrival="11:25" departure="11:25">Sægarsveg</stop>
+    <stop arrival="11:26" departure="11:26">Ytre Arna Kirke</stop>
+    <stop arrival="11:28" departure="11:28">Ytre Arna Sentrum</stop>
+    <stop arrival="11:29" departure="11:29">Bankaskiftet</stop>
+    <stop arrival="11:29" departure="11:29">Orfallet</stop>
+    <stop arrival="11:30" departure="11:30">Gamsevegen</stop>
+    <stop arrival="11:31" departure="11:31">Neset (Gaupås)</stop>
+    <stop arrival="11:32" departure="11:32">Hauglandskiftet</stop>
+    <stop arrival="11:33" departure="11:33">Kalsåsvegen</stop>
+    <stop arrival="11:34" departure="11:34">Kalsåsvatn</stop>
+    <stop arrival="11:35" departure="11:35">Hetlebakkskiftet</stop>
+    <stop arrival="11:36" departure="11:36">Blindheim øst</stop>
+    <stop arrival="11:36" departure="11:36">Blindheim vest</stop>
+    <stop arrival="11:37" departure="11:37">Blindheimsdalen</stop>
+    <stop arrival="11:38" departure="11:38">Birkeland (Åsane)</stop>
+    <stop arrival="11:40" departure="11:40">Vågsbotn</stop>
+    <stop arrival="11:41" departure="11:41">Liavegen (Åsane)</stop>
+    <stop arrival="11:42" departure="11:42">Domus Nyborg</stop>
+    <stop arrival="11:44" departure="11:44">Nyborg</stop>
+    <stop arrival="11:45" departure="11:45">Salhuskrysset</stop>
+    <stop arrival="11:46" departure="11:46">Litleåskryss</stop>
+    <stop arrival="11:46" departure="11:46">Rollandskrysset</stop>
+    <stop arrival="11:46">Åsane terminal</stop>
+  </route>
+  <route no="270" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/597507/204277/654358/128011/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:30" routeNo="270">Åsane terminal</stop>
+    <stop arrival="11:31" departure="11:31">Rollandskrysset</stop>
+    <stop arrival="11:31" departure="11:31">Litleåskryss</stop>
+    <stop arrival="11:32" departure="11:32">Salhuskrysset</stop>
+    <stop arrival="11:33" departure="11:33">Nyborg</stop>
+    <stop arrival="11:35" departure="11:35">Domus Nyborg</stop>
+    <stop arrival="11:36" departure="11:36">Liavegen (Åsane)</stop>
+    <stop arrival="11:37" departure="11:37">Vågsbotn</stop>
+    <stop arrival="11:38" departure="11:38">Birkeland (Åsane)</stop>
+    <stop arrival="11:38" departure="11:38">Blindheimsdalen</stop>
+    <stop arrival="11:39" departure="11:39">Blindheim vest</stop>
+    <stop arrival="11:39" departure="11:39">Blindheim øst</stop>
+    <stop arrival="11:39" departure="11:39">Hetlebakkskiftet</stop>
+    <stop arrival="11:40" departure="11:40">Kalsåsvatn</stop>
+    <stop arrival="11:41" departure="11:41">Kalsåsvegen</stop>
+    <stop arrival="11:42" departure="11:42">Hauglandskiftet</stop>
+    <stop arrival="11:43" departure="11:43">Neset (Gaupås)</stop>
+    <stop arrival="11:44" departure="11:44">Gamsevegen</stop>
+    <stop arrival="11:45" departure="11:45">Orfallet</stop>
+    <stop arrival="11:47" departure="11:47">Ytre Arna Sentrum</stop>
+    <stop arrival="11:49" departure="11:49">Ytre Arna Kirke</stop>
+    <stop arrival="11:51" departure="11:51">Sægarsveg</stop>
+    <stop arrival="11:52" departure="11:52">Sletta snuplass</stop>
+    <stop arrival="11:53" departure="11:53">Kvamstø</stop>
+    <stop arrival="11:54" departure="11:54">Festtangen</stop>
+    <stop arrival="11:55" departure="11:55">Ytre Arna gård</stop>
+    <stop arrival="11:55" departure="11:55">Solberg (Bergen)</stop>
+    <stop arrival="11:56" departure="11:56">Holmen (Arna)</stop>
+    <stop arrival="11:56" departure="11:56">Listøl</stop>
+    <stop arrival="11:57" departure="11:57">Listøl</stop>
+    <stop arrival="11:58" departure="11:58">Ytre Arna vegen v.nr 204</stop>
+    <stop arrival="12:00">Arna terminal</stop>
+  </route>
+</routes>

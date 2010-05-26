@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="566" destination="Sørstraumen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/645417/220718/121310/154484/1/" trafficDays="kjører Ma, On - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:00" routeNo="566">Fana kirke</stop>
+    <stop arrival="14:01" departure="14:01">Hamreskiftet</stop>
+    <stop arrival="14:02" departure="14:02">Rambergtunet</stop>
+    <stop arrival="14:05" departure="14:05">Fanafjell</stop>
+    <stop arrival="14:07" departure="14:07">Sædal 1</stop>
+    <stop arrival="14:07" departure="14:07">Sædal 2</stop>
+    <stop arrival="14:09" departure="14:09">Nordvik 1</stop>
+    <stop arrival="14:10" departure="14:10">Nordvik 2</stop>
+    <stop arrival="14:10" departure="14:10">Nordvik skole</stop>
+    <stop arrival="14:11" departure="14:11">Sagstad (Nordvik, Fana)</stop>
+    <stop arrival="14:11" departure="14:11">Sperrevik 1</stop>
+    <stop arrival="14:12" departure="14:12">Sperrevik 2</stop>
+    <stop arrival="14:12" departure="14:12">Sperrevik 3</stop>
+    <stop arrival="14:12" departure="14:12">Nordstrøm</stop>
+    <stop arrival="14:13">Sørstraumen</stop>
+  </route>
+  <route no="566" destination="Eidsvik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/418569/145087/51142/113953/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="14:00" routeNo="566">Lagunen</stop>
+    <stop arrival="14:01" departure="14:01">Rådal</stop>
+    <stop arrival="14:02" departure="14:02">Sunea</stop>
+    <stop arrival="14:02" departure="14:02">Rådalshaug</stop>
+    <stop arrival="14:02" departure="14:02">Steinknuseverket</stop>
+    <stop arrival="14:03" departure="14:03">Hordnesskiftet Stend</stop>
+    <stop arrival="14:05" departure="14:05">Konowskiftet</stop>
+    <stop arrival="14:05" departure="14:05">Krykkjehaugen</stop>
+    <stop arrival="14:06" departure="14:06">Fana kirke</stop>
+    <stop arrival="14:07" departure="14:07">Hamreskiftet</stop>
+    <stop arrival="14:08" departure="14:08">Rambergtunet</stop>
+    <stop arrival="14:11" departure="14:11">Fanafjell</stop>
+    <stop arrival="14:13" departure="14:13">Sædal 1</stop>
+    <stop arrival="14:13" departure="14:13">Sædal 2</stop>
+    <stop arrival="14:15" departure="14:15">Nordvik 1</stop>
+    <stop arrival="14:16" departure="14:16">Nordvik 2</stop>
+    <stop arrival="14:16" departure="14:16">Nordvik skole</stop>
+    <stop arrival="14:17" departure="14:17">Sagstad (Nordvik, Fana)</stop>
+    <stop arrival="14:17" departure="14:17">Sperrevik 1</stop>
+    <stop arrival="14:18" departure="14:18">Sperrevik 2</stop>
+    <stop arrival="14:18" departure="14:18">Sperrevik 3</stop>
+    <stop arrival="14:18" departure="14:18">Nordstrøm</stop>
+    <stop arrival="14:19" departure="14:19">Sørstraumen</stop>
+    <stop arrival="14:19" departure="14:19">Buena</stop>
+    <stop arrival="14:20" departure="14:20">Søvik (Os)</stop>
+    <stop arrival="14:20" departure="14:20">Søvik (Os)</stop>
+    <stop arrival="14:20" departure="14:20">Søvik (Os)</stop>
+    <stop arrival="14:20" departure="14:20">Lysekloster skule</stop>
+    <stop arrival="14:22" departure="14:22">Søvik Gamleskulen</stop>
+    <stop arrival="14:23" departure="14:23">Salbuvik</stop>
+    <stop arrival="14:25" departure="14:25">Bjoarvik</stop>
+    <stop arrival="14:25" departure="14:25">Drangshaug</stop>
+    <stop arrival="14:26" departure="14:26">Drange (Os)</stop>
+    <stop arrival="14:27" departure="14:27">Drange handel</stop>
+    <stop arrival="14:28" departure="14:28">Drangevågen</stop>
+    <stop arrival="14:29" departure="14:29">Eidsvik</stop>
+    <stop arrival="14:30">Eidsvik snuplass</stop>
+  </route>
+</routes>

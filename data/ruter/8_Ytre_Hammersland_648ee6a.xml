@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="512" destination="Søreide skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/20262/12020/25446/5969/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="8:10" routeNo="512">Grimstad (Fana)</stop>
+    <stop arrival="8:11" departure="8:11">Grimstad handel (Fana)</stop>
+    <stop arrival="8:13" departure="8:13">Ytre Hope</stop>
+    <stop arrival="8:15" departure="8:15">Hope (Grimstad, Fana)</stop>
+    <stop arrival="8:16" departure="8:16">Ytre Hammersland</stop>
+    <stop arrival="8:17" departure="8:17">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="8:20">Søreide skole</stop>
+  </route>
+  <route no="512" destination="Grimstad (Fana)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/744102/253289/236072/129998/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="8:40" routeNo="512">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="8:41" departure="8:41">Søreide skole</stop>
+    <stop arrival="8:44" departure="8:44">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="8:45" departure="8:45">Ytre Hammersland</stop>
+    <stop arrival="8:46" departure="8:46">Hope (Grimstad, Fana)</stop>
+    <stop arrival="8:47" departure="8:47">Ytre Hope</stop>
+    <stop arrival="8:49" departure="8:49">Grimstad handel (Fana)</stop>
+    <stop arrival="8:50">Grimstad (Fana)</stop>
+  </route>
+  <route no="512" destination="Søreide skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/924951/313573/587110/14762/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="8:50" routeNo="512">Grimstad (Fana)</stop>
+    <stop arrival="8:51" departure="8:51">Grimstad handel (Fana)</stop>
+    <stop arrival="8:53" departure="8:53">Ytre Hope</stop>
+    <stop arrival="8:55" departure="8:55">Hope (Grimstad, Fana)</stop>
+    <stop arrival="8:56" departure="8:56">Ytre Hammersland</stop>
+    <stop arrival="8:57" departure="8:57">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="9:00">Søreide skole</stop>
+  </route>
+</routes>

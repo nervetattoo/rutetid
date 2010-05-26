@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="512" destination="Grimstad (Fana)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/953160/322997/91262/272091/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="20:40" routeNo="512">Søreide v/Hydrostasjonen</stop>
+    <stop arrival="20:41" departure="20:41">Søreide skole</stop>
+    <stop arrival="20:44" departure="20:44">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="20:45" departure="20:45">Ytre Hammersland</stop>
+    <stop arrival="20:46" departure="20:46">Hope (Grimstad, Fana)</stop>
+    <stop arrival="20:47" departure="20:47">Ytre Hope</stop>
+    <stop arrival="20:49" departure="20:49">Grimstad handel (Fana)</stop>
+    <stop arrival="20:50">Grimstad (Fana)</stop>
+  </route>
+  <route no="512" destination="Søreide skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/236298/84044/518550/180510/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="20:50" routeNo="512">Grimstad (Fana)</stop>
+    <stop arrival="20:51" departure="20:51">Grimstad handel (Fana)</stop>
+    <stop arrival="20:53" departure="20:53">Ytre Hope</stop>
+    <stop arrival="20:55" departure="20:55">Hope (Grimstad, Fana)</stop>
+    <stop arrival="20:56" departure="20:56">Ytre Hammersland</stop>
+    <stop arrival="20:57" departure="20:57">Hammersland (Grimstadvn.)</stop>
+    <stop arrival="21:00">Søreide skole</stop>
+  </route>
+</routes>

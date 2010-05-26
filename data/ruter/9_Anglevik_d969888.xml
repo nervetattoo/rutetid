@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="445" destination="Anglevik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/320562/108867/337402/61848/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="9:10" routeNo="445">Bergen Busstasjon</stop>
+    <stop arrival="9:11" departure="9:11">Olav Kyrres gate</stop>
+    <stop arrival="9:13" departure="9:13">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="9:18" departure="9:18">Lyngbø Motorvei R555</stop>
+    <stop arrival="9:24" departure="9:24">Frida Fasmer R555</stop>
+    <stop arrival="9:25" departure="9:25">Storavatnet term.</stop>
+    <stop arrival="9:27" departure="9:27">Breivikskiftet</stop>
+    <stop arrival="9:28" departure="9:28">Drotningsvik Rv 555</stop>
+    <stop arrival="9:30" departure="9:30">Knarrevik</stop>
+    <stop arrival="9:35" departure="9:35">Straume term.</stop>
+    <stop arrival="9:36" departure="9:36">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="9:37" departure="9:37">Åttringavegen</stop>
+    <stop arrival="9:38" departure="9:38">Sotraheimen</stop>
+    <stop arrival="9:38" departure="9:38">Foldnes Grunnavågen</stop>
+    <stop arrival="9:39" departure="9:39">Foldnesvegen</stop>
+    <stop arrival="9:40" departure="9:40">Foldnes</stop>
+    <stop arrival="9:41" departure="9:41">Vågaleite (Fjell)</stop>
+    <stop arrival="9:42" departure="9:42">Våge kryss (Fjell)</stop>
+    <stop arrival="9:44" departure="9:44">Anglevik</stop>
+    <stop arrival="9:45">Anglevik snuplass</stop>
+  </route>
+  <route no="445" destination="Straume term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/963681/323256/704394/30971/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="9:45" routeNo="445">Anglevik snuplass</stop>
+    <stop arrival="9:46" departure="9:46">Anglevik</stop>
+    <stop arrival="9:46" departure="9:46">Våge kryss (Fjell)</stop>
+    <stop arrival="9:47" departure="9:47">Vågaleite (Fjell)</stop>
+    <stop arrival="9:48" departure="9:48">Foldnes</stop>
+    <stop arrival="9:50" departure="9:50">Foldnesvegen</stop>
+    <stop arrival="9:52" departure="9:52">Foldnes Grunnavågen</stop>
+    <stop arrival="9:54" departure="9:54">Sotraheimen</stop>
+    <stop arrival="9:56" departure="9:56">Åttringavegen</stop>
+    <stop arrival="9:58" departure="9:58">Storhilleren (Foldnesveg)</stop>
+    <stop arrival="10:00">Straume term.</stop>
+  </route>
+</routes>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="535" destination="Fjøsanger" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/943476/319883/467986/80499/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:15" routeNo="535">Nesttun terminal</stop>
+    <stop arrival="11:17" departure="11:17">Hopsbro</stop>
+    <stop arrival="11:19" departure="11:19">Tveiteråsskiftet</stop>
+    <stop arrival="11:20" departure="11:20">Paradis</stop>
+    <stop arrival="11:21" departure="11:21">Fana Gymnas</stop>
+    <stop arrival="11:21" departure="11:21">Nydalen</stop>
+    <stop arrival="11:21" departure="11:21">Nyparadis</stop>
+    <stop arrival="11:22" departure="11:22">Gamlehaugvegen</stop>
+    <stop arrival="11:23">Fjøsanger</stop>
+  </route>
+  <route no="535" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/707106/241092/983974/256286/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="11:23" routeNo="535">Fjøsanger</stop>
+    <stop arrival="11:25" departure="11:25">Gamlehaugvegen</stop>
+    <stop arrival="11:26" departure="11:26">Nyparadis</stop>
+    <stop arrival="11:27" departure="11:27">Fana Gymnas</stop>
+    <stop arrival="11:28" departure="11:28">Paradis</stop>
+    <stop arrival="11:28" departure="11:28">Paradis</stop>
+    <stop arrival="11:29" departure="11:29">Tveiteråsskiftet</stop>
+    <stop arrival="11:30" departure="11:30">Hopsbro</stop>
+    <stop arrival="11:31" departure="11:31">Hopstangen</stop>
+    <stop arrival="11:32">Nesttun terminal</stop>
+  </route>
+</routes>

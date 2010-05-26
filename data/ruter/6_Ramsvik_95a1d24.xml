@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="424" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/170283/58588/696550/291515/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:25" routeNo="424">Ramsvik</stop>
+    <stop arrival="6:25" departure="6:25">Ramsvik</stop>
+    <stop arrival="6:26" departure="6:26">Janastølen</stop>
+    <stop arrival="6:26" departure="6:26">Drotningsvik v/Hydro</stop>
+    <stop arrival="6:27" departure="6:27">Breivika</stop>
+    <stop arrival="6:28" departure="6:28">Breivikdalen</stop>
+    <stop arrival="6:30" departure="6:30">Breivikskiftet</stop>
+    <stop arrival="6:31" departure="6:31">Kiplehaugen</stop>
+    <stop arrival="6:32" departure="6:32">Nedre Godvik</stop>
+    <stop arrival="6:33" departure="6:33">Øvre Godvik</stop>
+    <stop arrival="6:37" departure="6:37">Ørjebekk</stop>
+    <stop arrival="6:40">Storavatnet term.</stop>
+  </route>
+  <route no="424" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/108774/38085/205152/66320/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:55" routeNo="424">Ramsvik</stop>
+    <stop arrival="6:55" departure="6:55">Ramsvik</stop>
+    <stop arrival="6:56" departure="6:56">Janastølen</stop>
+    <stop arrival="6:56" departure="6:56">Drotningsvik v/Hydro</stop>
+    <stop arrival="6:57" departure="6:57">Breivika</stop>
+    <stop arrival="6:58" departure="6:58">Breivikdalen</stop>
+    <stop arrival="7:00" departure="7:00">Breivikskiftet</stop>
+    <stop arrival="7:01" departure="7:01">Kiplehaugen</stop>
+    <stop arrival="7:02" departure="7:02">Nedre Godvik</stop>
+    <stop arrival="7:03" departure="7:03">Øvre Godvik</stop>
+    <stop arrival="7:07" departure="7:07">Ørjebekk</stop>
+    <stop arrival="7:10">Storavatnet term.</stop>
+  </route>
+</routes>

@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="390" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/371805/124934/495600/123865/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="9:16" routeNo="390">Lonevåg terminal</stop>
+    <stop arrival="9:17" departure="9:17">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="9:18" departure="9:18">Lone N , Osterøy</stop>
+    <stop arrival="9:19" departure="9:19">Lone, Osterøy</stop>
+    <stop arrival="9:19" departure="9:19">Lone Bru, Osterøy</stop>
+    <stop arrival="9:20" departure="9:20">Revheim</stop>
+    <stop arrival="9:21" departure="9:21">Revheim</stop>
+    <stop arrival="9:23" departure="9:23">Øyjordsbru</stop>
+    <stop arrival="9:23" departure="9:23">Haugsviksvingen</stop>
+    <stop arrival="9:24" departure="9:24">Hauge skule (Osterøy)</stop>
+    <stop arrival="9:25" departure="9:25">Hauge (Osterøy)</stop>
+    <stop arrival="9:26" departure="9:26">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="9:26" departure="9:26">Halland S, Osterøy</stop>
+    <stop arrival="9:27" departure="9:27">Halland, Osterøy</stop>
+    <stop arrival="9:27" departure="9:27">Småland</stop>
+    <stop arrival="9:28" departure="9:28">Loftås (Osterøy)</stop>
+    <stop arrival="9:29" departure="9:29">Elvikneset</stop>
+    <stop arrival="9:30" departure="9:30">Bullabrekka (Osterøy)</stop>
+    <stop arrival="9:31" departure="9:31">Valestrand</stop>
+    <stop arrival="9:31" departure="9:31">Valestrand</stop>
+    <stop arrival="9:31" departure="9:31">Valestrand</stop>
+    <stop arrival="9:32" departure="9:32">Bullabrekka (Osterøy)</stop>
+    <stop arrival="9:33" departure="9:33">Elvikneset</stop>
+    <stop arrival="9:34" departure="9:34">Loftås (Osterøy)</stop>
+    <stop arrival="9:34" departure="9:34">Småland</stop>
+    <stop arrival="9:35" departure="9:35">Halland, Osterøy</stop>
+    <stop arrival="9:35" departure="9:35">Halland S, Osterøy</stop>
+    <stop arrival="9:36" departure="9:36">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="9:36" departure="9:36">Hauge (Osterøy)</stop>
+    <stop arrival="9:39" departure="9:39">Hannisdal nyeveien</stop>
+    <stop arrival="9:41" departure="9:41">Rolland (Osterøy)</stop>
+    <stop arrival="9:41" departure="9:41">Rødland</stop>
+    <stop arrival="9:42" departure="9:42">Vinåsen</stop>
+    <stop arrival="9:42" departure="9:42">Veset</stop>
+    <stop arrival="9:43" departure="9:43">Veset</stop>
+    <stop arrival="9:44" departure="9:44">Kolabakken</stop>
+    <stop arrival="9:44" departure="9:44">Ambogen vkr</stop>
+    <stop arrival="9:45" departure="9:45">Mjeldalen Øvre</stop>
+    <stop arrival="9:46" departure="9:46">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="9:46" departure="9:46">Mjeldalen</stop>
+    <stop arrival="9:47" departure="9:47">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="9:49" departure="9:49">Haus</stop>
+    <stop arrival="9:50" departure="9:50">Åsheimveien</stop>
+    <stop arrival="9:50" departure="9:50">Haus</stop>
+    <stop arrival="9:50" departure="9:50">Leikneset</stop>
+    <stop arrival="9:51" departure="9:51">Leikneset</stop>
+    <stop arrival="9:52" departure="9:52">Leikneset</stop>
+    <stop arrival="9:54" departure="9:54">Vikne nord</stop>
+    <stop arrival="9:55" departure="9:55">Vikne</stop>
+    <stop arrival="9:56" departure="9:56">Vikne sør</stop>
+    <stop arrival="9:57" departure="9:57">Kvisti (Osterøy)</stop>
+    <stop arrival="10:00" departure="10:00">Takvam rundkøyring</stop>
+    <stop arrival="10:01" departure="10:01">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunes skule</stop>
+    <stop arrival="10:02" departure="10:02">Tunes</stop>
+    <stop arrival="10:03" departure="10:03">Garnesmarka øst</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka vest</stop>
+    <stop arrival="10:04" departure="10:04">Garnes vid.skule</stop>
+    <stop arrival="10:05" departure="10:05">Garnes- v Gymnaset</stop>
+    <stop arrival="10:07" departure="10:07">Garneshøgden</stop>
+    <stop arrival="10:08" departure="10:08">Seimsmark</stop>
+    <stop arrival="10:10" departure="10:10">Beyer (Arna)</stop>
+    <stop arrival="10:12" departure="10:12">Bommane (Arna)</stop>
+    <stop arrival="10:15">Arna terminal</stop>
+  </route>
+  <route no="394" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/948321/317149/817272/92529/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="9:47" routeNo="394">Haus</stop>
+    <stop arrival="9:48" departure="9:48">Åsheimveien</stop>
+    <stop arrival="9:48" departure="9:48">Haus</stop>
+    <stop arrival="9:48" departure="9:48">Leikneset</stop>
+    <stop arrival="9:49" departure="9:49">Leikneset</stop>
+    <stop arrival="9:50" departure="9:50">Leikneset</stop>
+    <stop arrival="9:53" departure="9:53">Vikne nord</stop>
+    <stop arrival="9:54" departure="9:54">Vikne</stop>
+    <stop arrival="9:56" departure="9:56">Vikne sør</stop>
+    <stop arrival="9:57" departure="9:57">Kvisti (Osterøy)</stop>
+    <stop arrival="10:00" departure="10:00">Takvam rundkøyring</stop>
+    <stop arrival="10:01" departure="10:01">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunes skule</stop>
+    <stop arrival="10:02" departure="10:02">Tunes</stop>
+    <stop arrival="10:03" departure="10:03">Garnesmarka øst</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka vest</stop>
+    <stop arrival="10:04" departure="10:04">Garnes vid.skule</stop>
+    <stop arrival="10:05" departure="10:05">Garnes- v Gymnaset</stop>
+    <stop arrival="10:07" departure="10:07">Garneshøgden</stop>
+    <stop arrival="10:08" departure="10:08">Seimsmark</stop>
+    <stop arrival="10:10" departure="10:10">Beyer (Arna)</stop>
+    <stop arrival="10:12" departure="10:12">Bommane (Arna)</stop>
+    <stop arrival="10:15">Arna terminal</stop>
+  </route>
+  <route no="390" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/348564/117187/877468/322546/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="9:16" routeNo="390">Lonevåg terminal</stop>
+    <stop arrival="9:17" departure="9:17">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="9:18" departure="9:18">Lone N , Osterøy</stop>
+    <stop arrival="9:19" departure="9:19">Lone, Osterøy</stop>
+    <stop arrival="9:19" departure="9:19">Lone Bru, Osterøy</stop>
+    <stop arrival="9:20" departure="9:20">Revheim</stop>
+    <stop arrival="9:21" departure="9:21">Revheim</stop>
+    <stop arrival="9:23" departure="9:23">Øyjordsbru</stop>
+    <stop arrival="9:23" departure="9:23">Haugsviksvingen</stop>
+    <stop arrival="9:24" departure="9:24">Hauge skule (Osterøy)</stop>
+    <stop arrival="9:25" departure="9:25">Hauge (Osterøy)</stop>
+    <stop arrival="9:26" departure="9:26">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="9:26" departure="9:26">Halland S, Osterøy</stop>
+    <stop arrival="9:27" departure="9:27">Halland, Osterøy</stop>
+    <stop arrival="9:27" departure="9:27">Småland</stop>
+    <stop arrival="9:28" departure="9:28">Loftås (Osterøy)</stop>
+    <stop arrival="9:29" departure="9:29">Elvikneset</stop>
+    <stop arrival="9:30" departure="9:30">Bullabrekka (Osterøy)</stop>
+    <stop arrival="9:31" departure="9:31">Valestrand</stop>
+    <stop arrival="9:31" departure="9:31">Valestrand</stop>
+    <stop arrival="9:31" departure="9:31">Valestrand</stop>
+    <stop arrival="9:32" departure="9:32">Bullabrekka (Osterøy)</stop>
+    <stop arrival="9:33" departure="9:33">Elvikneset</stop>
+    <stop arrival="9:34" departure="9:34">Loftås (Osterøy)</stop>
+    <stop arrival="9:34" departure="9:34">Småland</stop>
+    <stop arrival="9:35" departure="9:35">Halland, Osterøy</stop>
+    <stop arrival="9:35" departure="9:35">Halland S, Osterøy</stop>
+    <stop arrival="9:36" departure="9:36">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="9:36" departure="9:36">Hauge (Osterøy)</stop>
+    <stop arrival="9:39" departure="9:39">Hannisdal nyeveien</stop>
+    <stop arrival="9:41" departure="9:41">Rolland (Osterøy)</stop>
+    <stop arrival="9:41" departure="9:41">Rødland</stop>
+    <stop arrival="9:42" departure="9:42">Vinåsen</stop>
+    <stop arrival="9:42" departure="9:42">Veset</stop>
+    <stop arrival="9:43" departure="9:43">Veset</stop>
+    <stop arrival="9:44" departure="9:44">Kolabakken</stop>
+    <stop arrival="9:44" departure="9:44">Ambogen vkr</stop>
+    <stop arrival="9:45" departure="9:45">Mjeldalen Øvre</stop>
+    <stop arrival="9:46" departure="9:46">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="9:46" departure="9:46">Mjeldalen</stop>
+    <stop arrival="9:47" departure="9:47">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="9:49" departure="9:49">Haus</stop>
+    <stop arrival="9:50" departure="9:50">Åsheimveien</stop>
+    <stop arrival="9:50" departure="9:50">Haus</stop>
+    <stop arrival="9:50" departure="9:50">Leikneset</stop>
+    <stop arrival="9:51" departure="9:51">Leikneset</stop>
+    <stop arrival="9:52" departure="9:52">Leikneset</stop>
+    <stop arrival="9:54" departure="9:54">Vikne nord</stop>
+    <stop arrival="9:55" departure="9:55">Vikne</stop>
+    <stop arrival="9:56" departure="9:56">Vikne sør</stop>
+    <stop arrival="9:57" departure="9:57">Kvisti (Osterøy)</stop>
+    <stop arrival="10:00" departure="10:00">Takvam rundkøyring</stop>
+    <stop arrival="10:01" departure="10:01">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunes skule</stop>
+    <stop arrival="10:02" departure="10:02">Tunes</stop>
+    <stop arrival="10:03" departure="10:03">Garnesmarka øst</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka vest</stop>
+    <stop arrival="10:04" departure="10:04">Garnes vid.skule</stop>
+    <stop arrival="10:05" departure="10:05">Garnes- v Gymnaset</stop>
+    <stop arrival="10:07" departure="10:07">Garneshøgden</stop>
+    <stop arrival="10:08" departure="10:08">Seimsmark</stop>
+    <stop arrival="10:10" departure="10:10">Beyer (Arna)</stop>
+    <stop arrival="10:12" departure="10:12">Bommane (Arna)</stop>
+    <stop arrival="10:15">Arna terminal</stop>
+  </route>
+  <route no="394" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/2091/1739/854488/426547/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="9:47" routeNo="394">Haus</stop>
+    <stop arrival="9:48" departure="9:48">Åsheimveien</stop>
+    <stop arrival="9:48" departure="9:48">Haus</stop>
+    <stop arrival="9:48" departure="9:48">Leikneset</stop>
+    <stop arrival="9:49" departure="9:49">Leikneset</stop>
+    <stop arrival="9:50" departure="9:50">Leikneset</stop>
+    <stop arrival="9:53" departure="9:53">Vikne nord</stop>
+    <stop arrival="9:54" departure="9:54">Vikne</stop>
+    <stop arrival="9:56" departure="9:56">Vikne sør</stop>
+    <stop arrival="9:57" departure="9:57">Kvisti (Osterøy)</stop>
+    <stop arrival="10:00" departure="10:00">Takvam rundkøyring</stop>
+    <stop arrival="10:01" departure="10:01">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunestveit</stop>
+    <stop arrival="10:02" departure="10:02">Tunes skule</stop>
+    <stop arrival="10:02" departure="10:02">Tunes</stop>
+    <stop arrival="10:03" departure="10:03">Garnesmarka øst</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka</stop>
+    <stop arrival="10:04" departure="10:04">Garnesmarka vest</stop>
+    <stop arrival="10:04" departure="10:04">Garnes vid.skule</stop>
+    <stop arrival="10:05" departure="10:05">Garnes- v Gymnaset</stop>
+    <stop arrival="10:07" departure="10:07">Garneshøgden</stop>
+    <stop arrival="10:08" departure="10:08">Seimsmark</stop>
+    <stop arrival="10:10" departure="10:10">Beyer (Arna)</stop>
+    <stop arrival="10:12" departure="10:12">Bommane (Arna)</stop>
+    <stop arrival="10:15">Arna terminal</stop>
+  </route>
+  <route no="390" destination="Lonevåg terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/936642/313194/403560/110434/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Hannisdal nyeveien</stop>
+    <stop arrival="10:54" departure="10:54">Hauge (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Hauge (Osterøy)</stop>
+    <stop arrival="10:56" departure="10:56">Hauge skule (Osterøy)</stop>
+    <stop arrival="10:57" departure="10:57">Haugsviksvingen</stop>
+    <stop arrival="10:58" departure="10:58">Øyjordsbru</stop>
+    <stop arrival="11:01" departure="11:01">Revheim</stop>
+    <stop arrival="11:02" departure="11:02">Revheim</stop>
+    <stop arrival="11:04" departure="11:04">Lone Bru, Osterøy</stop>
+    <stop arrival="11:04" departure="11:04">Lone, Osterøy</stop>
+    <stop arrival="11:06" departure="11:06">Lone N , Osterøy</stop>
+    <stop arrival="11:08" departure="11:08">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="11:09">Lonevåg terminal</stop>
+  </route>
+  <route no="390" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/586194/196395/505810/57507/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Hannisdal nyeveien</stop>
+    <stop arrival="10:54" departure="10:54">Hauge (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Halland S, Osterøy</stop>
+    <stop arrival="10:55" departure="10:55">Halland, Osterøy</stop>
+    <stop arrival="10:56" departure="10:56">Småland</stop>
+    <stop arrival="10:56" departure="10:56">Loftås (Osterøy)</stop>
+    <stop arrival="10:57" departure="10:57">Elvikneset</stop>
+    <stop arrival="10:58" departure="10:58">Bullabrekka (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Valestrand</stop>
+    <stop arrival="10:59">Valestrand</stop>
+  </route>
+  <route no="392" destination="Lonevåg terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/517461/173516/531150/93088/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:18" routeNo="392">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland vkr. (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Orrheia, Osterøy</stop>
+    <stop arrival="10:51" departure="10:51">Mæle</stop>
+    <stop arrival="10:51" departure="10:51">Mæle</stop>
+    <stop arrival="10:52" departure="10:52">Ranen (Osterøy)</stop>
+    <stop arrival="10:53" departure="10:53">Korsåsen byggefelt (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Litunsvingen</stop>
+    <stop arrival="10:54" departure="10:54">Hartveit (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Hartveit (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Seljerinden</stop>
+    <stop arrival="10:56" departure="10:56">Presttun</stop>
+    <stop arrival="10:57" departure="10:57">Presttun</stop>
+    <stop arrival="10:57" departure="10:57">Skistad, Osterøy</stop>
+    <stop arrival="10:58" departure="10:58">Solberg (Osterøy)</stop>
+    <stop arrival="10:58" departure="10:58">Solberg (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Flatevad, Osterøy</stop>
+    <stop arrival="11:00" departure="11:00">Flatevad N, Osterøy</stop>
+    <stop arrival="11:00" departure="11:00">Nyleitet, Osterøy</stop>
+    <stop arrival="11:01" departure="11:01">Hatland v ungdomsskulen</stop>
+    <stop arrival="11:02" departure="11:02">Lonevåg v Rådhuset</stop>
+    <stop arrival="11:03" departure="11:03">Lonevåg v Coop</stop>
+    <stop arrival="11:04">Lonevåg terminal</stop>
+  </route>
+  <route no="390" destination="Lonevåg terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/685788/229576/63786/196703/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Hannisdal nyeveien</stop>
+    <stop arrival="10:54" departure="10:54">Hauge (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Hauge (Osterøy)</stop>
+    <stop arrival="10:56" departure="10:56">Hauge skule (Osterøy)</stop>
+    <stop arrival="10:57" departure="10:57">Haugsviksvingen</stop>
+    <stop arrival="10:58" departure="10:58">Øyjordsbru</stop>
+    <stop arrival="11:01" departure="11:01">Revheim</stop>
+    <stop arrival="11:02" departure="11:02">Revheim</stop>
+    <stop arrival="11:04" departure="11:04">Lone Bru, Osterøy</stop>
+    <stop arrival="11:04" departure="11:04">Lone, Osterøy</stop>
+    <stop arrival="11:06" departure="11:06">Lone N , Osterøy</stop>
+    <stop arrival="11:08" departure="11:08">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="11:09">Lonevåg terminal</stop>
+  </route>
+  <route no="390" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/814095/272362/546702/1986/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Hannisdal nyeveien</stop>
+    <stop arrival="10:54" departure="10:54">Hauge (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Halland S, Osterøy</stop>
+    <stop arrival="10:55" departure="10:55">Halland, Osterøy</stop>
+    <stop arrival="10:56" departure="10:56">Småland</stop>
+    <stop arrival="10:56" departure="10:56">Loftås (Osterøy)</stop>
+    <stop arrival="10:57" departure="10:57">Elvikneset</stop>
+    <stop arrival="10:58" departure="10:58">Bullabrekka (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Valestrand</stop>
+    <stop arrival="10:59">Valestrand</stop>
+  </route>
+  <route no="392" destination="Lonevåg terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/422601/141896/232886/24424/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:18" routeNo="392">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland vkr. (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Orrheia, Osterøy</stop>
+    <stop arrival="10:51" departure="10:51">Mæle</stop>
+    <stop arrival="10:51" departure="10:51">Mæle</stop>
+    <stop arrival="10:52" departure="10:52">Ranen (Osterøy)</stop>
+    <stop arrival="10:53" departure="10:53">Korsåsen byggefelt (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Litunsvingen</stop>
+    <stop arrival="10:54" departure="10:54">Hartveit (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Hartveit (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Seljerinden</stop>
+    <stop arrival="10:56" departure="10:56">Presttun</stop>
+    <stop arrival="10:57" departure="10:57">Presttun</stop>
+    <stop arrival="10:57" departure="10:57">Skistad, Osterøy</stop>
+    <stop arrival="10:58" departure="10:58">Solberg (Osterøy)</stop>
+    <stop arrival="10:58" departure="10:58">Solberg (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Flatevad, Osterøy</stop>
+    <stop arrival="11:00" departure="11:00">Flatevad N, Osterøy</stop>
+    <stop arrival="11:00" departure="11:00">Nyleitet, Osterøy</stop>
+    <stop arrival="11:01" departure="11:01">Hatland v ungdomsskulen</stop>
+    <stop arrival="11:02" departure="11:02">Lonevåg v Rådhuset</stop>
+    <stop arrival="11:03" departure="11:03">Lonevåg v Coop</stop>
+    <stop arrival="11:04">Lonevåg terminal</stop>
+  </route>
+  <route no="390" destination="Lonevåg terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/664185/222375/137148/152821/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Hannisdal nyeveien</stop>
+    <stop arrival="10:54" departure="10:54">Hauge (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Hauge (Osterøy)</stop>
+    <stop arrival="10:56" departure="10:56">Hauge skule (Osterøy)</stop>
+    <stop arrival="10:57" departure="10:57">Haugsviksvingen</stop>
+    <stop arrival="10:58" departure="10:58">Øyjordsbru</stop>
+    <stop arrival="11:01" departure="11:01">Revheim</stop>
+    <stop arrival="11:02" departure="11:02">Revheim</stop>
+    <stop arrival="11:04" departure="11:04">Lone Bru, Osterøy</stop>
+    <stop arrival="11:04" departure="11:04">Lone, Osterøy</stop>
+    <stop arrival="11:06" departure="11:06">Lone N , Osterøy</stop>
+    <stop arrival="11:08" departure="11:08">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="11:09">Lonevåg terminal</stop>
+  </route>
+  <route no="390" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/246609/83200/22556/70925/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="10:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Hannisdal nyeveien</stop>
+    <stop arrival="10:54" departure="10:54">Hauge (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Halland S, Osterøy</stop>
+    <stop arrival="10:55" departure="10:55">Halland, Osterøy</stop>
+    <stop arrival="10:56" departure="10:56">Småland</stop>
+    <stop arrival="10:56" departure="10:56">Loftås (Osterøy)</stop>
+    <stop arrival="10:57" departure="10:57">Elvikneset</stop>
+    <stop arrival="10:58" departure="10:58">Bullabrekka (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Valestrand</stop>
+    <stop arrival="10:59">Valestrand</stop>
+  </route>
+  <route no="392" destination="Lonevåg terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/836100/279729/136366/210517/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="10:18" routeNo="392">Arna terminal</stop>
+    <stop arrival="10:19" departure="10:19">Bommane (Arna)</stop>
+    <stop arrival="10:20" departure="10:20">Beyer (Arna)</stop>
+    <stop arrival="10:21" departure="10:21">Seimsmark</stop>
+    <stop arrival="10:22" departure="10:22">Garneshøgden</stop>
+    <stop arrival="10:23" departure="10:23">Garnes- v Gymnaset</stop>
+    <stop arrival="10:24" departure="10:24">Garnes vid.skule</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka vest</stop>
+    <stop arrival="10:25" departure="10:25">Garnesmarka</stop>
+    <stop arrival="10:26" departure="10:26">Garnesmarka øst</stop>
+    <stop arrival="10:27" departure="10:27">Tunes</stop>
+    <stop arrival="10:27" departure="10:27">Tunes skule</stop>
+    <stop arrival="10:28" departure="10:28">Tunestveit</stop>
+    <stop arrival="10:29" departure="10:29">Tunestveit</stop>
+    <stop arrival="10:30" departure="10:30">Takvam rundkøyring</stop>
+    <stop arrival="10:30" departure="10:30">Takvam E16</stop>
+    <stop arrival="10:31" departure="10:31">Herland Kvistibru</stop>
+    <stop arrival="10:33" departure="10:33">Kvisti (Osterøy)</stop>
+    <stop arrival="10:34" departure="10:34">Vikne sør</stop>
+    <stop arrival="10:35" departure="10:35">Vikne</stop>
+    <stop arrival="10:36" departure="10:36">Vikne nord</stop>
+    <stop arrival="10:37" departure="10:37">Leikneset</stop>
+    <stop arrival="10:38" departure="10:38">Leikneset</stop>
+    <stop arrival="10:39" departure="10:39">Leikneset</stop>
+    <stop arrival="10:40" departure="10:40">Haus</stop>
+    <stop arrival="10:40" departure="10:40">Åsheimveien</stop>
+    <stop arrival="10:41" departure="10:41">Haus</stop>
+    <stop arrival="10:43" departure="10:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen</stop>
+    <stop arrival="10:44" departure="10:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="10:45" departure="10:45">Mjeldalen Øvre</stop>
+    <stop arrival="10:46" departure="10:46">Ambogen vkr</stop>
+    <stop arrival="10:46" departure="10:46">Kolabakken</stop>
+    <stop arrival="10:47" departure="10:47">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Veset</stop>
+    <stop arrival="10:48" departure="10:48">Vinåsen</stop>
+    <stop arrival="10:49" departure="10:49">Rødland</stop>
+    <stop arrival="10:49" departure="10:49">Rolland vkr. (Osterøy)</stop>
+    <stop arrival="10:51" departure="10:51">Orrheia, Osterøy</stop>
+    <stop arrival="10:51" departure="10:51">Mæle</stop>
+    <stop arrival="10:51" departure="10:51">Mæle</stop>
+    <stop arrival="10:52" departure="10:52">Ranen (Osterøy)</stop>
+    <stop arrival="10:53" departure="10:53">Korsåsen byggefelt (Osterøy)</stop>
+    <stop arrival="10:54" departure="10:54">Litunsvingen</stop>
+    <stop arrival="10:54" departure="10:54">Hartveit (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Hartveit (Osterøy)</stop>
+    <stop arrival="10:55" departure="10:55">Seljerinden</stop>
+    <stop arrival="10:56" departure="10:56">Presttun</stop>
+    <stop arrival="10:57" departure="10:57">Presttun</stop>
+    <stop arrival="10:57" departure="10:57">Skistad, Osterøy</stop>
+    <stop arrival="10:58" departure="10:58">Solberg (Osterøy)</stop>
+    <stop arrival="10:58" departure="10:58">Solberg (Osterøy)</stop>
+    <stop arrival="10:59" departure="10:59">Flatevad, Osterøy</stop>
+    <stop arrival="11:00" departure="11:00">Flatevad N, Osterøy</stop>
+    <stop arrival="11:00" departure="11:00">Nyleitet, Osterøy</stop>
+    <stop arrival="11:01" departure="11:01">Hatland v ungdomsskulen</stop>
+    <stop arrival="11:02" departure="11:02">Lonevåg v Rådhuset</stop>
+    <stop arrival="11:03" departure="11:03">Lonevåg v Coop</stop>
+    <stop arrival="11:04">Lonevåg terminal</stop>
+  </route>
+  <route no="900" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/775551/259639/195392/160822/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:30" routeNo="900">Takvam rundkøyring</stop>
+    <stop arrival="10:31" departure="10:31">Tunestveit</stop>
+    <stop arrival="10:32" departure="10:32">Tunestveit</stop>
+    <stop arrival="10:32" departure="10:32">Tunes skule</stop>
+    <stop arrival="10:32" departure="10:32">Tunes</stop>
+    <stop arrival="10:33" departure="10:33">Garnesmarka øst</stop>
+    <stop arrival="10:34" departure="10:34">Garnesmarka</stop>
+    <stop arrival="10:34" departure="10:34">Garnesmarka vest</stop>
+    <stop arrival="10:34" departure="10:34">Garnes vid.skule</stop>
+    <stop arrival="10:35" departure="10:35">Garnes- v Gymnaset</stop>
+    <stop arrival="10:37" departure="10:37">Garneshøgden</stop>
+    <stop arrival="10:38" departure="10:38">Seimsmark</stop>
+    <stop arrival="10:40" departure="10:40">Beyer (Arna)</stop>
+    <stop arrival="10:42" departure="10:42">Bommane (Arna)</stop>
+    <stop arrival="10:45">Arna terminal</stop>
+  </route>
+  <route no="900" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/438189/147185/188636/51746/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:30" routeNo="900">Takvam rundkøyring</stop>
+    <stop arrival="10:31" departure="10:31">Tunestveit</stop>
+    <stop arrival="10:32" departure="10:32">Tunestveit</stop>
+    <stop arrival="10:32" departure="10:32">Tunes skule</stop>
+    <stop arrival="10:32" departure="10:32">Tunes</stop>
+    <stop arrival="10:33" departure="10:33">Garnesmarka øst</stop>
+    <stop arrival="10:34" departure="10:34">Garnesmarka</stop>
+    <stop arrival="10:34" departure="10:34">Garnesmarka vest</stop>
+    <stop arrival="10:34" departure="10:34">Garnes vid.skule</stop>
+    <stop arrival="10:35" departure="10:35">Garnes- v Gymnaset</stop>
+    <stop arrival="10:37" departure="10:37">Garneshøgden</stop>
+    <stop arrival="10:38" departure="10:38">Seimsmark</stop>
+    <stop arrival="10:40" departure="10:40">Beyer (Arna)</stop>
+    <stop arrival="10:42" departure="10:42">Bommane (Arna)</stop>
+    <stop arrival="10:45">Arna terminal</stop>
+  </route>
+  <route no="900" destination="Takvam rundkøyring" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/82518/28623/877182/411086/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:48" routeNo="900">Arna terminal</stop>
+    <stop arrival="10:49" departure="10:49">Bommane (Arna)</stop>
+    <stop arrival="10:50" departure="10:50">Beyer (Arna)</stop>
+    <stop arrival="10:51" departure="10:51">Seimsmark</stop>
+    <stop arrival="10:52" departure="10:52">Garneshøgden</stop>
+    <stop arrival="10:53" departure="10:53">Garnes- v Gymnaset</stop>
+    <stop arrival="10:54" departure="10:54">Garnes vid.skule</stop>
+    <stop arrival="10:55" departure="10:55">Garnesmarka vest</stop>
+    <stop arrival="10:55" departure="10:55">Garnesmarka</stop>
+    <stop arrival="10:56" departure="10:56">Garnesmarka øst</stop>
+    <stop arrival="10:57" departure="10:57">Tunes</stop>
+    <stop arrival="10:57" departure="10:57">Tunes skule</stop>
+    <stop arrival="10:58" departure="10:58">Tunestveit</stop>
+    <stop arrival="10:59" departure="10:59">Tunestveit</stop>
+    <stop arrival="11:00">Takvam rundkøyring</stop>
+  </route>
+</routes>

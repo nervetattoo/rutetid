@@ -6,8 +6,8 @@ require_once("libs/BusStops.php");
 $db = Config::getDb();
 
 // Clear db
-$db->buses->drop();
-$db->departures->drop();
+//$db->buses->drop();
+//$db->departures->drop();
 
 // Flush routes
 $db->stops->drop();
@@ -26,6 +26,7 @@ $busStops = array();
 array(
     "
 */
+/*
 $stopsSearch = array();
 
 $deps = 0;
@@ -103,4 +104,5 @@ foreach ($xml->bus as $node) {
     }
 } 
 echo "Inserted $deps departures\n";
+*/
 echo "Activated $activeStops stops\n";

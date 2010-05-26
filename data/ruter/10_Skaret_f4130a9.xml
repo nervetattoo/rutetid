@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="545" destination="Riple" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/711885/242707/657290/91351/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:10" routeNo="545">Nesttun terminal</stop>
+    <stop arrival="10:11" departure="10:11">Nesttun</stop>
+    <stop arrival="10:12" departure="10:12">Herredshuset, Nesttun</stop>
+    <stop arrival="10:13" departure="10:13">Midttun bro</stop>
+    <stop arrival="10:14" departure="10:14">Nordrevoll</stop>
+    <stop arrival="10:15" departure="10:15">Ulsmågåsen</stop>
+    <stop arrival="10:15" departure="10:15">Ulsmåg skole</stop>
+    <stop arrival="10:15" departure="10:15">Dyngelandskiftet</stop>
+    <stop arrival="10:16" departure="10:16">Birkelandsbotn</stop>
+    <stop arrival="10:18" departure="10:18">Myrdalsvann</stop>
+    <stop arrival="10:19" departure="10:19">Bjøllebotn</stop>
+    <stop arrival="10:20" departure="10:20">Myrdal</stop>
+    <stop arrival="10:21" departure="10:21">Ljosvoll</stop>
+    <stop arrival="10:22" departure="10:22">Fjellbirkeland 1</stop>
+    <stop arrival="10:23" departure="10:23">Fjellbirkeland 2</stop>
+    <stop arrival="10:24" departure="10:24">Skaret</stop>
+    <stop arrival="10:26" departure="10:26">Skytterhuset, Totland</stop>
+    <stop arrival="10:26" departure="10:26">Totlandsmyr</stop>
+    <stop arrival="10:28" departure="10:28">Totland (Fana)</stop>
+    <stop arrival="10:29" departure="10:29">Øvre Totland</stop>
+    <stop arrival="10:30">Riple</stop>
+  </route>
+  <route no="545" destination="Nesttun terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/262317/92852/660134/242628/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="10:30" routeNo="545">Riple</stop>
+    <stop arrival="10:30" departure="10:30">Øvre Totland</stop>
+    <stop arrival="10:31" departure="10:31">Totland (Fana)</stop>
+    <stop arrival="10:32" departure="10:32">Totlandsmyr</stop>
+    <stop arrival="10:33" departure="10:33">Skytterhuset, Totland</stop>
+    <stop arrival="10:34" departure="10:34">Skaret</stop>
+    <stop arrival="10:35" departure="10:35">Fjellbirkeland 2</stop>
+    <stop arrival="10:36" departure="10:36">Fjellbirkeland 1</stop>
+    <stop arrival="10:36" departure="10:36">Ljosvoll</stop>
+    <stop arrival="10:37" departure="10:37">Myrdal</stop>
+    <stop arrival="10:38" departure="10:38">Bjøllebotn</stop>
+    <stop arrival="10:38" departure="10:38">Myrdalsvann</stop>
+    <stop arrival="10:39" departure="10:39">Birkelandsbotn</stop>
+    <stop arrival="10:40" departure="10:40">Dyngelandskiftet</stop>
+    <stop arrival="10:41" departure="10:41">Milleshaug</stop>
+    <stop arrival="10:42" departure="10:42">Dyngelandseidet</stop>
+    <stop arrival="10:43" departure="10:43">Dyngeland</stop>
+    <stop arrival="10:43" departure="10:43">Dyngeland</stop>
+    <stop arrival="10:44" departure="10:44">Dyngeland, Gartneriet</stop>
+    <stop arrival="10:45" departure="10:45">Dyngeland snuplass</stop>
+    <stop arrival="10:46" departure="10:46">Dyngeland, Gartneriet</stop>
+    <stop arrival="10:47" departure="10:47">Dyngeland</stop>
+    <stop arrival="10:47" departure="10:47">Dyngeland</stop>
+    <stop arrival="10:48" departure="10:48">Dyngelandseidet</stop>
+    <stop arrival="10:49" departure="10:49">Milleshaug</stop>
+    <stop arrival="10:50" departure="10:50">Dyngelandskiftet</stop>
+    <stop arrival="10:50" departure="10:50">Ulsmåg skole</stop>
+    <stop arrival="10:52" departure="10:52">Ulsmågåsen</stop>
+    <stop arrival="10:53" departure="10:53">Nordrevoll</stop>
+    <stop arrival="10:55" departure="10:55">Midttun bro</stop>
+    <stop arrival="10:58" departure="10:58">Herredshuset, Nesttun</stop>
+    <stop arrival="10:58" departure="10:58">Nesttun</stop>
+    <stop arrival="11:00">Nesttun terminal</stop>
+  </route>
+</routes>

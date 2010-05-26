@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="80" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/423738/146041/172742/54875/1/" trafficDays="kjører Sø, også 17., 25. Mai">
+    <stop departure="2:30" routeNo="80">Åsane terminal</stop>
+    <stop arrival="2:35" departure="2:35">Eidsvåg</stop>
+    <stop arrival="2:37" departure="2:37">Handelshøyskolen</stop>
+    <stop arrival="2:38" departure="2:38">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="2:39" departure="2:39">Munkebotten</stop>
+    <stop arrival="2:40" departure="2:40">Ludebryggen</stop>
+    <stop arrival="2:42" departure="2:42">Sandvikstorget</stop>
+    <stop arrival="2:44" departure="2:44">Skutevikstorget</stop>
+    <stop arrival="2:44" departure="2:44">Bontelabo</stop>
+    <stop arrival="2:45" departure="2:45">Slottsgaten</stop>
+    <stop arrival="2:46" departure="2:46">Bryggen</stop>
+    <stop arrival="2:47" departure="2:47">Olav Kyrres gate</stop>
+    <stop arrival="2:52">Bergen Busstasjon</stop>
+  </route>
+  <route no="225" destination="Skinstø snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/988728/334565/924076/132462/1/" trafficDays="kjører Sø, også 17., 25. Mai">
+    <stop departure="2:25" routeNo="225">Bergen Busstasjon</stop>
+    <stop arrival="2:28" departure="2:28">Christies gate (Festplassen)</stop>
+    <stop arrival="2:31" departure="2:31">Torget (Bergen)</stop>
+    <stop arrival="2:32" departure="2:32">Bryggen</stop>
+    <stop arrival="2:32" departure="2:32">Slottsgaten</stop>
+    <stop arrival="2:33" departure="2:33">Bontelabo</stop>
+    <stop arrival="2:34" departure="2:34">Skutevikstorget</stop>
+    <stop arrival="2:34" departure="2:34">Sjøgaten</stop>
+    <stop arrival="2:35" departure="2:35">Sandvikstorget</stop>
+    <stop arrival="2:36" departure="2:36">Ludebryggen</stop>
+    <stop arrival="2:36" departure="2:36">Munkebotten</stop>
+    <stop arrival="2:38" departure="2:38">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="2:39" departure="2:39">Handelshøyskolen</stop>
+    <stop arrival="2:41" departure="2:41">Eidsvåg</stop>
+    <stop arrival="2:44" departure="2:44">Tertneskrysset nyevegen</stop>
+    <stop arrival="2:46" departure="2:46">Stamskaret</stop>
+    <stop arrival="2:46" departure="2:46">Hesthaugen</stop>
+    <stop arrival="2:47" departure="2:47">Åsane terminal</stop>
+    <stop arrival="2:49" departure="2:49">Åsane Brannstasjon</stop>
+    <stop arrival="2:49" departure="2:49">Myrdalsskogen v/Prix</stop>
+    <stop arrival="2:50" departure="2:50">Myrdalsskogen</stop>
+    <stop arrival="2:51" departure="2:51">Hallskaret</stop>
+    <stop arrival="2:52" departure="2:52">Riveskaftet</stop>
+    <stop arrival="2:53">Skinstø snuplass</stop>
+  </route>
+</routes>

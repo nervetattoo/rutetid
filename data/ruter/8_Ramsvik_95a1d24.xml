@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="424" destination="Kjøkkelvik skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/961797/322428/382720/129239/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="8:00" routeNo="424">Ramsvik</stop>
+    <stop arrival="8:01" departure="8:01">Ramsvik</stop>
+    <stop arrival="8:02" departure="8:02">Janastølen</stop>
+    <stop arrival="8:03" departure="8:03">Drotningsvik</stop>
+    <stop arrival="8:04" departure="8:04">Drotningsvik v/Hydro</stop>
+    <stop arrival="8:04" departure="8:04">Stiaberget</stop>
+    <stop arrival="8:05" departure="8:05">Breivikdalen</stop>
+    <stop arrival="8:06" departure="8:06">Breivikskiftet</stop>
+    <stop arrival="8:07" departure="8:07">Kiplehaugen</stop>
+    <stop arrival="8:07" departure="8:07">Nedre Godvik</stop>
+    <stop arrival="8:08" departure="8:08">Øvre Godvik</stop>
+    <stop arrival="8:08" departure="8:08">Godvik barnehage</stop>
+    <stop arrival="8:09" departure="8:09">Leirvikåsen</stop>
+    <stop arrival="8:10" departure="8:10">Leirvikneset</stop>
+    <stop arrival="8:10" departure="8:10">Gjeringskjenet</stop>
+    <stop arrival="8:11" departure="8:11">Fagerdalen (Godvik)</stop>
+    <stop arrival="8:11" departure="8:11">Olsvikskiftet</stop>
+    <stop arrival="8:11" departure="8:11">Olsvikfjellet</stop>
+    <stop arrival="8:12" departure="8:12">Olsvikskjenet snuplass</stop>
+    <stop arrival="8:13" departure="8:13">Olsvik senter</stop>
+    <stop arrival="8:14" departure="8:14">Fredheim (Loddefjord)</stop>
+    <stop arrival="8:16" departure="8:16">Skjenlia</stop>
+    <stop arrival="8:18" departure="8:18">Rishaugen</stop>
+    <stop arrival="8:20" departure="8:20">Frida Fasmer</stop>
+    <stop arrival="8:22" departure="8:22">Loddefjordtoppen</stop>
+    <stop arrival="8:23">Kjøkkelvik skole</stop>
+  </route>
+  <route no="424" destination="Kjøkkelvik skole" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/26088/10530/720264/351436/1/" trafficDays="kjører Ma, ikke 17., 24. Mai">
+    <stop departure="8:55" routeNo="424">Ramsvik</stop>
+    <stop arrival="8:58" departure="8:58">Drotningsvik</stop>
+    <stop arrival="8:59" departure="8:59">Drotningsvik v/Hydro</stop>
+    <stop arrival="9:04" departure="9:04">Alvøen kai</stop>
+    <stop arrival="9:09" departure="9:09">Breivikskiftet nedre</stop>
+    <stop arrival="9:12" departure="9:12">Leirvikåsen</stop>
+    <stop arrival="9:16" departure="9:16">Olsvikskjenet snuplass</stop>
+    <stop arrival="9:17" departure="9:17">Olsvik senter</stop>
+    <stop arrival="9:27">Kjøkkelvik skole</stop>
+  </route>
+</routes>

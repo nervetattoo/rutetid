@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="900" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/990489/331298/477598/91365/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:22" routeNo="900">Takvam rundkøyring</stop>
+    <stop arrival="6:23" departure="6:23">Tunestveit</stop>
+    <stop arrival="6:24" departure="6:24">Tunestveit</stop>
+    <stop arrival="6:24" departure="6:24">Tunes skule</stop>
+    <stop arrival="6:24" departure="6:24">Tunes</stop>
+    <stop arrival="6:25" departure="6:25">Garnesmarka øst</stop>
+    <stop arrival="6:26" departure="6:26">Garnesmarka</stop>
+    <stop arrival="6:26" departure="6:26">Garnesmarka vest</stop>
+    <stop arrival="6:26" departure="6:26">Garnes vid.skule</stop>
+    <stop arrival="6:27" departure="6:27">Garnes- v Gymnaset</stop>
+    <stop arrival="6:29" departure="6:29">Garneshøgden</stop>
+    <stop arrival="6:30" departure="6:30">Seimsmark</stop>
+    <stop arrival="6:32" departure="6:32">Beyer (Arna)</stop>
+    <stop arrival="6:34" departure="6:34">Bommane (Arna)</stop>
+    <stop arrival="6:37">Arna terminal</stop>
+  </route>
+  <route no="900" destination="Takvam rundkøyring" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/913011/305505/707386/49356/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:38" routeNo="900">Arna terminal</stop>
+    <stop arrival="6:39" departure="6:39">Bommane (Arna)</stop>
+    <stop arrival="6:40" departure="6:40">Beyer (Arna)</stop>
+    <stop arrival="6:41" departure="6:41">Seimsmark</stop>
+    <stop arrival="6:42" departure="6:42">Garneshøgden</stop>
+    <stop arrival="6:43" departure="6:43">Garnes- v Gymnaset</stop>
+    <stop arrival="6:44" departure="6:44">Garnes vid.skule</stop>
+    <stop arrival="6:45" departure="6:45">Garnesmarka vest</stop>
+    <stop arrival="6:45" departure="6:45">Garnesmarka</stop>
+    <stop arrival="6:46" departure="6:46">Garnesmarka øst</stop>
+    <stop arrival="6:47" departure="6:47">Tunes</stop>
+    <stop arrival="6:47" departure="6:47">Tunes skule</stop>
+    <stop arrival="6:48" departure="6:48">Tunestveit</stop>
+    <stop arrival="6:49" departure="6:49">Tunestveit</stop>
+    <stop arrival="6:50">Takvam rundkøyring</stop>
+  </route>
+</routes>

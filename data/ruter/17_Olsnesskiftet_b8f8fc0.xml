@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="398" destination="Kvisti (Osterøy)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/258873/87396/216072/21745/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:02" routeNo="398">Olsnesskiftet</stop>
+    <stop arrival="17:03" departure="17:03">Olsnesskiftet</stop>
+    <stop arrival="17:04" departure="17:04">Bruvik v byggefelt</stop>
+    <stop arrival="17:04" departure="17:04">Bruvik v butikken</stop>
+    <stop arrival="17:05" departure="17:05">Bruvik 1</stop>
+    <stop arrival="17:08" departure="17:08">Bruvik v Lushalien</stop>
+    <stop arrival="17:08" departure="17:08">Bruvik Ytre</stop>
+    <stop arrival="17:09" departure="17:09">Hekland</stop>
+    <stop arrival="17:10" departure="17:10">Hekland</stop>
+    <stop arrival="17:13" departure="17:13">Skaftå bru</stop>
+    <stop arrival="17:14" departure="17:14">Skaftå m butikk</stop>
+    <stop arrival="17:15" departure="17:15">Vik (Bruvik)</stop>
+    <stop arrival="17:15" departure="17:15">Vik (Bruvik)</stop>
+    <stop arrival="17:16" departure="17:16">Vik (Bruvik)</stop>
+    <stop arrival="17:16" departure="17:16">Stokke (Osterøy)</stop>
+    <stop arrival="17:17" departure="17:17">Stokke (Osterøy)</stop>
+    <stop arrival="17:19" departure="17:19">Vimmelvik</stop>
+    <stop arrival="17:19" departure="17:19">Vimmelvik</stop>
+    <stop arrival="17:21" departure="17:21">Havrå</stop>
+    <stop arrival="17:21" departure="17:21">Blom (Osterøy)</stop>
+    <stop arrival="17:22" departure="17:22">Blom (Osterøy)</stop>
+    <stop arrival="17:23" departure="17:23">Hundhammer (Osterøy)</stop>
+    <stop arrival="17:26">Kvisti (Osterøy)</stop>
+  </route>
+  <route no="398" destination="Olsnesskiftet" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/432384/145225/917826/314785/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:26" routeNo="398">Kvisti (Osterøy)</stop>
+    <stop arrival="17:28" departure="17:28">Hundhammer (Osterøy)</stop>
+    <stop arrival="17:29" departure="17:29">Blom (Osterøy)</stop>
+    <stop arrival="17:29" departure="17:29">Blom (Osterøy)</stop>
+    <stop arrival="17:30" departure="17:30">Havrå</stop>
+    <stop arrival="17:31" departure="17:31">Vimmelvik</stop>
+    <stop arrival="17:31" departure="17:31">Vimmelvik</stop>
+    <stop arrival="17:32" departure="17:32">Stokke (Osterøy)</stop>
+    <stop arrival="17:33" departure="17:33">Stokke (Osterøy)</stop>
+    <stop arrival="17:33" departure="17:33">Vik (Bruvik)</stop>
+    <stop arrival="17:34" departure="17:34">Vik (Bruvik)</stop>
+    <stop arrival="17:34" departure="17:34">Vik (Bruvik)</stop>
+    <stop arrival="17:34" departure="17:34">Skaftå m butikk</stop>
+    <stop arrival="17:35" departure="17:35">Skaftå bru</stop>
+    <stop arrival="17:38" departure="17:38">Hekland</stop>
+    <stop arrival="17:39" departure="17:39">Hekland</stop>
+    <stop arrival="17:40" departure="17:40">Bruvik Ytre</stop>
+    <stop arrival="17:41" departure="17:41">Bruvik v Lushalien</stop>
+    <stop arrival="17:44" departure="17:44">Bruvik 1</stop>
+    <stop arrival="17:45" departure="17:45">Bruvik v butikken</stop>
+    <stop arrival="17:45" departure="17:45">Bruvik v byggefelt</stop>
+    <stop arrival="17:47" departure="17:47">Olsnesskiftet</stop>
+    <stop arrival="17:48">Olsnesskiftet</stop>
+  </route>
+</routes>

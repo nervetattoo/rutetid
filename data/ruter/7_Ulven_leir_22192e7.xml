@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="612" destination="Hagavik (Hovland - Os)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/178191/65057/837946/359576/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="6:50" routeNo="612">Os - Osøyro</stop>
+    <stop arrival="6:51" departure="6:51">Fjellheim</stop>
+    <stop arrival="6:52" departure="6:52">Kuven</stop>
+    <stop arrival="6:53" departure="6:53">Flåten (Os)</stop>
+    <stop arrival="6:54" departure="6:54">Flåten Senter</stop>
+    <stop arrival="6:55" departure="6:55">Tøsdalskiftet</stop>
+    <stop arrival="6:55" departure="6:55">Ulvenskiftet</stop>
+    <stop arrival="6:56" departure="6:56">Vaktdal</stop>
+    <stop arrival="6:57" departure="6:57">Os Vidaregåande skule</stop>
+    <stop arrival="7:00" departure="7:00">Ulvensletta</stop>
+    <stop arrival="7:01" departure="7:01">Vaksinen</stop>
+    <stop arrival="7:02" departure="7:02">Ådnadalen</stop>
+    <stop arrival="7:03" departure="7:03">Irgenskryss</stop>
+    <stop arrival="7:04" departure="7:04">Hagevik 1</stop>
+    <stop arrival="7:05" departure="7:05">Hagevik 2</stop>
+    <stop arrival="7:05">Hagavik (Hovland - Os)</stop>
+  </route>
+  <route no="612" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/430515/149166/650004/181497/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:00" routeNo="612">Os - Osøyro</stop>
+    <stop arrival="7:01" departure="7:01">Fjellheim</stop>
+    <stop arrival="7:02" departure="7:02">Kuven</stop>
+    <stop arrival="7:03" departure="7:03">Flåten (Os)</stop>
+    <stop arrival="7:04" departure="7:04">Flåten Senter</stop>
+    <stop arrival="7:05" departure="7:05">Tøsdalskiftet</stop>
+    <stop arrival="7:07" departure="7:07">Os Vidaregåande skule</stop>
+    <stop arrival="7:08" departure="7:08">Ulvensletta</stop>
+    <stop arrival="7:09" departure="7:09">Vaksinen</stop>
+    <stop arrival="7:10" departure="7:10">Ådnadalen</stop>
+    <stop arrival="7:11" departure="7:11">Irgenskryss</stop>
+    <stop arrival="7:11" departure="7:11">Hagevik 1</stop>
+    <stop arrival="7:12" departure="7:12">Hagevik 2</stop>
+    <stop arrival="7:12" departure="7:12">Hagavik (Hovland - Os)</stop>
+    <stop arrival="7:12" departure="7:12">Hagavik (Hovland - Os)</stop>
+    <stop arrival="7:13" departure="7:13">Hagevik 2</stop>
+    <stop arrival="7:13" departure="7:13">Hagevik 1</stop>
+    <stop arrival="7:14" departure="7:14">Irgenskryss</stop>
+    <stop arrival="7:15" departure="7:15">Nore Neset skule</stop>
+    <stop arrival="7:16" departure="7:16">Skeie (Os)</stop>
+    <stop arrival="7:17" departure="7:17">Grindevoll snuplass</stop>
+    <stop arrival="7:18" departure="7:18">Grindevoll</stop>
+    <stop arrival="7:18" departure="7:18">Thuen</stop>
+    <stop arrival="7:21" departure="7:21">Thuen Bedehuset</stop>
+    <stop arrival="7:24" departure="7:24">Mobergslien</stop>
+    <stop arrival="7:25" departure="7:25">Moberg</stop>
+    <stop arrival="7:26" departure="7:26">Mobergsbakken</stop>
+    <stop arrival="7:27" departure="7:27">Os kai</stop>
+    <stop arrival="7:27">Os - Osøyro</stop>
+  </route>
+  <route no="612" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/668508/228498/839156/196742/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:05" routeNo="612">Hagavik (Hovland - Os)</stop>
+    <stop arrival="7:06" departure="7:06">Hagevik 2</stop>
+    <stop arrival="7:06" departure="7:06">Hagevik 1</stop>
+    <stop arrival="7:07" departure="7:07">Irgenskryss</stop>
+    <stop arrival="7:08" departure="7:08">Ådnadalen</stop>
+    <stop arrival="7:09" departure="7:09">Vaksinen</stop>
+    <stop arrival="7:10" departure="7:10">Ulvensletta</stop>
+    <stop arrival="7:13" departure="7:13">Os Vidaregåande skule</stop>
+    <stop arrival="7:14" departure="7:14">Kolskogen</stop>
+    <stop arrival="7:15" departure="7:15">Tøsdalskiftet</stop>
+    <stop arrival="7:15" departure="7:15">Ulvenskiftet</stop>
+    <stop arrival="7:16" departure="7:16">Tøsdalskiftet</stop>
+    <stop arrival="7:17" departure="7:17">Flåten Senter</stop>
+    <stop arrival="7:18" departure="7:18">Flåten (Os)</stop>
+    <stop arrival="7:18" departure="7:18">Kuven</stop>
+    <stop arrival="7:19" departure="7:19">Fjellheim</stop>
+    <stop arrival="7:20">Os - Osøyro</stop>
+  </route>
+  <route no="626" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/298056/105194/956912/379104/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="7:05" routeNo="626">Røttingen snuplass</stop>
+    <stop arrival="7:06" departure="7:06">Hauane (Røtinga)</stop>
+    <stop arrival="7:07" departure="7:07">Bruarøy Ungdomshuset</stop>
+    <stop arrival="7:08" departure="7:08">Bruarøy</stop>
+    <stop arrival="7:08" departure="7:08">Sundøy</stop>
+    <stop arrival="7:10" departure="7:10">Lepsøy kai</stop>
+    <stop arrival="7:11" departure="7:11">Lepsøy</stop>
+    <stop arrival="7:12" departure="7:12">Blindesund</stop>
+    <stop arrival="7:14" departure="7:14">Storumhammeren</stop>
+    <stop arrival="7:14" departure="7:14">Storum (Os)</stop>
+    <stop arrival="7:15" departure="7:15">Ravneberghaugen</stop>
+    <stop arrival="7:15" departure="7:15">Grindevoll</stop>
+    <stop arrival="7:15" departure="7:15">Grindevoll snuplass</stop>
+    <stop arrival="7:16" departure="7:16">Skeie (Os)</stop>
+    <stop arrival="7:17" departure="7:17">Nore Neset skule</stop>
+    <stop arrival="7:18" departure="7:18">Irgenskryss</stop>
+    <stop arrival="7:19" departure="7:19">Ådnadalen</stop>
+    <stop arrival="7:19" departure="7:19">Vaksinen</stop>
+    <stop arrival="7:20" departure="7:20">Ulvensletta</stop>
+    <stop arrival="7:22" departure="7:22">Os Vidaregåande skule</stop>
+    <stop arrival="7:24" departure="7:24">Kolskogen</stop>
+    <stop arrival="7:25" departure="7:25">Tøsdalskiftet</stop>
+    <stop arrival="7:26" departure="7:26">Flåten Senter</stop>
+    <stop arrival="7:27" departure="7:27">Flåten (Os)</stop>
+    <stop arrival="7:28" departure="7:28">Kuven</stop>
+    <stop arrival="7:29" departure="7:29">Fjellheim</stop>
+    <stop arrival="7:30">Os - Osøyro</stop>
+  </route>
+  <route no="567" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/562926/193242/543342/84029/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:10" routeNo="567">Os - Osøyro</stop>
+    <stop arrival="7:11" departure="7:11">Fjellheim</stop>
+    <stop arrival="7:12" departure="7:12">Kuven</stop>
+    <stop arrival="7:13" departure="7:13">Flåten (Os)</stop>
+    <stop arrival="7:14" departure="7:14">Flåten Senter</stop>
+    <stop arrival="7:15" departure="7:15">Tøsdalskiftet</stop>
+    <stop arrival="7:16" departure="7:16">Ulvenskiftet</stop>
+    <stop arrival="7:17" departure="7:17">Vaktdal</stop>
+    <stop arrival="7:18" departure="7:18">Os Vidaregåande skule</stop>
+    <stop arrival="7:21" departure="7:21">Ulven leir</stop>
+    <stop arrival="7:23" departure="7:23">Åsen vegkryss (Os)</stop>
+    <stop arrival="7:24" departure="7:24">Åsen (Os)</stop>
+    <stop arrival="7:24" departure="7:24">Åsen (Os)</stop>
+    <stop arrival="7:24" departure="7:24">Åsen (Os)</stop>
+    <stop arrival="7:26" departure="7:26">Langedalen</stop>
+    <stop arrival="7:27" departure="7:27">Lysekloster ruiner</stop>
+    <stop arrival="7:27" departure="7:27">Lysekloster gård</stop>
+    <stop arrival="7:28" departure="7:28">Smeabakken</stop>
+    <stop arrival="7:29" departure="7:29">Buena</stop>
+    <stop arrival="7:29" departure="7:29">Søvik (Os)</stop>
+    <stop arrival="7:29" departure="7:29">Søvik (Os)</stop>
+    <stop arrival="7:30" departure="7:30">Søvik (Os)</stop>
+    <stop arrival="7:30" departure="7:30">Lysekloster skule</stop>
+    <stop arrival="7:30" departure="7:30">Søvik (Os)</stop>
+    <stop arrival="7:30" departure="7:30">Søvik (Os)</stop>
+    <stop arrival="7:31" departure="7:31">Søvik (Os)</stop>
+    <stop arrival="7:31" departure="7:31">Buena</stop>
+    <stop arrival="7:32" departure="7:32">Sørstraumen</stop>
+    <stop arrival="7:33" departure="7:33">Nordstrøm</stop>
+    <stop arrival="7:33" departure="7:33">Sperrevik 3</stop>
+    <stop arrival="7:33" departure="7:33">Sperrevik 2</stop>
+    <stop arrival="7:34" departure="7:34">Sperrevik 1</stop>
+    <stop arrival="7:34" departure="7:34">Sagstad (Nordvik, Fana)</stop>
+    <stop arrival="7:35" departure="7:35">Nordvik skole</stop>
+    <stop arrival="7:35" departure="7:35">Nordvik 2</stop>
+    <stop arrival="7:36" departure="7:36">Nordvik 1</stop>
+    <stop arrival="7:38" departure="7:38">Sædal 2</stop>
+    <stop arrival="7:39" departure="7:39">Sædal 1</stop>
+    <stop arrival="7:40" departure="7:40">Fanafjell</stop>
+    <stop arrival="7:42" departure="7:42">Rambergtunet</stop>
+    <stop arrival="7:44" departure="7:44">Hamreskiftet</stop>
+    <stop arrival="7:45" departure="7:45">Fana</stop>
+    <stop arrival="7:46" departure="7:46">Krykkjehaugen</stop>
+    <stop arrival="7:47" departure="7:47">Konowskiftet</stop>
+    <stop arrival="7:48" departure="7:48">Hordnesskiftet Stend</stop>
+    <stop arrival="7:49" departure="7:49">Steinknuseverket</stop>
+    <stop arrival="7:49" departure="7:49">Rådalshaug</stop>
+    <stop arrival="7:50" departure="7:50">Sunea</stop>
+    <stop arrival="7:51" departure="7:51">Rådal</stop>
+    <stop arrival="7:52" departure="7:52">Rådal ved Lagunen</stop>
+    <stop arrival="7:57" departure="7:57">Skjold skole</stop>
+    <stop arrival="7:59" departure="7:59">Mårdalen</stop>
+    <stop arrival="8:00" departure="8:00">Nesttunbrekka</stop>
+    <stop arrival="8:00" departure="8:00">Skjoldskiftet</stop>
+    <stop arrival="8:01" departure="8:01">Nesttun</stop>
+    <stop arrival="8:02" departure="8:02">Nesttun terminal</stop>
+    <stop arrival="8:04" departure="8:04">Hopsbro</stop>
+    <stop arrival="8:06" departure="8:06">Tveiteråsskiftet</stop>
+    <stop arrival="8:07" departure="8:07">Paradis</stop>
+    <stop arrival="8:09" departure="8:09">Nydalen</stop>
+    <stop arrival="8:11" departure="8:11">Fantoft</stop>
+    <stop arrival="8:12" departure="8:12">Storetveit</stop>
+    <stop arrival="8:12" departure="8:12">Elvebakken</stop>
+    <stop arrival="8:13" departure="8:13">Minde</stop>
+    <stop arrival="8:16" departure="8:16">Mindemyren</stop>
+    <stop arrival="8:17" departure="8:17">Postterminalen</stop>
+    <stop arrival="8:18" departure="8:18">Kanalveien v/LBK</stop>
+    <stop arrival="8:20" departure="8:20">Danmarksplass v/Forum kino</stop>
+    <stop arrival="8:25" departure="8:25">Bergen Busstasjon</stop>
+    <stop arrival="8:28" departure="8:28">Christies gate (Festplassen)</stop>
+    <stop arrival="8:33">Bergen Busstasjon</stop>
+  </route>
+  <route no="567" destination="Eidsvik snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/602907/206570/110622/145658/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:20" routeNo="567">Os - Osøyro</stop>
+    <stop arrival="7:21" departure="7:21">Fjellheim</stop>
+    <stop arrival="7:22" departure="7:22">Kuven</stop>
+    <stop arrival="7:23" departure="7:23">Flåten (Os)</stop>
+    <stop arrival="7:24" departure="7:24">Flåten Senter</stop>
+    <stop arrival="7:25" departure="7:25">Tøsdalskiftet</stop>
+    <stop arrival="7:26" departure="7:26">Ulvenskiftet</stop>
+    <stop arrival="7:27" departure="7:27">Vaktdal</stop>
+    <stop arrival="7:28" departure="7:28">Os Vidaregåande skule</stop>
+    <stop arrival="7:31" departure="7:31">Ulven leir</stop>
+    <stop arrival="7:33" departure="7:33">Åsen vegkryss (Os)</stop>
+    <stop arrival="7:34" departure="7:34">Åsen (Os)</stop>
+    <stop arrival="7:34" departure="7:34">Åsen (Os)</stop>
+    <stop arrival="7:34" departure="7:34">Åsen (Os)</stop>
+    <stop arrival="7:36" departure="7:36">Langedalen</stop>
+    <stop arrival="7:37" departure="7:37">Lysekloster ruiner</stop>
+    <stop arrival="7:37" departure="7:37">Lysekloster gård</stop>
+    <stop arrival="7:38" departure="7:38">Smeabakken</stop>
+    <stop arrival="7:39" departure="7:39">Buena</stop>
+    <stop arrival="7:39" departure="7:39">Søvik (Os)</stop>
+    <stop arrival="7:39" departure="7:39">Søvik (Os)</stop>
+    <stop arrival="7:40" departure="7:40">Søvik (Os)</stop>
+    <stop arrival="7:40" departure="7:40">Lysekloster skule</stop>
+    <stop arrival="7:42" departure="7:42">Søvik Gamleskulen</stop>
+    <stop arrival="7:43" departure="7:43">Salbuvik</stop>
+    <stop arrival="7:45" departure="7:45">Bjoarvik</stop>
+    <stop arrival="7:45" departure="7:45">Drangshaug</stop>
+    <stop arrival="7:46" departure="7:46">Drange (Os)</stop>
+    <stop arrival="7:47" departure="7:47">Drange handel</stop>
+    <stop arrival="7:48" departure="7:48">Drangevågen</stop>
+    <stop arrival="7:49" departure="7:49">Eidsvik</stop>
+    <stop arrival="7:50">Eidsvik snuplass</stop>
+  </route>
+  <route no="613" destination="Sør Strøno snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/260679/92572/424034/125124/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:25" routeNo="613">Os - Osøyro</stop>
+    <stop arrival="7:26" departure="7:26">Fjellheim</stop>
+    <stop arrival="7:27" departure="7:27">Kuven</stop>
+    <stop arrival="7:28" departure="7:28">Flåten (Os)</stop>
+    <stop arrival="7:29" departure="7:29">Flåten Senter</stop>
+    <stop arrival="7:30" departure="7:30">Tøsdalskiftet</stop>
+    <stop arrival="7:32" departure="7:32">Os Vidaregåande skule</stop>
+    <stop arrival="7:35" departure="7:35">Ulvensletta</stop>
+    <stop arrival="7:36" departure="7:36">Vaksinen</stop>
+    <stop arrival="7:37" departure="7:37">Ådnadalen</stop>
+    <stop arrival="7:38" departure="7:38">Irgenskryss</stop>
+    <stop arrival="7:39" departure="7:39">Hagevik 1</stop>
+    <stop arrival="7:40" departure="7:40">Hagevik 2</stop>
+    <stop arrival="7:40" departure="7:40">Hagavik (Hovland - Os)</stop>
+    <stop arrival="7:41" departure="7:41">Ytre Hovland</stop>
+    <stop arrival="7:41" departure="7:41">Grøvle (Os)</stop>
+    <stop arrival="7:41" departure="7:41">Askvik (Os)</stop>
+    <stop arrival="7:42" departure="7:42">Askvikskogen</stop>
+    <stop arrival="7:43" departure="7:43">Hildershavn</stop>
+    <stop arrival="7:43" departure="7:43">Strøno vegkryss</stop>
+    <stop arrival="7:47" departure="7:47">Sør Strøno 1</stop>
+    <stop arrival="7:48" departure="7:48">Sør Strøno 2</stop>
+    <stop arrival="7:50">Sør Strøno snuplass</stop>
+  </route>
+  <route no="626" destination="Røttingen snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/213648/77067/798050/327809/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:30" routeNo="626">Os - Osøyro</stop>
+    <stop arrival="7:31" departure="7:31">Fjellheim</stop>
+    <stop arrival="7:32" departure="7:32">Kuven</stop>
+    <stop arrival="7:33" departure="7:33">Flåten (Os)</stop>
+    <stop arrival="7:34" departure="7:34">Flåten Senter</stop>
+    <stop arrival="7:35" departure="7:35">Tøsdalskiftet</stop>
+    <stop arrival="7:37" departure="7:37">Os Vidaregåande skule</stop>
+    <stop arrival="7:38" departure="7:38">Ulvensletta</stop>
+    <stop arrival="7:39" departure="7:39">Vaksinen</stop>
+    <stop arrival="7:39" departure="7:39">Ådnadalen</stop>
+    <stop arrival="7:40" departure="7:40">Irgenskryss</stop>
+    <stop arrival="7:41" departure="7:41">Nore Neset skule</stop>
+    <stop arrival="7:42" departure="7:42">Skeie (Os)</stop>
+    <stop arrival="7:43" departure="7:43">Grindevoll snuplass</stop>
+    <stop arrival="7:44" departure="7:44">Ravneberghaugen</stop>
+    <stop arrival="7:44" departure="7:44">Storum (Os)</stop>
+    <stop arrival="7:45" departure="7:45">Storumhammeren</stop>
+    <stop arrival="7:47" departure="7:47">Blindesund</stop>
+    <stop arrival="7:48" departure="7:48">Lepsøy</stop>
+    <stop arrival="7:50" departure="7:50">Lepsøy kai</stop>
+    <stop arrival="7:51" departure="7:51">Sundøy</stop>
+    <stop arrival="7:52" departure="7:52">Bruarøy</stop>
+    <stop arrival="7:53" departure="7:53">Bruarøy Ungdomshuset</stop>
+    <stop arrival="7:54" departure="7:54">Hauane (Røtinga)</stop>
+    <stop arrival="7:55">Røttingen snuplass</stop>
+  </route>
+  <route no="613" destination="Os - Osøyro" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/410286/142439/459716/93097/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:15" routeNo="613">Sør Strøno snuplass</stop>
+    <stop arrival="7:16" departure="7:16">Sør Strøno 2</stop>
+    <stop arrival="7:17" departure="7:17">Sør Strøno 1</stop>
+    <stop arrival="7:20" departure="7:20">Stokkavik 1</stop>
+    <stop arrival="7:21" departure="7:21">Nore Øyane skule</stop>
+    <stop arrival="7:23" departure="7:23">Strøno 1</stop>
+    <stop arrival="7:23" departure="7:23">Strøno 2</stop>
+    <stop arrival="7:24" departure="7:24">Strøno Ungdomshuset</stop>
+    <stop arrival="7:25" departure="7:25">Nord Strøno Snuplass</stop>
+    <stop arrival="7:26" departure="7:26">Strøno Ungdomshuset</stop>
+    <stop arrival="7:27" departure="7:27">Strøno 2</stop>
+    <stop arrival="7:28" departure="7:28">Strøno 1</stop>
+    <stop arrival="7:30" departure="7:30">Nore Øyane skule</stop>
+    <stop arrival="7:31" departure="7:31">Stokkavik 1</stop>
+    <stop arrival="7:32" departure="7:32">Strøno vegkryss</stop>
+    <stop arrival="7:32" departure="7:32">Hildershavn</stop>
+    <stop arrival="7:33" departure="7:33">Askvikskogen</stop>
+    <stop arrival="7:34" departure="7:34">Askvik (Os)</stop>
+    <stop arrival="7:34" departure="7:34">Grøvle (Os)</stop>
+    <stop arrival="7:34" departure="7:34">Ytre Hovland</stop>
+    <stop arrival="7:35" departure="7:35">Hagavik (Hovland - Os)</stop>
+    <stop arrival="7:36" departure="7:36">Hagevik 2</stop>
+    <stop arrival="7:36" departure="7:36">Hagevik 1</stop>
+    <stop arrival="7:37" departure="7:37">Irgenskryss</stop>
+    <stop arrival="7:38" departure="7:38">Ådnadalen</stop>
+    <stop arrival="7:39" departure="7:39">Vaksinen</stop>
+    <stop arrival="7:40" departure="7:40">Ulvensletta</stop>
+    <stop arrival="7:43" departure="7:43">Os Vidaregåande skule</stop>
+    <stop arrival="7:44" departure="7:44">Kolskogen</stop>
+    <stop arrival="7:45" departure="7:45">Tøsdalskiftet</stop>
+    <stop arrival="7:46" departure="7:46">Flåten Senter</stop>
+    <stop arrival="7:47" departure="7:47">Flåten (Os)</stop>
+    <stop arrival="7:48" departure="7:48">Kuven</stop>
+    <stop arrival="7:49" departure="7:49">Fjellheim</stop>
+    <stop arrival="7:50">Os - Osøyro</stop>
+  </route>
+  <route no="613" destination="Nord Strøno Snuplass" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/169239/62086/598836/243005/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="7:35" routeNo="613">Os - Osøyro</stop>
+    <stop arrival="7:36" departure="7:36">Fjellheim</stop>
+    <stop arrival="7:37" departure="7:37">Kuven</stop>
+    <stop arrival="7:38" departure="7:38">Flåten (Os)</stop>
+    <stop arrival="7:39" departure="7:39">Flåten Senter</stop>
+    <stop arrival="7:40" departure="7:40">Tøsdalskiftet</stop>
+    <stop arrival="7:43" departure="7:43">Os Vidaregåande skule</stop>
+    <stop arrival="7:45" departure="7:45">Ulvensletta</stop>
+    <stop arrival="7:46" departure="7:46">Vaksinen</stop>
+    <stop arrival="7:47" departure="7:47">Ådnadalen</stop>
+    <stop arrival="7:48" departure="7:48">Irgenskryss</stop>
+    <stop arrival="7:48" departure="7:48">Hagevik 1</stop>
+    <stop arrival="7:49" departure="7:49">Hagevik 2</stop>
+    <stop arrival="7:49" departure="7:49">Hagavik (Hovland - Os)</stop>
+    <stop arrival="7:50" departure="7:50">Ytre Hovland</stop>
+    <stop arrival="7:50" departure="7:50">Grøvle (Os)</stop>
+    <stop arrival="7:50" departure="7:50">Askvik (Os)</stop>
+    <stop arrival="7:51" departure="7:51">Askvikskogen</stop>
+    <stop arrival="7:52" departure="7:52">Hildershavn</stop>
+    <stop arrival="7:52" departure="7:52">Strøno vegkryss</stop>
+    <stop arrival="7:54" departure="7:54">Sør Strøno 1</stop>
+    <stop arrival="7:55" departure="7:55">Sør Strøno 2</stop>
+    <stop arrival="7:56" departure="7:56">Sør Strøno snuplass</stop>
+    <stop arrival="7:57" departure="7:57">Sør Strøno 2</stop>
+    <stop arrival="7:58" departure="7:58">Sør Strøno 1</stop>
+    <stop arrival="8:00" departure="8:00">Stokkavik 1</stop>
+    <stop arrival="8:01" departure="8:01">Nore Øyane skule</stop>
+    <stop arrival="8:02" departure="8:02">Strøno 1</stop>
+    <stop arrival="8:03" departure="8:03">Strøno 2</stop>
+    <stop arrival="8:03" departure="8:03">Strøno Ungdomshuset</stop>
+    <stop arrival="8:04">Nord Strøno Snuplass</stop>
+  </route>
+  <route no="612" destination="Hagavik (Hovland - Os)" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/85704/34232/722446/332655/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="7:45" routeNo="612">Os - Osøyro</stop>
+    <stop arrival="7:46" departure="7:46">Fjellheim</stop>
+    <stop arrival="7:47" departure="7:47">Kuven</stop>
+    <stop arrival="7:48" departure="7:48">Flåten (Os)</stop>
+    <stop arrival="7:49" departure="7:49">Flåten Senter</stop>
+    <stop arrival="7:50" departure="7:50">Tøsdalskiftet</stop>
+    <stop arrival="7:50" departure="7:50">Ulvenskiftet</stop>
+    <stop arrival="7:51" departure="7:51">Vaktdal</stop>
+    <stop arrival="7:52" departure="7:52">Os Vidaregåande skule</stop>
+    <stop arrival="7:55" departure="7:55">Ulvensletta</stop>
+    <stop arrival="7:56" departure="7:56">Vaksinen</stop>
+    <stop arrival="7:57" departure="7:57">Ådnadalen</stop>
+    <stop arrival="7:58" departure="7:58">Irgenskryss</stop>
+    <stop arrival="7:58" departure="7:58">Hagevik 1</stop>
+    <stop arrival="7:59" departure="7:59">Hagevik 2</stop>
+    <stop arrival="7:59">Hagavik (Hovland - Os)</stop>
+  </route>
+</routes>

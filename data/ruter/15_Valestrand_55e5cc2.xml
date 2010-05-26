@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="380" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/553143/185327/568982/100110/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="14:50" routeNo="380">Lonevåg terminal</stop>
+    <stop arrival="14:51" departure="14:51">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="14:52" departure="14:52">Lone N , Osterøy</stop>
+    <stop arrival="14:53" departure="14:53">Lone, Osterøy</stop>
+    <stop arrival="14:53" departure="14:53">Lone Bru, Osterøy</stop>
+    <stop arrival="14:54" departure="14:54">Revheim</stop>
+    <stop arrival="14:54" departure="14:54">Revheim</stop>
+    <stop arrival="14:57" departure="14:57">Øyjordsbru</stop>
+    <stop arrival="14:57" departure="14:57">Haugsviksvingen</stop>
+    <stop arrival="14:58" departure="14:58">Hauge skule (Osterøy)</stop>
+    <stop arrival="14:59" departure="14:59">Hauge (Osterøy)</stop>
+    <stop arrival="15:00" departure="15:00">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:01" departure="15:01">Halland S, Osterøy</stop>
+    <stop arrival="15:01" departure="15:01">Halland, Osterøy</stop>
+    <stop arrival="15:02" departure="15:02">Småland</stop>
+    <stop arrival="15:02" departure="15:02">Loftås (Osterøy)</stop>
+    <stop arrival="15:03" departure="15:03">Elvikneset</stop>
+    <stop arrival="15:04" departure="15:04">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:05" departure="15:05">Valestrand</stop>
+    <stop arrival="15:05">Valestrand</stop>
+  </route>
+  <route no="380" destination="Fotlansdvåg sentrum" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/125133/42617/409466/163022/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:15" routeNo="380">Bergen Busstasjon</stop>
+    <stop departure="14:16">Kaigaten</stop>
+    <stop departure="14:17">Torget (Bergen)</stop>
+    <stop departure="14:18">Bryggen</stop>
+    <stop departure="14:20">Bontelabo</stop>
+    <stop departure="14:20">Skutevikstorget</stop>
+    <stop departure="14:21">Sjøgaten</stop>
+    <stop departure="14:22">Sandvikstorget</stop>
+    <stop departure="14:23">Ludebryggen</stop>
+    <stop departure="14:23">Munkebotten</stop>
+    <stop departure="14:25">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop departure="14:26">Handelshøyskolen</stop>
+    <stop departure="14:30">Eidsvåg</stop>
+    <stop departure="14:35">Åsane terminal</stop>
+    <stop departure="14:36">Rollandskrysset</stop>
+    <stop departure="14:36">Litleåskryss</stop>
+    <stop departure="14:37">Salhuskrysset</stop>
+    <stop departure="14:38">Nyborg</stop>
+    <stop departure="14:38">Domus Nyborg</stop>
+    <stop departure="14:39">Liavegen (Åsane)</stop>
+    <stop departure="14:40">Vågsbotn</stop>
+    <stop departure="14:40">Eikås</stop>
+    <stop departure="14:41">Vikaleitet</stop>
+    <stop departure="14:44">Haukåsvegen</stop>
+    <stop departure="14:45">Haukås barnehage</stop>
+    <stop departure="14:45">Myrsæter</stop>
+    <stop departure="14:46">Bergen Travpark</stop>
+    <stop arrival="14:49" departure="14:49">Vestlandsheimen</stop>
+    <stop arrival="14:55" departure="14:55">Vollane</stop>
+    <stop arrival="14:58" departure="14:58">Kaiveg</stop>
+    <stop arrival="15:00" departure="15:00">Breistein kai</stop>
+    <stop arrival="15:10" departure="15:10">Valestrand</stop>
+    <stop arrival="15:10" departure="15:10">Valestrand</stop>
+    <stop arrival="15:11" departure="15:11">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:12" departure="15:12">Elvikneset</stop>
+    <stop arrival="15:13" departure="15:13">Loftås (Osterøy)</stop>
+    <stop arrival="15:13" departure="15:13">Småland</stop>
+    <stop arrival="15:14" departure="15:14">Halland, Osterøy</stop>
+    <stop arrival="15:14" departure="15:14">Halland S, Osterøy</stop>
+    <stop arrival="15:15" departure="15:15">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:16" departure="15:16">Hauge (Osterøy)</stop>
+    <stop arrival="15:17" departure="15:17">Hauge skule (Osterøy)</stop>
+    <stop arrival="15:18" departure="15:18">Haugsviksvingen</stop>
+    <stop arrival="15:19" departure="15:19">Øyjordsbru</stop>
+    <stop arrival="15:22" departure="15:22">Revheim</stop>
+    <stop arrival="15:23" departure="15:23">Revheim</stop>
+    <stop arrival="15:25" departure="15:25">Lone Bru, Osterøy</stop>
+    <stop arrival="15:25" departure="15:25">Lone, Osterøy</stop>
+    <stop arrival="15:27" departure="15:27">Lone N , Osterøy</stop>
+    <stop arrival="15:29" departure="15:29">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="15:30" departure="15:30">Lonevåg terminal</stop>
+    <stop arrival="15:30" departure="15:30">Lonevåg N, HSD</stop>
+    <stop arrival="15:32" departure="15:32">Geitrheim, Osterøy</stop>
+    <stop arrival="15:34" departure="15:34">Bysheim sør</stop>
+    <stop arrival="15:34" departure="15:34">Bysheim</stop>
+    <stop arrival="15:35" departure="15:35">Bysheim nord</stop>
+    <stop arrival="15:35" departure="15:35">Litland S, Osterøy</stop>
+    <stop arrival="15:36" departure="15:36">Litland gartneri, Osterøy</stop>
+    <stop arrival="15:37" departure="15:37">Helldalstølen, Osterøy</stop>
+    <stop arrival="15:37" departure="15:37">Helldal (Osterøy)</stop>
+    <stop arrival="15:38" departure="15:38">Helldal vkr Fjellskålnes</stop>
+    <stop arrival="15:38" departure="15:38">Helldal (Osterøy)</stop>
+    <stop arrival="15:38" departure="15:38">Hoshovde</stop>
+    <stop arrival="15:40" departure="15:40">Hosanger</stop>
+    <stop arrival="15:40" departure="15:40">Hosanger</stop>
+    <stop arrival="15:41" departure="15:41">Børa, Osterøy</stop>
+    <stop arrival="15:45" departure="15:45">Gatland, Osterøy</stop>
+    <stop arrival="15:46" departure="15:46">Saltverket, Osterøy</stop>
+    <stop arrival="15:47" departure="15:47">Fotlandstrand</stop>
+    <stop arrival="15:48" departure="15:48">Fotlandstrand v Anylett</stop>
+    <stop arrival="15:49" departure="15:49">Fotlandsvåg v skulen</stop>
+    <stop arrival="15:50">Fotlansdvåg sentrum</stop>
+  </route>
+  <route no="390" destination="Arna terminal" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/647358/216760/730688/149558/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:10" routeNo="390">Valestrand</stop>
+    <stop arrival="15:10" departure="15:10">Valestrand</stop>
+    <stop arrival="15:11" departure="15:11">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:12" departure="15:12">Elvikneset</stop>
+    <stop arrival="15:13" departure="15:13">Loftås (Osterøy)</stop>
+    <stop arrival="15:13" departure="15:13">Småland</stop>
+    <stop arrival="15:14" departure="15:14">Halland, Osterøy</stop>
+    <stop arrival="15:14" departure="15:14">Halland S, Osterøy</stop>
+    <stop arrival="15:15" departure="15:15">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:16" departure="15:16">Hauge (Osterøy)</stop>
+    <stop arrival="15:18" departure="15:18">Hannisdal nyeveien</stop>
+    <stop arrival="15:20" departure="15:20">Rolland (Osterøy)</stop>
+    <stop arrival="15:21" departure="15:21">Rødland</stop>
+    <stop arrival="15:22" departure="15:22">Vinåsen</stop>
+    <stop arrival="15:22" departure="15:22">Veset</stop>
+    <stop arrival="15:23" departure="15:23">Veset</stop>
+    <stop arrival="15:24" departure="15:24">Kolabakken</stop>
+    <stop arrival="15:24" departure="15:24">Ambogen vkr</stop>
+    <stop arrival="15:27" departure="15:27">Kvisti (Osterøy)</stop>
+    <stop arrival="15:32" departure="15:32">Takvam E16</stop>
+    <stop arrival="15:38" departure="15:38">Arna E 16</stop>
+    <stop arrival="15:39">Arna terminal</stop>
+  </route>
+  <route no="380" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/500835/167866/992364/329237/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:50" routeNo="380">Hatland v ungdomsskulen</stop>
+    <stop arrival="14:51" departure="14:51">Lonevåg v Rådhuset</stop>
+    <stop arrival="14:53" departure="14:53">Lonevåg v Coop</stop>
+    <stop arrival="14:55" departure="14:55">Lonevåg terminal</stop>
+    <stop arrival="14:56" departure="14:56">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="14:57" departure="14:57">Lone N , Osterøy</stop>
+    <stop arrival="14:58" departure="14:58">Lone, Osterøy</stop>
+    <stop arrival="14:58" departure="14:58">Lone Bru, Osterøy</stop>
+    <stop arrival="14:59" departure="14:59">Revheim</stop>
+    <stop arrival="15:00" departure="15:00">Revheim</stop>
+    <stop arrival="15:02" departure="15:02">Øyjordsbru</stop>
+    <stop arrival="15:02" departure="15:02">Haugsviksvingen</stop>
+    <stop arrival="15:03" departure="15:03">Hauge skule (Osterøy)</stop>
+    <stop arrival="15:04" departure="15:04">Hauge (Osterøy)</stop>
+    <stop arrival="15:05" departure="15:05">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:06" departure="15:06">Halland S, Osterøy</stop>
+    <stop arrival="15:07" departure="15:07">Halland, Osterøy</stop>
+    <stop arrival="15:08" departure="15:08">Småland</stop>
+    <stop arrival="15:10" departure="15:10">Loftås (Osterøy)</stop>
+    <stop arrival="15:11" departure="15:11">Elvikneset</stop>
+    <stop arrival="15:13" departure="15:13">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:14" departure="15:14">Valestrand</stop>
+    <stop arrival="15:15" departure="15:15">Valestrand</stop>
+    <stop arrival="15:25" departure="15:25">Breistein kai</stop>
+    <stop arrival="15:26">Kaiveg</stop>
+    <stop arrival="15:27">Vollane</stop>
+    <stop arrival="15:29">Vestlandsheimen</stop>
+    <stop arrival="15:30">Myrsæter</stop>
+    <stop arrival="15:30">Haukås barnehage</stop>
+    <stop arrival="15:31">Haukåsvegen</stop>
+    <stop arrival="15:33">Vikaleitet</stop>
+    <stop arrival="15:34">Eikås</stop>
+    <stop arrival="15:37" departure="15:37">Nyborg</stop>
+    <stop arrival="15:37" departure="15:37">Salhuskrysset</stop>
+    <stop arrival="15:38" departure="15:38">Litleåskryss</stop>
+    <stop arrival="15:38" departure="15:38">Rollandskrysset</stop>
+    <stop arrival="15:39">Åsane terminal</stop>
+    <stop arrival="15:44">Eidsvåg</stop>
+    <stop arrival="15:51">Handelshøyskolen</stop>
+    <stop arrival="15:53">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop arrival="15:55">Munkebotten</stop>
+    <stop arrival="15:57">Ludebryggen</stop>
+    <stop arrival="15:59">Sandvikstorget</stop>
+    <stop arrival="16:01">Skutevikstorget</stop>
+    <stop arrival="16:02">Bontelabo</stop>
+    <stop arrival="16:04">Slottsgaten</stop>
+    <stop arrival="16:05">Bryggen</stop>
+    <stop arrival="16:07" departure="16:07">Olav Kyrres gate</stop>
+    <stop arrival="16:08">Kaigaten/v. Jernbanen</stop>
+    <stop arrival="16:10">Bergen Busstasjon</stop>
+  </route>
+  <route no="380" destination="Fotlansdvåg sentrum" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/816195/272972/653030/54450/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="14:45" routeNo="380">Bergen Busstasjon</stop>
+    <stop departure="14:46">Kaigaten</stop>
+    <stop departure="14:47">Torget (Bergen)</stop>
+    <stop departure="14:48">Bryggen</stop>
+    <stop departure="14:50">Bontelabo</stop>
+    <stop departure="14:50">Skutevikstorget</stop>
+    <stop departure="14:51">Sjøgaten</stop>
+    <stop departure="14:52">Sandvikstorget</stop>
+    <stop departure="14:53">Ludebryggen</stop>
+    <stop departure="14:53">Munkebotten</stop>
+    <stop departure="14:55">Nyhavnsvei (Gamle Bergen)</stop>
+    <stop departure="14:56">Handelshøyskolen</stop>
+    <stop departure="15:00">Eidsvåg</stop>
+    <stop departure="15:05">Åsane terminal</stop>
+    <stop departure="15:06">Rollandskrysset</stop>
+    <stop departure="15:06">Litleåskryss</stop>
+    <stop departure="15:07">Salhuskrysset</stop>
+    <stop departure="15:08">Nyborg</stop>
+    <stop departure="15:08">Domus Nyborg</stop>
+    <stop departure="15:09">Liavegen (Åsane)</stop>
+    <stop departure="15:10">Vågsbotn</stop>
+    <stop departure="15:10">Eikås</stop>
+    <stop departure="15:11">Vikaleitet</stop>
+    <stop departure="15:14">Haukåsvegen</stop>
+    <stop departure="15:15">Haukås barnehage</stop>
+    <stop departure="15:15">Myrsæter</stop>
+    <stop departure="15:16">Bergen Travpark</stop>
+    <stop departure="15:19">Vestlandsheimen</stop>
+    <stop departure="15:25">Vollane</stop>
+    <stop departure="15:28">Kaiveg</stop>
+    <stop arrival="15:30" departure="15:30">Breistein kai</stop>
+    <stop arrival="15:40" departure="15:40">Valestrand</stop>
+    <stop arrival="15:40" departure="15:40">Valestrand</stop>
+    <stop arrival="15:41" departure="15:41">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:42" departure="15:42">Elvikneset</stop>
+    <stop arrival="15:43" departure="15:43">Loftås (Osterøy)</stop>
+    <stop arrival="15:43" departure="15:43">Småland</stop>
+    <stop arrival="15:44" departure="15:44">Halland, Osterøy</stop>
+    <stop arrival="15:44" departure="15:44">Halland S, Osterøy</stop>
+    <stop arrival="15:45" departure="15:45">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:46" departure="15:46">Hauge (Osterøy)</stop>
+    <stop arrival="15:47" departure="15:47">Hauge skule (Osterøy)</stop>
+    <stop arrival="15:48" departure="15:48">Haugsviksvingen</stop>
+    <stop arrival="15:49" departure="15:49">Øyjordsbru</stop>
+    <stop arrival="15:52" departure="15:52">Revheim</stop>
+    <stop arrival="15:53" departure="15:53">Revheim</stop>
+    <stop arrival="15:55" departure="15:55">Lone Bru, Osterøy</stop>
+    <stop arrival="15:55" departure="15:55">Lone, Osterøy</stop>
+    <stop arrival="15:57" departure="15:57">Lone N , Osterøy</stop>
+    <stop arrival="15:59" departure="15:59">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="16:00" departure="16:00">Lonevåg terminal</stop>
+    <stop arrival="16:01" departure="16:01">Lonevåg v Coop</stop>
+    <stop arrival="16:02" departure="16:02">Lonevåg v Rådhuset</stop>
+    <stop arrival="16:02" departure="16:02">Hatland v ungdomsskulen</stop>
+    <stop arrival="16:02" departure="16:02">Lonevåg v Rådhuset</stop>
+    <stop arrival="16:03" departure="16:03">Lonevåg v Coop</stop>
+    <stop arrival="16:03" departure="16:03">Lonevåg terminal</stop>
+    <stop arrival="16:04" departure="16:04">Lonevåg N, HSD</stop>
+    <stop arrival="16:06" departure="16:06">Geitrheim, Osterøy</stop>
+    <stop arrival="16:08" departure="16:08">Bysheim sør</stop>
+    <stop arrival="16:08" departure="16:08">Bysheim</stop>
+    <stop arrival="16:09" departure="16:09">Bysheim nord</stop>
+    <stop arrival="16:10" departure="16:10">Litland S, Osterøy</stop>
+    <stop arrival="16:10" departure="16:10">Litland gartneri, Osterøy</stop>
+    <stop arrival="16:11" departure="16:11">Helldalstølen, Osterøy</stop>
+    <stop arrival="16:12" departure="16:12">Helldal (Osterøy)</stop>
+    <stop arrival="16:12" departure="16:12">Helldal vkr Fjellskålnes</stop>
+    <stop arrival="16:13" departure="16:13">Helldal (Osterøy)</stop>
+    <stop arrival="16:13" departure="16:13">Hoshovde</stop>
+    <stop arrival="16:15" departure="16:15">Hosanger</stop>
+    <stop arrival="16:15" departure="16:15">Hosanger</stop>
+    <stop arrival="16:16" departure="16:16">Børa, Osterøy</stop>
+    <stop arrival="16:20" departure="16:20">Gatland, Osterøy</stop>
+    <stop arrival="16:21" departure="16:21">Saltverket, Osterøy</stop>
+    <stop arrival="16:22" departure="16:22">Fotlandstrand</stop>
+    <stop arrival="16:23" departure="16:23">Fotlandstrand v Anylett</stop>
+    <stop arrival="16:24" departure="16:24">Fotlandsvåg v skulen</stop>
+    <stop arrival="16:25">Fotlansdvåg sentrum</stop>
+  </route>
+  <route no="380" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/5367/2728/2496/541/1/" trafficDays="kjører Sø, også 1., 13., 17., 24. Mai">
+    <stop departure="15:00" routeNo="380">Fotlansdvåg sentrum</stop>
+    <stop arrival="15:01" departure="15:01">Fotlandsvåg v skulen</stop>
+    <stop arrival="15:02" departure="15:02">Fotlandstrand v Anylett</stop>
+    <stop arrival="15:03" departure="15:03">Fotlandstrand</stop>
+    <stop arrival="15:04" departure="15:04">Saltverket, Osterøy</stop>
+    <stop arrival="15:05" departure="15:05">Gatland, Osterøy</stop>
+    <stop arrival="15:09" departure="15:09">Børa, Osterøy</stop>
+    <stop arrival="15:10" departure="15:10">Hosanger</stop>
+    <stop arrival="15:11" departure="15:11">Hosanger</stop>
+    <stop arrival="15:12" departure="15:12">Hoshovde</stop>
+    <stop arrival="15:13" departure="15:13">Helldal (Osterøy)</stop>
+    <stop arrival="15:14" departure="15:14">Helldal vkr Fjellskålnes</stop>
+    <stop arrival="15:14" departure="15:14">Helldal (Osterøy)</stop>
+    <stop arrival="15:15" departure="15:15">Helldalstølen, Osterøy</stop>
+    <stop arrival="15:16" departure="15:16">Litland gartneri, Osterøy</stop>
+    <stop arrival="15:17" departure="15:17">Litland S, Osterøy</stop>
+    <stop arrival="15:17" departure="15:17">Bysheim nord</stop>
+    <stop arrival="15:19" departure="15:19">Bysheim</stop>
+    <stop arrival="15:19" departure="15:19">Bysheim sør</stop>
+    <stop arrival="15:21" departure="15:21">Geitrheim, Osterøy</stop>
+    <stop arrival="15:25" departure="15:25">Lonevåg N, HSD</stop>
+    <stop arrival="15:25" departure="15:25">Lonevåg terminal</stop>
+    <stop arrival="15:26" departure="15:26">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="15:27" departure="15:27">Lone N , Osterøy</stop>
+    <stop arrival="15:28" departure="15:28">Lone, Osterøy</stop>
+    <stop arrival="15:28" departure="15:28">Lone Bru, Osterøy</stop>
+    <stop arrival="15:29" departure="15:29">Revheim</stop>
+    <stop arrival="15:30" departure="15:30">Revheim</stop>
+    <stop arrival="15:32" departure="15:32">Øyjordsbru</stop>
+    <stop arrival="15:32" departure="15:32">Haugsviksvingen</stop>
+    <stop arrival="15:33" departure="15:33">Hauge skule (Osterøy)</stop>
+    <stop arrival="15:34" departure="15:34">Hauge (Osterøy)</stop>
+    <stop arrival="15:35" departure="15:35">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:36" departure="15:36">Halland S, Osterøy</stop>
+    <stop arrival="15:36" departure="15:36">Halland, Osterøy</stop>
+    <stop arrival="15:37" departure="15:37">Småland</stop>
+    <stop arrival="15:37" departure="15:37">Loftås (Osterøy)</stop>
+    <stop arrival="15:38" departure="15:38">Elvikneset</stop>
+    <stop arrival="15:39" departure="15:39">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:40" departure="15:40">Valestrand</stop>
+    <stop arrival="15:40">Valestrand</stop>
+  </route>
+  <route no="380" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/773343/258713/103302/206130/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="15:00" routeNo="380">Tyssebotn kai</stop>
+    <stop arrival="15:00" departure="15:00">Tyssebotten v byggefelt</stop>
+    <stop arrival="15:01" departure="15:01">Tyssebotten</stop>
+    <stop arrival="15:01" departure="15:01">Littlebotn, Osterøy</stop>
+    <stop arrival="15:02" departure="15:02">Raudberget, Osterøy</stop>
+    <stop arrival="15:03" departure="15:03">Raudberget v Tysse mek</stop>
+    <stop arrival="15:06" departure="15:06">Kleppe Østre (Osterøy)</stop>
+    <stop arrival="15:06" departure="15:06">Kleppe Østre (Osterøy)</stop>
+    <stop arrival="15:07" departure="15:07">Birkeland Ø (Osterøy)</stop>
+    <stop arrival="15:07" departure="15:07">Birkeland (Osterøy)</stop>
+    <stop arrival="15:09" departure="15:09">Bernesskiftet</stop>
+    <stop arrival="15:10" departure="15:10">Hanstveit</stop>
+    <stop arrival="15:12" departure="15:12">Fotlandsvåg v fokus</stop>
+    <stop arrival="15:13" departure="15:13">Fotlansdvåg sentrum</stop>
+    <stop arrival="15:14" departure="15:14">Fotlandsvåg v skulen</stop>
+    <stop arrival="15:15" departure="15:15">Fotlandstrand v Anylett</stop>
+    <stop arrival="15:15" departure="15:15">Fotlandstrand</stop>
+    <stop arrival="15:16" departure="15:16">Saltverket, Osterøy</stop>
+    <stop arrival="15:17" departure="15:17">Gatland, Osterøy</stop>
+    <stop arrival="15:20" departure="15:20">Børa, Osterøy</stop>
+    <stop arrival="15:21" departure="15:21">Hosanger</stop>
+    <stop arrival="15:22" departure="15:22">Hosanger</stop>
+    <stop arrival="15:23" departure="15:23">Hoshovde</stop>
+    <stop arrival="15:24" departure="15:24">Helldal (Osterøy)</stop>
+    <stop arrival="15:24" departure="15:24">Helldal vkr Fjellskålnes</stop>
+    <stop arrival="15:24" departure="15:24">Helldal (Osterøy)</stop>
+    <stop arrival="15:25" departure="15:25">Helldalstølen, Osterøy</stop>
+    <stop arrival="15:26" departure="15:26">Litland gartneri, Osterøy</stop>
+    <stop arrival="15:27" departure="15:27">Litland S, Osterøy</stop>
+    <stop arrival="15:27" departure="15:27">Bysheim nord</stop>
+    <stop arrival="15:28" departure="15:28">Bysheim</stop>
+    <stop arrival="15:29" departure="15:29">Bysheim sør</stop>
+    <stop arrival="15:30" departure="15:30">Geitrheim, Osterøy</stop>
+    <stop arrival="15:33" departure="15:33">Lonevåg N, HSD</stop>
+    <stop arrival="15:33" departure="15:33">Lonevåg terminal</stop>
+    <stop arrival="15:34" departure="15:34">Lonevåg v Coop</stop>
+    <stop arrival="15:35" departure="15:35">Lonevåg v Rådhuset</stop>
+    <stop arrival="15:35" departure="15:35">Hatland v ungdomsskulen</stop>
+    <stop arrival="15:36" departure="15:36">Lonevåg v Rådhuset</stop>
+    <stop arrival="15:38" departure="15:38">Lonevåg v Coop</stop>
+    <stop arrival="15:40" departure="15:40">Lonevåg terminal</stop>
+    <stop arrival="15:41" departure="15:41">Kårvik vkr. (Osterøy)</stop>
+    <stop arrival="15:42" departure="15:42">Lone N , Osterøy</stop>
+    <stop arrival="15:43" departure="15:43">Lone, Osterøy</stop>
+    <stop arrival="15:43" departure="15:43">Lone Bru, Osterøy</stop>
+    <stop arrival="15:44" departure="15:44">Revheim</stop>
+    <stop arrival="15:45" departure="15:45">Revheim</stop>
+    <stop arrival="15:47" departure="15:47">Øyjordsbru</stop>
+    <stop arrival="15:47" departure="15:47">Haugsviksvingen</stop>
+    <stop arrival="15:48" departure="15:48">Hauge skule (Osterøy)</stop>
+    <stop arrival="15:49" departure="15:49">Hauge (Osterøy)</stop>
+    <stop arrival="15:50" departure="15:50">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:51" departure="15:51">Halland S, Osterøy</stop>
+    <stop arrival="15:52" departure="15:52">Halland, Osterøy</stop>
+    <stop arrival="15:53" departure="15:53">Småland</stop>
+    <stop arrival="15:55" departure="15:55">Loftås (Osterøy)</stop>
+    <stop arrival="15:56" departure="15:56">Elvikneset</stop>
+    <stop arrival="15:58" departure="15:58">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:59" departure="15:59">Valestrand</stop>
+    <stop arrival="16:00">Valestrand</stop>
+  </route>
+  <route no="390" destination="Valestrand" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/181596/61538/629092/254014/1/" trafficDays="kjører Lø, ikke 1. Mai">
+    <stop departure="15:18" routeNo="390">Arna terminal</stop>
+    <stop arrival="15:19" departure="15:19">Bommane (Arna)</stop>
+    <stop arrival="15:20" departure="15:20">Beyer (Arna)</stop>
+    <stop arrival="15:21" departure="15:21">Seimsmark</stop>
+    <stop arrival="15:22" departure="15:22">Garneshøgden</stop>
+    <stop arrival="15:23" departure="15:23">Garnes- v Gymnaset</stop>
+    <stop arrival="15:24" departure="15:24">Garnes vid.skule</stop>
+    <stop arrival="15:25" departure="15:25">Garnesmarka vest</stop>
+    <stop arrival="15:25" departure="15:25">Garnesmarka</stop>
+    <stop arrival="15:26" departure="15:26">Garnesmarka øst</stop>
+    <stop arrival="15:27" departure="15:27">Tunes</stop>
+    <stop arrival="15:27" departure="15:27">Tunes skule</stop>
+    <stop arrival="15:28" departure="15:28">Tunestveit</stop>
+    <stop arrival="15:29" departure="15:29">Tunestveit</stop>
+    <stop arrival="15:30" departure="15:30">Takvam rundkøyring</stop>
+    <stop arrival="15:30" departure="15:30">Takvam E16</stop>
+    <stop arrival="15:31" departure="15:31">Herland Kvistibru</stop>
+    <stop arrival="15:33" departure="15:33">Kvisti (Osterøy)</stop>
+    <stop arrival="15:34" departure="15:34">Vikne sør</stop>
+    <stop arrival="15:35" departure="15:35">Vikne</stop>
+    <stop arrival="15:36" departure="15:36">Vikne nord</stop>
+    <stop arrival="15:37" departure="15:37">Leikneset</stop>
+    <stop arrival="15:38" departure="15:38">Leikneset</stop>
+    <stop arrival="15:39" departure="15:39">Leikneset</stop>
+    <stop arrival="15:40" departure="15:40">Haus</stop>
+    <stop arrival="15:40" departure="15:40">Åsheimveien</stop>
+    <stop arrival="15:41" departure="15:41">Haus</stop>
+    <stop arrival="15:43" departure="15:43">Mjeldalen v gml kommunehus</stop>
+    <stop arrival="15:44" departure="15:44">Mjeldalen</stop>
+    <stop arrival="15:44" departure="15:44">Mjeldalen v Ungdomsshus</stop>
+    <stop arrival="15:45" departure="15:45">Mjeldalen Øvre</stop>
+    <stop arrival="15:46" departure="15:46">Ambogen vkr</stop>
+    <stop arrival="15:46" departure="15:46">Kolabakken</stop>
+    <stop arrival="15:47" departure="15:47">Veset</stop>
+    <stop arrival="15:48" departure="15:48">Veset</stop>
+    <stop arrival="15:48" departure="15:48">Vinåsen</stop>
+    <stop arrival="15:49" departure="15:49">Rødland</stop>
+    <stop arrival="15:49" departure="15:49">Rolland (Osterøy)</stop>
+    <stop arrival="15:51" departure="15:51">Hannisdal nyeveien</stop>
+    <stop arrival="15:54" departure="15:54">Hauge (Osterøy)</stop>
+    <stop arrival="15:54" departure="15:54">Hauge Industrier (Osterøy)</stop>
+    <stop arrival="15:55" departure="15:55">Halland S, Osterøy</stop>
+    <stop arrival="15:55" departure="15:55">Halland, Osterøy</stop>
+    <stop arrival="15:56" departure="15:56">Småland</stop>
+    <stop arrival="15:56" departure="15:56">Loftås (Osterøy)</stop>
+    <stop arrival="15:57" departure="15:57">Elvikneset</stop>
+    <stop arrival="15:58" departure="15:58">Bullabrekka (Osterøy)</stop>
+    <stop arrival="15:59" departure="15:59">Valestrand</stop>
+    <stop arrival="15:59">Valestrand</stop>
+  </route>
+</routes>

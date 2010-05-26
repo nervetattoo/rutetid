@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="441" destination="Storavatnet term." url="http://www.web2051.no/bin/tp/zuginfo.exe/on/787734/264450/821066/147955/1/" trafficDays="kjører Ma - Fr, Sø, også 1. Mai">
+    <stop departure="10:50" routeNo="441">Hjelteryggen Nordre Knappen</stop>
+    <stop arrival="10:51" departure="10:51">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="10:53" departure="10:53">Hjelteryggen Svensveien</stop>
+    <stop arrival="10:54" departure="10:54">Knarrevik under brua</stop>
+    <stop arrival="10:55" departure="10:55">Knarrevik</stop>
+    <stop arrival="10:56" departure="10:56">Drotningsvik Rv 555</stop>
+    <stop arrival="10:56" departure="10:56">Drotningsvik v/Hydro</stop>
+    <stop arrival="10:57" departure="10:57">Breivika</stop>
+    <stop arrival="10:58" departure="10:58">Breivikdalen</stop>
+    <stop arrival="11:00" departure="11:00">Breivikskiftet</stop>
+    <stop arrival="11:01" departure="11:01">Kiplehaugen</stop>
+    <stop arrival="11:02" departure="11:02">Nedre Godvik</stop>
+    <stop arrival="11:03" departure="11:03">Øvre Godvik</stop>
+    <stop arrival="11:05" departure="11:05">Godviksvingene</stop>
+    <stop arrival="11:07" departure="11:07">Ørjebekk</stop>
+    <stop arrival="11:10">Storavatnet term.</stop>
+  </route>
+  <route no="424" destination="Bergen Busstasjon" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/40068/15189/951286/462287/1/" trafficDays="kjører 17. Mai">
+    <stop departure="10:57" routeNo="424">Drotningsvik v/Hydro</stop>
+    <stop arrival="10:58" departure="10:58">Breivika</stop>
+    <stop arrival="11:00" departure="11:00">Breivikdalen</stop>
+    <stop arrival="11:01" departure="11:01">Breivikskiftet</stop>
+    <stop arrival="11:02" departure="11:02">Kiplehaugen</stop>
+    <stop arrival="11:03" departure="11:03">Nedre Godvik</stop>
+    <stop arrival="11:05" departure="11:05">Øvre Godvik</stop>
+    <stop arrival="11:08" departure="11:08">Ørjebekk</stop>
+    <stop arrival="11:10" departure="11:10">Storavatnet term.</stop>
+    <stop arrival="11:11" departure="11:11">Frida Fasmer</stop>
+    <stop arrival="11:17" departure="11:17">Lyngbø Motorvei R555</stop>
+    <stop arrival="11:22" departure="11:22">Møhlenpris v/ Industrihuset</stop>
+    <stop arrival="11:24" departure="11:24">Christies gate (Festplassen)</stop>
+    <stop>Olav Kyrres gate</stop>
+    <stop arrival="11:24" departure="11:24">Kaigaten/v. Jernbanen</stop>
+    <stop arrival="11:25">Bergen Busstasjon</stop>
+  </route>
+  <route no="441" destination="Hjelteryggen Nordre knappen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/494787/166779/287680/21090/1/" trafficDays="kjører Ma - Lø, ikke 1., 13., 17., 24. Mai">
+    <stop departure="11:25" routeNo="441">Storavatnet term.</stop>
+    <stop arrival="11:26" departure="11:26">Ørjebekk</stop>
+    <stop arrival="11:27" departure="11:27">Øvre Godvik</stop>
+    <stop arrival="11:28" departure="11:28">Nedre Godvik</stop>
+    <stop arrival="11:28" departure="11:28">Kiplehaugen</stop>
+    <stop arrival="11:28" departure="11:28">Breivikskiftet</stop>
+    <stop arrival="11:29" departure="11:29">Breivikdalen</stop>
+    <stop arrival="11:30" departure="11:30">Stiaberget</stop>
+    <stop arrival="11:30" departure="11:30">Drotningsvik v/Hydro</stop>
+    <stop arrival="11:31" departure="11:31">Drotningsvik Rv 555</stop>
+    <stop arrival="11:33" departure="11:33">Knarrevik</stop>
+    <stop arrival="11:34" departure="11:34">Knarrevik under brua</stop>
+    <stop arrival="11:35" departure="11:35">Hjelteryggen Svensveien</stop>
+    <stop arrival="11:37" departure="11:37">Hjelteryggen Søre Knappen</stop>
+    <stop arrival="11:37">Hjelteryggen Nordre knappen</stop>
+  </route>
+</routes>

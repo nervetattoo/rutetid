@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="566" destination="Lysekloster skule" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/30183/15647/720058/349969/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:09" routeNo="566">Lagunen</stop>
+    <stop arrival="17:10" departure="17:10">Rådal</stop>
+    <stop arrival="17:11" departure="17:11">Sunea</stop>
+    <stop arrival="17:11" departure="17:11">Rådalshaug</stop>
+    <stop arrival="17:11" departure="17:11">Steinknuseverket</stop>
+    <stop arrival="17:12" departure="17:12">Hordnesskiftet Stend</stop>
+    <stop arrival="17:14" departure="17:14">Konowskiftet</stop>
+    <stop arrival="17:14" departure="17:14">Krykkjehaugen</stop>
+    <stop arrival="17:15" departure="17:15">Fana kirke</stop>
+    <stop arrival="17:16" departure="17:16">Hamreskiftet</stop>
+    <stop arrival="17:17" departure="17:17">Rambergtunet</stop>
+    <stop arrival="17:20" departure="17:20">Fanafjell</stop>
+    <stop arrival="17:22" departure="17:22">Sædal 1</stop>
+    <stop arrival="17:22" departure="17:22">Sædal 2</stop>
+    <stop arrival="17:24" departure="17:24">Nordvik 1</stop>
+    <stop arrival="17:25" departure="17:25">Nordvik 2</stop>
+    <stop arrival="17:25" departure="17:25">Nordvik skole</stop>
+    <stop arrival="17:26" departure="17:26">Sagstad (Nordvik, Fana)</stop>
+    <stop arrival="17:26" departure="17:26">Sperrevik 1</stop>
+    <stop arrival="17:27" departure="17:27">Sperrevik 2</stop>
+    <stop arrival="17:27" departure="17:27">Sperrevik 3</stop>
+    <stop arrival="17:27" departure="17:27">Nordstrøm</stop>
+    <stop arrival="17:28" departure="17:28">Sørstraumen</stop>
+    <stop arrival="17:29" departure="17:29">Buena</stop>
+    <stop arrival="17:29" departure="17:29">Søvik (Os)</stop>
+    <stop arrival="17:29" departure="17:29">Søvik (Os)</stop>
+    <stop arrival="17:30" departure="17:30">Søvik (Os)</stop>
+    <stop arrival="17:30">Lysekloster skule</stop>
+  </route>
+  <route no="566" destination="Rådal ved Lagunen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/645285/220684/377798/26197/1/" trafficDays="kjører Ma - Fr, ikke 13., 17., 24. Mai">
+    <stop departure="17:30" routeNo="566">Lysekloster skule</stop>
+    <stop arrival="17:30" departure="17:30">Søvik (Os)</stop>
+    <stop arrival="17:30" departure="17:30">Søvik (Os)</stop>
+    <stop arrival="17:31" departure="17:31">Søvik (Os)</stop>
+    <stop arrival="17:31" departure="17:31">Buena</stop>
+    <stop arrival="17:32" departure="17:32">Sørstraumen</stop>
+    <stop arrival="17:33" departure="17:33">Nordstrøm</stop>
+    <stop arrival="17:33" departure="17:33">Sperrevik 3</stop>
+    <stop arrival="17:33" departure="17:33">Sperrevik 2</stop>
+    <stop arrival="17:34" departure="17:34">Sperrevik 1</stop>
+    <stop arrival="17:34" departure="17:34">Sagstad (Nordvik, Fana)</stop>
+    <stop arrival="17:35" departure="17:35">Nordvik skole</stop>
+    <stop arrival="17:35" departure="17:35">Nordvik 2</stop>
+    <stop arrival="17:36" departure="17:36">Nordvik 1</stop>
+    <stop arrival="17:38" departure="17:38">Sædal 2</stop>
+    <stop arrival="17:39" departure="17:39">Sædal 1</stop>
+    <stop arrival="17:40" departure="17:40">Fanafjell</stop>
+    <stop arrival="17:42" departure="17:42">Rambergtunet</stop>
+    <stop arrival="17:44" departure="17:44">Hamreskiftet</stop>
+    <stop arrival="17:45" departure="17:45">Fana</stop>
+    <stop arrival="17:46" departure="17:46">Krykkjehaugen</stop>
+    <stop arrival="17:47" departure="17:47">Konowskiftet</stop>
+    <stop arrival="17:48" departure="17:48">Hordnesskiftet Stend</stop>
+    <stop arrival="17:48" departure="17:48">Steinknuseverket</stop>
+    <stop arrival="17:49" departure="17:49">Rådalshaug</stop>
+    <stop arrival="17:49" departure="17:49">Sunea</stop>
+    <stop arrival="17:50" departure="17:50">Rådal</stop>
+    <stop arrival="17:50">Rådal ved Lagunen</stop>
+  </route>
+</routes>

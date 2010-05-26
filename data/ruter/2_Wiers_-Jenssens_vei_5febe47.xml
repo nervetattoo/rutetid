@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <route no="BUSSNatt" destination="Birkelundstoppen" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/144699/52737/375208/139371/1/" trafficDays="kjører Lø, Sø, også 17., 25. Mai">
+    <stop departure="2:00" routeNo="BUSSNatt">Småstrandgaten</stop>
+    <stop arrival="2:01" departure="2:01">Nygaten</stop>
+    <stop arrival="2:02" departure="2:02">Statsporten (jernbanen)</stop>
+    <stop arrival="2:05" departure="2:05">Kalfarlien</stop>
+    <stop arrival="2:06" departure="2:06">Kalvedalsveien</stop>
+    <stop arrival="2:07" departure="2:07">Svartediksveien</stop>
+    <stop arrival="2:08" departure="2:08">Statsarkivet</stop>
+    <stop arrival="2:09" departure="2:09">Haraldsplass sykehus</stop>
+    <stop arrival="2:10" departure="2:10">Haukeland sykehus nord</stop>
+    <stop arrival="2:11" departure="2:11">Haukeland sykehus sør</stop>
+    <stop arrival="2:12" departure="2:12">Fridalen</stop>
+    <stop arrival="2:13" departure="2:13">Langhaugen</stop>
+    <stop arrival="2:14" departure="2:14">Landåssvingen</stop>
+    <stop arrival="2:15" departure="2:15">Landåstorget</stop>
+    <stop arrival="2:15" departure="2:15">Erleveien</stop>
+    <stop arrival="2:16" departure="2:16">Wier-Jenssens vei</stop>
+    <stop arrival="2:17" departure="2:17">Mannsverk</stop>
+    <stop arrival="2:18" departure="2:18">Bolstad</stop>
+    <stop arrival="2:18" departure="2:18">Hans Jægers vei</stop>
+    <stop arrival="2:19" departure="2:19">Kolstibotn</stop>
+    <stop arrival="2:19" departure="2:19">Knausen</stop>
+    <stop arrival="2:20">Birkelundstoppen</stop>
+  </route>
+  <route no="BUSSNatt" destination="Allehelgensgate" url="http://www.web2051.no/bin/tp/zuginfo.exe/on/601851/205120/170242/115497/1/" trafficDays="kjører Lø, Sø, også 17., 25. Mai">
+    <stop departure="2:30" routeNo="BUSSNatt">Birkelundstoppen</stop>
+    <stop arrival="2:30" departure="2:30">Knausen</stop>
+    <stop arrival="2:31" departure="2:31">Kolstibotn</stop>
+    <stop arrival="2:32" departure="2:32">H. Jægers vei</stop>
+    <stop arrival="2:32" departure="2:32">Bolstad</stop>
+    <stop arrival="2:33" departure="2:33">Mannsverk</stop>
+    <stop arrival="2:34" departure="2:34">Wiers -Jenssens vei</stop>
+    <stop arrival="2:34" departure="2:34">Erleveien</stop>
+    <stop arrival="2:35" departure="2:35">Landåstorget</stop>
+    <stop arrival="2:36" departure="2:36">Natlandsv. v/Hagerupsvei</stop>
+    <stop arrival="2:37" departure="2:37">Langhaugen</stop>
+    <stop arrival="2:37" departure="2:37">Fridalen</stop>
+    <stop arrival="2:39" departure="2:39">Haukeland sykehus sør</stop>
+    <stop arrival="2:40" departure="2:40">Haukeland sykehus nord</stop>
+    <stop arrival="2:40" departure="2:40">Haraldsplass sykehus</stop>
+    <stop arrival="2:41" departure="2:41">Haukeland skole</stop>
+    <stop arrival="2:43" departure="2:43">Svartediksveien</stop>
+    <stop arrival="2:44" departure="2:44">Kalvedalsveien</stop>
+    <stop arrival="2:46" departure="2:46">Kalfarlien</stop>
+    <stop arrival="2:47" departure="2:47">Stadsporten (jernbanen)</stop>
+    <stop arrival="2:49" departure="2:49">Kong Oscars gate</stop>
+    <stop arrival="2:50">Allehelgensgate</stop>
+  </route>
+</routes>
