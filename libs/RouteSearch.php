@@ -6,6 +6,7 @@
  */
 
 class RouteSearch {
+    public $count=0;
 
     /**
      * Return number of active nus routes (numbers)
@@ -131,6 +132,7 @@ class RouteSearch {
             array_multisort($timeSort, SORT_ASC, $hits);
             $memcache->set($cacheKey, serialize($hits), false, 120);
         }
+        $this->count = count($hits);
         return array_slice($hits, $offset, $limit);
     }
 }

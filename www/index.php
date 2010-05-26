@@ -26,6 +26,16 @@ if (isset($_GET['from']) && isset($_GET['to'])) {
     if ($from != $to) {
         $hits = $search->search($from, $to, $time, false, $limit, $offset);
         $timeUsed = getMicroTime() - $sTime;
+        $db->log->insert(array(
+            'hits' => $search->count,
+            'from' => $from,
+            'to' => $to,
+            'time' => time(),
+            'date' => date("Y-m-d H:i:s"),
+            'timeused' => $timeUsed,
+            'ua' => $_SERVER['HTTP_USER_AGENT'],
+            'ip' => $_SERVER['REMOTE_ADDR'],
+        ));
         if (isset($_GET['format']) && $_GET['format'] == "json") {
             echo json_encode($hits);
             exit;
