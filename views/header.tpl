@@ -4,7 +4,10 @@
         <title>Finn din Bergensbuss &#151; Rute.bz</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
-        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta Bergensbussname="apple-mobile-web-app-capable" content="yes" />
+        <meta name="keywords" content="bergen buss søk bussøk rute rutebuss tide" />
+        <meta name="description" content="Finn din Bergensbuss. På Rute.bz kan du søke buss i Bergen" />
+
         <!--[if IE]>
             <link rel="shortcut icon" href="/gfx/favicon.ico" />
         <![endif]-->
