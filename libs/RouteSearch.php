@@ -14,12 +14,20 @@ class RouteSearch {
      * @return int
      */
     public function getActiveBusNumbers() {
-        $db = Config::getDb();
-        $tmp = $db->routes->find();
-        $buses = array();
-        while ($bus = $tmp->getNext())
-            $buses[] = $bus['num'];
-        return array_unique(array_filter($buses));
+        $memcache = new Memcache;
+        $memcache->connect('localhost', 11211);
+        $cacheKey = "activeBusNumbers";
+        $data = @unserialize($memcache->get($cacheKey));
+        if (!is_array($data) || count($data) == 0) {
+            $db = Config::getDb();
+            $tmp = $db->routes->find();
+            $buses = array();
+            while ($bus = $tmp->getNext())
+                $buses[] = $bus['num'];
+            $data = array_unique(array_filter($buses));
+            $memcache->set($cacheKey, serialize($data), false, 600);
+        }
+        return $data;
     }
 
     
