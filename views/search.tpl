@@ -77,7 +77,12 @@
                                     <h2>Hallao!</h2>
                                     <p>Vi driver stadig og legger inn bussruter. Tygger de med litt salt og pepper. I dette øyeblikk er det <strong>{$activeRoutes|@count}</strong> rutebiler i systemet vårt.</p>
                                     <p>Akkurat nå er det forresten <strong>{$departures}</strong> avganger å søke blant.</p>
-                                    <p>Vil du hjelpe til, få dine faste ruter her? <a href="mailto:raymond.julin@gmail.com">Ta kontakt</a></p>
+                                    <p>Vil du hjelpe til, send feilmeldinger og tips da. <a href="mailto:raymond.julin@gmail.com">Ta kontakt</a></p>
+                                    {if $import}
+                                    <h2>Tygging pågår</h2>
+                                    <p>Akkurat nå tygges det bussruter så bitsene og bytsene flyr.
+                                    Hele <strong>{$import.pct|truncate:4:""}%</strong> er unnagjort så bare hold tøylene litt til om du ikke får treff akkurat nå.</p>
+                                    {/if}
                                 </td>
                             </tr>
                     {/if}

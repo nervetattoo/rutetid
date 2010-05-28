@@ -10,6 +10,7 @@ $db = Config::getDb();
 //$db->departures->drop();
 
 // Flush routes
+/*
 $db->stops->drop();
 $db->stops->ensureIndex(array('name'=>1),array('unique'=>true, 'dropDups'=>true));
 
@@ -22,11 +23,8 @@ echo "Imported $imported bus stops\n";
 // Caching
 $busStops = array();
 // Searchable list of routes
-/*
 array(
     "
-*/
-/*
 $stopsSearch = array();
 
 $deps = 0;

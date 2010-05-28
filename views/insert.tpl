@@ -23,9 +23,22 @@
                             </form>
                             <ul id="stops" class="rel hid clear">
                             {foreach from=$stops item=stop key=i}
-                                <li class="stop">{$i + 1} +{$stop.time} &#150; {$stop.name}</li>
+                                <li class="stop">{$stop.name} &#150; [+{$stop.timeOffset}]</li>
                             {/foreach}
                             </ul>
+                        </div>
+                        <div id="route-departures" class="rel hid clear">
+                            <h2>Avganger</h2>
+                            {foreach from=$departures item=day}
+                            <div class="day">
+                                <h3>{$day.day}</h3>
+                                <ul>
+                                {foreach from=$day.deps item=dep}
+                                    <li>{$dep}</li>
+                                {/foreach}
+                                </ul>
+                            </div>
+                            {/foreach}
                         </div>
                         <div id="route-map" class="rel hid clear">
                             <img src="{$mapUrl}" />

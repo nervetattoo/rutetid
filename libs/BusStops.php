@@ -117,7 +117,9 @@ class BusStops {
                                 'name'=>$name,
                                 'location' => $location,
                                 'aliases' => array($name),
-                                'search' => array(toLower($name))
+                                'search' => array(toLower($name)),
+                                'connectsFrom' => array(),
+                                'connectsTo' => array()
                             ));
                         }
                         else {

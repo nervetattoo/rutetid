@@ -8,12 +8,27 @@ $db = Config::getDb();
 // Clear db
 $db->routes->drop();
 $db->departures->drop();
+$db->stops->drop();
+$db->progress->drop();
 
+$db->progress->ensureIndex(array('name' => 1), array('unique' => true));
 $db->departures->ensureIndex(array('route'=>1, 'days'=>1, 'time'=>1),array('unique'=>true, 'dropDups'=>true));
 $db->routes->ensureIndex(array('num'=>1, 'dest' => 1, 'hash' => 1),array('unique'=>true, 'dropDups'=>true));
+$db->stops->ensureIndex(array('name'=>1),array('unique'=>true, 'dropDups'=>true));
+
+$xml = simplexml_load_file("data/routes.xml");
+$busStopImporter = new BusStops;
+echo "Start importing bus stops\n";
+$imported = $busStopImporter->import("data/busstops.csv");
+echo "Imported $imported bus stops\n";
 
 $busStops = array();
 $files = scandir("data/ruter/");
+$fileCount = count($files);
+$done = 0;
+$connectsFrom = array(
+    // stopId => array()
+);
 foreach ($files as $fil) {
     $fil = "data/ruter/" . $fil;
     if (is_file($fil) && strpos($fil, ".xml") !== false && !strpos($fil, ".swp")) {
@@ -50,7 +65,9 @@ foreach ($files as $fil) {
                             'name' => $name,
                             'aliases' => array($name),
                             'active' => true,
-                            'search' => array(toLower($name))
+                            'search' => array(toLower($name)),
+                            'connectsFrom' => array(),
+                            'connectsTo' => array()
                         ));
                     }
                     else {
@@ -60,7 +77,23 @@ foreach ($files as $fil) {
                 }
                 else
                     $stop = $busStops[$name];
-                $hashbase .= $name;
+
+                /**
+                 * This will attempt to add every previous stops in the route on the stop
+                 * objects. This improves search a friggin shitload when finding related stops
+                 */
+                $stopId = (string)$stop['_id'];
+                if (!isset($connectsFrom[$stopId]))
+                    $connectsFrom[$stopId] = array();
+                $cnFrom = array_unique(array_merge($connectsFrom[$stopId], $stopsSearch));
+                $connectsFrom[$stopId] = $cnFrom;
+                /*
+                $db->stops->update(
+                    array('id' => $stop['_id']),
+                    array('$addToSet' => array('connectsFrom' => array('$each' => $stopsSearch)))
+                );
+                */
+
                 $sa = $st->attributes();
                 //echo "Parsing stop $key $st";
 
@@ -90,6 +123,7 @@ foreach ($files as $fil) {
                     $timeDiff = 0;
                     $timeOffset = 0;
                 }
+                $hashbase .= $name . ":" . $timeOffset;
 
                 //echo " +$timeDiff\n";
                 // Store last time diff
@@ -135,5 +169,26 @@ foreach ($files as $fil) {
                 $deps++;
             }
         }
+        // Track progress in database
+        $done++;
+        $db->progress->update(
+            array('name' => 'import'),
+            array('$set' => array(
+                'total' => $fileCount, 'done' => $done, 'pct' => ($done / $fileCount) * 100)
+            ),
+            array('upsert' => true)
+        );
     }
+    else
+        $fileCount--;
 }
+
+foreach ($connectsFrom as $stopId => $stops) {
+    echo "$stopId should receive: " . implode("; ", $stops) . "\n";
+    $db->stops->update(
+        array('_id' => new MongoId($stopId)),
+        array('$addToSet' => array('connectsFrom' => array('$each' => $stops)))
+    );
+}
+
+$db->progress->remove(array('name' => 'import'), array('justOne' => true, 'safe' => true));

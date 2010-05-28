@@ -425,6 +425,30 @@ ul.ui-autocomplete li a.ui-state-active {
 }
 
 
+/*  ROUTE DEPARTURES
+    ----------------------------------------------------------------     */
+
+#route-departures {
+    width: 542px;
+    float: right;
+    clear: right;
+    border: 1px solid #07586B;
+    background-color: white;
+}
+#route-departures h2 {
+    font-weight: bold;
+    padding: 0 0 7px;
+    text-transform: uppercase;
+}
+
+#route-departures .day {
+    float: left;
+    margin-left: 10px;
+}
+#route-departures .day:first-child {
+    margin-left: 0;
+}
+
 /*  ROUTE MAP
     ----------------------------------------------------------------     */
 
@@ -468,6 +492,9 @@ ul.ui-autocomplete li a.ui-state-active {
 #popover-about h2 {
     height: 24px;
     background: url(/gfx/pop-over-about-heading.png) 0 0 no-repeat;
+        font-weight: bold;
+        padding: 0 0 7px;
+        text-transform: uppercase;
     text-indent: -9999px;
     margin: 0 0 12px;
 }

@@ -30,6 +30,81 @@ class RouteSearch {
         return $data;
     }
 
+    /**
+     * Return all departures for a route in a structured manner
+     *
+     * @return int
+     * @param string $routeId
+     */
+    public function getRouteDepartures($routeId) {
+        $memcache = new Memcache;
+        $memcache->connect('localhost', 11211);
+        $cacheKey = "routeDepartures:" . $routeId;
+        $data = @unserialize($memcache->get($cacheKey));
+        if (!is_array($data) || count($data) == 0) {
+            $db = Config::getDb();
+            $departures = $db->departures->find(array(
+                'route' => $routeId
+            ));
+            $data = array();
+            while ($dep = $departures->getNext()) {
+                foreach ($dep['days'] as $day)
+                    $data[$day][] = $dep['time'];
+            }
+            $days = array(
+                1=>"Mandag",
+                2=>"Tirsdag",
+                3=>"Onsdag",
+                4=>"Torsdag",
+                5=>"Fredag",
+                6=>"Lørdag",
+                7=>"Søndag"
+            );
+            foreach ($data as $day => $deps) {
+                sort($deps, SORT_NUMERIC);
+                $data[$day] = array(
+                    'day' => $days[$day],
+                    'deps' => $deps
+                );
+            }
+            $memcache->set($cacheKey, serialize($data), false, 3600);
+        }
+        return $data;
+    }
+
+    /**
+     * Return all routes
+     *
+     * @return array
+     */
+    public function getAllRoutes($getId=false) {
+        $memcache = new Memcache;
+        $memcache->connect('localhost', 11211);
+        $cacheKey = "allRoutes";
+        $data = @unserialize($memcache->get($cacheKey));
+        if (!is_array($data) || count($data) == 0 || false) {
+            $db = Config::getDb();
+            $routes = $db->routes->find();
+            $routeList = array();
+            $routeSort = array();
+            while ($route = $routes->getNext())
+            {
+                $id = $route['_id'];
+                $routeSort[] = $route['num'];
+                $routeList[] = array(
+                    'id' => $id,
+                    'num' => $route['num'],
+                    'dest' => $route['dest'],
+                    'selected' => ($getId && $getId == $id)
+                );
+            }
+            array_multisort($routeSort, SORT_ASC, $routeList);
+            $data = $routeList;
+            $memcache->set($cacheKey, serialize($data), false, 3600);
+        }
+        return $data;
+    }
+
     
     /**
      * Return number of departures in system
@@ -39,6 +114,18 @@ class RouteSearch {
     public function getDepartureCount() {
         $db = Config::getDb();
         return $db->departures->find()->count();
+    }
+
+    public function assureStopOrder($route, $start, $end) {
+        $startStop = null;
+        $endStop = null;
+        foreach ($route['stops'] as $stop) {
+            if (!$startStop && toLower($stop['name']) == $start)
+                $startStop = $stop;
+            elseif ($startStop && !$endStop && toLower($stop['name']) == $end)
+                return true;
+        }
+        return false;
     }
 
     /**

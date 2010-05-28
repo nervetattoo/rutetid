@@ -1,19 +1,19 @@
 <?php
 require_once("../Config.php");
 require_once("../libs/BusStops.php");
+require_once("../libs/RouteSearch.php");
 
 $db = Config::getDb();
 $view = new View;
+$routeSearch = new RouteSearch;
 
-$routes = $db->routes->find();
+//$routes = $db->routes->find();
+/*
+$routes = $routeSearch->getAllRoutes();
 $routeList = array();
 $routeSort = array();
 while ($route = $routes->getNext())
 {
-    if (isset($_GET['route']))
-        $getId = $_GET['route'];
-    else
-        $getId = false;
     $id = $route['_id'];
     $routeSort[] = $route['num'];
     $routeList[] = array(
@@ -24,8 +24,14 @@ while ($route = $routes->getNext())
     );
 }
 array_multisort($routeSort, SORT_ASC, $routeList);
-$view->assign('routes', $routeList);
+*/
+if (isset($_GET['route']))
+    $getId = $_GET['route'];
+else
+    $getId = false;
+$view->assign('routes', $routeSearch->getAllRoutes($getId));
 
+/*
 if (isset($_GET['route_json']))
 {
     list($busId, $routeKey) = explode('_', $_GET['route_json']);
@@ -42,18 +48,14 @@ if (isset($_GET['route_json']))
 
     exit(json_encode(array('stops' => $stops)));
 }
+*/
 
 if (isset($_GET['route']))
 {
     $routeId = $_GET['route'];
+    $route = $db->routes->findOne(array('_id'=> new MongoId($routeId)));
     $view->assign('stops', $route['stops']);
 
-    $route = null;
-    $routes->reset();
-    while ($r = $routes->getNext()) {
-        if ($r['_id'] == $routeId)
-            $route = $r;
-    }
     if ($route) {
         $stops = $route['stops'];
         $markers = array();
@@ -78,10 +80,23 @@ if (isset($_GET['route']))
 
         $view->assign('mapUrl', $mapUrl);
         $view->assign('stops', $route['stops']);
+
+        // Fetch all departures for this route
+        $tplDepartures = $routeSearch->getRouteDepartures($route['_id']);
+        foreach ($tplDepartures as $day => $deps) {
+            foreach ($deps['deps'] as $i => $d) {
+                $time = str_pad($d, 4, "0", STR_PAD_LEFT);
+                $time = substr($time, 0, -2) . ":" . substr($time, -2);
+                $tplDepartures[$day]['deps'][$i] = $time;
+            }
+        }
+        ksort($tplDepartures, SORT_NUMERIC);
+        $view->assign('departures', $tplDepartures);
     }
 }
 
 
+/*
 if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopName']))
 {
     $routeInfo   = explode('_', $_POST['route']);
@@ -130,5 +145,6 @@ if (isset($_POST['route']) && isset($_POST['stopIndex']) && isset($_POST['stopNa
         exit('OBS! Fant ikke ruten');
     }
 }
+*/
 
 $view->display('insert.tpl');
