@@ -1,5 +1,5 @@
 <config>
-    <site name="rutetid.raymond.raw.no">
+    <site name="*">
         <import>searchpath.xml</import>
 
         <option name="session">on</option>
