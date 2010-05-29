@@ -1,6 +1,32 @@
 <?php
 class AetherModuleStops extends AetherModuleHeader {
     public function run() {
+        // List all stops
+        $config = $this->sl->get('aetherConfig');
+        $tpl = $this->sl->getTemplate();
+        $routeSearch = new RouteSearch;
+        if ($config->hasUrlVar("stopId") && $config->getUrlVar("stopId") != "")
+            $stopId = $config->getUrlVar("stopId");
+        elseif (isset($_GET['stopId']) && strlen($_GET['stopId']) > 0)
+            $stopId = $_GET['stopId'];
+        else
+            $stopId = null;
+        $this->sl->set("stopId", $stopId);
+        $db = Config::getDb();
+        $stops = $db->stops->find(
+            array('active' => true)
+        )->sort(array("name" => 1));
+        $tplStops = array();
+        while ($st = $stops->getNext()) {
+            $id = (string)$st['_id'];
+            $tplStops[] = array(
+                'id' => $id,
+                'name' => $st['name'],
+                'selected' => ($id == $stopId) ? true : false
+            );
+        }
+        $tpl->set('stops', $tplStops);
+        return $tpl->fetch('stops.tpl');
     }
 
     public function service($name) {

@@ -6,8 +6,8 @@ class AetherModuleRuteSearch extends AetherModuleHeader {
         $search = new RouteSearch;
         $db = Config::getDb();
         if ($config->hasUrlVar("from") && $config->hasUrlVar("to")) {
-            $from = $config->getUrlVariable('from');
-            $to = $config->getUrlVariable('to');
+            $from = $config->getUrlVar('from');
+            $to = $config->getUrlVar('to');
             if (strlen($from) > 0 && strlen($to) > 0) {
                 if ($from == $to)
                     $tpl->set('easteregg', "samestop");
