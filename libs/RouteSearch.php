@@ -136,6 +136,10 @@ class RouteSearch {
      * @param mixed $time
      */
     public function search($from, $to, $time=false, $weekday=false, $limit=5, $offset=0) {
+        if (!$weekday)
+            $weekday = (int)date("w");
+        if ($weekday == 0) // sunday, fix it
+            $weekday = 7;
         $cacheKey = $from . $to . $time . $weekday;
         $memcache = new Memcache;
         $memcache->connect('localhost', 11211);
@@ -159,10 +163,6 @@ class RouteSearch {
             // Find some necessary data
             if (!$time)
                 $time = date("Hi");//"0700";
-            if (!$weekday)
-                $weekday = (int)date("w");
-            if ($weekday == 0) // sunday, fix it
-                $weekday = 7;
             $minutes = (int)substr($time, -2);
             $hours = (int)substr($time, 0, -2);
 

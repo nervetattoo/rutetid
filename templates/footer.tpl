@@ -4,6 +4,7 @@
         <script type="text/javascript" src="/js/showlaterdepartures.js"></script>
         <script type="text/javascript" src="/js/setandupdatetime.js"></script>
         <script type="text/javascript" src="/js/popover.js"></script>
+        <script type="text/javascript" src="/js/search.js"></script>
         <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-16577032-1']);

@@ -23,10 +23,10 @@ AddDepartures.prototype = {
                 
                 $.ajax(
             	{
-            	    url: '/',
+            	    url: '/' +  $("#from").val() + "/" + $("#to").val(),
             	    data: {
-            	        from: $('#from').val(),
-            	        to: $('#to').val(),
+            	        module: "RuteSearch",
+                        service: "search",
             	        time: $('#time').val(),
             	        format: 'json',
             	        limit: 5,

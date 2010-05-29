@@ -11,8 +11,10 @@ $(function()
         {
             $.ajax(
         	{
-        	    url: '/service_stops.php',
+        	    url: '/stopp/',
         	    data: {
+                    module: "Stops",
+                    service: "suggest",
         	        lat: $('body').data('lat'),
         	        long: $('body').data('long')
         	    },
@@ -39,8 +41,10 @@ $(function()
                 
 				$.ajax(
 				{
-				    url: '/service_stops.php',
+				    url: '/stopp',
 				    data: {
+				        module: "Stops",
+				        service: "suggest",
 				        term: req.term,
 				        from: from,
 				        lat: $('body').data('lat'),

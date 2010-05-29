@@ -1,6 +1,4 @@
 <?php
-require_once("View.php");
-require_once("libs/RouteSearch.php");
 if (file_exists('my.config.php'))
     require_once('my.config.php');
 if (!defined('PREFIX'))
@@ -46,7 +44,7 @@ class Config {
     }
 
     public static function getView() {
-        return new View;
+        //return new View;
     }
 
     public static function timeAdd($t1, $t2, $format="H:i") {

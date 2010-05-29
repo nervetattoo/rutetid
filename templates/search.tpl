@@ -1,4 +1,3 @@
-{include file='header.tpl'}
         <div id="rutetid">
             <div id="wrap" class="rel hid clear">
 {include file='contenttop.tpl'}
@@ -60,7 +59,7 @@
                                     </p>
                                 </td>
                             </tr>
-                    {elseif $easteregg}
+                    {elseif $easteregg == "samestop"}
                             <tr class="odd first">
                                 <td class="no">Til <strong>fots</strong></td>
                                 <td class="here">Du står på de!</td>
@@ -102,4 +101,3 @@
                 -->
             </div>
         </div>
-{include file='footer.tpl'}

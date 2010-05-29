@@ -1,0 +1,33 @@
+<config>
+    <site name="rutetid.raymond.raw.no">
+        <import>searchpath.xml</import>
+
+        <option name="session">on</option>
+        <option name="locale">nb_NO.UTF-8</option>
+
+        <urlRules>
+            <section>Generic</section>
+            <module provides="header">RuteHeader</module>
+            <module provides="footer">RuteFooter</module>
+            <rule match="stopp">
+                <template>main.tpl</template>
+                <module provides="stop">Stops</module>
+                <rule match="" />
+            </rule>
+            <rule pattern="/.*/" store="from">
+                <rule pattern="/.*/" store="to">
+                    <template>main.tpl</template>
+                    <module provides="search">RuteSearch</module>
+                </rule>
+            </rule>
+            <rule match="">
+                <template>main.tpl</template>
+                <module provides="search">RuteSearch</module>
+            </rule>
+            <rule default="true">
+                <template>main.tpl</template>
+                <module provides="search">RuteSearch</module>
+            </rule>
+        </urlRules>
+    </site>
+</config>
