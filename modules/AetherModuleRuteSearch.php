@@ -6,7 +6,7 @@ class AetherModuleRuteSearch extends AetherModuleHeader {
         $search = new RouteSearch;
         $db = Config::getDb();
         if ($config->hasUrlVar("from") && $config->hasUrlVar("to")) {
-            $from = $config->getUrlVar('from');
+            $from = urldecode($config->getUrlVar('from'));
             $to = $config->getUrlVar('to');
             if (strlen($from) > 0 && strlen($to) > 0) {
                 if ($from == $to)
@@ -33,7 +33,7 @@ class AetherModuleRuteSearch extends AetherModuleHeader {
             $config = $this->sl->get('aetherConfig');
             $search = new RouteSearch;
             if ($config->hasUrlVar("from") && $config->hasUrlVar("to")) {
-                $from = $config->getUrlVariable('from');
+                $from = urldecode($config->getUrlVariable('from'));
                 $to = $config->getUrlVariable('to');
                 if (strlen($from) > 0 && strlen($to) > 0) {
                     if ($from !== $to)
