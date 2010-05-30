@@ -1,6 +1,5 @@
 <?php
-require_once("Config.php");
-require_once("View.php");
+require_once("libs/Config.php");
 require_once("libs/BusStops.php");
 
 $db = Config::getDb();
