@@ -55,6 +55,8 @@ class AetherModuleRuteSearch extends AetherModuleHeader {
             $time = date("H:i");
         if (!isset($_GET['weekday']))
             $weekday = (int)date("w");
+        else
+            $weekday = (int)$_GET['weekday'];
         if ($weekday == 0) // sunday, fix it
             $weekday = 7;
         $hits = $this->performSearch($search, array(

@@ -191,11 +191,13 @@ class RouteSearch {
                     $endOffset = (int)$endStop['timeOffset'];
                     $runningTime = $endOffset - $startOffset;
 
-                    $departuresForRoute = $db->departures->find(array(
+                    $filters = array(
                         'route' => $route['_id'],
                         'time' => array('$gte' => (int)$latestStartTime),
                         'days' => $weekday
-                    ))->sort(array('time'=>1))->limit(15);
+                    );
+                    $departuresForRoute = $db->departures->find($filters)
+                        ->sort(array('time'=>1))->limit(15);
                     /**
                      * Loop over each departure and calculate some times
                      */
