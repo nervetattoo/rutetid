@@ -7,7 +7,7 @@ class AetherModuleRuteSearch extends AetherModuleHeader {
         $db = Config::getDb();
         if ($config->hasUrlVar("from") && $config->hasUrlVar("to")) {
             $from = urldecode($config->getUrlVar('from'));
-            $to = $config->getUrlVar('to');
+            $to = urldecode($config->getUrlVar('to'));
             if (strlen($from) > 0 && strlen($to) > 0) {
                 if ($from == $to)
                     $tpl->set('easteregg', "samestop");
@@ -34,7 +34,7 @@ class AetherModuleRuteSearch extends AetherModuleHeader {
             $search = new RouteSearch;
             if ($config->hasUrlVar("from") && $config->hasUrlVar("to")) {
                 $from = urldecode($config->getUrlVariable('from'));
-                $to = $config->getUrlVariable('to');
+                $to = urldecode($config->getUrlVariable('to'));
                 if (strlen($from) > 0 && strlen($to) > 0) {
                     if ($from !== $to)
                         $hits = $this->search($search, $from, $to);
