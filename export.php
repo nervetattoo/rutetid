@@ -101,7 +101,7 @@ function exportStops($db) {
     foreach ($stops as $stop) {
         $item = $dom->createElement("stop");
         foreach ($stop as $key => $val) {
-            if ($key == "search")
+            if ($key == "search" || $key == "active")
                 continue;
             elseif ($key == "location" && is_array($val))
                 addAttr($dom, $item, $key, implode(",", $val));
@@ -118,9 +118,13 @@ function exportStops($db) {
             else
                 addAttr($dom, $item, $key, $val);
         }
-        addAttr($dom, $root, "count", $stops->count());
+        if (isset($stop['active']) && $stop['active'] === true)
+            addAttr($dom, $item, "active", "1");
+        else
+            addAttr($dom, $item, "active", "0");
         $root->appendChild($item);
     }
+    addAttr($dom, $root, "count", $stops->count());
     $dom->save($exportTo);
 }
 

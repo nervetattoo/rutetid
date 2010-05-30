@@ -32,7 +32,7 @@ if (is_file($fil) && strpos($fil, ".xml") !== false && !strpos($fil, ".swp")) {
             'aliases' => array(),
             'connectsFrom' => array(),
             'connectsTo' => array(),
-            'active' => true,
+            'active' => ($a->active == 1) ? true : false,
             'search' => array()
         );
         if (isset($a->location)) {
@@ -65,6 +65,7 @@ if (is_file($fil) && strpos($fil, ".xml") !== false && !strpos($fil, ".swp")) {
         $route = array(
             'num' => (string)$a->num,
             'dest' => (string)$a->dest,
+            'hash' => (string)$a->hash,
             'stops' => array(),
             'from' => (string)$a->from,
             'fromId' => $from['_id'],
