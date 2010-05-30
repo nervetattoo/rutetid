@@ -54,7 +54,8 @@
                                     <h2>Du må gå!</h2>
                                     <p>Neida, det kan hende det var vår feil?
                                     I så fall <a href="mailto:raymond.julin@gmail.com">ta kontakt</a>
-                                    om du mener det er noe feil i systemet. Denne versjonen av søket støtter
+                                    om du mener det er noe feil i systemet.</p>
+                                    <p>Denne versjonen av søket støtter
                                     ikke overganger mellom ruter så du må søke stopp på samme rute.
                                     </p>
                                 </td>
@@ -74,14 +75,10 @@
                             <tr class="info odd">
                                 <td colspan="3" class="no-borders">
                                     <h2>Hallao!</h2>
-                                    <p>Vi driver stadig og legger inn bussruter. Tygger de med litt salt og pepper. I dette øyeblikk er det <strong>{$activeRoutes|@count}</strong> rutebiler i systemet vårt.</p>
-                                    <p>Akkurat nå er det forresten <strong>{$departures}</strong> avganger å søke blant.</p>
-                                    <p>Vil du hjelpe til, send feilmeldinger og tips da. <a href="mailto:raymond.julin@gmail.com">Ta kontakt</a></p>
-                                    {if $import}
-                                    <h2>Tygging pågår</h2>
-                                    <p>Akkurat nå tygges det bussruter så bitsene og bytsene flyr.
-                                    Hele <strong>{$import.pct|truncate:4:""}%</strong> er unnagjort så bare hold tøylene litt til om du ikke får treff akkurat nå.</p>
-                                    {/if}
+                                    <p>Rute.bz hjelper deg å finne din buss i Bergen.</p>
+                                    <p>Akkurat nå støtter ikke søket overganger så du må søke på direktelinjer. Er du i tvil om hva stoppet ditt heter?
+                                    Når du skriver inn Til-feltet vil systemet foreslå holdeplasser som har avganger.</p>
+                                    <p>Vi gjør små forbedringer på systemet kontinuerlig, har du tilbakemeldinger så kan du <a href="mailto:raymond.julin@gmail.com">ta kontakt</a></p>
                                 </td>
                             </tr>
                     {/if}
