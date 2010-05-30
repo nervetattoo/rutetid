@@ -1,0 +1,35 @@
+<config>
+    <section>Generic</section>
+    <module provides="header">RuteHeader</module>
+    <module provides="footer">RuteFooter</module>
+    <rule match="stopp">
+        <template>main.tpl</template>
+        <module provides="stop">Stops</module>
+        <rule match="" />
+    </rule>
+    <rule match="dugnad">
+        <template>dugnad.tpl</template>
+        <module provides="stops">Stops</module>
+        <rule pattern="/.*/" store="stopId">
+            <module provides="stop">Stop</module>
+        </rule>
+    </rule>
+    <rule match="admin">
+        <template>main.tpl</template>
+        <module provides="main">Admin</module>
+    </rule>
+    <rule pattern="/.*/" store="from">
+        <rule pattern="/.*/" store="to">
+            <template>main.tpl</template>
+            <module provides="main">RuteSearch</module>
+        </rule>
+    </rule>
+    <rule match="" cache="600">
+        <template>main.tpl</template>
+        <module provides="main">RuteSearch</module>
+    </rule>
+    <rule default="true">
+        <template>main.tpl</template>
+        <module provides="main">RuteSearch</module>
+    </rule>
+</config>

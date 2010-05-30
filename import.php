@@ -13,6 +13,7 @@ $db->progress->drop();
 $db->progress->ensureIndex(array('name' => 1), array('unique' => true));
 // Departures
 $db->departures->ensureIndex(array('route'=>1, 'days'=>1, 'time'=>1),array('unique'=>true, 'dropDups'=>true));
+$db->departures->ensureIndex(array('time'=>1));
 // Routes
 $db->routes->ensureIndex(array('num'=>1, 'dest' => 1, 'hash' => 1),array('unique'=>true, 'dropDups'=>true));
 // Stops

@@ -135,7 +135,9 @@ class RouteSearch {
      * @param string $to
      * @param mixed $time
      */
-    public function search($from, $to, $time=false, $weekday=false, $limit=5, $offset=0) {
+    public function search($from, $to, $time=false, $weekday=false, $limit=5, $offset=0, $timer=false) {
+        if ($timer)
+            $timer->tick("search", "Entering RouteSearch::search");
         if (!$weekday)
             $weekday = (int)date("w");
         if ($weekday == 0) // sunday, fix it
@@ -144,6 +146,8 @@ class RouteSearch {
         $memcache = new Memcache;
         $memcache->connect('localhost', 11211);
         $hits = $memcache->get($cacheKey);
+        if ($timer)
+            $timer->tick("search", "Fetched from memcache");
         if ($hits)
             $hits = unserialize($hits);
         if (!is_array($hits) || count($hits) == 0) {
@@ -151,14 +155,20 @@ class RouteSearch {
             /**
              * First find all buses having both stops in their path, kinda nice
              */
+            if ($timer)
+                $timer->tick("search", "No cache");
             $db = Config::getDb();
             $start = toLower($from);
             $end = toLower($to);
+            if ($timer)
+                $timer->tick("search", "Lowercased input");
             $buses = $db->routes->find(array(
                 'search' => array(
                     '$all' => array($start, $end)
                 )
             ));
+            if ($timer)
+                $timer->tick("search", "Search routes");
 
             // Find some necessary data
             if (!$time)
@@ -226,6 +236,8 @@ class RouteSearch {
                     }
                 }
             }
+            if ($timer)
+                $timer->tick("search", "Searched departures");
             array_multisort($timeSort, SORT_ASC, $hits);
             $memcache->set($cacheKey, serialize($hits), false, 120);
         }
