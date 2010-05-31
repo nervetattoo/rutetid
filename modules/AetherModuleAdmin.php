@@ -12,62 +12,12 @@ class AetherModuleAdmin extends AetherModuleHeader {
         $tpl = $this->sl->getTemplate();
         $status = $this->userStat();
         if ($status == 1) {
-            $time = mktime(0, 0, 0) - (3600 * 24 * 7);
-            $tplLogs = array();
-            $db = Config::getDb();
-            $logs = $db->log->find(array(
-                    'time' => array('$gte' => $time)
-                ))->sort(array(
-                    'time' => -1
-                ));
-            $days = array(
-                1 => 'Mandag',
-                2 => 'Tirsdag',
-                3 => 'Onsdag',
-                4 => 'Torsdag',
-                5 => 'Fredag',
-                6 => 'Lørdag',
-                7 => 'Søndag',
-            );
-            // One row pr distance
-            $distribution = array();
-            foreach ($logs as $l) {
-                $weekday = date("w", $l['time']);
-                if ($weekday == 0)
-                    $weekday = 7;
-                $to = $l['to'];
-                $from = $l['from'];
-                $cur = array(
-                    'from' => $from,
-                    'to' => $to,
-                    'timeUsed' => $l['timeused'],
-                    'time' => (int)$l['time'],
-                    'hits' => (int)$l['hits'],
-                );
-                $dist = md5($from . " - " . $to);
-                if (!array_key_exists($dist, $distribution)) {
-                    $distribution[$dist] = array(
-                        'from' => $from,
-                        'to' => $to,
-                        'searches' => 0, 
-                        'totalHits' => 0,
-                        'withHits' => 0,
-                        'noHits' => 0,
-                        'timeSpent' => 0
-                    );
-                }
-                if ($l['hits'] > 0)
-                    $distribution[$dist]['withHits']++;
-                else
-                    $distribution[$dist]['noHits']++;
-                $distribution[$dist]['totalHits'] += $l['hits'];
-                $distribution[$dist]['timeSpent'] += $l['timeused'];
-                $distribution[$dist]['searches']++;
-                $tplLogs[$weekday][] = $cur;
-            }
-            $tpl->set("days", $days);
-            $tpl->set("distribution", $distribution);
-            $tpl->set("searches", $tplLogs);
+
+            // Add jqplot style and js
+            $this->sl->getVector('styles')
+                ->append("/js/jqplot/jquery.jqplot.css");
+            $this->sl->getVector('javascripts')
+                ->append("/js/jqplot/jquery.jqplot.min.js");
         }
 
         $tpl->set("status", $status);

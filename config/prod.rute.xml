@@ -1,7 +1,5 @@
 <config>
     <section>Generic</section>
-    <module provides="header">RuteHeader</module>
-    <module provides="footer">RuteFooter</module>
     <rule match="stopp">
         <template>main.tpl</template>
         <module provides="stop">Stops</module>
@@ -15,8 +13,17 @@
         </rule>
     </rule>
     <rule match="admin">
+        <option name="javascripts">
+            /js/jqplot/jquery.jqplot.min.js;
+            /js/jqplot/plugins/jqplot.categoryAxisRenderer.min.js;
+            /js/jqplot/plugins/jqplot.barRenderer.min.js
+        </option>
+        <option name="styles">
+            /js/jqplot/jquery.jqplot.css
+        </option>
         <template>main.tpl</template>
         <module provides="main">Admin</module>
+        <module>Stats</module>
     </rule>
     <rule pattern="/.*/" store="from">
         <rule pattern="/.*/" store="to">
@@ -32,4 +39,6 @@
         <template>main.tpl</template>
         <module provides="main">RuteSearch</module>
     </rule>
+    <module provides="header">RuteHeader</module>
+    <module provides="footer">RuteFooter</module>
 </config>

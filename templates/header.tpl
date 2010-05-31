@@ -17,6 +17,12 @@
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.1/jquery-ui.min.js"></script>
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        {if $pageJavascripts}{foreach from=$pageJavascripts item=js}
+        <script type="text/javascript" src="{$js}"></script>
+        {/foreach}{/if}
+        {if $pageStylesheets}{foreach from=$pageStylesheets item=css}
+        <link rel="stylesheet" type="text/css" href="{$css}" />
+        {/foreach}{/if}
     </head>
     <body>
     <!--INSERTIONPOINT-->
