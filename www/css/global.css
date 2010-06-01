@@ -488,9 +488,9 @@ ul.ui-autocomplete li a.ui-state-active {
 #popover-about h2 {
     height: 24px;
     background: url(/gfx/pop-over-about-heading.png) 0 0 no-repeat;
-        font-weight: bold;
-        padding: 0 0 7px;
-        text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 0 7px;
+    text-transform: uppercase;
     text-indent: -9999px;
     margin: 0 0 12px;
 }
