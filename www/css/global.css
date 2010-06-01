@@ -95,17 +95,13 @@ em      { font-style: italic; }
     float: left;
 }
 
-#route-search ul {
-    float: left;
-    clear: left;
-}
-
+#route-search ul,
 #route-search ul li {
     float: left;
     clear: left;
-    padding: 0 0 5px;
 }
 
+#route-search ul li { padding: 0 0 5px; }
 #route-search ul li:first-child { margin-top: 5px; }
 
 #route-search ul li label {
