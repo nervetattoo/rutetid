@@ -12,7 +12,7 @@ class AetherModuleStats extends AetherModuleHeader {
             $logs = $db->log->find(array(
                     'time' => array('$gte' => $time)
                 ))->sort(array(
-                    'time' => -1
+                    'time' => 1
                 ));
             $days = array(
                 1 => 'Mandag',
