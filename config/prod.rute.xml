@@ -13,17 +13,19 @@
         </rule>
     </rule>
     <rule match="admin">
+        <template>admin_controller.tpl</template>
         <option name="javascripts">
             /js/jqplot/jquery.jqplot.min.js;
             /js/jqplot/plugins/jqplot.categoryAxisRenderer.min.js;
-            /js/jqplot/plugins/jqplot.barRenderer.min.js
+            /js/jqplot/plugins/jqplot.barRenderer.min.js;
+            /js/admin.js
         </option>
         <option name="styles">
             /js/jqplot/jquery.jqplot.css
         </option>
-        <template>main.tpl</template>
         <module provides="main">Admin</module>
-        <module>Stats</module>
+        <module provides="userAdmin">UserAdmin</module>
+        <module provides="stats">Stats</module>
     </rule>
     <rule pattern="/.*/" store="from">
         <rule pattern="/.*/" store="to">

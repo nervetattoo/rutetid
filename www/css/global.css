@@ -559,3 +559,18 @@ ul.ui-autocomplete li a.ui-state-active {
     text-indent: -9999px;
     background: url(/gfx/pop-over-close.png) 0 0 no-repeat;
 }
+
+/*  ADMIN STUFF
+    ================================================================     */
+#admin-body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#user-list {
+    margin: 20px 0 0 20px;
+}
+#user-list th, #user-list td {
+    padding: 0.6em 10px;
+    border: 1px solid #ccc;
+}

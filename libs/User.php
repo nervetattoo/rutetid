@@ -19,6 +19,21 @@ class User {
         return $user;
     }
 
+    public static function update($user) {
+        $criteria = array("_id" => $user['_id']); // Where clause
+        unset($user['_id']);
+        $res = $db->users->update(
+            $criteria,
+            array('$set' => $user) // Update
+        );
+        return $res;
+    }
+
+    public static function getAll() {
+        $db = Config::getDb();
+        return $db->users->find();
+    }
+
     public static function auth($user, $authAgainst) {
         return ($user['password'] === md5($authAgainst));
     }
