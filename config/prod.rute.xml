@@ -28,6 +28,7 @@
             /css/redmond/jquery-ui-1.8.1.custom.css;
             /js/jqplot/jquery.jqplot.css
         </option>
+        <module provides="authed">Authed</module>
         <module provides="main">Admin</module>
         <module provides="userAdmin">UserAdmin</module>
         <module provides="stats">Stats</module>

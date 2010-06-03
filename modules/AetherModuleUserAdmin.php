@@ -1,6 +1,7 @@
 <?php
-class AetherModuleUserAdmin extends AetherModuleHeader {
-    public function run() {
+require_once("AetherModuleAuthed.php");
+class AetherModuleUserAdmin extends AetherModuleAuthed {
+    public function runAdmin() {
         $tpl = $this->sl->getTemplate();
         $tpl->set("users", User::getAll());
         return $tpl->fetch('userAdmin.tpl');

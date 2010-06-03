@@ -1,9 +1,9 @@
 <?php
-class AetherModuleStats extends AetherModuleHeader {
-    public function run() {
-        return "No run defined";
-    }
+require_once("AetherModuleAuthed.php");
+class AetherModuleStats extends AetherModuleAuthed {
     public function service($name) {
+        if (!$this->auth())
+            return new AetherJSONResponse(array('ok'=>false,'msg'=>'noaccess'));
         if ($name == "searches") {
             // Find last 30 days
             $time = mktime(0, 0, 0) - (3600 * 24 * 30);

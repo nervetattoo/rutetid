@@ -1,22 +1,3 @@
-{if $status == 1}
-
-<!--
-<h2>Siste uke</h2>
-<table name="week">
-    <thead>
-    <tr>
-        <th>Dag</th>
-        <th>Søk</th>
-    </tr>
-    </thead>
-    {foreach from=$searches key=i item=s}
-    <tr>
-        <td>{$days.$i}</td>
-        <td>{$s|@count}</td>
-    </tr>
-    {/foreach}
-</table>
--->
 <div id="chartdiv" style="height:200px;width:700px;"></div>
 <div id="ratio-stat" style="height:200px;width:700px;"></div>
 <script type="text/javascript">
@@ -73,8 +54,3 @@
     });
 
 </script>
-
-
-{elseif $status == -1}
-    {include file="login.tpl"}
-{/if}
